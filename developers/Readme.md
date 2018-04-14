@@ -5,7 +5,7 @@
 ### Documentation Integration and update Processes
 1. Bring _doc.bitshares.org_ information and merge with _BitShares Core Wiki_ information
 2. Remove redundant information 
-3. Gather spreding a good piece of information 
+3. Gather spreding a piece of good information 
 4. Remove old information
 5. Restructure contents & re-grouping
 6. Update by current information
