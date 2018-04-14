@@ -1,5 +1,21 @@
 ## BitShares Documentation for Developpers
 
+### Documentation Integration and update Processes
+1. Mearge doc.bitshares.org and BitShares Core Wiki pages
+2. Remove redundant information 
+3. Gather spreding a good piece of information 
+4. Remove old information
+5. Restructure contents & re-grouping
+6. Update by current information
+7. Update by BitShares Core closed issues tagged  'Documentation'
+8. Add new contents
+9. Get review
+10. Improve & update
+
+_**above processes will go parallel_
+
+***
+
 ## Contents:
 
 ### 1. Environment & Installation 
