@@ -34,7 +34,6 @@ _**above processes will go parallel_
    - Python Library
    - Github other repositories
    - BirShares GitHub Code | Issues
-- Python Library
 - [Monitoring Account Deposits: Python](/developers/2_tools_rerefemces/python-monitor.md#monitoring-account-deposits-with-python)
 - [Monitoring Balance History: NodeJS](/developers/2_tools_rerefemces/nodejs-monitor.md#monitoring-the-balance-history---nodejs)
 - Propose & ideas
