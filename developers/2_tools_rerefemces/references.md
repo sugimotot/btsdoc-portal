@@ -5,7 +5,7 @@
 
 ### Python Library
 
-http://pybitshares.com/
+- http://pybitshares.com/
 
 ### Other Repositories
 
