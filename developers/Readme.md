@@ -57,10 +57,10 @@ _**above processes will go parallel_
    - Examples 
       - Send funds from faucet to alpha 
 - Network and Wallet Configuration
-   - General 
+   - [General](/developers/4_cli_wallet/network_wallet.md#network-setups)
       - Trusted Full Node:
       - Wallet
-   - Secure 
+   - [Secure](/developers/4_cli_wallet/network_wallet.md#secure-network-and-wallet-configuration)
       - Trusted Full Node:
       - Delayed Full Node:
       - Wallet
