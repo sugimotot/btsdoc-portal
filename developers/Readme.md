@@ -1,7 +1,7 @@
 ## BitShares Documentation for Developpers
 
 ### Documentation Integration and update Processes
-1. Mearge doc.bitshares.org and BitShares Core Wiki pages
+1. Bring doc.bitshares.org information and merge with BitShares Core Wiki information
 2. Remove redundant information 
 3. Gather spreding a good piece of information 
 4. Remove old information
