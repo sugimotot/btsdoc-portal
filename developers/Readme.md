@@ -14,6 +14,7 @@
 - Python Library
 - Monitoring Account Deposits: Python
 - Monitoring Balance History: NodeJS
+- Propose & ideas
      
 ### 3. Accounts
 - Account
@@ -56,54 +57,39 @@
 - Enabling Remote Procedure Calls (RPC)
 
 ### 5.2. Become an Active Witness
-   - A Block Producing Witness
-       - Requirements
-       - Hardware Advice
-       - Active Witness Duties
-   - How to become a Block-Producing Witness
-       - Run a local (non block producing) full node
-       - Launch a CLI wallet
-       - Gain Access to Stake
-       - Register a new Witness Object
-       - Configuration of the Witness Node
-       - Verifying Block Production
-       - Backup Server
-       - Price Feeds
+- A Block Producing Witness
+   - Requirements
+   - Hardware Advice
+   - Active Witness Duties
+- How to become a Block-Producing Witness
+   - Run a local (non block producing) full node
+   - Launch a CLI wallet
+   - Gain Access to Stake
+   - Register a new Witness Object
+   - Configuration of the Witness Node
+   - Verifying Block Production
+   - Backup Server
+   - Price Feeds
 
 ### 6. APIs
-   - APIs two categories
-      - Blockchain API
-      - Wallet API
-   - API Access Restrictions
-   - Blockchain Specifications
-      - Object and IDs
-   - Calls
-      - Remote Procedure Calls
-      - Websocket Calls & Notifications
-   - Wallet APIs
-      - General Calls
-      - Wallet Calls
-      - Account Calls
-      - Trading Calls
-      - Asset Calls
-      - Governance
-      - Privacy Mode
-      - Blockchain Inspection
-      - Transaction Builder
-   - Blockchain APIs 
-      - Database API
-      - Account History API
-      - Crypto API
-      - Network Broadcast API
-      - Network Nodes API   
-   
-### 7. Namespaces (**idea needed)
+- APIs two categories
+   - Blockchain API
+   - Wallet API
+- API Access Restrictions
+- Blockchain Specifications
+   - Object and IDs
+- Calls
+   - Remote Procedure Calls
+   - Websocket Calls & Notifications
+- Wallet APIs
+- Blockchain APIs   
+- Namespaces (**idea needed)
    - Graphene::App
    - Graphene::Chain
    - Graphene::Wallet
-### 8. Tutorials
+### 7. Tutorials
 
-### 9. Testnets
+### 8. Testnets
    - Public Testnet Details
    - Public Testnet Witness(Full) Nodes (block producing witness nodes) 
        - 1.Installation/Configuration of Witness
@@ -125,14 +111,12 @@
       - 6.Start Block Production
       - 7.Connecting a CLI wallet
 
-### 10. Use Cases / Examples
+### 9. Use Cases / Examples
    - Exchanges
    - Merchants
    - Traders
    - Create MPAs/UIAs
    - 
-
-### 11. Ref
-   - Proposal & Ideas
    
+
 
