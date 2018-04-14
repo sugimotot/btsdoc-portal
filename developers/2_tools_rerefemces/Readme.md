@@ -1,6 +1,6 @@
 ## 2.Tools & References
 
-- [References](#releases)
+- [References](/developers/2_tools_rerefemces/references.md#releases)
    - Releases
    - Python Library
 - Monitoring Account Deposits: Python
