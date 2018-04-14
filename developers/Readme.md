@@ -8,7 +8,7 @@
    - Windows
    - Windows - CLI Tools
    - Q&A
-### 2.Tools & Resources
+### 2.Tools & References 
    - Releases
    - Python Library
    - Monitoring Account Deposits: Python
