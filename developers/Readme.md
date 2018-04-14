@@ -1,5 +1,7 @@
 ## BitShares Documentation for Developpers
 
+***
+***
 ### Documentation Integration and update Processes
 1. Bring doc.bitshares.org information and merge with BitShares Core Wiki information
 2. Remove redundant information 
@@ -14,6 +16,7 @@
 
 _**above processes will go parallel_
 
+***
 ***
 
 ## Contents:
