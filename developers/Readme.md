@@ -22,30 +22,30 @@ _**above processes will go parallel_
 - Ubuntu Linux
 - OS X
 - Windows
-- Windows - CLI Tools
+- [Windows - CLI Tools](/developers/1_installation/1-4_windows_cli_tool.md#contents)
 - Q&A
    
-### 2.Tools & References 
+### 2.Tools & [References ](/developers/2_tools_rerefemces/references.md#releases)
 - Releases
 - Python Library
-- Monitoring Account Deposits: Python
-- Monitoring Balance History: NodeJS
+- [Monitoring Account Deposits: Python](/developers/2_tools_rerefemces/python-monitor.md#monitoring-account-deposits-with-python)
+- [Monitoring Balance History: NodeJS](/developers/2_tools_rerefemces/nodejs-monitor.md#monitoring-the-balance-history---nodejs)
 - Propose & ideas
      
 ### 3. Accounts
-- Account
+- [Account](/developers/3_Accounts/accounts.md#contents)
    - Permissions
    - Memberships
    - Authorities
-- Account Registration
+- [Account Registration](/developers/3_Accounts/account_registration.md#contents)
    - Create a brain Key and derive a private/public key pair
    - Create an Account
    - Register an Account
 
 ### 4. CLI Wallet
-- OverView
+- [OverView](/developers/4_cli_wallet/cli_wallet.md#contents)
 - Cli-Tools for Windows (option)
-- Create a Cli Wallet and Open RPC port
+- [Create a Cli Wallet and Open RPC port](/developers/4_cli_wallet/cli_wallet.md#create-a-cli-wallet-and-open-rpc-port)
    - Case 1: Connecting a Cli-Wallet - use the public API node
    - Case 2: Connecting a Cli-Wallet
    - Case 3: Connecting a Cli-Wallet - Public Testnet
@@ -65,14 +65,14 @@ _**above processes will go parallel_
       - Delayed Full Node:
       - Wallet
 
-### 5.1. Full Nodes (Witness Nodes)
+### 5.1. [Full Nodes (Witness Nodes)](/developers/5_full-witness_nodes/full_nodes.md#type-of-witness-nodes)
 - Type of Witness nodes
    - Non-Block producing
    - Block producing
 - How to launch the full node
 - Enabling Remote Procedure Calls (RPC)
 
-### 5.2. Become an Active Witness
+### 5.2. [Become an Active Witness](/developers/5_full-witness_nodes/active_witness.md#contents)
 - A Block Producing Witness
    - Requirements
    - Hardware Advice
@@ -88,7 +88,7 @@ _**above processes will go parallel_
    - Price Feeds
 
 ### 6. APIs
-- APIs two categories
+- [APIs two categories](/developers/6_apis/apis-about.md#apis-categories)
    - Blockchain API
    - Wallet API
 - API Access Restrictions
@@ -96,7 +96,7 @@ _**above processes will go parallel_
    - Object and IDs
 - Calls
    - Remote Procedure Calls
-   - Websocket Calls & Notifications
+   - [Websocket Calls & Notifications](https://github.com/cedar-book/btsdoc-portal/blob/master/developers/6_apis/websocket_calls_notifications.md#contents)
 - Wallet APIs
 - Blockchain APIs   
 - Namespaces (**idea needed)
@@ -106,8 +106,8 @@ _**above processes will go parallel_
 ### 7. Tutorials
 
 ### 8. Testnets
-   - Public Testnet Details
-   - Public Testnet Witness(Full) Nodes (block producing witness nodes) 
+   - [Public Testnet Details](/developers/8_testnets/public_testnet_details.md#the-open-public-testnet-information)
+   - [Public Testnet Witness(Full) Nodes (block producing witness nodes) ](/developers/8_testnets/public_testnet.md#how-to-deploy-your-own-public-network)
        - 1.Installation/Configuration of Witness
        - 2.Genesis Configuration
        - 3.Initializing Blockchain
@@ -118,7 +118,7 @@ _**above processes will go parallel_
        - 8.Setup NGing WebServer 
        - 9.Instillation of Python Library
         - 10.Create MPAs/UIAs
-    - Private Testnet
+    - [Private Testnet](/developers/8_testnets/public_testnet_details.md#the-open-public-testnet-information)
       - 1.Prerequisites
       - 2.Folder Structure
       - 3.The Genesis Files
