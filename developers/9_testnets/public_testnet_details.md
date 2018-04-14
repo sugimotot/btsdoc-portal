@@ -15,7 +15,7 @@ In order to run a full node, get the [sources](https://github.com/BitShares/bits
 
     $ programs/witness_node/witness_node --genesis-json=genesis.json
 
-> Warning: On this network, **everything** is allowed. As a consequence the outside price of any token on this blockchain is exactly **zero**. A reset of the blockchain may occure at any moment!
+> Warning: On this network, **everything** is allowed. As a consequence the outside price of any token on this blockchain is exactly **zero**. A reset of the blockchain may occur at any moment!
 
 - **Core Unit**: `TEST`
    - 10k TEST for free upon registration
