@@ -1,5 +1,7 @@
 ## BitShares Documentation for Developpers
 
+## Contents:
+
 ### 1. Environment & Installation 
    - Ubuntu Linux
    - OS X
