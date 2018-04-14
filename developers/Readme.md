@@ -3,56 +3,57 @@
 ## Contents:
 
 ### 1. Environment & Installation 
-   - Ubuntu Linux
-   - OS X
-   - Windows
-   - Windows - CLI Tools
-   - Q&A
+- Ubuntu Linux
+- OS X
+- Windows
+- Windows - CLI Tools
+- Q&A
+   
 ### 2.Tools & References 
-   - Releases
-   - Python Library
-   - Monitoring Account Deposits: Python
-   - Monitoring Balance History: NodeJS
+- Releases
+- Python Library
+- Monitoring Account Deposits: Python
+- Monitoring Balance History: NodeJS
      
 ### 3. Accounts
-   - Account
-      - Permissions
-      - Memberships
-      - Authorities
-   - Account Registration
-      - Create a brain Key and derive a private/public key pair
-      - Create an Account
-      - Register an Account
+- Account
+   - Permissions
+   - Memberships
+   - Authorities
+- Account Registration
+   - Create a brain Key and derive a private/public key pair
+   - Create an Account
+   - Register an Account
 
 ### 4. CLI Wallet
-   - OverView
-   - Cli-Tools for Windows (option)
-   - Create a Cli Wallet and Open RPC port
-      - Case 1: Connecting a Cli-Wallet - use the public API node
-      - Case 2: Connecting a Cli-Wallet
-      - Case 3: Connecting a Cli-Wallet - Public Testnet
+- OverView
+- Cli-Tools for Windows (option)
+- Create a Cli Wallet and Open RPC port
+   - Case 1: Connecting a Cli-Wallet - use the public API node
+   - Case 2: Connecting a Cli-Wallet
+   - Case 3: Connecting a Cli-Wallet - Public Testnet
+- Examples 
+   - available commands to the cli-wallet (Wallet APIs) 
+   - construct a transaction manually
+- Gaining Access to Blockchain
+   - Manage Account & import
    - Examples 
-      - available commands to the cli-wallet (Wallet APIs) 
-      - construct a transaction manually
-   - Gaining Access to Blockchain
-      - Manage Account & import
-      - Examples 
-         - Send funds from faucet to alpha 
-   - Network and Wallet Configuration
-      - General 
-         - Trusted Full Node:
-         - Wallet
-      - Secure 
-         - Trusted Full Node:
-         - Delayed Full Node:
-         - Wallet
+      - Send funds from faucet to alpha 
+- Network and Wallet Configuration
+   - General 
+      - Trusted Full Node:
+      - Wallet
+   - Secure 
+      - Trusted Full Node:
+      - Delayed Full Node:
+      - Wallet
 
 ### 5.1. Full Nodes (Witness Nodes)
-   - Type of Witness nodes
-      - Non-Block producing
-      - Block producing
-   - How to launch the full node
-   - Enabling Remote Procedure Calls (RPC)
+- Type of Witness nodes
+   - Non-Block producing
+   - Block producing
+- How to launch the full node
+- Enabling Remote Procedure Calls (RPC)
 
 ### 5.2. Become an Active Witness
    - A Block Producing Witness
@@ -79,7 +80,6 @@
    - Calls
       - Remote Procedure Calls
       - Websocket Calls & Notifications
-
    - Wallet APIs
       - General Calls
       - Wallet Calls
