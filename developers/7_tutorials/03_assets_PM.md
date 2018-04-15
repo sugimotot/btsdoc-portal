@@ -1,7 +1,8 @@
 ### Contents:
 
-- How to create a Prediction Market
-- How to closing/setting a Prediction Market
+- [How to create a Prediction Market](/developers/7_tutorials/03_assets_PM.md#how-to-create-a-prediction-market)
+- [How to closing/setting a Prediction Market](/developers/7_tutorials/03_assets_PM.md#how-to-closingsetting-a-prediction-market
+)
 
 ***
 
