@@ -1,5 +1,3 @@
-## Committee - How to
-
 ### Contents:
 - [How to Create a new Committee Member](/developers/7_tutorials/05_committee_howto.md#creating-a-new-committee-member)
 - [How to Propose Committee Actions](/developers/7_tutorials/05_committee_howto.md#how-to-propose-committee-actions)
@@ -8,6 +6,7 @@
 
 ***
 
+## Committee - How to
 
 ### Creating a New Committee Member
 
