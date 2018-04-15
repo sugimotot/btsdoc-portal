@@ -1,7 +1,7 @@
 ## 5. Full Node / Witness Node
 
 
-### 01. [Full Nodes (Witness Nodes)](/developers/5_full-witness_nodes/full_nodes.md#type-of-witness-nodes)
+### 01. [Full Nodes (Witness Nodes)](/developers/5_full-witness_nodes/full_nodes.md#full-nodes-witness-nodes)
 - Type of Witness nodes
    - Non-Block producing
    - Block producing
