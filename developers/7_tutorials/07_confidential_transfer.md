@@ -1,3 +1,6 @@
+
+## Confidential Trandfer
+
 ### Contents:
 - Step 1: [Create a Blind Account](/developers/7_tutorials/07_confidential_transfer.md#step-1-create-a-blind-account)
 - Step 2: [Transferring a Balance From a Standard Public Account to a Blind Account](/developers/7_tutorials/07_confidential_transfer.md#step-2-transferring-a-balance-from-a-standard-public-account-to-a-blind-account)
@@ -7,8 +10,7 @@
 
 ***
   
-### Confidential Trandfer
-  
+ 
 This tutorial shows how to use the CLI wallet to perform confidential transfers in BitShares. A confidential transfer is one that hides both the amount being sent and the parties involved in the trade. Confidential transfers are also referred to as blinded transfers. It makes use of Oleg Andreev’s [blind signatures](http://blog.oleganza.com/post/77474860538/blind-signatures). When privacy is important no account should ever be used twice, and coupled with diligent measures to backup and protect the wallet and document the cryptograhic keys used it is impossible for any third party to identify how money is moving by using blockchain analysis alone.
 
 It is important to realize that the current implementation of Steath functionality requires careful attention to detail and entails a higher level of risk for loosing your account balance if the steps followed herein are followed casually and without regard to such potential loss. However, by following this guide you can rest assured your balance will be held in the blockchain but remain totally and completely hidden from everyone but you. With that staunch admonition out of the way let’s get started.
