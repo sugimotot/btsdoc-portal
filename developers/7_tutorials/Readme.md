@@ -1,16 +1,15 @@
 ## Totorials
 ### Contents:
 
-## 8.01 General
+## .01 General
 - Q&A
 
-## 8.02 Account 
+## .02 Account 
 - How to process Account Registration
 - How can I create, register and upgrade an account to Lifetime Membership?
 - Q&A
 
-## 8.03 Assets
-- How to Create a new UIA - UI
+## .03 Assets
 - How to create a new UIA - Manually
 - How to Update/Change an existing UIA
 - How to Create a MPA - Manually
@@ -19,19 +18,17 @@
 - Publishing a Feed - form
 - Q&A
 
-## 8.04BitShares Decentralised Exchange (DEX)
+## .04BitShares Decentralised Exchange (DEX)
 - How to prepare Distributed Access to the BitShares Decentralised Exchange (DEX)
 
-## 8.05 Committee
+## .05 Committee
 - How to create a new Committee Member
-   - `create_committee_member account "url" true`
 - How Committee Proposes a Change in Fee
 - How to Approve/Disapprove a Committee Proposal
-   - `approve_proposal`
 - How to Propose Committee Actions
 - Q&A
 
-## 8.06 Testnet
+## .06 Testnet
 - Public & private testnet differences
 What is the difference between public and private testnet?
 
@@ -39,21 +36,21 @@ Not much. The biggest difference is that public testnet are intended for wider a
 - Q&A
 
 
-## 8.07 Transfer / Transactions
+## .07 Transfer / Transactions
 - Confidential Transfers
 - Manually Construct Any Transaction
 - Proposing a Transaction
 - Q&A
 
 
-## 8.08Wallet
+## .08Wallet
 - Q&A
 
-## 8.09 Witness
+## .09 Witness
 - Q&A
 - 
 
-## 8.10 Worker
+## .10 Worker
 
 - How to Create a Worker
 - How to see proposals on the chain
@@ -64,11 +61,11 @@ Not much. The biggest difference is that public testnet are intended for wider a
 - Q&A
 
 
-## 8.11 Tools
+## .11 Tools
 - Monitoring Account Deposits -  Python
 - Monitoring the Balance History - NodeJS Example
 
-## 8.12 Example Methods & Forms
+## .12 Example Methods & Forms
 
 - Vesting Balance -  `get_vesting_balances`
    - List Vesting Balances
