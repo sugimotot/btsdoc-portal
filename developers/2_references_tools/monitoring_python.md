@@ -1,4 +1,4 @@
-## Monitoring Account Deposits with Python
+## Monitoring Account Deposits - Python
 
 ### Installation
 
