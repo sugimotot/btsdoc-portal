@@ -1,4 +1,6 @@
-## How to deploy your own Public Network
+## Public Testnet Witness(Full) Nodes (block producing witness nodes) 
+
+### How to deploy your own Public Network
 
 ### Contents
 
