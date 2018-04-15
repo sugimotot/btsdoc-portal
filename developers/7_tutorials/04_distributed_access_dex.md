@@ -249,7 +249,7 @@ Now you have setup an SSL web server. More information on SSL setup can be found
 - [LetsEncrypt CertBot](https://certbot.eff.org/)
 
 
-### Install BitShares web gui 
+### Install BitShares WEB GUI
 
 #### Install NVM (Node Version Manager)
 
@@ -261,11 +261,11 @@ exit bash (terminal) and reconnect
     nvm install v5
     nvm use v5
 
-#### Download BitShares gui
+#### Download BitShares GUI
 
     git clone https://github.com/bitshares/bitshares-2-ui.git
 
-### Setup light wallet
+#### Setup light wallet
 
     cd /bitshares-2-ui/
 
