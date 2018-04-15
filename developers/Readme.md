@@ -26,7 +26,7 @@ _**above processes will go parallel_
 - OS X
 - Windows
 - [Windows - CLI Tools](/developers/1_installation/1-4_windows_cli_tool.md#contents)
-- Q&A
+- [Q&A](/developers/7_tutorials/01_QA.md#general)
    
 ### 2.[Tools & References ](/developers/2_references_tools#references--tools)
 - [References](/developers/2_references_tools/references.md#references)
@@ -48,6 +48,7 @@ _**above processes will go parallel_
    - Create a brain Key and derive a private/public key pair
    - Create an Account
    - Register an Account
+- [Q&A](/developers/7_tutorials/01_QA.md#accounts)
 
 ### 4. CLI Wallet
 - [OverView](/developers/4_cli_wallet/cli_wallet.md#contents)
