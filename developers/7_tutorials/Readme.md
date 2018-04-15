@@ -39,7 +39,7 @@
 - Q&A
 
 
-## .08Wallet
+## .08 Wallet / CLI Wallet
 - Q&A
 
 ## .09 Witness
