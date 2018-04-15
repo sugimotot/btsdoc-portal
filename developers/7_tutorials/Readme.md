@@ -4,7 +4,7 @@
 ## .01 General
 - Q&A
 
-## .02 Account 
+## .02 Accounts 
 - How to process Account Registration
 - How can I create, register and upgrade an account to Lifetime Membership?
 - Q&A
