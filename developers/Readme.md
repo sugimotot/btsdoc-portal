@@ -63,7 +63,7 @@ _**above processes will go parallel_
    - Manage Account & import
    - Examples 
       - Send funds from faucet to alpha 
-- [Network and Wallet Configuration](/developers/4_cli_wallet/network_wallet.md#network-setups)
+- [Network and Wallet Configuration](/developers/4_cli_wallet/network_wallet.md#network-and-wallet-configuration)
    - [General](/developers/4_cli_wallet/network_wallet.md#network-setups)
       - Trusted Full Node:
       - Wallet
