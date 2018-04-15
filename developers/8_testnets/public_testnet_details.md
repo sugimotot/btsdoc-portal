@@ -1,4 +1,4 @@
-## 8.01. Public Testnet Details
+## Public Testnet Details
 
 ###The Open Public Testnet information
 
