@@ -39,7 +39,7 @@ Not much. The biggest difference is that public testnet are intended for wider a
 
 ## .07 Transfer / Transactions
 - [Confidential Transfers](/developers/7_tutorials/07_confidential_transfer.md#confidential-trandfer)
-- Manually Construct Any Transaction
+- [Manually Construct Any Transaction](/developers/7_tutorials/07_construct_transaction.md#construct-any-transaction---manually)
 - Proposing a Transaction
 - Q&A
 
