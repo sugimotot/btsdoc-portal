@@ -30,13 +30,15 @@ _**above processes will go parallel_
    
 ### 2.[References & Tools](/developers/2_references_tools#references--tools)
      
-### 3. Accounts
+### 3. [Accounts](/developers/3_Accounts/Readme.md#3-accounts)
 
-### 4. CLI Wallet
+### 4. [CLI Wallet]/developers/4_cli_wallet/Readme.md#4-cli-wallet)
 
-### 5.1. [Full Nodes (Witness Nodes)](/developers/5_full-witness_nodes/full_nodes.md#type-of-witness-nodes)
+### 5. Full Nodes / Witness Nodes
 
-### 5.2. [Become an Active Witness](/developers/5_full-witness_nodes/active_witness.md#contents)
+#### 5.1. [Full Nodes (Witness Nodes)](/developers/5_full-witness_nodes/full_nodes.md#type-of-witness-nodes)
+
+#### 5.2. [Become an Active Witness](/developers/5_full-witness_nodes/active_witness.md#contents)
 
 ### 6. APIs
 - [APIs two categories](/developers/6_apis/apis-about.md#apis-categories)
