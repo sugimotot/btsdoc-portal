@@ -1,4 +1,4 @@
-## Full Node / Witness Node
+## 5. Full Node / Witness Node
 
 
 ### 5.1. [Full Nodes (Witness Nodes)](/developers/5_full-witness_nodes/full_nodes.md#type-of-witness-nodes)
