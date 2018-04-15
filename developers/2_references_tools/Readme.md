@@ -6,7 +6,7 @@
    - Python Library
    - Github other repositories
    - BirShares GitHub Code | Issues
-
+- [Articles](/developers/2_references_tools/tech_articles.md#articles)
    
 ### Tools   
 - Monitoring Account Deposits: Python
