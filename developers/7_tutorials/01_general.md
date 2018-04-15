@@ -1,4 +1,3 @@
-## General - Q&A
 
 ### Contents:
 
