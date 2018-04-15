@@ -63,7 +63,7 @@ _**above processes will go parallel_
       - 6.Start Block Production
       - 7.Connecting a CLI wallet
 
-### 9. Use Cases / Examples
+### 9. [Use Cases / Examples](/developers/9_use_cases#9-use-cases--examples)
    - Exchanges
    - Merchants
    - Traders
