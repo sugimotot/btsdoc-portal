@@ -65,12 +65,12 @@
 
 ##  Address structure, Format, block, time, and other
 
-**What is the standard Bitshares address structure and format?**
+**Q. What is the standard Bitshares address structure and format?**
 
 address = ‘BTS’+base58(ripemd(sha512(compressed_pub))) (checksum obviated) But addresses are not used directly, instead you have an account (that can be controlled by one or more address, pubkey or another account). https://bitshares.org/technology/dynamic-account-permissions/
 
 
-**What is the format of the block header?**
+**Q. What is the format of the block header?**
 
     struct block_header
        {
@@ -85,7 +85,7 @@ address = ‘BTS’+base58(ripemd(sha512(compressed_pub))) (checksum obviated) B
           static uint32_t num_from_id(const block_id_type& id);
        };
 
-**What is the maximum bitshares block size?**
+**Q. What is the maximum bitshares block size?**
 
 Configurable by chain parameters.
 
@@ -128,39 +128,39 @@ Configurable by chain parameters.
     };
 
 
-**Are there any sharding mechanics currently deployed?**
+**Q. Are there any sharding mechanics currently deployed?**
 
 No
 
-**How are SPV clients handled?**
+**Q. How are SPV clients handled?**
 
 No SPV clients at the moment, each full node can expose a public websocket/http api.
 
-**How is time addressed in the blockchain? Is NTP used or some other protocol?**
+**Q. How is time addressed in the blockchain? Is NTP used or some other protocol?**
 
 NTP
 
-**How do new clients bootstrap into the network?**
+**Q. How do new clients bootstrap into the network?**
 
 Trusted seed nodes. Knowledge of initial witness keys.
 
-**What is the average block time?**
+**Q. What is the average block time?**
 
 Current 3 seconds, configurable by chain parameters.
 
-**How is accounting addressed in Bitshares? Is it a Nxt style accounting model or like Bitcoin’s UTXO**
+**Q. How is accounting addressed in Bitshares? Is it a Nxt style accounting model or like Bitcoin’s UTXO**
 
 Each account has a finite set of balances, one for each asset type.
 
 ## Protocol
 
-**Are there any special affordances made for privacy?**
+**Q. Are there any special affordances made for privacy?**
 
 …such as using CoinJoin or a ZK-SNARK based privacy scheme like Zerocash? If mixing is integrated at the protocl level are you using the standards set forth by the BNMCKF Mixcoin proposal
 
 Confidential values (same as blockstream elements using the same secp256k1-zkp lib) + stealth addresses. https://github.com/Ele
 
-**Does the protocol provide mechanisms for overlay protocols to interact such as OR_RETURN?**
+**Q. Does the protocol provide mechanisms for overlay protocols to interact such as OR_RETURN?**
 
 Yes, using a custom_operation.
 
@@ -182,14 +182,14 @@ Yes, using a custom_operation.
           share_type        calculate_fee(const fee_parameters_type& k)const;
        };
 
-**Is this done via a gossip protocol or through a federate relay?**
+**Q. Is this done via a gossip protocol or through a federate relay?**
 
 Each node immediately broadcast the data it receives to its peers after validating it https://github.com/cryptonomex/graphene/blob/master/libraries/p2p/design.md
 
 
 ## Data Structures
 
-**What data structures are used in the blockchain?**
+**Q. What data structures are used in the blockchain?**
 
 ::
     Blocks => transactions => operations => objects.
@@ -219,16 +219,17 @@ The blockchain state is contained in an object database that is affected by the 
 
 ## Public key system
 
-**What public key system is used? If elliptic curve, then what is the curve?**
+**Q. What public key system is used? If elliptic curve, then what is the curve?**
 
 Same as Bitcoin, secp256k1.
 
 ## Scripting Language ?
-**Is there a specification for Bitshares scripting language? (assuming there is one)**
+
+**Q. Is there a specification for Bitshares scripting language? (assuming there is one)**
 
 No scripting
 
-**Is the scripting language turing complete?**
+**Q. Is the scripting language turing complete?**
 
 No scripting
 
