@@ -10,8 +10,8 @@
 6. [Web Wallet](#6-web-wallet)
 7. [Set up the Faucet](#7-set-up-the-faucet)
 8. [Set up Nignx Webserver](#8-nignx-webserver)
-9. Instillation of Python Library
-10. Create MPAs/UIAs
+9. [Instillation of Python Library](/developers/8_testnets/public_testnet.md#9-instillation-of-python-library)
+10. [Create MPAs/UIAs](/developers/8_testnets/public_testnet.md#10-create-mpasuias)
 
 ------
 
