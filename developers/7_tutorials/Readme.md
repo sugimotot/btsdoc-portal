@@ -12,11 +12,8 @@
 ## 8.03 Assets
 - How to Create a new UIA - UI
 - How to create a new UIA - Manually
-   - `create_asset`, `issue_asset`   
-- How to Create a MPA - Manually
-   - `create_asset`
 - How to Update/Change an existing UIA
-   - `update_asset`
+- How to Create a MPA - Manually
 - How to prepare a Prediction Market
 - How to closing / settling a Prediction Market
 - Publishing a Feed - form
