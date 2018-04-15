@@ -28,7 +28,7 @@ _**above processes will go parallel_
 - [Windows - CLI Tools](/developers/1_installation/1-4_windows_cli_tool.md#contents)
 - [Q&A](/developers/7_tutorials/01_QA.md#general)
    
-### 2.[Tools & References ](/developers/2_references_tools#references--tools)
+### 2.[References & Tools](/developers/2_references_tools#references--tools)
 - [References](/developers/2_references_tools/references.md#references)
    - Releases
    - Python Library
@@ -38,6 +38,7 @@ _**above processes will go parallel_
 - [Monitoring Account Deposits: Python](/developers/2_references_tools/monitoring_python.md#monitoring-account-deposits---python)
 - [Monitoring Balance History: NodeJS](/developers/2_references_tools/monitoring_nodejs.md#monitoring-the-balance-history---nodejs)
 - Propose & ideas
+- [Questions and Answers (Q&A)](/developers/7_tutorials/01_QA.md#questions-and-answers)
      
 ### 3. Accounts
 - [Account](/developers/3_Accounts/accounts.md#contents)
