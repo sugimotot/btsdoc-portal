@@ -62,11 +62,7 @@ Not much. The biggest difference is that public testnet are intended for wider a
 - Q&A
 
 
-## .11 Tools
-- Monitoring Account Deposits -  Python
-- Monitoring the Balance History - NodeJS Example
-
-## .12 Example Methods & Forms
+## .11 Example Methods & Forms
 
 - Vesting Balance -  `get_vesting_balances`
    - List Vesting Balances
