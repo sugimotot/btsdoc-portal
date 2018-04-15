@@ -1,7 +1,7 @@
 ### Contents:
  
-- How to create a new UIA
-- How to Update/Change an existing
+- [How to create a new UIA](/developers/7_tutorials/03_asset_uia.md#how-to-create-a-new-uia)
+- [How to Update/Change an existing](/developers/7_tutorials/03_asset_uia.md#how-to-updatechange-an-existing-uia)
 
 ***
 
