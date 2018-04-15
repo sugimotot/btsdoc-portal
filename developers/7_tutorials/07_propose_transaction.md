@@ -1,9 +1,9 @@
 ## Proposing a Transaction
 
 ### Contents:
-- Proposing a Transaction
-- Approving a Proposal
-- Example: Setting Smartcoin parameter
+- [Proposing a Transaction](/developers/7_tutorials/07_propose_transaction.md#proposing-a-transaction-1)
+- [Approving a Proposal](/developers/7_tutorials/07_propose_transaction.md#approving-a-proposal)
+- [Example: Setting Smartcoin parameter](/developers/7_tutorials/07_propose_transaction.md#example-setting-smartcoin-parameter)
 
 ***
 
@@ -30,9 +30,9 @@ A proposed transaction is encapsulated within another operation type. We can ach
 
 #### Definition
 
-signed_transaction graphene::wallet::wallet_api::propose_builder_transaction(transaction_handle_type handle, time_point_sec expiration = time_point::now()+fc::minutes(1), uint32_t review_period_seconds = 0, bool broadcast = true)
+signed_transaction `graphene::wallet::wallet_api::propose_builder_transaction`(transaction_handle_type handle, time_point_sec expiration = time_point::now()+fc::minutes(1), uint32_t review_period_seconds = 0, bool broadcast = true)
 
-signed_transaction graphene::wallet::wallet_api::propose_builder_transaction2(transaction_handle_type handle, string account_name_or_id, time_point_sec expiration = time_point::now()+fc::minutes(1), uint32_t review_period_seconds = 0, bool broadcast = true)
+signed_transaction `graphene::wallet::wallet_api::propose_builder_transaction2`(transaction_handle_type handle, string account_name_or_id, time_point_sec expiration = time_point::now()+fc::minutes(1), uint32_t review_period_seconds = 0, bool broadcast = true)
 
 ***
 
@@ -40,7 +40,7 @@ signed_transaction graphene::wallet::wallet_api::propose_builder_transaction2(tr
 
 A proposal can be approved simply by:
 
-approve_proposal <proposing-account> <proposal_id> {"active_approvals_to_add" : ["<account-name-required-for-approval>"]} false
+    approve_proposal <proposing-account> <proposal_id> {"active_approvals_to_add" : ["<account-name-required-for-approval>"]} false
 
 When replacing the final `false` with true, the transaction will be broadcasted!
 
