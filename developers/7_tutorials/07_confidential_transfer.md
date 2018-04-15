@@ -1,9 +1,9 @@
 ### Contents:
-- Step 1: Create a Blind Account
-- Step 2: Transferring a Balance From a Standard Public Account to a Blind Account
-- Step 3: Receiving an Asset Balance Transmitted From Another Account
-- Step 4: Transferring Assets Between Confidential Accounts
-- Step 5: Transferring Assets From a Confidential Account Back to a Public Account
+- Step 1: [Create a Blind Account](/developers/7_tutorials/07_confidential_transfer.md#step-1-create-a-blind-account)
+- Step 2: [Transferring a Balance From a Standard Public Account to a Blind Account](/developers/7_tutorials/07_confidential_transfer.md#step-2-transferring-a-balance-from-a-standard-public-account-to-a-blind-account)
+- Step 3: [Receiving an Asset Balance Transmitted From Another Account](/developers/7_tutorials/07_confidential_transfer.md#step-3-receiving-an-asset-balance-transmitted-from-another-account)
+- Step 4: [Transferring Assets Between Confidential Accounts](/developers/7_tutorials/07_confidential_transfer.md#step-4-transferring-assets-between-confidential-accounts)
+- Step 5: [Transferring Assets From a Confidential Account Back to a Public Account](/developers/7_tutorials/07_confidential_transfer.md#step-5-transferring-assets-from-a-confidential-account-back-to-a-public-account)
 
 ***
   
