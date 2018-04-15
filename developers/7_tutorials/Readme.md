@@ -1,6 +1,6 @@
 ## Totorials
 
-* [Questions and Answers](/developers/7_tutorials/01_QA.md#questions-and-answers) (Q&As)
+* [Questions and Answers](/developers/7_tutorials/01_QA.md#questions) (Q&As)
 
 ***
 ### .01 General
