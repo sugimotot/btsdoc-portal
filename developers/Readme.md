@@ -29,13 +29,14 @@ _**above processes will go parallel_
 - Q&A
    
 ### 2.[Tools & References ](/developers/2_references_tools#references--tools)
-- [References](/developers/2_tools_rerefemces/references.md#releases)
+- [References](/developers/2_references_tools/references.md#references)
    - Releases
    - Python Library
    - Github other repositories
    - BirShares GitHub Code | Issues
-- [Monitoring Account Deposits: Python](/developers/2_tools_rerefemces/python-monitor.md#monitoring-account-deposits-with-python)
-- [Monitoring Balance History: NodeJS](/developers/2_tools_rerefemces/nodejs-monitor.md#monitoring-the-balance-history---nodejs)
+- [Articles](/developers/2_references_tools/tech_articles.md#articles) 
+- [Monitoring Account Deposits: Python](/developers/2_references_tools/monitoring_python.md#monitoring-account-deposits---python)
+- [Monitoring Balance History: NodeJS](/developers/2_references_tools/monitoring_nodejs.md#monitoring-the-balance-history---nodejs)
 - Propose & ideas
      
 ### 3. Accounts
