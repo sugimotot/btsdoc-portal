@@ -19,7 +19,7 @@
 
 The `precision` can any positive integer starting from `0`. As `options` we pass a JSON object that can contain these settings:
 
-   {
+    {
       "max_supply" : 10000,    # Integer in satoshi! (100 for precision 1 and max 10)
       "market_fee_percent" : 0.3,
       "max_market_fee" : 1000, # in satoshi
@@ -40,7 +40,7 @@ The `precision` can any positive integer starting from `0`. As `options` we pass
       "whitelist_markets" : [],
       "blacklist_markets" : [],
       "description" : "My fancy description"
-   }
+    }
 
 The flags are construction as an JSON object containing these flags/permissions:
 
