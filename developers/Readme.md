@@ -38,10 +38,10 @@ _**above processes will go parallel_
 
 ### 6. [APIs](/developers/6_apis/Readme.md#6-apis)
    
-### 7. [Tutorials](/developers/7_tutorials/Readme.md#tutorials)
+### 7. [Tutorials](/developers/7_tutorials/Readme.md#7-tutorials)
 - [Questions and Answers](/developers/7_tutorials/01_QA.md#questions)
 
-### 8. [Testnets](/developers/8_testnets/Readme.md#testnets)
+### 8. [Testnets](/developers/8_testnets/Readme.md#8-testnets)
    - [Public Testnet Details](/developers/8_testnets/public_testnet_details.md#the-open-public-testnet-information)
    - [Public Testnet Witness(Full) Nodes (block producing witness nodes) ](/developers/8_testnets/public_testnet.md#how-to-deploy-your-own-public-network)
        - 1.Installation/Configuration of Witness
