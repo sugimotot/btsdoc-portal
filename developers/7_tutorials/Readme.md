@@ -20,7 +20,7 @@
 - [Publishing a Feed - form](/developers/7_tutorials/03_publish_feed.md#publishing-a-feed)
 - [Q&A](/developers/7_tutorials/01_QA.md#assets-1)
 
-### .04BitShares Decentralised Exchange (DEX)
+### .04 BitShares Decentralised Exchange (DEX)
 - [How to prepare Distributed Access to the BitShares Decentralised Exchange (DEX)](/developers/7_tutorials/04_distributed_access_dex.md#distributed-access-to-the-bitshares-decentralised-exchange)
 
 ### .05 Committee
