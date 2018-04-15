@@ -1,5 +1,7 @@
 ## 6. APIs
 
+**~~ coming soon ~~**
+
 ### 01. Overview
 - [APIs two categories](/developers/6_apis/apis-about.md#apis-categories)
    - Blockchain API
