@@ -6,7 +6,6 @@
 
 ## .02 Accounts 
 - How to process Account Registration
-- How can I create, register and upgrade an account to Lifetime Membership?
 - Q&A
 
 ## .03 Assets
@@ -30,10 +29,6 @@
 - Q&A
 
 ## .06 Testnet
-- Public & private testnet differences
-What is the difference between public and private testnet?
-
-Not much. The biggest difference is that public testnet are intended for wider audience and has fixed (not easy to change parameters), while private testnets can be setup with arbitrary settings.
 - Q&A
 
 
