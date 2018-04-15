@@ -1,3 +1,6 @@
+
+## Distributed Access to the BitShares Decentralised Exchange
+
 ### Contents:
 - [BitShares Node Setup](/developers/7_tutorials/04_distributed_access_dex.md#bitshares-node-setup)
 - [Create a New User](/developers/7_tutorials/04_distributed_access_dex.md#install-nginx)
@@ -26,7 +29,6 @@
 
 ***
 
-## Distributed Access to the BitShares Decentralised Exchange
 
 I hope to encourage and promote more access points and backup WebSocket (wss) gateways for BitShares. This is the logical progression from [Run your own decentralised exchange](https://steemit.com/bitshares/@ihashfury/run-your-own-decentralised-exchange) post. BitShares ###Distributed Access to the BitShares Network
 
