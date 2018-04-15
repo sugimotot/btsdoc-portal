@@ -1,7 +1,5 @@
 ## Totorials
 
-***
-
 * [Questions and Answers](/developers/7_tutorials/01_QA.md#questions-and-answers)
 
 ***
