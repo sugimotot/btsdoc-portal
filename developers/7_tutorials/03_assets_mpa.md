@@ -4,7 +4,7 @@
 
 ***
 
-### How to Create a MPA 
+## How to Create a MPA 
 
     >>> create_asset <issuer> <symbol> <precision> <options> <mpaoptions> false
    
