@@ -1,3 +1,5 @@
+## Become an Active Witness
+
 ### Contents:
 
 - A Block-Producing Witness
