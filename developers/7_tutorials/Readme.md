@@ -23,10 +23,11 @@
 - [How to prepare Distributed Access to the BitShares Decentralised Exchange (DEX)](/developers/7_tutorials/04_distributed_access_dex.md#distributed-access-to-the-bitshares-decentralised-exchange)
 
 ## .05 Committee
-- How to create a new Committee Member
-- How Committee Proposes a Change in Fee
-- How to Approve/Disapprove a Committee Proposal
-- How to Propose Committee Actions
+- [How to Create a new Committee Member](/developers/7_tutorials/05_committee_howto.md#creating-a-new-committee-member)
+- [How to Propose Committee Actions](/developers/7_tutorials/05_committee_howto.md#how-to-propose-committee-actions)
+- [How to Approve/Disapprove a Committee Proposal](/developers/7_tutorials/05_committee_howto.md#how-to-approvedisapprove-a-committee-proposal)
+- [How Committee Proposes a Change in Fee](/developers/7_tutorials/05_committee_howto.md#how-committee-proposes-a-change-in-fee)
+
 - Q&A
 
 ## .06 Testnet
