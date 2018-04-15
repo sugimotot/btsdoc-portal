@@ -8,7 +8,7 @@
 - How to launch the full node
 - Enabling Remote Procedure Calls (RPC)
 
-### 02. [Become an Active Witness](/developers/5_full-witness_nodes/active_witness.md#contents)
+### 02. [Become an Active Witness](/developers/5_full-witness_nodes/active_witness.md#become-an-active-witness)
 - A Block Producing Witness
    - Requirements
    - Hardware Advice
