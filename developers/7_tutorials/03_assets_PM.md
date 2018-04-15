@@ -72,7 +72,7 @@ The list of settlement price producers can be defined with:
 
     >>> update_asset_feed_producers <symbol> ["account-a", "account-b"] true
 
-### Python Example
+### Python Script Example
 
 
     from grapheneapi import GrapheneClient
@@ -186,7 +186,7 @@ The list of settlement price producers can be defined with:
 
 All the issuer needs to do is publish a valid global_settle price for the asset, either 0 or 1. The global_settle option will be set automatically and borrow positions will be settled at the price. If the result is 1, asset holders can claim the global settled collateral via force settlement.
 
-### Python Script
+### Python Script Example
 
     from grapheneapi import GrapheneClient
     import json
