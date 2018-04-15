@@ -1,3 +1,5 @@
+## References
+
 ### Releases
  
 - [BitShares-Core Release](https://github.com/bitshares/bitshares-core/releases)
