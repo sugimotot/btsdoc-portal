@@ -44,6 +44,7 @@
 ***
 ### Testnet
 
+- Public & private testnet differences What is the difference between public and private testnet?
 
 ***
 ### Wallet
@@ -353,6 +354,9 @@ Yes!
 ***
 ### Testnet
 
+**Q. Public & private testnet differences What is the difference between public and private testnet?**
+
+Not much. The biggest difference is that public testnet are intended for wider audience and has fixed (not easy to change parameters), while private testnets can be setup with arbitrary settings
 
 ***
 ### Wallet
