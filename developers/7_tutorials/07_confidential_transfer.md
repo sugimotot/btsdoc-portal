@@ -137,11 +137,12 @@ In this final step of our round-trip process we will transfer some of the BTS fr
 
 A label must be assigned to the public destination address to return assets from a blind (confidential) account. The public key value for the account is readily available using the account’s permission page explorer. Use the account/key shown under the Active Permissions heading.
 
->>> receive_blind_transfer "iiMe3q3X4DqW1AqCXfkYEcuRsRATxMwSvJpaUuCbMTcxRUUsn1qUtjfqLYUaNycrpKHfmUG1PR9mxd2nVKB15RYSryyjSn54ADzNBaFzxTY1s699iJWWHw2itiagfcKtvwizhN9Ru8nfnzgx8c5vi7RCLNB2PgrcTxSjYUJW1sfMicFyLRgYrCHFyNd1VhBeWpsLMwagcTGkUTf4rNDyXTrRqqLf2Nhy6P3ohk3J5WbshYyHxuLJGY2E7B5nPpFuf4Bnf9paD6jW "alice" "from Alice"
-100 BTS  alice  =>  bobby   "from Alice"
 
-set_key_label BTS9oxUqKFD8gfGoXb6AwDBEoBt8W47g4Mtz8SW8inUeHemR9nOi9 "peter"
-true
+    >>> receive_blind_transfer "iiMe3q3X4DqW1AqCXfkYEcuRsRATxMwSvJpaUuCbMTcxRUUsn1qUtjfqLYUaNycrpKHfmUG1PR9mxd2nVKB15RYSryyjSn54ADzNBaFzxTY1s699iJWWHw2itiagfcKtvwizhN9Ru8nfnzgx8c5vi7RCLNB2PgrcTxSjYUJW1sfMicFyLRgYrCHFyNd1VhBeWpsLMwagcTGkUTf4rNDyXTrRqqLf2Nhy6P3ohk3J5WbshYyHxuLJGY2E7B5nPpFuf4Bnf9paD6jW "alice" "from Alice"
+    100 BTS  alice  =>  bobby   "from Alice"
+
+    set_key_label BTS9oxUqKFD8gfGoXb6AwDBEoBt8W47g4Mtz8SW8inUeHemR9nOi9 "peter"
+    true
 
     >>> blind_transfer bobby peter 50 BTS true
     2263915ms th_a       wallet.cpp:743                save_wallet_file     ] saving wallet to file /home/admin/BitShares2/blindBobWallet
@@ -185,7 +186,6 @@ One last example demonstrates how to split a balance between multiple confidenti
 
 In this case the only thing the public sees is that account ‘peter’ sent 4800 BTS to four different places. Note that although 800 and 2000 BTS were sent to the alice confidential account they do not show up that way on the blockchain.
 
-**Conclusion**: The outside world has no idea how much is in each output, only that they all add up to 4800 BTS.
-
+**Conclusion: The outside world has no idea how much is in each output, only that they all add up to 4800 BTS.**
 
 ***
