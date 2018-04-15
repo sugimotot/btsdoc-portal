@@ -4,7 +4,7 @@ Contents:
 
 ***
 
-### Publishing a Feed
+## Publishing a Feed
 
 A price feed operation takes the following form:
 
