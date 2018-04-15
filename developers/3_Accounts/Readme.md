@@ -1,4 +1,4 @@
-## Accounts
+## 3. Accounts
 
 - [Account](/developers/3_Accounts/accounts.md#contents)
    - Permissions
