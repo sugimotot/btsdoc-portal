@@ -13,7 +13,9 @@ Proposed transactions can be used everywhere multiple parties have to agree for 
 
 If is recommended that the reader first reads through the following tutorial:
 
-- Manually Construct Any Transaction
+- [Manually Construct Any Transaction](/developers/7_tutorials/07_construct_transaction.md#construct-any-transaction---manually)
+
+***
 
 ### Proposing a Transaction
 
