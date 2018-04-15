@@ -1,4 +1,4 @@
-## Testnets
+## 8. Testnets
 
    - [Public Testnet Details](/developers/8_testnets/public_testnet_details.md#the-open-public-testnet-information)
    - [Public Testnet Witness(Full) Nodes (block producing witness nodes) ](/developers/8_testnets/public_testnet.md#how-to-deploy-your-own-public-network)
