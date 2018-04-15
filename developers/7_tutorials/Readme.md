@@ -2,11 +2,11 @@
 ### Contents:
 
 ## .01 General
-- Q&A
+- [Q&A](/developers/7_tutorials/01_QA.md#general)
 
 ## .02 Accounts 
 - How to process Account Registration
-- Q&A
+- [Q&A](/developers/7_tutorials/01_QA.md#accounts)
 
 ## .03 Assets
 - [How to Create a new UIA](/developers/7_tutorials/03_assets_uia.md#how-to-create-a-new-uia)
@@ -16,7 +16,7 @@
 - [How to Closing/Setting a Prediction Market](/developers/7_tutorials/03_assets_pm.md#how-to-closingsetting-a-prediction-market
 )
 - [Publishing a Feed - form](/developers/7_tutorials/03_publish_feed.md#publishing-a-feed)
-- Q&A
+- [Q&A](/developers/7_tutorials/01_QA.md#assets-1)
 
 ## .04BitShares Decentralised Exchange (DEX)
 - [How to prepare Distributed Access to the BitShares Decentralised Exchange (DEX)](/developers/7_tutorials/04_distributed_access_dex.md#distributed-access-to-the-bitshares-decentralised-exchange)
@@ -29,7 +29,7 @@
 - Q&A
 
 ## .06 Testnet
-- Q&A
+- [Q&A](/developers/7_tutorials/01_QA.md#testnet-1)
 
 
 ## .07 Transfer / Transactions
@@ -40,10 +40,10 @@
 
 
 ## .08 Wallet / CLI Wallet
-- Q&A
+- [Q&A](/developers/7_tutorials/01_QA.md#wallet--cli-wallet-1)
 
 ## .09 Witness
-- Q&A
+- [Q&A](/developers/7_tutorials/01_QA.md#witness)
 - 
 
 ## .10 Worker
