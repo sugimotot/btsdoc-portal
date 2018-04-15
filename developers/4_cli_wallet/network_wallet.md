@@ -35,7 +35,7 @@ Since we have a delayed full node that we can fully trust, we will interface wit
 
 ****
 
-## Network and Wallet Setups
+## Network and Wallet Configuration
 
 ## General Network and Wallet Configuration
 For general purpose setups, we recommend a reduced complexity setup that looks as follows.
