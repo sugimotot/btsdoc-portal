@@ -1,4 +1,6 @@
-## How to setup Private Testnet
+## Private Testnet
+
+### How to setup Private Testnet
 
 ### Contents
 
