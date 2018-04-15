@@ -1,3 +1,4 @@
+## Full Nodes (Witness Nodes)
 
 ### Type of Witness nodes:
 
