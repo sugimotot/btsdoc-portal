@@ -28,7 +28,7 @@ _**above processes will go parallel_
 - [Windows - CLI Tools](/developers/1_installation/1-4_windows_cli_tool.md#contents)
 - Q&A
    
-### 2.Tools & [References ](/developers/2_tools_rerefemces/references.md#releases)
+### 2.[Tools & References ](/developers/2_references_tools#references--tools)
 - [References](/developers/2_tools_rerefemces/references.md#releases)
    - Releases
    - Python Library
