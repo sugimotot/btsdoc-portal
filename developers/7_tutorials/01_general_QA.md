@@ -23,20 +23,26 @@
 - Is the scripting language turing complete?
 
 ***
-### Assets
+## Assets
 - What happens to the asset creation fee?
 - Can I change x after creation of the asset?
 - What about Parent and Child assets?
 - Can I change the issuer?
+
+**Fee Pool**
 - What is the fee pool all about?
 - What to do if the fee pool is empty?
 - What is Fee Pool Draining?
+
+**Market Fee**
 - What happens if I enable Market fees?
 - How to claim accumulated fees?
 - What if two different market fees are involved in a trade?
 - What are Asset Flags and Permissions?
 - What are the Permissions?
 - What are the Flags?
+
+**Market Pegged Assets**
 - Can I use the same flags/permissions as for UIAs?
 - What are market-pegged-asset-specific parameters?
 
