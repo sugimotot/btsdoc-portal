@@ -1,4 +1,4 @@
-## CLI Wallet
+## 4. CLI Wallet
 
 - [OverView](/developers/4_cli_wallet/cli_wallet.md#contents)
 - Cli-Tools for Windows (option)
