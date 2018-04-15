@@ -16,7 +16,7 @@
 - [How to create a Prediction Market](/developers/7_tutorials/03_assets_pm.md#how-to-create-a-prediction-market)
 - [How to closing/setting a Prediction Market](/developers/7_tutorials/03_assets_pm.md#how-to-closingsetting-a-prediction-market
 )
-- Publishing a Feed - form
+- [Publishing a Feed - form](/developers/7_tutorials/03_publish_feed.md#publishing-a-feed)
 - Q&A
 
 ## .04BitShares Decentralised Exchange (DEX)
