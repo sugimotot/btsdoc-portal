@@ -9,5 +9,5 @@
 - [Articles](/developers/2_references_tools/tech_articles.md#articles)
    
 ### Tools   
-- Monitoring Account Deposits: Python
-- Monitoring Balance History: NodeJS
+- [Monitoring Account Deposits: Python](/developers/2_references_tools/monitoring_python.md#monitoring-account-deposits---python)
+- [Monitoring Balance History: NodeJS](/developers/2_references_tools/monitoring_nodejs.md#monitoring-the-balance-history---nodejs)
