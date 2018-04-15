@@ -1,6 +1,6 @@
 Contents:
 
-- Publishing a Feed
+- [Publishing a Feed](/developers/7_tutorials/03_publish_feed.md#publishing-a-feed)
 
 ***
 
