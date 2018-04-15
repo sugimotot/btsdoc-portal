@@ -1,5 +1,5 @@
 ### Contents:
-- [How to Create a new Committee Member](/developers/7_tutorials/05_committee_howto.md#howcreating-a-new-committee-member)
+- [How to Create a new Committee Member](/developers/7_tutorials/05_committee_howto.md#how-to-creating-a-new-committee-member)
 - [How to Propose Committee Actions](/developers/7_tutorials/05_committee_howto.md#how-to-propose-committee-actions)
 - [How to Approve/Disapprove a Committee Proposal](/developers/7_tutorials/05_committee_howto.md#how-to-approvedisapprove-a-committee-proposal)
 - [How Committee Proposes a Change in Fee](/developers/7_tutorials/05_committee_howto.md#how-committee-proposes-a-change-in-fee)
