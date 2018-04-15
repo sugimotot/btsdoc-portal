@@ -9,11 +9,11 @@
 - Q&A
 
 ## .03 Assets
-- [How to create a new UIA](/developers/7_tutorials/03_assets_uia.md#how-to-create-a-new-uia)
+- [How to Create a new UIA](/developers/7_tutorials/03_assets_uia.md#how-to-create-a-new-uia)
 - [How to Update/Change an existing UIA](/developers/7_tutorials/03_assets_uia.md#how-to-updatechange-an-existing-uia)
 - [How to Create a MPA](/developers/7_tutorials/03_assets_mpa.md#how-to-create-a-mpa)
-- [How to create a Prediction Market](/developers/7_tutorials/03_assets_pm.md#how-to-create-a-prediction-market)
-- [How to closing/setting a Prediction Market](/developers/7_tutorials/03_assets_pm.md#how-to-closingsetting-a-prediction-market
+- [How to Create a Prediction Market](/developers/7_tutorials/03_assets_pm.md#how-to-create-a-prediction-market)
+- [How to Closing/Setting a Prediction Market](/developers/7_tutorials/03_assets_pm.md#how-to-closingsetting-a-prediction-market
 )
 - [Publishing a Feed - form](/developers/7_tutorials/03_publish_feed.md#publishing-a-feed)
 - Q&A
