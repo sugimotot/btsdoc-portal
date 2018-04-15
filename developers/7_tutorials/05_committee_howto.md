@@ -1,5 +1,5 @@
 ### Contents:
-- [How to Create a new Committee Member](/developers/7_tutorials/05_committee_howto.md#creating-a-new-committee-member)
+- [How to Create a new Committee Member](/developers/7_tutorials/05_committee_howto.md#howcreating-a-new-committee-member)
 - [How to Propose Committee Actions](/developers/7_tutorials/05_committee_howto.md#how-to-propose-committee-actions)
 - [How to Approve/Disapprove a Committee Proposal](/developers/7_tutorials/05_committee_howto.md#how-to-approvedisapprove-a-committee-proposal)
 - [How Committee Proposes a Change in Fee](/developers/7_tutorials/05_committee_howto.md#how-committee-proposes-a-change-in-fee)
@@ -8,12 +8,12 @@
 
 ## Committee - How to
 
-### Creating a New Committee Member
+## How to Creating a New Committee Member
 
     >>> create_committee_member account "url" true
 
 
-### How to Propose Committee Actions
+## How to Propose Committee Actions
 
 #### Setting Smartcoin Parameters
 
@@ -76,7 +76,7 @@ Then set fees, sign and broadcast the transaction:
 - Remember to transfer enough to cover the fee to committee account and set review period to at least `committee_proposal_review_period`
 - Much of this could be automated by a better wallet command.
 
-### How to Approve/Disapprove a Committee Proposal
+## How to Approve/Disapprove a Committee Proposal
 
 #### Approve Proposal
 
@@ -94,7 +94,7 @@ A previous approval can also be removed if the proposal is not yet expired, exec
 
 Note that we now use `active_approvals_to_remove` instead of `active_approvals_to_add`.
 
-### How Committee Proposes a Change in Fee
+## How Committee Proposes a Change in Fee
 
 #### Create an Proposal
 
