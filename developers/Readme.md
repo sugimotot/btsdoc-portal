@@ -36,22 +36,7 @@ _**above processes will go parallel_
 
 ### 5. [Full Nodes / Witness Nodes](/developers/5_full-witness_nodes/Readme.md#5-full-node--witness-node)
 
-### 6. APIs
-- [APIs two categories](/developers/6_apis/apis-about.md#apis-categories)
-   - Blockchain API
-   - Wallet API
-- API Access Restrictions
-- Blockchain Specifications
-   - Object and IDs
-- Calls
-   - Remote Procedure Calls
-   - [Websocket Calls & Notifications](https://github.com/cedar-book/btsdoc-portal/blob/master/developers/6_apis/websocket_calls_notifications.md#contents)
-- Wallet APIs
-- Blockchain APIs   
-- Namespaces (**idea needed)
-   - Graphene::App
-   - Graphene::Chain
-   - Graphene::Wallet
+### 6. [APIs](/developers/6_apis/Readme.md#6-apis)
    
 ### 7. [Tutorials](/developers/7_tutorials/Readme.md#tutorials)
 - [Questions and Answers](/developers/7_tutorials/01_QA.md#questions)
