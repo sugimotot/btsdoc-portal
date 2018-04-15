@@ -1,6 +1,6 @@
 ## Public Testnet Details
 
-###The Open Public Testnet information
+### The Open Public Testnet information
 
 - Web wallet: [public testnet](http://testnet.bitshares.eu/)
 - Seed node: `testnet.bitshares.eu:11010`
