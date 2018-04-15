@@ -29,63 +29,14 @@ _**above processes will go parallel_
 
    
 ### 2.[References & Tools](/developers/2_references_tools#references--tools)
-
      
 ### 3. Accounts
-- [Account](/developers/3_Accounts/accounts.md#contents)
-   - Permissions
-   - Memberships
-   - Authorities
-- [Account Registration](/developers/3_Accounts/account_registration.md#contents)
-   - Create a brain Key and derive a private/public key pair
-   - Create an Account
-   - Register an Account
-- [Q&A](/developers/7_tutorials/01_QA.md#accounts)
 
 ### 4. CLI Wallet
-- [OverView](/developers/4_cli_wallet/cli_wallet.md#contents)
-- Cli-Tools for Windows (option)
-- [Create a Cli Wallet and Open RPC port](/developers/4_cli_wallet/cli_wallet.md#create-a-cli-wallet-and-open-rpc-port)
-   - Case 1: Connecting a Cli-Wallet - use the public API node
-   - Case 2: Connecting a Cli-Wallet
-   - Case 3: Connecting a Cli-Wallet - Public Testnet
-- Examples 
-   - available commands to the cli-wallet (Wallet APIs) 
-   - construct a transaction manually
-- Gaining Access to Blockchain
-   - Manage Account & import
-   - Examples 
-      - Send funds from faucet to alpha 
-- [Network and Wallet Configuration](/developers/4_cli_wallet/network_wallet.md#network-and-wallet-configuration)
-   - [General](/developers/4_cli_wallet/network_wallet.md#network-setups)
-      - Trusted Full Node:
-      - Wallet
-   - [Secure](/developers/4_cli_wallet/network_wallet.md#secure-network-and-wallet-configuration)
-      - Trusted Full Node:
-      - Delayed Full Node:
-      - Wallet
 
 ### 5.1. [Full Nodes (Witness Nodes)](/developers/5_full-witness_nodes/full_nodes.md#type-of-witness-nodes)
-- Type of Witness nodes
-   - Non-Block producing
-   - Block producing
-- How to launch the full node
-- Enabling Remote Procedure Calls (RPC)
 
 ### 5.2. [Become an Active Witness](/developers/5_full-witness_nodes/active_witness.md#contents)
-- A Block Producing Witness
-   - Requirements
-   - Hardware Advice
-   - Active Witness Duties
-- How to become a Block-Producing Witness
-   - Run a local (non block producing) full node
-   - Launch a CLI wallet
-   - Gain Access to Stake
-   - Register a new Witness Object
-   - Configuration of the Witness Node
-   - Verifying Block Production
-   - Backup Server
-   - Price Feeds
 
 ### 6. APIs
 - [APIs two categories](/developers/6_apis/apis-about.md#apis-categories)
@@ -103,10 +54,11 @@ _**above processes will go parallel_
    - Graphene::App
    - Graphene::Chain
    - Graphene::Wallet
+   
 ### 7. [Tutorials](/developers/7_tutorials/Readme.md#tutorials)
 - [Questions and Answers](/developers/7_tutorials/01_QA.md#questions)
 
-### 8. Testnets
+### 8. [Testnets](/developers/8_testnets/Readme.md#testnets)
    - [Public Testnet Details](/developers/8_testnets/public_testnet_details.md#the-open-public-testnet-information)
    - [Public Testnet Witness(Full) Nodes (block producing witness nodes) ](/developers/8_testnets/public_testnet.md#how-to-deploy-your-own-public-network)
        - 1.Installation/Configuration of Witness
