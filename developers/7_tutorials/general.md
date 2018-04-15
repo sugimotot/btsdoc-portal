@@ -1,3 +1,58 @@
+### Contents:
+**General**
+- What is the standard Bitshares address structure and format?
+- What is the format of the block header?
+- What is the maximum bitshares block size?
+- Are there any sharding mechanics currently deployed?
+- How is time addressed in the blockchain? Is NTP used or some other protocol?
+- How do new clients bootstrap into the network?
+- What is the average block time?
+- How is accounting addressed in Bitshares? Is it a Nxt style accounting model or like Bitcoin’s UTXO
+**Protocol**
+- Are there any special affordances made for privacy?
+- Does the protocol provide mechanisms for overlay protocols to interact such as OR_RETURN?
+- Is this done via a gossip protocol or through a federate relay?\
+**Data Structures**
+- What data structures are used in the blockchain?
+- What public key system is used? If elliptic curve, then what is the curv
+- Is there a specification for Bitshares scripting language? (assuming there is one)
+- Is the scripting language turing complete?
+**Distributed Access to the BitShares Decentralised Exchange (DEX)**
+- BitShares node setup
+- 
+### BitShares Decentralised Exchange (DEX)
+- Distributed Access to the BitShares Decentralised Exchange
+- BitShares node setup
+- Create a New User
+### Install Nginx
+- Configure Nginx
+- Create your web folder
+- Configure Nginx
+- Update Virtual Host File
+- Activate sim link and disable default web server
+- Link local folder to www root and add a simple index.html
+
+### Install letsencrypt
+- Obtain your SSL certificate
+- Check your certificate
+- Setup a renew cronjob for your new SSL certificate
+- Generate Strong Diffie-Hellman Group cert
+
+### Add SSL to Nginx settings
+- Edit altcap.io
+- Restart Nginx
+
+### Install BitShares Web Gui
+- Install NVM (Node Version Manager)
+- Download BitShares gui
+- Setup light wallet
+- Link web root to gui build folder
+- Build light wallet
+
+### SSL test
+
+
+***
 
 ## General
 
@@ -170,20 +225,22 @@ No scripting
 
 No scripting
 
-# BitShares Decentralised Exchange (DEX)
 
+***
 
-## Distributed Access to the BitShares Decentralised Exchange (DEX)
+## BitShares Decentralised Exchange (DEX)
 
-I hope to encourage and promote more access points and backup WebSocket (wss) gateways for BitShares. This is the logical progression from Run your own decentralised exchange post. BitShares ###Distributed Access to the BitShares Network
+**Distributed Access to the BitShares Decentralised Exchange (DEX)**
 
-## BitShares node setup
+I hope to encourage and promote more access points and backup WebSocket (wss) gateways for BitShares. This is the logical progression from [Run your own decentralised exchange post](https://steemit.com/bitshares/@ihashfury/run-your-own-decentralised-exchange). BitShares ###Distributed Access to the BitShares Network
 
-Run your own decentralised exchange
+**BitShares node setup**
+
+[Run your own decentralised exchange](https://steemit.com/bitshares/@ihashfury/run-your-own-decentralised-exchange)
 
 Once you have a full node setup, you can allow BitShares shareholders secure access to your server to trade and check their accounts by following these steps. >A DNS Alias (CNAME) is required to point to your server ip address. >See dyn.com for DNS Alias setup. >You may have to wait a few days for the DNS to work through the internet. >Please change altcap.io to your DNS alias in the examples below.
 
-## Create a New User
+**Create a New User**
 
 I recommend creating a new user on your server to run the Bitshares gui and give the user sudo access. >You can use any name - I have used bitshares in this example
 
@@ -191,7 +248,9 @@ I recommend creating a new user on your server to run the Bitshares gui and give
     sudo gpasswd -a bitshares sudo
     sudo gpasswd -a bitshares users
 
-## Install Nginx
+****
+
+### Install Nginx
 
 Install Nginx web server
 
@@ -207,18 +266,18 @@ Install Nginx web server
 
 This will start Nginx default web server. Check it by typing the ip address of your server in a web browser or your alias altcap.io
 
-### Configure Nginx
+**Configure Nginx**
 
 To configure the web server, edit the default site and save as new DNS alias name using http port 80 only until you setup letsencrypt.org SSL Certificate.
 
-### Create your web folder
+**Create your web folder**
 
     sudo mkdir -p /var/www/altcap.io/public_html
     sudo chown -R bitshares:bitshares var/www/altcap.io/public_html
     sudo chmod 755 /var/www
 
 
-### Configure Nginx
+**Configure Nginx**
 
     # edit default setup and save as altcap.io
     sudo nano /etc/nginx/sites-available/default
@@ -245,16 +304,16 @@ Point to your new virtual host
 
     CTRL+O to save as altcap.io (^O Write Out)
 
-### Update Virtual Host File
+**Update Virtual Host File**
 
-    sudo cp altcap.io /etc/nginx/sites-available/altcap.io
+    sudo cp altca**p.io /etc/nginx/sites-available/altcap.io
 
-### Activate sim link and disable default web server
+**Activate sim link and disable default web server**
 
     sudo ln -s /etc/nginx/sites-available/altcap.io /etc/nginx/sites-enabled/altcap.io
     sudo rm /etc/nginx/sites-enabled/default
 
-### Link local folder to www root and add a simple index.html
+**Link local folder to www root and add a simple index.html**
 
     ln -s /var/www/altcap.io/public_html ~/public_html
     nano ~/public_html/index.html
@@ -416,7 +475,7 @@ Now you have setup an SSL web server. More information on SSL setup can be found
 
 ***
 
-## Install BitShares web gui
+## Install BitShares Web Gui
 
 **Install NVM (Node Version Manager)**
 
