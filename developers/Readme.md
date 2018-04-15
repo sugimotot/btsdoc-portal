@@ -112,7 +112,7 @@ _**above processes will go parallel_
    - Graphene::App
    - Graphene::Chain
    - Graphene::Wallet
-### 7. Tutorials
+### 7. [Tutorials](/developers/7_tutorials/Readme.md#tutorials)
 - [Questions and Answers](/developers/7_tutorials/01_QA.md#questions)
 
 ### 8. Testnets
