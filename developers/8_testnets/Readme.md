@@ -1,7 +1,8 @@
 ## 8. Testnets
 
-   - [Public Testnet Details](/developers/8_testnets/public_testnet_details.md#the-open-public-testnet-information)
-   - [Public Testnet Witness(Full) Nodes (block producing witness nodes) ](/developers/8_testnets/public_testnet.md#how-to-deploy-your-own-public-network)
+### 8.1. [Public Testnet Details](/developers/8_testnets/public_testnet_details.md#the-open-public-testnet-information)
+
+### 8.2. [Public Testnet Witness(Full) Nodes (block producing witness nodes) ](/developers/8_testnets/public_testnet.md#how-to-deploy-your-own-public-network)
        - 1.Installation/Configuration of Witness
        - 2.Genesis Configuration
        - 3.Initializing Blockchain
@@ -12,7 +13,8 @@
        - 8.Setup NGing WebServer 
        - 9.Instillation of Python Library
         - 10.Create MPAs/UIAs
-    - [Private Testnet](/developers/8_testnets/public_testnet_details.md#the-open-public-testnet-information)
+
+### 8.3. [Private Testnet](/developers/8_testnets/public_testnet_details.md#the-open-public-testnet-information)
       - 1.Prerequisites
       - 2.Folder Structure
       - 3.The Genesis Files
