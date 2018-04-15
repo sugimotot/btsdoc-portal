@@ -3,11 +3,31 @@
 - Create a New User
 - Install NGINX
    - Configure Nginx
+   - Create your web folder
+   - Configure Nginx
+   - Update Virtual Host File
+   - Activate sim link and disable default web server
+   - Link local folder to www root and add a simple index.html
+- Install letsencrypt
+   - Obtain your SSL certificate
+   - Check your certificate
+   - Setup a renew cronjob for your new SSL certificate
+   - Generate Strong Diffie-Hellman Group cert
+- Add SSL to Nginx settings
+   - Edit altcap.io
+   - Restart Nginx
+- Install BitShares Web GUI
+   - Install NVM (Node Version Manager)
+   - Setup light wallet
+   - Link web root to gui build folder
+   - Build light wallet
+- SSL Test 
 
 
 ***
 
 ## Distributed Access to the BitShares Decentralised Exchange
+
 
 ### Distributed Access to the BitShares Decentralised Exchange
 
