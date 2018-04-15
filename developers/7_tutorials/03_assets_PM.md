@@ -1,5 +1,7 @@
-Contents:
+### Contents:
 
+- How to create a Prediction Market
+- How to closing/setting a Prediction Market
 
 ***
 
@@ -182,3 +184,34 @@ The list of settlement price producers can be defined with:
 
 ## How to closing/setting a Prediction Market
 
+All the issuer needs to do is publish a valid global_settle price for the asset, either 0 or 1. The global_settle option will be set automatically and borrow positions will be settled at the price. If the result is 1, asset holders can claim the global settled collateral via force settlement.
+
+### Python Script
+
+    from grapheneapi import GrapheneClient
+    import json
+
+
+    class Config():
+        wallet_host           = "localhost"
+        wallet_port           = 8092
+        wallet_user           = ""
+        wallet_password       = ""
+
+    if __name__ == '__main__':
+        graphene = GrapheneClient(Config)
+       symbol = "PM"
+       issuer = "nathan"
+        producer = "nathan"
+        pm_result = True  # or False        <<<<-------- Result goes here
+        account = graphene.rpc.get_account(issuer)
+        asset = graphene.rpc.get_asset(symbol)
+        # Global settle with a price
+        settle_price = {"quote": {"asset_id": "1.3.0",
+                                  "amount": 1 if pm_result else 0},
+                        "base": {"asset_id": asset["id"],
+                                 "amount": 1
+                                 }}
+        handle = graphene.rpc.begin_builder_transaction()
+        tx = graphene.rpc.global_settle_asset(symbol, settle_price, True)
+        print(json.dumps(tx, indent=4))
