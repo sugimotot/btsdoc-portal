@@ -28,9 +28,6 @@
 
 ## Distributed Access to the BitShares Decentralised Exchange
 
-
-### Distributed Access to the BitShares Decentralised Exchange
-
 I hope to encourage and promote more access points and backup WebSocket (wss) gateways for BitShares. This is the logical progression from [Run your own decentralised exchange](https://steemit.com/bitshares/@ihashfury/run-your-own-decentralised-exchange) post. BitShares ###Distributed Access to the BitShares Network
 
 ### BitShares Node Setup
