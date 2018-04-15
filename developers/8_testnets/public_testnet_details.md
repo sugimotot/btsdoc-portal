@@ -1,4 +1,6 @@
-## The Open Public Testnet information
+## 8.01. Public Testnet Details
+
+###The Open Public Testnet information
 
 - Web wallet: [public testnet](http://testnet.bitshares.eu/)
 - Seed node: `testnet.bitshares.eu:11010`
