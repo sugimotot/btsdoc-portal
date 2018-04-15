@@ -1,4 +1,4 @@
-## APIs
+## 6. APIs
 
 
 - [APIs two categories](/developers/6_apis/apis-about.md#apis-categories)
