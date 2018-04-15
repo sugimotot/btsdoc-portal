@@ -1,8 +1,8 @@
 ## Construct Any Transaction - Manually
 
 ### Contents:
-- 
-- 
+- General Procedure
+- Example: Transfer
 
 ***
 
@@ -30,7 +30,7 @@ The opId and the JSON structure of the operation can be obtained with:
 
 The operation types available are:
 
-_typedef_  fc::static_variant< ... > graphene::chain::operation
+_typedef_  fc::static_variant< ... > graphene::chain::operation (coming soon...)
 
 In practise, each operation has to pay a fee, and hence, each operation has to carry a `fee` member. When crafting a transaction, you now have the choice between either defining each fee for your operations individually, or you use `set_fees_on_builder_transaction` that sets the fee for each operation automatically to the chosen asset.
 
