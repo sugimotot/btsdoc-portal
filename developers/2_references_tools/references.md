@@ -25,9 +25,6 @@
 - [satoshilabs](https://github.com/satoshilabs/slips/issues/49) : SLIP-0048 : Deterministic Key Hierarchy for Graphene-based Networks #49
 - [Simple wrapper to query bitshares data stored in elasticsearch database - oxarbitrage](https://github.com/oxarbitrage/bitshares-es-wrapper)
 - [uptic - xeroc](https://github.com/xeroc/uptick)
-
-### Articles
- 
 - [BitShares - Basic Connections Layer](https://steemit.com/bitshares/@btswolf/bitshares-basic-connections-layer) : infographic - basic overview - BTSwolf
 
 
