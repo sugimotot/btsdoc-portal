@@ -33,18 +33,20 @@ Transactions
 - Send
 - Proposed Transactions
 - Confidential Transactions
-Exchange / Explore
-- Exchange
-- Explorre
-- 
+
 Deposit & Withdraw
 - Tfansfer Services
 - Direct Exchange Services
 - Bridge and Gateway Services
+
+Exchange / Explore
+- Exchange
+- Explorre
+- 
+
 Wallet Functions & Settings (details)
 - top bar
 - side bar
-   - 
 - Settings
 
 
