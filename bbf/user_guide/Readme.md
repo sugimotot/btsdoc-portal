@@ -10,10 +10,9 @@ BitShares Client
    - your responsibility
       - username&pwd
       - keys
-   - Vote / Proxcy
+   - Vote / Proxy
 - Login Mode
    - Do you want to create Local wallet or Cloud wallet
-- Terminology
 
 Crete your Wallet
 - Where to get a wallet
@@ -23,11 +22,13 @@ Crete your Wallet
    - Create an account and password   
    - Basic Functions/Settings (often use)
    - Before you fund, Let's try logout/login again
+   
 Backup your Wallet
    - Local Wallet
    - Backup
    - Restore/import
    - (advances users) brain key
+   
 Transactions
 - Fund
 - Send
@@ -35,13 +36,13 @@ Transactions
 - Confidential Transactions
 
 Deposit & Withdraw
-- Tfansfer Services
+- Transfer  Services
 - Direct Exchange Services
 - Bridge and Gateway Services
 
 Exchange / Explore
 - Exchange
-- Explorre
+- Explore
 - 
 
 Wallet Functions & Settings (details)
