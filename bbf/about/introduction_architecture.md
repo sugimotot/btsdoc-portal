@@ -70,3 +70,5 @@ The BitShares Blockchain publicly demonstrated sustaining over 3,000 (three thou
 - Use an object oriented data model.
 
 By following these simple rules, BitShares is theoretically able to process >10,000 (ten thousand) transactions per second without any significant​ ​effort​ devoted​ to​ optimization.
+
+***
