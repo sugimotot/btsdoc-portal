@@ -17,10 +17,11 @@ leverage the full power of the BitShares Blockchain.
 
 ### Quick Start
 
-* BitShares Whitepaper <http://bitshares.foundation/>`_
-* Get an Account <http://bitshares.exchange>`_
+* [BitShares Whitepaper](http://bitshares.foundation/)
+* Get an Account
 * Get the Source code 
 * Try out the Testnet 
+* [BitShares Blockchain Foundation Announcements ](http://www.bitshares.foundation/)
 
 
 ### User Guide
