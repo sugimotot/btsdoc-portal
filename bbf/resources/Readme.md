@@ -2,7 +2,7 @@
 
 ### 
 
-### [BitShares Blockchain ](/bbf/bitshares_blockchain.md#bitshares-blockchain)
+### [BitShares Blockchain ](/bbf/resources/bitshares_blockchain.md#bitshares-blockchain)
 
 ### [Bitshares Community](/bbf/resources/community.md#bitshares-community)
 
