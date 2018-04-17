@@ -27,3 +27,5 @@ The Committee comprises a board that has control over a few blockchain parameter
 ###  Project Funding (Workers)
 
 Last but not least, the voters have control over who receives funding from the Working Budget of the Blockchain. A worker applies for project funding and needs to campaign for sufficient votes before being paid. Similar to block producers and committee members, the rigorous voting system allows fast removal by BTS holders and proxies.
+
+***
