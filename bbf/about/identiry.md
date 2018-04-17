@@ -1,4 +1,4 @@
-## Identiry
+## IDENTITY
 
 ### Contents:
 - Permissions
