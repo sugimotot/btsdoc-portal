@@ -1,6 +1,6 @@
 ## Identiry
 
-Contents:
+### Contents:
 - Permissions
 - Authorities
 - Encrypted Memos
