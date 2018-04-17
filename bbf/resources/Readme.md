@@ -2,12 +2,12 @@
 
 ### 
 
-### [BitShares Blockchain ](/bitshares_blockchain.md#bitshares-blockchain)
+### [BitShares Blockchain ](/bbf/bitshares_blockchain.md#bitshares-blockchain)
 
-### [Bitshares Community](/resources/community.md#bitshares-community)
+### [Bitshares Community](/bbf/resources/community.md#bitshares-community)
 
-### [Glossary - BitShares Blockchain](/resources/glossary.md#glossary---bitshares-blockchain)
+### [Glossary - BitShares Blockchain](/bbf/resources/glossary.md#glossary---bitshares-blockchain)
 
-### [Glossary - Blockchain in General](/resources/glossary-general.md)
+### [Glossary - Blockchain in General](/bbf/resources/glossary-general.md)
 
-### [Resources External](/resources/resources-external.md#resources-external)
+### [Resources External](/bbf/resources/resources-external.md#resources-external)
