@@ -1,4 +1,4 @@
-## Glossary
+## Glossary - BitShares Blockchain
 
 
 |  | item  |  Definition |
