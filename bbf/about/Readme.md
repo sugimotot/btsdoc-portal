@@ -3,6 +3,13 @@
 ## Introduction
 
 ## Architecture
+- Transactions
+- Blockchain
+- Networking
+- Consensus
+- Protocol
+- Extensibility
+- Performance and Scalability
 
 ## Identity
 
