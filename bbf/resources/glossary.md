@@ -5,7 +5,7 @@
 |---|----| -----|
 | A |  |  -- |
 | B |  |  -- |
-|  |BitShares | BitShares Blockchain |
+|  |BitShares Blockchain | BitShares  |
 |  |BTS Holder |shareholder / stakeholders |
 | G |  |-- |
 |  | Governance| --- |
