@@ -12,6 +12,11 @@
 - Performance and Scalability
 
 ## Identity
+- Permissions
+- Authorities
+- Encrypted Memos
+- Referral Program
+- Fees
 
 # The Governance of BitShares
 
