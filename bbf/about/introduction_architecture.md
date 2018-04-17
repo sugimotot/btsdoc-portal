@@ -1,4 +1,4 @@
-##The Technical Components of BitShares
+## The Technical Components of BitShares
 
 ## Introduction
 
@@ -6,7 +6,18 @@ The BitShares Blockchain, as it exists today, was launched on 13th October 2015 
 
 Furthermore, BitShares represents the first decentralized autonomous cooperation that lets holders of its core native token BTS decide on its future direction and governance aspects. For sake of clarity and to avoid confusion with other smart contracting platforms, the BitShares Blockchain implements its contracts in form of ​operations. Even though the BitShares Blockchain comes with over 50 already implemented operations which deserve to be presented, this document focuses on the description of the BitShares Blockchain as a platform, its architecture as well as its governance system using the core native token BTS.
 
+***
+
 ## Architecture
+- Transactions
+- Blockchain
+- Networking
+- Consensus
+- Protocol
+- Extensibility
+- Performance and Scalability
+
+***
 
 The BitShares Blockchain constitutes the following components which are described individually.
 
@@ -50,7 +61,12 @@ The Software behind the BitShares Blockchain is well modularized and implements 
 
 ### Performance and Scalability
 
-The BitShares Blockchain publicly demonstrated sustaining over 3,000 (three thousand) transactions per second and over 22,000 ​operations per second on a distributed test network. This technology can easily scale to 10,000 (ten thousand) or more transactions per second with relatively straightforward improvements​ ​to​ server​​ capacity​ and​ communication​ protocols. To achieve this industry-leading performance, BitShares has borrowed lessons learned from the LMAX Exchange , which is able to process 6 million transactions per second. Among these 2 lessons are the following​​ key​ points:
+The BitShares Blockchain publicly demonstrated sustaining over 3,000 (three thousand) transactions per second and over 22,000 operations per second on a distributed test network. This technology can easily scale to 10,000 (ten thousand) or more transactions per second with relatively straightforward improvements to server capacity and communication protocols. To achieve this industry-leading performance, BitShares has borrowed lessons learned from the LMAX Exchange , which is able to process 6 million transactions per second. Among these 2 lessons are the following key points:
 
+- Keep​ everything​ in memory.
+- Keep the core​ business logic in​ a single thread.
+- Keep​​ cryptographic​​ perations (hashes​​ and signatures)​​out​​of​​the​​core​​business logic.
+- Divide validation into state-dependent and state-independent checks.
+- Use an object oriented data model.
 
 By following these simple rules, BitShares is theoretically able to process >10,000 (ten thousand) transactions per second without any significant​ ​effort​ devoted​ to​ optimization.
