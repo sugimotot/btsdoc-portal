@@ -28,7 +28,7 @@ leverage the full power of the BitShares Blockchain.
 
 ## Testnet
 
-## Resources
+### [Resources](/bbf/resources#resources)
 
 
 Glossary
