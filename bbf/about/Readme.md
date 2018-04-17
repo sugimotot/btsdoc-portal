@@ -27,3 +27,12 @@
 - Project Funding (Workers)
 
 ## Initial Allocation
+- Supply
+- Working Budget
+- Block Production (Witnesses)
+- Project Funding (Workers)
+- Transaction Fees & Fee Schedule
+- Legality of the BTS token
+- Acknowledgements
+
+***
