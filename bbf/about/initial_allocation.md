@@ -1,6 +1,6 @@
 ## Initial Allocation
 
-Contents:
+### Contents:
 - Supply
 - Working Budget
 - Block Production (Witnesses)
