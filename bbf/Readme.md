@@ -15,7 +15,7 @@ leverage the full power of the BitShares Blockchain.
         :width: 200px
         :align: center
 
-## Quick Start
+### Quick Start
 
 * `BitShares Whitepaper <http://bitshares.foundation/>`_
 * `Get an Account <http://bitshares.exchange>`_
@@ -23,19 +23,13 @@ leverage the full power of the BitShares Blockchain.
 * :ref:`Try out the Testnet <testnets>`
 * :doc:`Resources <resources/index>`
 
-## User Guide
+### User Guide
 
 
-## Testnet
+### Testnet
 
 ### [Resources](/bbf/resources#resources)
 
 
-Glossary
-========
-
-.. toctree::
-   :maxdepth: 2
- 
-   glossary
+### Glossary
 
