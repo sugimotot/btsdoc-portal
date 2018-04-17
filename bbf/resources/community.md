@@ -1,4 +1,4 @@
-## Community
+## BitShares Community
 
 
 
