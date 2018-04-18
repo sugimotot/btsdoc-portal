@@ -25,7 +25,7 @@ your account name can be seen similar to a mail address in such that it is **uni
 |   group type       |  note            |
 | ------------------- |---------- |
 | Non-Members    |  A regular account is a non-member. |                           
-| Lifetime Members |Lifetime Members get a percentage cashback on every transaction fee they pay and qualify to earn referral income from users they register with or referer to the network. A Lifetime membership is associated with a certain one-time fee that is defined by the committee.|                            
+| Lifetime Members |Lifetime Members get a percentage cashback on every transaction fee they pay and qualify to earn referral income from users they register with or referer to the network. A Lifetime membership is associated with a certain one-time fee that is defined by the committee. *Lifetime member (LTM) status* can register an account. If you want to do so, upgrade the account. |                            
 | Anual Members    |If a lifetime membership is too much you can still get the same cashback for the next year by becoming an annual subscriber for a smaller one-time fee which lasts for only one year. |         
 
 > Note: Technically, the fees that you pay stay the same, but a part of the fees is refunded in the form of a vesting balance.Once the fees have vested you can withdraw them. To see your vesting balances, go to your “Account” tab, then click on “vesting balances” at the bottom left. Vesting balances are recalculated hourly, so you might not yet see them right away.
