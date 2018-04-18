@@ -1,4 +1,4 @@
-## Build Ubuntu
+## Building on Ubuntu
 
 ### Available Versions
 - Ubuntu 16.04 LTS
