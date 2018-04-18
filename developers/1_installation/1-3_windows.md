@@ -98,7 +98,7 @@ BitShares Core depends on OpenSSL version 1.0.1 or 1.0.2, and you must build thi
     nmake -f ms\ntdll.mak
     nmake -f ms\ntdll.mak install
 
-This will create the directory D:\bitshares\OpenSSL with the libraries, DLLs, and header files.
+This will create the directory `D:\bitshares\OpenSSL` with the libraries, DLLs, and header files.
 
 ### 7.Build Boost
 
@@ -136,7 +136,7 @@ This pops up the cmake *GUI*.
 
 ### 9.CMake GUI
 
-#### 9.1.Then, in the cmake GUI, click `Configure`
+#### 9.1.In the cmake GUI, click `Configure`
 
 It may ask you to specify a generator for this project; 
 if it does, choose **Visual Studio 12 2013 Win64** for 64 bit builds and select **Use default native compilers**. 
