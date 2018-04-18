@@ -1,4 +1,4 @@
-## Building on Ubuntu
+# Building on Ubuntu
 
 ### Available Versions
 - Ubuntu 14.04 LTS (*See the instruction to build Newer version of Boost)
