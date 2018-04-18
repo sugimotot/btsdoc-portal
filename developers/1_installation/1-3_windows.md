@@ -65,14 +65,13 @@ BitShares Core depends on OpenSSL version 1.0.1 or 1.0.2, and you must build thi
 ## Build the Library Dependencies
 
 ### 5.Set up Environment for Building:
-
-- 5.1.Create a file `setenv_x64.bat`
+#### 5.1.Create a file `setenv_x64.bat`
 
     D:
     cd D:\bitshares
     notepad setenv_x64.bat
 
-- 5.2.Put the below lines into the notepad window (setenv_x64.bat file), then save and quit.
+#### 5.2.Put the below lines into the notepad window (setenv_x64.bat file), then save and quit.
 
     @echo off
     set GRA_ROOT=d:\bitshares
@@ -86,7 +85,7 @@ BitShares Core depends on OpenSSL version 1.0.1 or 1.0.2, and you must build thi
     echo Setting up VS2013 environment...
     call "%VS120COMNTOOLS%\..\..\VC\vcvarsall.bat" x86_amd64
 
-- 5.3.Run the file:
+#### 5.3.Run the file:
 
     setenv_x64.bat
 
@@ -112,29 +111,28 @@ This will create the directory D:\bitshares\OpenSSL with the libraries, DLLs, an
 
 ### 8.CMake
 
-- 8.1.Create a file `run_cmake_x64.bat`
+#### 8.1.Create a file `run_cmake_x64.bat`
 
     D:
     cd D:\bitshares\bitshares-core
     notepad run_cmake_x64.bat
 
-- 8.2.Put the below lines into the notepad window (run_cmake_x64.bat file), then save and quit.
+#### 8.2.Put the below lines into the notepad window (run_cmake_x64.bat file), then save and quit.
 
     setlocal
     call "d:\bitshares\setenv_x64.bat"
     cd %GRA_ROOT%
     cmake-gui -G "Visual Studio 12"
 
-- 8.3.Run the file
+#### 8.3.Run the file
 
     run_cmake_x64.bat
 
 This pops up the cmake *GUI*. 
 
-#### However, if you've used CMake before it will probably be showing the wrong data, 
-to fix the issue, check 
-- Where is the source code: D:\bitshares\bitshares-core
-- Where to build the binaries: D:\bitshares\x64
+#### However, if you've used CMake before it will probably be showing the wrong data. To fix the issue, check 
+- Where is the source code: `D:\bitshares\bitshares-core`
+- Where to build the binaries: `D:\bitshares\x64`
 
 ### 9.CMake GUI
 
@@ -155,7 +153,7 @@ if it does, choose **Visual Studio 12 2013 Win64** for 64 bit builds and select 
 
 #### 10.3.`Build` Solution 
 
-Or you can build the INSTALL target in Visual Studio which will copy all of the necessary files into your `D:\bitshares\install` directory, then copy all of those files to the bin directory.
+Or you can build the `INSTALL` target in Visual Studio which will copy all of the necessary files into your `D:\bitshares\install` directory, then copy all of those files to the bin directory.
 
 
 ***
