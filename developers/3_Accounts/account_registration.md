@@ -98,6 +98,6 @@ Registers a third party’s account on the blockckain.
 
 #### >Note: In order to register an account, the registrar (here: myfunds) needs to be a **lifetime member**!
 
-#### >Note:If you want to register the account of someone else, all you need is the **public key**.
+#### >Note: If you want to register the account of someone else, all you need is the **public key**.
 
 
