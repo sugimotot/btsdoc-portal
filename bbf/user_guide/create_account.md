@@ -1,4 +1,4 @@
-## User Guide 
+## Create your BitShares Account and Wallet
 ### Content:
 - Light wallet or Web wallet?
 - Create your Account
