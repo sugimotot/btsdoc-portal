@@ -25,7 +25,7 @@
    - Local Wallet
    - Backup
    - Restore/import
-   - (advances users) brain key
+   - (advances users) The Brain key
    
 ### Transactions
 - Fund
