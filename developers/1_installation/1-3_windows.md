@@ -10,9 +10,9 @@
 
 ***
 
-## Setup the directory structure
+## Setup the Directory Structure
 
-### 1.Create a base directory for all project.
+### 1.Create a Base Directory for All Project.
 
 In this example, we createthe project folder `D:\bitshares`.  This directory will be referred we `GRA_ROOT` in several of the batch files and make files.
 
@@ -28,17 +28,21 @@ In this example, we createthe project folder `D:\bitshares`.  This directory wil
 
 ### 3.Download CMake
 
-Download the latest *Win32 Zip* build CMake from http://cmake.org/cmake/resources/software.html (version 2.8.12.2 as of this writing). Unzip it to your base directory, which will create a directory that looks something like D:\bitshares\cmake-2.8.12.2-win32-x86. Rename this directory to D:\bitshares\CMake.
+- Download the latest *Win32 Zip* build CMake from http://cmake.org/cmake/resources/software.html (version 2.8.12.2 as of this writing). 
+- Unzip it to your base directory'
+- Rename the folder name (if it's different) to `D:\bitshares\**CMake**`.
+ 
+(e.g.) Rename from `D:\bitshares\cmake-2.8.12.2-win32-x86` to `D:\bitshares\CMake`.
 
-If you already have CMake installed elsewhere on your system you can use it, but BitShares Core has a few batch files that expect it to be in the base directory's CMake subdirectory, so those scripts would need tweaking.
+> Note: If you already have CMake installed elsewhere on your system, you can use it. However, BitShares Core has a few batch files that expect it to be in the base directory's `CMake` subdirectory, so those scripts would need tweaking.
 
 ### 3.Boost
 
-BitShares Core depends on the Boost libraries version 1.57 ~ 1.60. You can build them from source.
+BitShares Core depends on the Boost libraries version 1.57 ~ 1.65. You can build them from source.
 
 - download boost source from http://www.boost.org/users/download/
-- unzip it to the base directory D:\bitshares.
-- This will create a directory like D:\bitshares\boost_1_57_0.
+- unzip it to the base directory `D:\bitshares`.
+- This will create a directory like `D:\bitshares\boost_1_57_0`.
 
 
 ### 4.OpenSSL
@@ -46,10 +50,10 @@ BitShares Core depends on the Boost libraries version 1.57 ~ 1.60. You can build
 BitShares Core depends on OpenSSL version 1.0.1 or 1.0.2, and you must build this from source.
    
 - download OpenSSL source from http://www.openssl.org/source/
-- Untar it to the base directory D:\bitshares
-- this will create a directory like D:\bitshares\openssl-1.0.1g.
+- Untar it to the base directory `D:\bitshares`.
+- this will create a directory like `D:\bitshares\openssl-1.0.1g`.
 
-At the end of this, your base directory should look like this (directory names will be slightly different for the 64bit versions):
+#### At the end of this, your *base directory* should look like this (directory names will be slightly different for the 64bit versions):
 
     D:\bitshares
     +- bitshares-core
@@ -58,9 +62,9 @@ At the end of this, your base directory should look like this (directory names w
     +- openssl-1.0.1g
 
 
-## Build the library dependencies
+## Build the Library Dependencies
 
-### 5.Set up environment for building:
+### 5.Set up Environment for Building:
 
     D:
     cd D:\bitshares
@@ -80,7 +84,7 @@ Put this into the notepad window, then save and quit.
     echo Setting up VS2013 environment...
     call "%VS120COMNTOOLS%\..\..\VC\vcvarsall.bat" x86_amd64
 
-Then run
+Then Run:
 
     setenv_x64.bat
 
@@ -117,22 +121,26 @@ Put this into the notepad window, then save and quit.
     cd %GRA_ROOT%
     cmake-gui -G "Visual Studio 12"
 
-Then run
+Then Run:
 
     run_cmake_x64.bat
 
-This pops up the cmake gui, but if you've used CMake before it will probably be showing the wrong data, so fix that:
+This pops up the cmake GUI. 
 
+#### However, if you've used CMake before it will probably be showing the wrong data, 
+To fix the issue, chekt 
 - Where is the source code: D:\bitshares\bitshares-core
 - Where to build the binaries: D:\bitshares\x64
 
-Then hit Configure. It may ask you to specify a generator for this project; if it does, choose Visual Studio 12 2013 Win64 for 64 bit builds and select Use default native compilers. Look through the output and fix any errors. Then hit Generate.
+Then, in the cmake GUI, hit `Configure`. 
+It may ask you to specify a generator for this project; if it does, choose **Visual Studio 12 2013 Win64** for 64 bit builds and select **Use default native compilers**. 
+Look through the output and fix any errors. Then hit `Generate`.
 
-- Launch Visual Studio and load D:\bitshares\x64\BitShares.sln
+- Launch Visual Studio and load `D:\bitshares\x64\BitShares.sln`
 
-- Set Active Configuration to RelWithDebInfo, ensure Active Solution platform is x64 for 64 bit builds
+- Set Active Configuration to `RelWithDebInfo`, ensure Active Solution platform is `x64 `for 64 bit builds
 
-- Build Solution
+- `Build` Solution 
 
 Or you can build the INSTALL target in Visual Studio which will copy all of the necessary files into your D:\bitshares\install directory, then copy all of those files to the bin directory.
 
