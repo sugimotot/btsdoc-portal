@@ -1,7 +1,11 @@
 ## User Guide
 
-Chreate your BitShares Account and Wallet
-
+Create your BitShares Account and Wallet
+- Light wallet or Web wallet?
+- Create your Account
+- Dashboard
+- Login
+- Basic Functions/Settings (often use)
 
 BitShares Client
 - Choose your Client
@@ -17,15 +21,6 @@ BitShares Client
 - Login Mode
    - Do you want to create Local wallet or Cloud wallet
 
-Crete your Wallet
-- Where to get a wallet
-   - link or giuhub UI
-- Create a wallet
-   - Account
-   - Create an account and password   
-   - Basic Functions/Settings (often use)
-   - Before you fund, Let's try logout/login again
-   
 Backup your Wallet
    - Local Wallet
    - Backup
@@ -53,13 +48,3 @@ Wallet Functions & Settings (details)
 - side bar
 - Settings
 
-
-
-
-
-
-
-    
-
-   - Fund your Account
-   
