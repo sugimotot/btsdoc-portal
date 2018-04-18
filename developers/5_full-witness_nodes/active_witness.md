@@ -22,7 +22,7 @@
 ## A Block-Producing Witness
 
 ### Requirements
-- A registered account in the corresponding network (see i.e. Accounts)
+- A registered account in the corresponding network
 - Some funds in the account to pay for the registration fee
 - Executable binary
 - Lifetime Member (LTM) status
