@@ -12,7 +12,7 @@
 ### Other Repositories
 
 - [A HUG REST API for the Bitshares network -BTS-CM](https://github.com/BTS-CM/Bitshares-HUG-REST-API) 
-- [BitShares Delegate tools](https://github/wackou/bts_tools)
+- [BitShares Delegate tools](https://github.com/wackou/bts_tools)
 - [Bitshares python api backend](https://github.com/oxarbitrage/bitshares-python-api-backend)
 - [ChainSquad GmbH](https://github.com/chainsquad)
 - [Gem to interact with Bitshares APIs. Porting to Graphene. API Guide - rnglabs/bitshares-ruby](https://github.com/rnglabs/bitshares-ruby)
