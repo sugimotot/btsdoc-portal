@@ -1,7 +1,7 @@
 ## Building on Ubuntu
 
 ### Available Versions
-- Ubuntu 16.04 LTS
+- Ubuntu 14.04 LTS (*See the instruction to build Newer version of Boost)
 - Ubuntu 16.04 LTS
 - Boost: between 1.57 and 1.65
 - OpenSSL: 1.0.x range
