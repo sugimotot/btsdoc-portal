@@ -66,11 +66,13 @@ BitShares Core depends on OpenSSL version 1.0.1 or 1.0.2, and you must build thi
 
 ### 5.Set up Environment for Building:
 
+- 5.1.Create a file `setenv_x64.bat`
+
     D:
     cd D:\bitshares
     notepad setenv_x64.bat
 
-Put this into the notepad window, then save and quit.
+- 5.2.Put the below lines into the notepad window (setenv_x64.bat file), then save and quit.
 
     @echo off
     set GRA_ROOT=d:\bitshares
@@ -84,7 +86,7 @@ Put this into the notepad window, then save and quit.
     echo Setting up VS2013 environment...
     call "%VS120COMNTOOLS%\..\..\VC\vcvarsall.bat" x86_amd64
 
-Then Run:
+- 5.3.Run the file:
 
     setenv_x64.bat
 
@@ -106,43 +108,54 @@ This will create the directory D:\bitshares\OpenSSL with the libraries, DLLs, an
     bootstrap
     .\b2.exe address-model=64
 
-## Build project files for BitShares Core
+## Build Project Files for BitShares Core
 
-### 8.Run CMake:
+### 8.CMake
+
+- 8.1.Create a file `run_cmake_x64.bat`
 
     D:
     cd D:\bitshares\bitshares-core
     notepad run_cmake_x64.bat
 
-Put this into the notepad window, then save and quit.
+- 8.2.Put the below lines into the notepad window (run_cmake_x64.bat file), then save and quit.
 
     setlocal
     call "d:\bitshares\setenv_x64.bat"
     cd %GRA_ROOT%
     cmake-gui -G "Visual Studio 12"
 
-Then Run:
+- 8.3.Run the file
 
     run_cmake_x64.bat
 
-This pops up the cmake GUI. 
+This pops up the cmake *GUI*. 
 
 #### However, if you've used CMake before it will probably be showing the wrong data, 
-To fix the issue, chekt 
+to fix the issue, check 
 - Where is the source code: D:\bitshares\bitshares-core
 - Where to build the binaries: D:\bitshares\x64
 
-Then, in the cmake GUI, hit `Configure`. 
-It may ask you to specify a generator for this project; if it does, choose **Visual Studio 12 2013 Win64** for 64 bit builds and select **Use default native compilers**. 
-Look through the output and fix any errors. Then hit `Generate`.
+### 9.CMake GUI
 
-- Launch Visual Studio and load `D:\bitshares\x64\BitShares.sln`
+#### 9.1.Then, in the cmake GUI, click `Configure`
 
-- Set Active Configuration to `RelWithDebInfo`, ensure Active Solution platform is `x64 `for 64 bit builds
+It may ask you to specify a generator for this project; 
+if it does, choose **Visual Studio 12 2013 Win64** for 64 bit builds and select **Use default native compilers**. 
 
-- `Build` Solution 
+**Look through the output and fix any errors**
 
-Or you can build the INSTALL target in Visual Studio which will copy all of the necessary files into your D:\bitshares\install directory, then copy all of those files to the bin directory.
+#### 9.2.Click `Generate`
+
+### 10.Visual Studio
+
+#### 10.1.Launch Visual Studio and load `D:\bitshares\x64\BitShares.sln`
+
+#### 10.2.Set Active Configuration to `RelWithDebInfo`, ensure Active Solution platform is `x64 `for 64 bit builds
+
+#### 10.3.`Build` Solution 
+
+Or you can build the INSTALL target in Visual Studio which will copy all of the necessary files into your `D:\bitshares\install` directory, then copy all of those files to the bin directory.
 
 
 ***
