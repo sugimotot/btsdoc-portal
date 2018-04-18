@@ -15,14 +15,14 @@ leverage the full power of the BitShares Blockchain.
 ### Quick Start
 
 * [BitShares Whitepaper](http://bitshares.foundation/)
-* Get an Account
-* Get the Source code 
 * Try out the Testnet 
 * [BitShares Blockchain Foundation Announcements ](http://www.bitshares.foundation/)
 
 
 ### [User Guide](/bbf/user_guide#user-guide)
 - [Create your BitShares Account and Wallet](/bbf/user_guide/create_account.md#create-your-bitshares-account-and-wallet)
+  - Get an Account
+  - Get the Source code 
 - BitShares Accounts
 - Backup your Wallet
 - Transactions
