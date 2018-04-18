@@ -1,5 +1,8 @@
 ## User Guide
 
+Chreate your BitShares Account and Wallet
+
+
 BitShares Client
 - Choose your Client
 - Account
