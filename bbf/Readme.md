@@ -30,10 +30,13 @@ leverage the full power of the BitShares Blockchain.
 - Exchange / Explore
 - Wallet Functions & Settings (details)
 
-### Testnet
+### BTS Holder Guide
 
 ### [Resources](/bbf/resources#resources)
 
+### Testnet
 
 ### Glossary
 
+
+***
