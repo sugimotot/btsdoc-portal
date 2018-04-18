@@ -1,25 +1,27 @@
 # Building on Ubuntu
 
 ### Available Versions
+
+#### Ubuntu
+
 - Ubuntu 14.04 LTS (*See the instruction to build Newer version of Boost)
 - Ubuntu 16.04 LTS
-- Boost: between 1.57 and 1.65
-- OpenSSL: 1.0.x range
 
 #### OpenSSL
-BitShares requires an [OpenSSL](https://www.openssl.org/) version in the 1.0.x series. OpenSSL 1.1.0 and newer are NOT supported. If your system OpenSSL version is newer, then you will need to manually provide an older version of OpenSSL and specify it to CMake using `-DOPENSSL_INCLUDE_DIR`, `-DOPENSSL_SSL_LIBRARY`, and `-DOPENSSL_CRYPTO_LIBRARY`. 
 
-Example:
+- OpenSSL: 1.0.x series
+
+OpenSSL 1.1.0 and newer are NOT supported. If your system OpenSSL version is newer, then you will need to manually provide an older version of OpenSSL and specify it to CMake using `-DOPENSSL_INCLUDE_DIR`, `-DOPENSSL_SSL_LIBRARY`, and `-DOPENSSL_CRYPTO_LIBRARY`. Example:
 
         cmake -DOPENSSL_INCLUDE_DIR=/usr/include/openssl-1.0 -DOPENSSL_SSL_LIBRARY=/usr/lib/openssl-1.0/libssl.so -DOPENSSL_CRYPTO_LIBRARY=/usr/lib/openssl-1.0/libcrypto.so .
 
 #### Boost
-BitShares requires a Boost version in the range [1.57, 1.63]. Versions earlier than 1.57 or newer than 1.63 are NOT supported. If your system Boost version is newer, then you will need to manually build an older version of Boost and specify it to CMake using -DBOOST_ROOT. Example:
+
+- Boost: between 1.57 and 1.65
+
+Versions earlier than 1.57 or newer than 1.65 are NOT supported. If your system Boost version is newer, then you will need to manually build an older version of Boost and specify it to CMake using `-DBOOST_ROOT`. Example:
 
         cmake -DBOOST_ROOT=~/boost160 .
-
-
-
 
 ***
 
@@ -67,7 +69,7 @@ Ubuntu 16.04 LTS ships with Boost 1.58 libraries, so no need to build from sourc
 
 
 ### 2.Build BitShares Core
-(*These are the same steps.) 
+(*These are the same steps Ubuntu 14.04.) 
 
     cd ..
     git clone https://github.com/bitshares/bitshares-core.git
