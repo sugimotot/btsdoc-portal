@@ -93,7 +93,7 @@ Let's check the BitShares wallet Dashboard. You might not have any Portfolio yet
 
 **Activity - Filters**
 <p align="center">
-  <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/bbf/img/dashboard-activity2.png" width="500" title="Dashboard">
+  <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/bbf/img/dashboard-activity2.png" width="500" title="Dashboard-activity">
 </p>
 
 ***
@@ -105,7 +105,7 @@ Before we go to farther, let's try to login and check if you have a correct pass
 You will find a **Locked Key** icon in the top right corner (if you have not logged in). Click the icon to open a login form.
 
 <p align="center">
-  <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/bbf/img/topmenu-lock.png" width="620" title="Dashboard">
+  <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/bbf/img/topmenu-lock.png" width="620" title="lockedkey">
 </p>
 
 ### Cloud Wallet Login form
@@ -113,12 +113,12 @@ You will find a **Locked Key** icon in the top right corner (if you have not log
 If you followed the above steps to create your BitShares account, you would have a Cloud Wallet Login Mode as a default wallet. We will explain more details about "Cloud wallet login mode" and "Local wallet login mode" later. In this section, try your password to login to your BitShares wallet. 
 
 <p align="center">
-  <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/bbf/img/cloud-login2.png" width="500" title="Dashboard">
+  <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/bbf/img/cloud-login2.png" width="500" title="cloud-login">
 </p>
 
 **Unlocked! - Logged in successfully**
 <p align="center">
-  <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/bbf/img/topmenu-unlock2.png" width="620" title="Dashboard">
+  <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/bbf/img/topmenu-unlock2.png" width="620" title="unlockedkey">
 </p>
 
 ***
