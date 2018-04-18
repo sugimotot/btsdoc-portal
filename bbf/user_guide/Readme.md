@@ -1,25 +1,22 @@
 ## User Guide
 
-### Create your BitShares Account and Wallet
+### [Create your BitShares Account and Wallet](/bbf/user_guide/create_account.md#create-your-bitshares-account-and-wallet)
+(Quick Start)
 - Light wallet or Web wallet?
 - Create your Account
 - Dashboard
 - Login
 - Basic Functions/Settings (often use)
 
-### BitShares Client
-- Choose your Client
-- Account
-- About Wallet
-   - login user and password
-   - permissions 
-   - keys  
-   - your responsibility
-      - username&pwd
-      - keys
-   - Vote / Proxy
-- Login Mode
-   - Do you want to create Local wallet or Cloud wallet
+### BitShares Accounts
+- Choose Client
+- Cloud Wallet Login Mode & Local Wallet Login Mode
+- Accounts
+- Keys
+- Permissions 
+- Membership
+- Fees
+- Vote / Proxy
 
 ### Backup your Wallet
    - Local Wallet
@@ -48,3 +45,4 @@
 - side bar
 - Settings
 
+***
