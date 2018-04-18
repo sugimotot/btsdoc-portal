@@ -6,6 +6,8 @@
 - Boost: between 1.57 and 1.65
 - OpenSSL: 1.0.x range
 
+***
+
 ## Ubuntu 14.04 LTS
 
 ### 1.Install Dependencies
@@ -59,6 +61,7 @@ Ubuntu 16.04 LTS ships with Boost 1.58 libraries, so no need to build from sourc
     cmake -DBOOST_ROOT="$BOOST_ROOT" -DCMAKE_BUILD_TYPE=Release .
     make 
 
+***
 
 ## Error 
 
