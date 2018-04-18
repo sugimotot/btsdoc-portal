@@ -76,6 +76,11 @@ In order to register an account, we need an other account that has enough funds 
 
     >>> register_account <name> <owner_pubkey> <active_pubkey> <registrar_account> <referrer_account> <referrer_percent> <broadcast>
 
+> Note: In order to register an account, the registrar (here: myfunds) needs to be a **lifetime member**!
+
+> Note: If you want to register the account of someone else, all you need is the **public key**.
+
+
 **example** 
 
  We register a new user called mywallet, use the pubkey derived above and let our account myfunds pay the fee::
@@ -96,8 +101,4 @@ Registers a third party’s account on the blockckain.
 | [broadcast]         |  (e.g., true)      |
 
 
-#### >Note: In order to register an account, the registrar (here: myfunds) needs to be a **lifetime member**!
-
-#### >Note: If you want to register the account of someone else, all you need is the **public key**.
-
-
+***
