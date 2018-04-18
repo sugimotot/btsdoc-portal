@@ -36,7 +36,7 @@ leverage the full power of the BitShares Blockchain.
 
 ### Testnet
 
-### Glossary
+### [Glossary](/bbf/glossary/Readme.md#glossary)
 
 
 ***
