@@ -44,12 +44,7 @@
 ### 08. Wallet / CLI Wallet
 - [Network and Wallet Configuration](/developers/4_cli_wallet/network_wallet.md#network-and-wallet-configuration)
    - [General](/developers/4_cli_wallet/network_wallet.md#network-setups)
-      - Trusted Full Node:
-      - Wallet
    - [Secure](/developers/4_cli_wallet/network_wallet.md#secure-network-and-wallet-configuration)
-      - Trusted Full Node:
-      - Delayed Full Node:
-      - Wallet
 - [Q&A](/developers/7_tutorials/01_QA.md#wallet--cli-wallet-1)
 
 ### 09. Witness
