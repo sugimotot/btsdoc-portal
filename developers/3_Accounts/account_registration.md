@@ -74,12 +74,11 @@ If you want to register the account of someone else, all you need is the public 
 
 In order to register an account, we need an other account that has enough funds to pay the fee for the registration transaction. This account will be called `registrar_account`. Another account `referrer_account` can be registered that will get `referrer_percentage` of the referral bonus program. Any registered account can take the role of the referrer. Hence we here say that user `anonymous` has referred us. 
 
-    >>> register_account <name> <owner_pubkey> <active_pubkey> <registrar_account> <referrer_account> <referrer_percent> <broadcast>
-
 > Note: In order to register an account, the registrar (here: myfunds) needs to be a **lifetime member**!
 
 > Note: If you want to register the account of someone else, all you need is the **public key**.
 
+    >>> register_account <name> <owner_pubkey> <active_pubkey> <registrar_account> <referrer_account> <referrer_percent> <broadcast>
 
 **example** 
 
