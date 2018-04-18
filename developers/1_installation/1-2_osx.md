@@ -4,7 +4,7 @@
 
 #### Boost
 
-- Boost: between 1.57 and 1.65
+- Boost: between 1.57 and 1.63
 
 You can check which version(s) of boost you have by asking brew:
 
