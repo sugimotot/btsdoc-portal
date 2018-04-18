@@ -4,11 +4,11 @@ In this section, we will show how to use a brain key and a public key while crea
 
 ### Contents 
 
-1. Prerequisites
-2. Create a brain Key and derive a private/public key pair
-3. Create an Account    
+1. [Prerequisites](/developers/3_Accounts/account_registration.md#1-prerequisites)
+2. [Create a brain Key and derive a private/public key pair](/developers/3_Accounts/account_registration.md#2-create-a-brain-key-and-derive-a-privatepublic-key-pair)
+3. [Create an Account](/developers/3_Accounts/account_registration.md#3-create-an-account)
    - If you want to create a new account and registers it on the blockchain.
-4. Register an Account 
+4. [Register an Account ](/developers/3_Accounts/account_registration.md#4-register-an-account)
    - If you want to register a third party’s account on the blockckain.
 
 *******
@@ -96,8 +96,8 @@ Registers a third party’s account on the blockckain.
 | [broadcast]         |  (e.g., true)      |
 
 
->Note:Note that in order to register an account, the registrar (here: myfunds) needs to be a **lifetime member**!
+#### >Note: In order to register an account, the registrar (here: myfunds) needs to be a **lifetime member**!
 
->Note:If you want to register the account of someone else, all you need is the **public key**.
+#### >Note:If you want to register the account of someone else, all you need is the **public key**.
 
 
