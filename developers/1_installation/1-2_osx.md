@@ -43,7 +43,9 @@ In OS X 10.11 (El Capitan) and newer, you will be prompted to install developer 
 
 ***
 
-**Boost:** You can check which version(s) of boost you have by asking brew:
+**Boost:** 
+
+You can check which version(s) of boost you have by asking brew:
 
     brew search boost
 
@@ -51,7 +53,9 @@ To install another version of Boost (such as 1.60):
 
     brew install boost@1.60
 
-**OpenSSL:** You may have an older version of OpenSSL than is required. If so, have brew get the latest:
+**OpenSSL:** 
+
+You may have an older version of OpenSSL than is required. If so, have brew get the latest:
 
     brew upgrade openssl
 
