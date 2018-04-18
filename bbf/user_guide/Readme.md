@@ -1,13 +1,13 @@
 ## User Guide
 
-Create your BitShares Account and Wallet
+### Create your BitShares Account and Wallet
 - Light wallet or Web wallet?
 - Create your Account
 - Dashboard
 - Login
 - Basic Functions/Settings (often use)
 
-BitShares Client
+### BitShares Client
 - Choose your Client
 - Account
 - About Wallet
@@ -21,29 +21,29 @@ BitShares Client
 - Login Mode
    - Do you want to create Local wallet or Cloud wallet
 
-Backup your Wallet
+### Backup your Wallet
    - Local Wallet
    - Backup
    - Restore/import
    - (advances users) brain key
    
-Transactions
+### Transactions
 - Fund
 - Send
 - Proposed Transactions
 - Confidential Transactions
 
-Deposit & Withdraw
+### Deposit & Withdraw
 - Transfer  Services
 - Direct Exchange Services
 - Bridge and Gateway Services
 
-Exchange / Explore
+### Exchange / Explore
 - Exchange
 - Explore
 - 
 
-Wallet Functions & Settings (details)
+### Wallet Functions & Settings (details)
 - top bar
 - side bar
 - Settings
