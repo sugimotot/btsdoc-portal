@@ -3,7 +3,8 @@
 ### Available Versions
 - Ubuntu 16.04 LTS
 - Ubuntu 16.04 LTS
-- Boost: 1.57<= and <= 1.65
+- Boost: between 1.57 and 1.65
+- OpenSSL: 1.0.x range
 
 ## Ubuntu 14.04 LTS
 
