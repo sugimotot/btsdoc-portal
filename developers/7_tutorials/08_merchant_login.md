@@ -9,8 +9,8 @@ Traditionally login is performed via a password that sent to the server, but thi
 
 In this example, we assume 
 
-- **https://merchant.org** is the service that will be logged into and  
-- **https://wallet.org** is the wallet provider that will be assisting the user with their login.
+- `https://merchant.org` is the service that will be logged into and  
+- `https://wallet.org` is the wallet provider that will be assisting the user with their login.
 
 A Merchant Provides a login button (on an application page) for a user.
 
@@ -68,7 +68,7 @@ After gathering all of the signatures the wallet redirects the user to `https://
 ### Step 5 - Server Verifies Authority
 
 Upon receiving the `result` from the wallet, 
-https://merchant.org will lookup `{SERVER_PRIVATE_KEY}` in the user’s session data and then 
+`https://merchant.org` will lookup `{SERVER_PRIVATE_KEY}` in the user’s session data and then 
 combine it with `{WALLET_ONETIMEKEY}` to generate the `shared secret` that was used by the wallet. 
 
 Once this `shared secret` has been recovered, it can be used to recover the public keys that correspond to the provided signatures.
