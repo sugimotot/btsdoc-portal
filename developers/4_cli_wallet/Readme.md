@@ -9,7 +9,7 @@
 - Examples 
    - available commands to the cli-wallet (Wallet APIs) 
    - construct a transaction manually
-- Gaining Access to Blockchain
+- [Gaining Access to Blockchain](/developers/4_cli_wallet/cli_wallet.md#gaining-access-to-blockchain)
    - Manage Account & import
    - Examples 
       - Send funds from faucet to alpha 
