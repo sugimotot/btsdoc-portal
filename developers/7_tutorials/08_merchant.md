@@ -12,7 +12,7 @@ In this example, we assume
 - **https://merchant.org** is the service that will be logged into and  
 - **https://wallet.org** is the wallet provider that will be assisting the user with their login.
 
-and a Merchant prepares a login button into an application and a user logins to the application.
+A Merchant Provides a login button (on an application page) for a user.
 
 
 ## Preparation
@@ -43,6 +43,9 @@ Using the [bs58](http://cryptocoinjs.com/modules/misc/bs58/) library encode the 
 
 (e.g.) After converting to base58 the string will be 385 characters which can easily be passed in a URL and easily support much larger invoices.
 
+
+## Login Process
+
 ### Step 4 - Wallet Confirmation
 
 When the user loads `https://wallet.org/login#${args}`, they will be prompted to confirm the login request by selecting an account that they wish to login with. 
@@ -50,8 +53,6 @@ When the user loads `https://wallet.org/login#${args}`, they will be prompted to
 > Note: If “account” was specified in the ${args} then it will default to that account.
 
 After the account is identified enough keys to authorize a account must participate in the login process in the following way.
-
-## Login Process
 
 - The wallet generates a `WALLET_ONETIMEKEY` and 
 - derives a `shared secret` with the `SERVER_PUBLIC_KEY` provided by the `https://merchant.org` via `${args}`. 
