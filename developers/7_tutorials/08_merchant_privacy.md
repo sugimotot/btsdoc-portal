@@ -71,6 +71,7 @@ The merchant will then request that transaction from `https://wallet.org/api?blo
 
 At this point the user has successfully made a payment and the merchant has verified the payment has been received without having to maintain a full node.
 
+***
 
 ### Example Python script
 
