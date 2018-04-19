@@ -35,14 +35,9 @@ The merchant server will need to save the `${SERVER_PRIVATE_KEY}` associated wit
 
 Using [LZMA-JS](https://github.com/nmrugg/LZMA-JS/) library to compress the JSON into a binary array. This will be the most compact form of the data. 
 
-(e.g.) After running the compression the example JSON was reduced to 281 bytes from 579 bytes.
-
 ### Step 3 - Convert to Base58
 
 Using the [bs58](http://cryptocoinjs.com/modules/misc/bs58/) library encode the compressed data in base58. Base58 is URL friendly and size efficient. 
-
-(e.g.) After converting to base58 the string will be 385 characters which can easily be passed in a URL and easily support much larger invoices.
-
 
 ## Login Process
 
