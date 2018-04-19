@@ -21,3 +21,13 @@
       - Trusted Full Node:
       - Delayed Full Node:
       - Wallet
+
+***
+
+- Protocol information for Merchant
+   - Wallet Login Protocol  
+   - Wallet Privacy Protocol
+   
+   
+***
+
