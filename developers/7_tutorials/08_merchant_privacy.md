@@ -73,7 +73,7 @@ At this point the user has successfully made a payment and the merchant has veri
 
 ***
 
-### Example Python script
+### Example: Python script
 
     import json
     import lzma
