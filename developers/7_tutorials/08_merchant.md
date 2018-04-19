@@ -1,7 +1,7 @@
 # Merchant 
 
 ## Wallet Login Protocol
-### How a wallet will be processed when a merchant wants to verify a login user is the owner of a particular account
+#### How a wallet will be processed when a merchant wants to verify a login user is the owner of a particular account.
 
 Traditionally login is performed via a password that sent to the server, but this method is subject to [Phishing Attacks](https://en.wikipedia.org/wiki/Phishing). Instead of a password, Graphene uses a cryptographic challenge/response to verify that a user controls a particular account.
 
@@ -17,7 +17,7 @@ and a Merchant prepares a login button into an application and a user logins to 
 
 ## Preparation
 
-#### Step 1 - Prepare a Login Button and a JSON Object
+### Step 1 - Prepare a Login Button and a JSON Object
 
 A login button links to `https://wallet.org/login#${args}`.
 
