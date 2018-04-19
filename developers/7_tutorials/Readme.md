@@ -42,6 +42,7 @@
 
 
 ### 08. Wallet / CLI Wallet
+- How to prepare a CLI wallet for trading
 - [Network and Wallet Configuration](/developers/4_cli_wallet/network_wallet.md#network-and-wallet-configuration)
    - [General](/developers/4_cli_wallet/network_wallet.md#network-setups)
    - [Secure](/developers/4_cli_wallet/network_wallet.md#secure-network-and-wallet-configuration)
