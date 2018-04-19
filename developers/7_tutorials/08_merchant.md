@@ -90,6 +90,11 @@ The `verify_account_authority` call will return `true` if the provided keys have
 ***
 
 
+(ref)
+
+- http://docs.bitshares.org/integration/merchants/index.html
+- http://docs.bitshares.org/integration/merchants/login-protocol.html
+- https://github.com/bitshares/bitshares-core/wiki/Wallet-Login-Protocol
 
 
 
