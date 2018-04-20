@@ -1,9 +1,12 @@
 # BitShares Client
 
 ### Contents:
-- 
-- 
-- 
+- Choose your Client
+   - Light Client
+   - Web Client
+- Wallet & Login Mode
+   - Cloud Wallet Login
+   - Local Wallet Login
 
 ***
 
