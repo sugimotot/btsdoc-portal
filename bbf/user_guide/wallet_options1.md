@@ -33,7 +33,7 @@
 
 |  | option |   |
 |----|--------------|-----|
-| 1 | login | By click, opens a login form.  |
+|  | login | By click, opens a login form.  |
 |  | Create Account |   |
 |  | Send(legacy) | Transfer details. This is replaced by **Send** on the top menu.  |
 |  | Deposit | Deposit funds from other parties (Original Deposit page) |
@@ -52,5 +52,5 @@
 |  | Permissions | You can review the account's Active Permission, Owner Permission, and Memo Key informarion. <br/> - Active Permission: control over its funds and <br/> - Owner Permission: control over the account. <br/> **Advanced User Only::** If you want to manage your *Cloud Wallet* permissions, you can do so here.  |
 |  | Accounts | You can review Accounts, Contacts, and Recent activity information.  |
 
-
+***
 
