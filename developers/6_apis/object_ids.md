@@ -3,7 +3,7 @@
 ### Contents:
 - [Objects Format](/developers/6_apis/object_ids.md#bitshares-objects-format)
 - [List of Commonly used Objects](/developers/6_apis/object_ids.md#list-of-commonly-used-objects)
-   - Examples
+   - [Examples](/developers/6_apis/object_ids.md#examples)
 - [Defenitions](/developers/6_apis/object_ids.md#definitions)
    - [Protocol Space (1.x.x)](/developers/6_apis/object_ids.md#protocol-space-1xx)
       - enum graphene::chain::object_type
