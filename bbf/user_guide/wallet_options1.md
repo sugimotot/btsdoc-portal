@@ -40,7 +40,7 @@
 |  | Deposit(beta) | Select an asset you want to deposit and provide you a sending address, Gateway, identicon, and notes.   |
 |  | Withdraw |  (Original Withdraw page)   |
 |  | Withdraw(beta) | Search an asset to withdraw and...   |
-|  | Settings | You can manage your wallet appearance  and other settings. <br/> **Settings for Cloud Wallet Login Mode:** <br/> - General <br/> - Accounts <br/> - Restore/Import <br/> - Nodes <br/> - Faucet <br/> - Reset settings <br/> **Settings for Local Wallet Login Mode:** <br/> - General <br/> - Local Wallet <br/> - Accounts <br/> - Password <br/> - Backup <br/> - Restore/Import <br/> - Access <br/> - Faucet     |
+|  | Settings | You can manage your wallet appearance  and other settings. <br/> **Settings for CLOUD Wallet Login Mode:** <br/> - General <br/> - Accounts <br/> - Restore/Import <br/> - Nodes <br/> - Faucet <br/> - Reset settings <br/> **Settings for LOCAL Wallet Login Mode:** <br/> - General <br/> - Local Wallet <br/> - Accounts <br/> - Password <br/> - Backup <br/> - Restore/Import <br/> - Access <br/> - Faucet     |
 |  | News | BitShares Blockchain News  |
 |  | Help | Open a Help page  |
 |  | Voting | YOu can vote for Witnesses, Committee or Workers. Or you can set a Proxy to case a vote.   |
