@@ -1,6 +1,10 @@
 ## 6. APIs
 
-**~~ coming soon ~~**
+***
+
+### [API Documentation](https://bitshares.org/doxygen/index.html)
+
+***
 
 ### 01. Overview
 - [APIs two categories](/developers/6_apis/apis-about.md#apis-categories)
