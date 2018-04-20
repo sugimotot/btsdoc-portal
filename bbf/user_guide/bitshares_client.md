@@ -57,7 +57,7 @@ The cloud wallet only allows for a single account to be accessed at a time. This
 The local wallet creates a database within your browser. This means that access to your funds it tied to that browser only. If you attempt to access your local wallet from any other computer, or any other browser, it will fail unless you actively import your backup file from the original browser backup file. The process actually easy.
 
 #### Login Form 
-*You can only access your funds from the same machine and web browser.*
+*You can only access your funds from the same computer and web browser that you have used to register and create your account.
 
 <p align="center">
   <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/bbf/img/login-local.png" width="380" title="Local Login">
