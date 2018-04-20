@@ -48,7 +48,7 @@ If you registered with a username and password, you have a cloud wallet. Althoug
 The cloud wallet only allows for a single account to be accessed at a time. This is generally the correct choice for a new user. While is possible to change the auto-generated password, we do not recommend doing so at this time. The team is working on a responsible way to manage the password change that requires no technical knowledge. We will make an announcement once it’s released.
 
 #### Login Form 
-*You can login from any browsers./
+*You can login from any browsers.*
 
 <p align="center">
   <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/bbf/img/login-cloud.png" width="380" title="Cloud Login">
