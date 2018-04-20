@@ -49,7 +49,7 @@
 |  | Membership stats | Basic Member is a default membership. You can upgrade to Lifefime Membership here.   |
 |  | Vesting balances |   |
 |  | Whitelist | You can set Whitelist and/or Blicklist. Also, you can view 'Whitelisted by' and 'Blacklisted by'.  |
-|  | Permissions | You can review the account's Active Permission, Owner Permission, and Memo Key informarion. <br/> - Active Permission: control over its funds and <br/> - Owner Permission: control over the account. <br/> **Advanced User Only::** Also, if you want to manage your CLOUD Wallet permissions, you can do so here.  |
+|  | Permissions | You can review the account's Active Permission, Owner Permission, and Memo Key informarion. <br/> - Active Permission: control over its funds and <br/> - Owner Permission: control over the account. <br/> **Advanced User Only::** If you want to manage your **Cloud** Wallet permissions, you can do so here.  |
 |  | Accounts | You can review Accounts, Contacts, and Recent activity information.  |
 
 
