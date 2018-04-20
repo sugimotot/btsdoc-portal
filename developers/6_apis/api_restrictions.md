@@ -65,11 +65,9 @@ Since the `network_node` API requires login, it is only accessible over the webs
 
 ## Login In
 
-The login_api class implements the bottom layer of the RPC API.
+The `login_api` class implements the bottom layer of the RPC API. All other APIs must be requested from this API. 
 
-All other APIs must be requested from this API. 
-
-### *class* `graphene::app::login_api`
+#### *class* `graphene::app::login_api`
 
 | -- | |
 |------------------------|-----------------------------------------------------------------|
