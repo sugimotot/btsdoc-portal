@@ -54,12 +54,9 @@ We can find each Public key in the Permissions page. We can also find each Priva
 - Click the [SHOW] buttom. You will find your Private key under the Public key.  
 
 
-
-
-
 ***
 
-## Cloud Wallet option
+## Cloud Wallet tab option
 
 #### How to use this option
 <p align="center">
