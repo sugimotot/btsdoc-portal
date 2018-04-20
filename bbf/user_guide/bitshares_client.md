@@ -30,8 +30,6 @@ Access the network in the browsers via one of our partners:
 
 ## Wallet & Login Mode
 
-### Wallet
-
 #### Where to find out your wallet Login Mode
 
 [Settings] - [General] - **LOGIN MODE**
