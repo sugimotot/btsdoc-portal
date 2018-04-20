@@ -54,3 +54,15 @@
 
 ***
 
+## Settings
+
+### Cloud Wallet Login Mode
+
+
+
+### Local Wallet Login Mode
+
+
+
+
+***
