@@ -3,7 +3,7 @@
 ## Quick Review Wallet Options
 
 <p align="center">
-  <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/bbf/img/functions1.png" width="640" title="Wallet items1">
+  <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/bbf/img/functions1.png" width="650" title="Wallet items1">
 </p>
 
 |  | item name |   |
@@ -57,12 +57,23 @@
 ## Settings
 
 ### Cloud Wallet Login Mode
-
+- General
+- Accounts
+- Restore/Import
+- Nodes
+- Faucet
+- Reset settings
 
 
 ### Local Wallet Login Mode
-
-
+- General
+- Local Wallet
+- Accounts
+- Password
+- Backup
+- Restore/Import
+- Access
+- Faucet
 
 
 ***
