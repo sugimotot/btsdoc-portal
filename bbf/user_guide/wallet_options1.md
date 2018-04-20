@@ -43,7 +43,7 @@
 |  | Settings | You can manage your wallet appearance  and other settings. <br/> **Settings - CLOUD Wallet Login Mode:** <br/> - General <br/> - Accounts <br/> - Restore/Import <br/> - Nodes <br/> - Faucet <br/> - Reset settings <br/> **Settings - LOCAL Wallet Login Mode:** <br/> - General <br/> - Local Wallet <br/> - Accounts <br/> - Password <br/> - Backup <br/> - Restore/Import <br/> - Access <br/> - Faucet     |
 |  | News | BitShares Blockchain News  |
 |  | Help | Open a Help page  |
-|  | Voting | YOu can vote for Witnesses, Committee or Workers. Or you can set a Proxy to case a vote.   |
+|  | Voting | You can vote for Witnesses, Committee or Workers. Or you can set a Proxy to case a vote. <br/> **Voting is important in Bitshares in the same way it is important to the community in which you live. The weight of your vote is directly correlated** to the number of BTS you own. If you aren't heavily involved in the community, you are encouraged to choose a proxy who represents your interests.  |
 |  | Asset |  Issued Assets |
 |  | Signed Message |  You can create a Signed message |
 |  | Membership stats | Basic Member is a default membership. You can upgrade to Lifefime Membership here.   |
