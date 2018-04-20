@@ -6,7 +6,7 @@
 - Create your Account
 - Dashboard
 - Login
-- [Quick Review Wallet Options](/user_guide/wallet_options1.md#bitshares-wallet-options)
+- [Quick Review Wallet Options](/bbf/user_guide/wallet_options1.md#bitshares-wallet-options)
 
 ### BitShares Accounts
 - Choose Client
