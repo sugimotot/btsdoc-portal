@@ -59,9 +59,9 @@ With the above configuration, how to call `add_node` from the `network_node` API
 
 > Note: the call to `network_node` is necessary to obtain the correct API identifier for the network API. It is not guaranteed that the network API identifier will always be `2`.
 
-***
-
 Since the `network_node` API requires login, it is only accessible over the websocket RPC. Our [doxygen](https://bitshares.org/doxygen/) documentation contains the most up-to-date information about APIs.
+
+***
 
 ## Login In
 
