@@ -3,11 +3,13 @@
 ### Contents:
 - Settings - Permissions
    - Permissions Tabs
+- Public Key and Private Key
+   - Where are they? 
 - Cloud Wallet option
 - 
 ***
 
-### Settings - Permissions
+## Settings - Permissions
 
 <p align="center">
   <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/bbf/img/permissions-active2.png" width="650" title="Permissions">
@@ -23,8 +25,22 @@
 | 4 | Cloud Wallet | If you want to be able to login from anywhere using only your password and account name, you can use this page to add new keys to your permissions. If you also want to remove the original keys, you can do so in the active/owner permissions tabs. <br/> The cloud wallet uses a password in combination with your account name to generate your private keys on the fly. It restricts you to only logging in with one account at a time, in return for ease of use and convenience. |
 
 *** 
+## Public Key and Private Key
 
-### Cloud Wallet option
+### Where are they?
+
+We can find each Public key in the Permissions page. We can also find each Private key in the same page. In this section, we will show you how to find your private key.  **They are your private keys, please keep secret.**
+
+<p align="center">
+  <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/bbf/img/permissions-active3.png" width="650" title="Permissions">
+</p>
+
+
+
+
+***
+
+## Cloud Wallet option
 
 #### How to use this option
 <p align="center">
