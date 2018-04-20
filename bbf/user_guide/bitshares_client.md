@@ -26,6 +26,8 @@ Access the network in the browsers via one of our partners:
 - OpenLedger: https://openledger.info
 - (more...)
 
+***
+
 ## Wallet & Login Mode
 
 ### Wallet
@@ -41,11 +43,12 @@ Access the network in the browsers via one of our partners:
 
 ### Cloud Wallet Login
 
-If you registered with a username and password, you have a cloud wallet. Although nothing is technically stored in the cloud, we use the term Cloud Wallet because you can use these credentials (username and password) from any web browser at any time to gain access to your account.
+If you registered with a username and password, you have a cloud wallet. Although nothing is technically stored in the cloud, we use the term Cloud Wallet because **you can use these credentials (username and password) from any web browser at any time to gain access to your account.**
 
 The cloud wallet only allows for a single account to be accessed at a time. This is generally the correct choice for a new user. While is possible to change the auto-generated password, we do not recommend doing so at this time. The team is working on a responsible way to manage the password change that requires no technical knowledge. We will make an announcement once it’s released.
 
-#### Login Form
+#### Login Form 
+*You can login from any browsers./
 
 <p align="center">
   <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/bbf/img/login-cloud.png" width="380" title="Cloud Login">
@@ -55,7 +58,8 @@ The cloud wallet only allows for a single account to be accessed at a time. This
 
 The local wallet creates a database within your browser. This means that access to your funds it tied to that browser only. If you attempt to access your local wallet from any other computer, or any other browser, it will fail unless you actively import your backup file from the original browser backup file. The process actually easy.
 
-#### Login Form
+#### Login Form 
+*You can only access your funds from the same machine and web browser.*
 
 <p align="center">
   <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/bbf/img/login-local.png" width="380" title="Local Login">
