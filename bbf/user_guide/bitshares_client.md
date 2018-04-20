@@ -16,11 +16,12 @@ Download client files and install BitShares Wallet to your computer.
 - [Download the Official Light Client](http://bitshares.org/download/)
 - [BitShares-UI – Latest Release](https://github.com/bitshares/bitshares-ui/releases)
 
-**BitShares-UI**: This is a light wallet that connects to a BitShares API provided by the witness_node executable. It stores all keys locally in the browser, never exposing your keys to anyone as it signs transactions locally before transmitting them to the API server which then broadcasts them to the blockchain network. The wallet is encrypted with a password of your choosing and encrypted in a browser database.
+**BitShares-UI**: 
+This is a light wallet that connects to a BitShares API provided by the witness_node executable. It stores all keys locally in the browser, never exposing your keys to anyone as it signs transactions locally before transmitting them to the API server which then broadcasts them to the blockchain network. The wallet is encrypted with a password of your choosing and encrypted in a browser database.
 
 ### Web Client
 
-Access the network in the browsers via one of our partners:
+Access the network and open the wallet in the browsers via one of our partners:
 
 - wallet.bitshares.org https://wallet.bitshares.org
 - OpenLedger: https://openledger.info
