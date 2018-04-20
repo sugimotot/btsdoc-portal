@@ -1,6 +1,7 @@
 ## API Access Restrictions
 
 ### Contents:
+- Examples
 - Authorization Scheme
    - Example 
 - Login In
