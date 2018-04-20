@@ -55,7 +55,7 @@ In contrast to most cryptocurrency wallets, the BitShares 2.0 has a different mo
 |	2.13.x |  	budget_record_object |
 |	2.14.x  | 	special_authority_object |
 
-**Examples**
+#### Examples
 
 | Object ID | translates to |
 |----------|----------------|
