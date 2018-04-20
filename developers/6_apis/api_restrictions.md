@@ -34,7 +34,7 @@ We provide several different API's. Each API has its own ID. When running witnes
 
       $ curl --data '{"jsonrpc": "2.0", "method": "get_accounts", "params": [["1.2.0"]], "id": 1}' http://127.0.0.1:8090/rpc
 
-Since restricted APIs require login, they are only accessible over the websocket RPC. However, to monitor incoming deposits, we only need API 0.
+Since restricted APIs require login, they are **only** accessible over the websocket RPC. However, to monitor incoming deposits, we only need API 0.
 
 
 ***
