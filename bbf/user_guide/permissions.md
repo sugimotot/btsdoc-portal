@@ -45,7 +45,7 @@ We can find each Public key in the Permissions page. We can also find each Priva
 - Click the [SHOW] buttom. You will find your Private key under the Public key. 
 
 <p align="center">
-  <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/bbf/img/permissions-active4.png" width="500" title="Permissions popup">
+  <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/bbf/img/permissions-active4b.png" width="500" title="Permissions popup">
 </p>
 
 #### Memo – Private keys
