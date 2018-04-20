@@ -1,11 +1,11 @@
 ## Permissions
 
 ### Contents:
-- Settings - Permissions
+- [Settings - Permissions](/bbf/user_guide/permissions.md#settings---permissions)
    - Permissions Tabs
-- Public Key and Private Key
+- [Public Key and Private Key](/bbf/user_guide/permissions.md#public-key-and-private-key)
    - Where are they? 
-- Cloud Wallet option
+- [Cloud Wallet option](/bbf/user_guide/permissions.md#cloud-wallet-tab-option)
 - 
 ***
 
