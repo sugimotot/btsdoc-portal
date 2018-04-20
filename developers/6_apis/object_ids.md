@@ -1,13 +1,13 @@
 ## Objects and IDs
 
 ### Contents:
-- Objects Format
-- List of Commonly used Objects
+- [Objects Format](/developers/6_apis/object_ids.md#bitshares-objects-format)
+- [List of Commonly used Objects](/developers/6_apis/object_ids.md#list-of-commonly-used-objects)
    - Examples
-- Defenitions
-   - Protocol Space (1.x.x)
+- [Defenitions](/developers/6_apis/object_ids.md#definitions)
+   - [Protocol Space (1.x.x)](/developers/6_apis/object_ids.md#protocol-space-1xx)
       - enum graphene::chain::object_type
-   - Implementattion Space (2.x.x)
+   - [Implementattion Space (2.x.x)](/developers/6_apis/object_ids.md#implementattion-space-2xx)
       - enum graphene::chain::object_type
 
 ***
@@ -104,7 +104,7 @@ Sentry value which contains the number of different object types.
 
 ### Implementattion Space (2.x.x)
 
-| enum graphene::chain::impl_object_type |
+| *enum* graphene::chain::impl_object_type |
 |----------------------------------------|
 |  ---Values---  |
 | impl_global_property_object_type |
