@@ -1,6 +1,6 @@
 # BitShares Wallet Options
 
-## Quick review options
+## Quick Review Wallet Options
 
 <p align="center">
   <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/bbf/img/functions1.png" width="640" title="Wallet items1">
@@ -40,7 +40,7 @@
 |  | Deposit(beta) | Select an asset you want to deposit and provide you a sending address, Gateway, identicon, and notes.   |
 |  | Withdraw |  (Original Withdraw page)   |
 |  | Withdraw(beta) | Search an asset to withdraw and...   |
-|  | Settings | You can manage your wallet apperrance and other settings. <br/> **Settings for Cloud Wallet Login Mode** <br/> - General <br/> - Accounts <br/> - Restore/Import <br/> - Nodes <br/> - Faucet <br/> - Reset settings <br/> **Settings for Local Wallet Login Mode** <br/> - General <br/> - Local Wallet <br/> - Accounts <br/> - Passwword <br/> - Backup <br/> - Restore/Import <br/> - Access <br/> - Faucet     |
+|  | Settings | You can manage your wallet apperrance and other settings. <br/> **Settings for Cloud Wallet Login Mode:** <br/> - General <br/> - Accounts <br/> - Restore/Import <br/> - Nodes <br/> - Faucet <br/> - Reset settings <br/> **Settings for Local Wallet Login Mode:** <br/> - General <br/> - Local Wallet <br/> - Accounts <br/> - Passwword <br/> - Backup <br/> - Restore/Import <br/> - Access <br/> - Faucet     |
 |  | News | BitShares Blockchain News  |
 |  | Help | Open a Help page  |
 |  | Voting | YOu can vote for Witnesses, Committee or Workers. Or you can set a Proxy to case a vote.   |
