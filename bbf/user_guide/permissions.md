@@ -29,11 +29,30 @@
 
 ### Where are they?
 
-We can find each Public key in the Permissions page. We can also find each Private key in the same page. In this section, we will show you how to find your private key.  **They are your private keys, please keep secret.**
+We can find each Public key in the Permissions page. We can also find each Private key on the same page. In this section, we will show you how to find your private key.  **They are your private keys, please keep secret.**
 
 <p align="center">
-  <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/bbf/img/permissions-active3.png" width="650" title="Permissions">
+  <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/bbf/img/permissions-active3.png" width="650" title="Permissions Keys">
 </p>
+
+### How to find each private key
+
+> Note: If you cannot click nor find a link, *login* to your wallet. 
+
+#### Active and Owner – Private keys
+- Click a private key number or a key image. 
+- A Private key viewer form opens. You will find a Public Key and a [SHOW] buttom like below.
+- Click the [SHOW] buttom. You will find your Private key under the Public key. 
+
+<p align="center">
+  <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/bbf/img/permissions-active4.png" width="500" title="Permissions popup">
+</p>
+
+#### Memo – Private keys
+- Click a key image. (It seems a private key number does nor have a link.)
+- A Private key viewer form opens. You will find a Public Key and a [SHOW] buttom like below.
+- Click the [SHOW] buttom. You will find your Private key under the Public key.  
+
 
 
 
