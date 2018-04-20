@@ -16,7 +16,7 @@
 | 6 | Key icon | By click, opens a login form. Locked/Unlocked Key icon shows if you've logged in the account currently |
 | 7 | Side Menu icon | Side Menu icon opens the wallet other menus in a dropdown list |
 | 8 | Asset Total | Currently showing in a Dashboard Total Assets |
-| 9 | BitShares Wallet Version | The Wallet Version |
+| 9 | BitShares Wallet Version | The Version of Wallet |
 | 10 | Latency |  |
 | 11 | Server Node name | A server node name that you are connecting |
 
