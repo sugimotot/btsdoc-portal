@@ -55,6 +55,7 @@
 ***
 
 ## Settings
+(*working in progress*)
 
 ### Cloud Wallet Login Mode
 - General
