@@ -13,7 +13,7 @@
 | 3 | Explore | BitShares Live Blockchain, Assets, Account (i.g. address book), Witnesses members, Committee members, Markets, and Fee Schedule  |
 | 4 | Send | You can send funds to other BitShares Account Holders |
 | 5 | A BitShares account name | A account name that the data shows on a Dashboard page |
-| 6 | Key icon | Locked/Unlocked Key icon shows if you've logged in the account currently |
+| 6 | Key icon | By click, opens a login form. Locked/Unlocked Key icon shows if you've logged in the account currently |
 | 7 | Site Menu icon | Side Menu icon opens the wallet other menus in a dropdown list |
 | 8 | Asset Total | Currently showing in a Dashboard Total Assets |
 | 9 | BitShares Wallet Version | Your Wallet Version |
@@ -27,4 +27,30 @@
 |  | item name |   |
 |----|--------------|-----|
 | 1 | Site Menu icon | By clicking the icon, you can open/close the menu |
-| 2 | Site Menus | Menu option list  |
+| 2 | Site Menus | Menu options list  |
+
+#### Site Menus
+
+|  | option |   |
+|----|--------------|-----|
+| 1 | login | By click, opens a login form.  |
+|  | Create Account |   |
+|  | Send(legacy) | Transfer details. This is replaced by **Send** on the top menu.  |
+|  | Deposit | Deposit funds from other parties  |
+|  | Deposit(beta) | Select an asset you want to deposit and provide you a sending address, Gateway, identicon, and notes.   |
+|  | Withdraw |   |
+|  | Withdraw(beta) | Search an asset to withdraw and...   |
+|  | Settings |   |
+|  | News |   |
+|  | Help |   |
+|  | Voting |   |
+|  | Asset |   |
+|  | Signed Message |   |
+|  | Membership | stats  |
+|  | Vesting balances |   |
+|  | Whitelist |   |
+|  | Permissions |   |
+|  | Accounts |   |
+
+
+
