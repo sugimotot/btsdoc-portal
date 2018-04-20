@@ -1,15 +1,27 @@
-## Object and IDs
+## Objects and IDs
+
+### Contents:
+- Objects Format
+- List of Commonly used Objects
+   - Examples
+- Defenitions
+   - Protocol Space (1.x.x)
+      - enum graphene::chain::object_type
+   - Implementattion Space (2.x.x)
+      - enum graphene::chain::object_type
+
+***
 
 In contrast to most cryptocurrency wallets, the BitShares 2.0 has a different model to represent the blockchain, its transactions and accounts. 
 
-### Objects
+## Objects
 
-**BitShares Objects Format**
+### BitShares Objects Format
 
     space.type.id
     
     
-### List of Commpnly esed objects
+### List of Commonly used Objects
 
 |	ID  | Object Type |
 |----|---------------|
