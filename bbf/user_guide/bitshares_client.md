@@ -28,7 +28,16 @@ Access the network in the browsers via one of our partners:
 
 ## Wallet & Login Mode
 
-### Wallet 
+### Wallet
+
+#### Where to find out your wallet Login Mode
+
+[Settings] - [General] - **LOGIN MODE**
+
+<p align="center">
+  <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/bbf/img/login-mode-set.png" width="600" title="Github Logo">
+</p>
+
 
 ### Cloud Wallet Login
 
