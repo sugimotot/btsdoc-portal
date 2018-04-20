@@ -41,8 +41,8 @@ We can find each Public key in the Permissions page. We can also find each Priva
 
 #### Active and Owner – Private keys
 - Click a private key number or a key image. 
-- A Private key viewer form opens. You will find a Public Key and a [SHOW] buttom like below.
-- Click the [SHOW] buttom. You will find your Private key under the Public key. 
+- A Private key viewer form opens. You will find a Public Key and a [SHOW] button like below.
+- Click the [SHOW] button. You will find your Private key under the Public key. 
 
 <p align="center">
   <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/bbf/img/permissions-active4b.png" width="500" title="Permissions popup">
@@ -50,8 +50,8 @@ We can find each Public key in the Permissions page. We can also find each Priva
 
 #### Memo – Private keys
 - Click a key image. (It seems a private key number does nor have a link.)
-- A Private key viewer form opens. You will find a Public Key and a [SHOW] buttom like below.
-- Click the [SHOW] buttom. You will find your Private key under the Public key.  
+- A Private key viewer form opens. You will find a Public Key and a [SHOW] button like below.
+- Click the [SHOW] button. You will find your Private key under the Public key.  
 
 
 ***
