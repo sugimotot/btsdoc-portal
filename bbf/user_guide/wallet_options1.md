@@ -8,15 +8,15 @@
 
 |  | item name |   |
 |----|--------------|-----|
-| 1 | Dashboard | Your Portfolio, Open Orders, Margin Positions, and Activity information |
+| 1 | Dashboard | The Wallet Portfolio, Open Orders, Margin Positions, and Activity information |
 | 2 | Exchange | BitShares Exchange, Trading information |
 | 3 | Explore | BitShares Live Blockchain, Assets, Accounts, Witnesses members, Committee members, Markets, and Fee Schedule  |
-| 4 | Send | You can send funds to other BitShares Account Holders |
+| 4 | Send | Opens a Send form. You can send funds to other BitShares Account Holders |
 | 5 | A BitShares account name | A account name that the data shows on a Dashboard page |
 | 6 | Key icon | By click, opens a login form. Locked/Unlocked Key icon shows if you've logged in the account currently |
 | 7 | Side Menu icon | Side Menu icon opens the wallet other menus in a dropdown list |
 | 8 | Asset Total | Currently showing in a Dashboard Total Assets |
-| 9 | BitShares Wallet Version | Your Wallet Version |
+| 9 | BitShares Wallet Version | The Wallet Version |
 | 10 | Latency |  |
 | 11 | Server Node name | A server node name that you are connecting |
 
@@ -35,7 +35,7 @@
 |----|--------------|-----|
 |  | login | By click, opens a login form.  |
 |  | Create Account |   |
-|  | Send(legacy) | Transfer details. This is replaced by **Send** on the top menu.  |
+|  | Send(legacy) | Transfer details (Original page). **Send** on the top menu is new form.  |
 |  | Deposit | Deposit funds from other parties (Original Deposit page) |
 |  | Deposit(beta) | Select an asset you want to deposit and provide you a sending address, Gateway, identicon, and notes.   |
 |  | Withdraw |  (Original Withdraw page)   |
