@@ -128,6 +128,10 @@ Sentry value which contains the number of different object types.
 
 ***
 
+(ref) 
+
+- http://docs.bitshares.org/development/blockchain/objects.html
+- http://docs.bitshares.org/development/blockchain/objects.html
 
 
 
