@@ -1,4 +1,4 @@
-# BitShares Wallet Options
+## BitShares Wallet Options
 
 ## Quick Review Wallet Options
 
