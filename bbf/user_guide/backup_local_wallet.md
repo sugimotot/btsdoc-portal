@@ -68,7 +68,35 @@ There are three types of backups.
   <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/bbf/img/backup-brainkey2.png" width="670" title="Backup">
 </p>
 
-
-
 ***
+***
+
+## Restore / Import
+
+> If you have created a backup file (.bin), follow the steps.
+
+### Restore / Import Options
+
+| option |    |
+|-------|--------------|
+| Restore from a backup file (.bin) | restore from a backup file and a password  |
+| Import a private key |   |
+| Import a BTS 0.9.3c key export file (.json) |  |
+| Restore using a local wallet brainkey | use a password and  |
+| Restore favorites using a json file |  |
+
+
+
+
+
+<p align="center">
+  <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/bbf/img/backup-brainkey.png" width="670" title="Backup">
+</p>
+
+
+
+
+
+
+
 
