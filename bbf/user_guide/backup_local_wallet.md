@@ -63,7 +63,7 @@ There are three types of backups.
 </p>
 
 <p align="center">
-  <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/bbf/img/backup-brainkey1.png" width="670" title="Backup">
+  <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/bbf/img/backup-brainkey2.png" width="670" title="Backup">
 </p>
 
 
