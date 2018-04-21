@@ -9,7 +9,7 @@
 ***
 In BitShares, each account is separated into
 
-- **Active Permission**: llows to access funds and some account settings, but cannot change the owner permission and is thus considered the “online” permissions.
+- **Active Permission**: Allows to access funds and some account settings, but cannot change the owner permission and is thus considered the “online” permissions.
 - **Owner Permission**: This permission has administrative powers over the whole account. 
 
 Both can be defined in the Permissions tab of your account using so called *authorities* together with a so called *reshold* that has to be exceeded in order for a transaction to be valid.
