@@ -9,11 +9,20 @@
 - [Quick Review Wallet Options](/bbf/user_guide/wallet_options1.md#bitshares-wallet-options)
 
 ### BitShares Accounts
-- Choose Client
-- Cloud Wallet Login Mode & Local Wallet Login Mode
+- [Choose your Client](/bbf/user_guide/bitshares_client.md#choose-your-client)
+   - Light Client
+   - Web Client
+- [Wallet & Login Mode](/bbf/user_guide/bitshares_client.md#wallet--login-mode)
+   - Cloud Wallet Login
+   - Local Wallet Login
 - Accounts
-- Keys
-- Permissions 
+- [Permissions ](/bbf/user_guide/permissions.md#permissions)
+   - [Settings - Permissions](/bbf/user_guide/permissions.md#settings---permissions)
+      - Permissions Tabs
+   - [Public Key and Private Key](/bbf/user_guide/permissions.md#public-key-and-private-key)
+      - Where are they? 
+   - [Cloud Wallet option](/bbf/user_guide/permissions.md#cloud-wallet-tab-option)
+
 - Membership
 - Fees
 - Vote / Proxy
