@@ -1,10 +1,10 @@
 ### Contents:
 - [BitShares Client](/bbf/user_guide/bitshares_client.md#bitShares-client)
-   - Light Client
-   - Web Client
+   - [Light Client](/bbf/user_guide/bitshares_client.md#light-client)
+   - [Web Client](/bbf/user_guide/bitshares_client.md#web-client)
 - [Wallet & Login Mode](/bbf/user_guide/bitshares_client.md#wallet--login-mode)
-   - Cloud Wallet Login
-   - Local Wallet Login
+   - [Cloud Wallet Login](/bbf/user_guide/bitshares_client.md#cloud-wallet-login)
+   - [Local Wallet Login](/bbf/user_guide/bitshares_client.md#local-wallet-login)
 
 ***
 
