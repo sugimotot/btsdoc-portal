@@ -1,5 +1,5 @@
 ### Contents:
-- [Choose your Client](/bbf/user_guide/bitshares_client.md#choose-your-client)
+- [Choose your Client](/bbf/user_guide/bitshares_client.md#bitShares-client)
    - Light Client
    - Web Client
 - [Wallet & Login Mode](/bbf/user_guide/bitshares_client.md#wallet--login-mode)
@@ -8,7 +8,7 @@
 
 ***
 
-## Choose your Client
+## BitShares Client
 You have sole control of your accounts and funds and they are created on your computer (within the light-client or the browser web-client). Hence, you will only be able to access your account on the computer that you have used to register and create your account, unless you create a backup your wallet and import it somewhere else.
 
 ### Light Client
