@@ -88,9 +88,24 @@ There are three types of backups.
 
 
 
+<p align="center">
+  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/restore1.png" width="670" title="Backup">
+</p>
 
 <p align="center">
-  <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/bbf/img/backup-brainkey.png" width="670" title="Backup">
+  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/restore3.png" width="670" title="Restore">
+</p>
+<p align="center">
+  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/restore4.png" width="670" title="Restore">
+</p>
+<p align="center">
+  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/restore5.png" width="670" title="Restore">
+</p>
+<p align="center">
+  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/restore6.png" width="670" title="Restore">
+</p>
+<p align="center">
+  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/restore7.png" width="670" title="Restore">
 </p>
 
 
