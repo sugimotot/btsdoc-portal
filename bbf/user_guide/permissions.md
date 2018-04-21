@@ -1,12 +1,21 @@
 ## Permissions
 
+In BitShares, each account is separated into
+
+- Active Permission: control over its funds and
+- Owner Permission: control over the account.
+
+Both can be defined in the Permissions tab of your account using so called *authorities* together with a so called *reshold* that has to be exceeded in order for a transaction to be valid.
+
+**Authorities:** In BitShares an *uthority* consists of one or many entities that authorize an action, such as transfers or trades.  An authority consists of one or several pairs of an account name with a *weight*.
+
 ### Contents:
 - [Settings - Permissions](/bbf/user_guide/permissions.md#settings---permissions)
    - Permissions Tabs
 - [Public Key and Private Key](/bbf/user_guide/permissions.md#public-key-and-private-key)
    - Where are they? 
 - [Cloud Wallet option](/bbf/user_guide/permissions.md#cloud-wallet-tab-option)
-- 
+
 ***
 
 ## Settings - Permissions
