@@ -22,7 +22,6 @@
    - [Public Key and Private Key](/bbf/user_guide/permissions.md#public-key-and-private-key)
       - Where are they? 
    - [Cloud Wallet option](/bbf/user_guide/permissions.md#cloud-wallet-tab-option)
-
 - Membership
 - Fees
 - Vote / Proxy
