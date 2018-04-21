@@ -52,11 +52,11 @@ There are three types of backups.
 
 1. Open a Side menu and select [Settings]
 1. In [Settings], select [Backup]. 
-1. Make sure the backup type is *Create brainkey backup*
-1. Type in your password
-1. Click [SHOW BRAUBKEY]
-1. Write down *Brainkey* (i.g. very random long phrases)
-1. Click [I'VE WRITTEN IT DOWN] 
+1. (#1)Make sure the backup type is *Create brainkey backup*
+1. (#2)Type in your password
+1. (#3)Click [SHOW BRAUBKEY]
+1. (#4)Write down *Brainkey* (i.g. very random long phrases)
+1. (#5)Click [I'VE WRITTEN IT DOWN] 
 
 #### Write it down!! Anyone with access to your recovery key will have access to funds with in the local wallet.
 
