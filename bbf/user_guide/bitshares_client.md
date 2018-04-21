@@ -1,10 +1,10 @@
 # BitShares Client
 
 ### Contents:
-- Choose your Client
+- [Choose your Client](/bbf/user_guide/bitshares_client.md#choose-your-client)
    - Light Client
    - Web Client
-- Wallet & Login Mode
+- [Wallet & Login Mode](/bbf/user_guide/bitshares_client.md#wallet--login-mode)
    - Cloud Wallet Login
    - Local Wallet Login
 
