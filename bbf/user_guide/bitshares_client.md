@@ -65,6 +65,6 @@ The local wallet creates a database within your browser. This means that access 
   <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/bbf/img/login-local.png" width="380" title="Local Login">
 </p>
 
-
+***
 
 
