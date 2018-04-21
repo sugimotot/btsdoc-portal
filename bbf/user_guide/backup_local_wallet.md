@@ -1,10 +1,10 @@
 ## Backups and Restore
 
 ### Contents:
-- Create Local Wallet Backup
-   - Backup Types
-   - How to create a backup (.bin) file
-   - How to create a Brainkey (Advanced User Only)
+- [Create Local Wallet Backup](/bbf/user_guide/backup_local_wallet.md#create-local-wallet-backup)
+   - [Backup Types](/bbf/user_guide/backup_local_wallet.md#backup-types)
+   - [How to create a backup (.bin) file](/bbf/user_guide/backup_local_wallet.md#how-to-create-a-backup-bin-file)
+   - [How to create a Brainkey (Advanced User Only)](/bbf/user_guide/backup_local_wallet.md#how-to-create-a-brainkey-advanced-user-only)
 - 
 
 ***
