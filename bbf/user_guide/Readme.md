@@ -26,11 +26,13 @@
 - Fees
 - Vote / Proxy
 
-### Backup your Wallet
-   - Local Wallet
-   - Backup
-   - Restore/import
-   - (advances users) The Brain key
+### Backups and Restore your Wallet
+- [Create Local Wallet Backup](/bbf/user_guide/backup_local_wallet.md#create-local-wallet-backup)
+   - [Backup Types](/bbf/user_guide/backup_local_wallet.md#backup-types)
+   - [How to create a backup (.bin) file](/bbf/user_guide/backup_local_wallet.md#how-to-create-a-backup-bin-file)
+   - [How to create a Brainkey (Advanced User Only)](/bbf/user_guide/backup_local_wallet.md#how-to-create-a-brainkey-advanced-user-only)
+- Restore/import
+  
    
 ### Transactions
 - Fund
