@@ -17,11 +17,11 @@
    - [Local Wallet Login](/bbf/user_guide/bitshares_client.md#local-wallet-login)
 - Accounts
 - [Permissions ](/bbf/user_guide/permissions.md#permissions)
-   - [Settings - Permissions](/bbf/user_guide/permissions.md#settings---permissions)
+   - [Permissions - in Wallet Settings](/bbf/user_guide/permissions.md#permissions---in-wallet-settings)
       - Permissions Tabs
    - [Public Key and Private Key](/bbf/user_guide/permissions.md#public-key-and-private-key)
       - Where are they? 
-   - [Cloud Wallet option](/bbf/user_guide/permissions.md#cloud-wallet-tab-option)
+   - [Cloud Wallet option](/bbf/user_guide/permissions.md#cloud-wallet-tab-option)   
 - Membership
 - Fees
 - Vote / Proxy
