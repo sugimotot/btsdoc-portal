@@ -32,6 +32,8 @@ Access the network and open the wallet in the browsers via one of our partners:
 
 ## Wallet & Login Mode
 
+You might've noticed BitShares has two types of Login Mode. In this section, we will explain those differences.
+
 #### Where to find out your wallet Login Mode
 
 [Settings] - [General] - **LOGIN MODE**
