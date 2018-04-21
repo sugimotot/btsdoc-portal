@@ -10,7 +10,7 @@ Both can be defined in the Permissions tab of your account using so called *auth
 **Authorities:** In BitShares an *uthority* consists of one or many entities that authorize an action, such as transfers or trades.  An authority consists of one or several pairs of an account name with a *weight*.
 
 ### Contents:
-- [Settings - Permissions](/bbf/user_guide/permissions.md#settings---permissions)
+- [Permissions - in Wallet Settings](/bbf/user_guide/permissions.md#settings---permissions)
    - Permissions Tabs
 - [Public Key and Private Key](/bbf/user_guide/permissions.md#public-key-and-private-key)
    - Where are they? 
@@ -18,7 +18,7 @@ Both can be defined in the Permissions tab of your account using so called *auth
 
 ***
 
-## Settings - Permissions
+## Permissions - in Wallet Settings
 
 <p align="center">
   <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/bbf/img/permissions-active2.png" width="650" title="Permissions">
