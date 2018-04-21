@@ -1,5 +1,3 @@
-# BitShares Client
-
 ### Contents:
 - [Choose your Client](/bbf/user_guide/bitshares_client.md#choose-your-client)
    - Light Client
