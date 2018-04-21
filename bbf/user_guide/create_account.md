@@ -1,7 +1,7 @@
 ## Create your BitShares Account and Wallet
 ### Content:
 - [Light wallet or Web wallet?](/bbf/user_guide/create_account.md#light-wallet-or-web-wallet)
-- [Create your Account](/bbf/user_guide/create_account.md#create-your-account)
+- [Create an Account](/bbf/user_guide/create_account.md#create-an-account)
 - [Dashboard](/bbf/user_guide/create_account.md#dashboard)
 - [Login](/bbf/user_guide/create_account.md#login)
 
@@ -23,7 +23,7 @@ Did you find out which type of wallet you want to have?
 
 ***
 
-## Create your Account
+## Create an Account
 
 We assume you selected a wallet type and installed (Light wallet) and opened a "Welcome BitShares". 
 
