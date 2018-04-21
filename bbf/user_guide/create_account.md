@@ -102,6 +102,8 @@ Let's check the BitShares wallet Dashboard. You might not have any Portfolio yet
 
 Before we go to farther, let's try to login and check if you have a correct password.
 
+> If you followed the above steps, you would have a Cloud wallet as a default wallet. 
+
 You will find a **Locked Key** icon in the top right corner (if you have not logged in). Click the icon to open a login form.
 
 <p align="center">
