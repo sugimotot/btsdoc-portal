@@ -1,5 +1,5 @@
 ### Contents:
-- [Choose your Client](/bbf/user_guide/bitshares_client.md#bitShares-client)
+- [BitShares Client](/bbf/user_guide/bitshares_client.md#bitShares-client)
    - Light Client
    - Web Client
 - [Wallet & Login Mode](/bbf/user_guide/bitshares_client.md#wallet--login-mode)
