@@ -1,8 +1,10 @@
 ## Backups and Restore
 
 ### Contents:
-- 
-- 
+- Create Local Wallet Backup
+   - Backup Types
+   - How to create a backup (.bin) file
+   - How to create a Brainkey (Advanced User Only)
 - 
 
 ***
