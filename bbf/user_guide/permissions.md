@@ -66,6 +66,7 @@ We can find each Public key in the Permissions page. We can also find each Priva
 ***
 
 ## Cloud Wallet tab option
+(*working in progress*)
 
 #### How to use this option
 <p align="center">
