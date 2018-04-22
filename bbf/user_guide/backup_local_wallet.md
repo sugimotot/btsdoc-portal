@@ -9,7 +9,9 @@
    - [Restore / Import Options](/bbf/user_guide/backup_local_wallet.md#restore--import-options)
    - [How to Restore from a backup (.bin) file](/bbf/user_guide/backup_local_wallet.md#how-to-restore-from-a-backup-bin-file)
    - [How to check *Active Local Wallet* name](/bbf/user_guide/backup_local_wallet.md#how-to-check-active-local-wallet-name)
-
+   - [How to Recover Account with Brain key](/bbf/user_guide/backup_local_wallet.md#how-to-recover-account-with-brain-key)
+   
+   
 ***
 
 > If you use a Cloud Wallet, you would not need to create a backup.
