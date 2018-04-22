@@ -13,11 +13,11 @@
    - Manage Account & import
    - Examples 
       - Send funds from faucet to alpha 
-- [Network and Wallet Configuration](/developers/4_wallet/network_wallet.md#network-and-wallet-configuration)
+- [Network and Wallet Configuration](/developers/4_wallet/wallet_network.md#network-and-wallet-configuration)
    - [General](/developers/4_wallet/network_wallet.md#network-setups)
       - Trusted Full Node:
       - Wallet
-   - [Secure](/developers/4_wallet/network_wallet.md#secure-network-and-wallet-configuration)
+   - [Secure](/developers/4_wallet/wallet_network.md#secure-network-and-wallet-configuration)
       - Trusted Full Node:
       - Delayed Full Node:
       - Wallet
