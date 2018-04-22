@@ -2,29 +2,29 @@
 ## Distributed Access to the BitShares Decentralised Exchange
 
 ### Contents:
-- [BitShares Node Setup](/developers/7_tutorials/04_distributed_access_dex.md#bitshares-node-setup)
-- [Create a New User](/developers/7_tutorials/04_distributed_access_dex.md#install-nginx)
-- [Install NGINX](/developers/7_tutorials/04_distributed_access_dex.md#configure-nginx)
+- [BitShares Node Setup](/developers/7_tutorials/dex_distributed_access.md#bitshares-node-setup)
+- [Create a New User](/developers/7_tutorials/dex_distributed_access.md#install-nginx)
+- [Install NGINX](/developers/7_tutorials/dex_distributed_access.md#configure-nginx)
    - Configure Nginx
    - Create your web folder
    - Configure Nginx
    - Update Virtual Host File
    - Activate sim link and disable default web server
    - Link local folder to www root and add a simple index.html
-- [Install letsencrypt](/developers/7_tutorials/04_distributed_access_dex.md#install-letsencrypt)
+- [Install letsencrypt](/developers/7_tutorials/dex_distributed_access.md#install-letsencrypt)
    - Obtain your SSL certificate
    - Check your certificate
    - Setup a renew cronjob for your new SSL certificate
    - Generate Strong Diffie-Hellman Group cert
-- [Add SSL to Nginx settings](/developers/7_tutorials/04_distributed_access_dex.md#add-ssl-to-nginx-settings)
+- [Add SSL to Nginx settings](/developers/7_tutorials/dex_distributed_access.md#add-ssl-to-nginx-settings)
    - Edit altcap.io
    - Restart Nginx
-- [Install BitShares Web GUI](/developers/7_tutorials/04_distributed_access_dex.md#install-bitshares-web-gui)
+- [Install BitShares Web GUI](/developers/7_tutorials/dex_distributed_access.md#install-bitshares-web-gui)
    - Install NVM (Node Version Manager)
    - Setup light wallet
    - Link web root to gui build folder
    - Build light wallet
-- [SSL Test ](/developers/7_tutorials/04_distributed_access_dex.md#ssl-test)
+- [SSL Test ](/developers/7_tutorials/dex_distributed_access.md#ssl-test)
 
 
 ***
