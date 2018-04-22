@@ -5,85 +5,86 @@
 
 ### Contents:
 
-**[General](/developers/7_tutorials/01_QA.md#general)**
-- [What is the standard Bitshares address structure and format?](/developers/7_tutorials/01_QA.md#q-what-is-the-standard-bitshares-address-structure-and-format
+
+**[General](/developers/7_tutorials/QA.md#general)**
+- [What is the standard Bitshares address structure and format?](/developers/7_tutorials/QA.md#q-what-is-the-standard-bitshares-address-structure-and-format
 )
-- [What is the format of the block header?](/developers/7_tutorials/01_QA.md#q-what-is-the-format-of-the-block-header)
-- [What is the maximum bitshares block size?](/developers/7_tutorials/01_QA.md#q-what-is-the-maximum-bitshares-block-size)
-- [Are there any sharding mechanics currently deployed?](/developers/7_tutorials/01_QA.md#q-are-there-any-sharding-mechanics-currently-deployed)
-- [How are SPV clients handled?](/developers/7_tutorials/01_QA.md#q-how-are-spv-clients-handled)
-- [How is time addressed in the blockchain? Is NTP used or some other protocol?](/developers/7_tutorials/01_QA.md#q-how-is-time-addressed-in-the-blockchain-is-ntp-used-or-some-other-protocol)
-- [How do new clients bootstrap into the network?](/developers/7_tutorials/01_QA.md#q-how-do-new-clients-bootstrap-into-the-network)
-- [What is the average block time?](/developers/7_tutorials/01_QA.md#q-what-is-the-average-block-time)
-- [How is accounting addressed in Bitshares? Is it a Nxt style accounting model or like Bitcoin’s UTXO](/developers/7_tutorials/01_QA.md#q-how-is-accounting-addressed-in-bitshares-is-it-a-nxt-style-accounting-model-or-like-bitcoins-utxo)
+- [What is the format of the block header?](/developers/7_tutorials/QA.md#q-what-is-the-format-of-the-block-header)
+- [What is the maximum bitshares block size?](/developers/7_tutorials/QA.md#q-what-is-the-maximum-bitshares-block-size)
+- [Are there any sharding mechanics currently deployed?](/developers/7_tutorials/QA.md#q-are-there-any-sharding-mechanics-currently-deployed)
+- [How are SPV clients handled?](/developers/7_tutorials/QA.md#q-how-are-spv-clients-handled)
+- [How is time addressed in the blockchain? Is NTP used or some other protocol?](/developers/7_tutorials/QA.md#q-how-is-time-addressed-in-the-blockchain-is-ntp-used-or-some-other-protocol)
+- [How do new clients bootstrap into the network?](/developers/7_tutorials/QA.md#q-how-do-new-clients-bootstrap-into-the-network)
+- [What is the average block time?](/developers/7_tutorials/QA.md#q-what-is-the-average-block-time)
+- [How is accounting addressed in Bitshares? Is it a Nxt style accounting model or like Bitcoin’s UTXO](/developers/7_tutorials/QA.md#q-how-is-accounting-addressed-in-bitshares-is-it-a-nxt-style-accounting-model-or-like-bitcoins-utxo)
 
-[**Protocol**](/developers/7_tutorials/01_QA.md#protocol)
-- [Are there any special affordances made for privacy?](/developers/7_tutorials/01_QA.md#q-are-there-any-special-affordances-made-for-privacy)
-- [Does the protocol provide mechanisms for overlay protocols to interact such as OR_RETURN?](/developers/7_tutorials/01_QA.md#q-does-the-protocol-provide-mechanisms-for-overlay-protocols-to-interact-such-as-or_return)
-- [Is this done via a gossip protocol or through a federate relay?](/developers/7_tutorials/01_QA.md#q-is-this-done-via-a-gossip-protocol-or-through-a-federate-relay)
+[**Protocol**](/developers/7_tutorials/QA.md#protocol)
+- [Are there any special affordances made for privacy?](/developers/7_tutorials/QA.md#q-are-there-any-special-affordances-made-for-privacy)
+- [Does the protocol provide mechanisms for overlay protocols to interact such as OR_RETURN?](/developers/7_tutorials/QA.md#q-does-the-protocol-provide-mechanisms-for-overlay-protocols-to-interact-such-as-or_return)
+- [Is this done via a gossip protocol or through a federate relay?](/developers/7_tutorials/QA.md#q-is-this-done-via-a-gossip-protocol-or-through-a-federate-relay)
 
-**[Data Structures](/developers/7_tutorials/01_QA.md#data-structures)**
-- [What data structures are used in the blockchain?](/developers/7_tutorials/01_QA.md#q-what-data-structures-are-used-in-the-blockchain)
+**[Data Structures](/developers/7_tutorials/QA.md#data-structures)**
+- [What data structures are used in the blockchain?](/developers/7_tutorials/QA.md#q-what-data-structures-are-used-in-the-blockchain)
 
-**[Public Key System](/developers/7_tutorials/01_QA.md#public-key-system)**
-- [What public key system is used? If elliptic curve, then what is the curv?](/developers/7_tutorials/01_QA.md#q-what-public-key-system-is-used-if-elliptic-curve-then-what-is-the-curve)
+**[Public Key System](/developers/7_tutorials/QA.md#public-key-system)**
+- [What public key system is used? If elliptic curve, then what is the curv?](/developers/7_tutorials/QA.md#q-what-public-key-system-is-used-if-elliptic-curve-then-what-is-the-curve)
 
-**[Scripting Language](/developers/7_tutorials/01_QA.md#scripting-language)**
-- [Is there a specification for Bitshares scripting language? (assuming there is one)](/developers/7_tutorials/01_QA.md#q-is-there-a-specification-for-bitshares-scripting-language-assuming-there-is-one)
-- [Is the scripting language turing complete?](/developers/7_tutorials/01_QA.md#q-is-the-scripting-language-turing-complete)
-
-***
-### [Account](/developers/7_tutorials/01_QA.md#accounts)
-- [How can I create, register and upgrade an account to Lifetime Membership?](/developers/7_tutorials/01_QA.md#q-how-can-i-create-register-and-upgrade-an-account-to-lifetime-membership)
+**[Scripting Language](/developers/7_tutorials/QA.md#scripting-language)**
+- [Is there a specification for Bitshares scripting language? (assuming there is one)](/developers/7_tutorials/QA.md#q-is-there-a-specification-for-bitshares-scripting-language-assuming-there-is-one)
+- [Is the scripting language turing complete?](/developers/7_tutorials/QA.md#q-is-the-scripting-language-turing-complete)
 
 ***
+### [Account](/developers/7_tutorials/QA.md#accounts)
+- [How can I create, register and upgrade an account to Lifetime Membership?](/developers/7_tutorials/QA.md#q-how-can-i-create-register-and-upgrade-an-account-to-lifetime-membership)
 
-### [Assets](/developers/7_tutorials/01_QA.md#assets-1)
-- [What happens to the asset creation fee?](/developers/7_tutorials/01_QA.md#q-what-happens-to-the-asset-creation-fee)
-- [Can I change x after creation of the asset?](/developers/7_tutorials/01_QA.md#qcan-i-change-x-after-creation-of-the-asset)
-- [What about Parent and Child assets?](/developers/7_tutorials/01_QA.md#q-what-about-parent-and-child-assets)
-- [Can I change the issuer?](/developers/7_tutorials/01_QA.md#q-can-i-changing-the-issuer)
+***
+
+### [Assets](/developers/7_tutorials/QA.md#assets-1)
+- [What happens to the asset creation fee?](/developers/7_tutorials/QA.md#q-what-happens-to-the-asset-creation-fee)
+- [Can I change x after creation of the asset?](/developers/7_tutorials/QA.md#qcan-i-change-x-after-creation-of-the-asset)
+- [What about Parent and Child assets?](/developers/7_tutorials/QA.md#q-what-about-parent-and-child-assets)
+- [Can I change the issuer?](/developers/7_tutorials/QA.md#q-can-i-changing-the-issuer)
 
 **Fee Pool**
-- [What is the fee pool all about?](/developers/7_tutorials/01_QA.md#q-what-is-the-fee-pool-all-about)
-- [What to do if the fee pool is empty?](/developers/7_tutorials/01_QA.md#q-what-to-do-if-the-fee-pool-is-empty)
-- [What is Fee Pool Draining?](/developers/7_tutorials/01_QA.md#q-what-is-fee-pool-draining)
+- [What is the fee pool all about?](/developers/7_tutorials/QA.md#q-what-is-the-fee-pool-all-about)
+- [What to do if the fee pool is empty?](/developers/7_tutorials/QA.md#q-what-to-do-if-the-fee-pool-is-empty)
+- [What is Fee Pool Draining?](/developers/7_tutorials/QA.md#q-what-is-fee-pool-draining)
 
 **Market Fee**
-- [What happens if I enable Market fees?](/developers/7_tutorials/01_QA.md#q-what-happens-if-i-enable-market-fees)
-- [How to claim accumulated fees?](/developers/7_tutorials/01_QA.md#q-how-to-claim-accumulated-fees)
-- [What if two different market fees are involved in a trade?](/developers/7_tutorials/01_QA.md#q-what-if-two-different-market-fees-are-involved-in-a-trade)
-- [What are Asset Flags and Permissions?](/developers/7_tutorials/01_QA.md#q-what-are-asset-flags-and-permissions)
-- [What are the Permissions?](/developers/7_tutorials/01_QA.md#q-what-are-the-permissions)
-- [What are the Flags?](/developers/7_tutorials/01_QA.md#q-what-are-the-flags)
+- [What happens if I enable Market fees?](/developers/7_tutorials/QA.md#q-what-happens-if-i-enable-market-fees)
+- [How to claim accumulated fees?](/developers/7_tutorials/QA.md#q-how-to-claim-accumulated-fees)
+- [What if two different market fees are involved in a trade?](/developers/7_tutorials/QA.md#q-what-if-two-different-market-fees-are-involved-in-a-trade)
+- [What are Asset Flags and Permissions?](/developers/7_tutorials/QA.md#q-what-are-asset-flags-and-permissions)
+- [What are the Permissions?](/developers/7_tutorials/QA.md#q-what-are-the-permissions)
+- [What are the Flags?](/developers/7_tutorials/QA.md#q-what-are-the-flags)
 
 **Market Pegged Assets**
-- [Can I use the same flags/permissions as for UIAs?](/developers/7_tutorials/01_QA.md#q-can-i-use-the-same-flagspermissions-as-for-uias)
-- [What are market-pegged-asset-specific parameters?](/developers/7_tutorials/01_QA.md#q-what-are-market-pegged-asset-specific-parameters)
+- [Can I use the same flags/permissions as for UIAs?](/developers/7_tutorials/QA.md#q-can-i-use-the-same-flagspermissions-as-for-uias)
+- [What are market-pegged-asset-specific parameters?](/developers/7_tutorials/QA.md#q-what-are-market-pegged-asset-specific-parameters)
 
 
 ***
-### [Testnet](/developers/7_tutorials/01_QA.md#testnet-1)
+### [Testnet](/developers/7_tutorials/QA.md#testnet-1)
 
-- [Public & private testnet differences What is the difference between public and private testnet?](/developers/7_tutorials/01_QA.md#q-public--private-testnet-differences-what-is-the-difference-between-public-and-private-testnet)
-
-***
-### [Wallet / CLI Wallet](/developers/7_tutorials/01_QA.md#wallet--cli-wallet-1)
-- [How can I close the CLI client in a clean way?](/developers/7_tutorials/01_QA.md#q-how-can-i-close-the-cli-client-in-a-clean-way)
-- [How can I import to my CLI client a wallet originally created in the web GUI?](/developers/7_tutorials/01_QA.md#q-how-can-i-import-to-my-cli-client-a-wallet-originally-created-in-the-web-gui)
-- [How can I transfer a single account to a cli wallet?](/developers/7_tutorials/01_QA.md#q-how-can-i-transfer-a-single-account-to-a-cli-wallet)
-- [Why does the CLI client crash immediately when I try to run it for the first time?](/developers/7_tutorials/01_QA.md#q-why-does-the-cli-client-crash-immediately-when-i-try-to-run-it-for-the-first-time)
+- [Public & private testnet differences What is the difference between public and private testnet?](/developers/7_tutorials/QA.md#q-public--private-testnet-differences-what-is-the-difference-between-public-and-private-testnet)
 
 ***
-### [Witness](/developers/7_tutorials/01_QA.md#witness)
-- [Change the Signing Key of your Witness?](/developers/7_tutorials/01_QA.md#q-change-the-signing-key-of-your-witness)
-- [How can I close the witness node in a clean way?](/developers/7_tutorials/01_QA.md#q-how-can-i-close-the-witness-node-in-a-clean-way)
-- [How do I check whether the witness node is already synced?](/developers/7_tutorials/01_QA.md#q-how-do-i-check-whether-the-witness-node-is-already-synced)
-- [If it seems to be unable to sync beyond a certain date?](/developers/7_tutorials/01_QA.md#q-if-it-seems-to-be-unable-to-sync-beyond-a-certain-date)
-- [Is it safe to delete logs stored in witness_node_data_dirlogsp2p?](/developers/7_tutorials/01_QA.md#q-is-it-safe-to-delete-logs-stored-in-witness_node_data_dirlogsp2p)
-- [What is the best way to interact with the witness node?](/developers/7_tutorials/01_QA.md#q-what-is-the-best-way-to-interact-with-the-witness-node)
-- [What is the meaning of all those different text colors in the witness node console?](/developers/7_tutorials/01_QA.md#q-what-is-the-meaning-of-all-those-different-text-colors-in-the-witness-node-console)
-- [Whose private key is [“BTS6MRyAjQ..”,”5KQwrPbwdL..”]? Why is it predefined ion the config.ini?](/developers/7_tutorials/01_QA.md#q-whose-private-key-is-bts6mryajq5kqwrpbwdl-why-is-it-predefined-ion-the-configini)
+### [Wallet / CLI Wallet](/developers/7_tutorials/QA.md#wallet--cli-wallet-1)
+- [How can I close the CLI client in a clean way?](/developers/7_tutorials/QA.md#q-how-can-i-close-the-cli-client-in-a-clean-way)
+- [How can I import to my CLI client a wallet originally created in the web GUI?](/developers/7_tutorials/QA.md#q-how-can-i-import-to-my-cli-client-a-wallet-originally-created-in-the-web-gui)
+- [How can I transfer a single account to a cli wallet?](/developers/7_tutorials/QA.md#q-how-can-i-transfer-a-single-account-to-a-cli-wallet)
+- [Why does the CLI client crash immediately when I try to run it for the first time?](/developers/7_tutorials/QA.md#q-why-does-the-cli-client-crash-immediately-when-i-try-to-run-it-for-the-first-time)
+
+***
+### [Witness](/developers/7_tutorials/QA.md#witness)
+- [Change the Signing Key of your Witness?](/developers/7_tutorials/QA.md#q-change-the-signing-key-of-your-witness)
+- [How can I close the witness node in a clean way?](/developers/7_tutorials/QA.md#q-how-can-i-close-the-witness-node-in-a-clean-way)
+- [How do I check whether the witness node is already synced?](/developers/7_tutorials/QA.md#q-how-do-i-check-whether-the-witness-node-is-already-synced)
+- [If it seems to be unable to sync beyond a certain date?](/developers/7_tutorials/QA.md#q-if-it-seems-to-be-unable-to-sync-beyond-a-certain-date)
+- [Is it safe to delete logs stored in witness_node_data_dirlogsp2p?](/developers/7_tutorials/QA.md#q-is-it-safe-to-delete-logs-stored-in-witness_node_data_dirlogsp2p)
+- [What is the best way to interact with the witness node?](/developers/7_tutorials/QA.md#q-what-is-the-best-way-to-interact-with-the-witness-node)
+- [What is the meaning of all those different text colors in the witness node console?](/developers/7_tutorials/QA.md#q-what-is-the-meaning-of-all-those-different-text-colors-in-the-witness-node-console)
+- [Whose private key is [“BTS6MRyAjQ..”,”5KQwrPbwdL..”]? Why is it predefined ion the config.ini?](/developers/7_tutorials/QA.md#q-whose-private-key-is-bts6mryajq5kqwrpbwdl-why-is-it-predefined-ion-the-configini)
 
 
 ***
