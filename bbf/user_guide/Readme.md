@@ -29,10 +29,13 @@
 ### Backups and Restore your Wallet
 - [Create Local Wallet Backup](/bbf/user_guide/backup_local_wallet.md#create-local-wallet-backup)
    - [Backup Types](/bbf/user_guide/backup_local_wallet.md#backup-types)
-   - [How to create a backup (.bin) file](/bbf/user_guide/backup_local_wallet.md#how-to-create-a-backup-bin-file)
-   - [How to create a Brainkey (Advanced User Only)](/bbf/user_guide/backup_local_wallet.md#how-to-create-a-brainkey-advanced-user-only)
-- Restore/import
-  
+   - [How to Create a backup (.bin) file](/bbf/user_guide/backup_local_wallet.md#how-to-create-a-backup-bin-file)
+   - [How to Create a Brainkey (Advanced User Only)](/bbf/user_guide/backup_local_wallet.md#how-to-create-a-brainkey-advanced-user-only)
+- [Restore / Import](/bbf/user_guide/backup_local_wallet.md#restore--import)
+   - [Restore / Import Options](/bbf/user_guide/backup_local_wallet.md#restore--import-options)
+   - [How to Restore from a backup (.bin) file](/bbf/user_guide/backup_local_wallet.md#how-to-restore-from-a-backup-bin-file)
+   - [How to Check *Active Local Wallet* name](/bbf/user_guide/backup_local_wallet.md#how-to-check-active-local-wallet-name)
+   - [How to Recover Account with Brain key](/bbf/user_guide/backup_local_wallet.md#how-to-recover-account-with-brain-key)
    
 ### Transactions
 - Fund
