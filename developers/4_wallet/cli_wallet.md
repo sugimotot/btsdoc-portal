@@ -9,7 +9,7 @@
 - [Gaining a Access to Blockchain](#gaining-access-to-blockchain)
    - [import](#import)
    - [register](#register)
-- [Transfering Funds using the Cli-wallet](#transfering-funds-using-the-cli-wallet)
+- [Transferring  Funds using the Cli-wallet](#transferring-funds-using-the-cli-wallet)
 
 ******
 
