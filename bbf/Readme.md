@@ -22,7 +22,7 @@ leverage the full power of the BitShares Blockchain.
 ### [User Guide](/bbf/user_guide#user-guide)
 - [Create your BitShares Account and Wallet](/bbf/user_guide/create_account.md#create-your-bitshares-account-and-wallet)
 - [BitShares Accounts](/bbf/user_guide/bitshares_client.md#bitshares-accounts)
-  - [BitShares Client](/bbf/user_guide/bitshares_client.md#bitShares-client)
+  - [BitShares Client](/bbf/user_guide/bitshares_client.md#bitshares-client)
   - [Wallet & Login Mode](/bbf/user_guide/bitshares_client.md#wallet--login-mode)
   - Accounts
   - [Permissions ](/bbf/user_guide/permissions.md#permissions)
