@@ -7,8 +7,8 @@
    - [Case 2: Connecting a Cli-Wallet](#case-2-connecting-a-cli-wallet)
    - [Case 3: Connecting a Cli-Wallet - Public Testnet](#case-3-connecting-a-cli-wallet-in-public-testnet)
 - [Gaining a Access to Blockchain](#gaining-access-to-blockchain)
-   - import
-   - registar
+   - [import](#import)
+   - [registar](#register)
 - [Transfering Funds using the Cli-wallet](#transfering-funds-using-the-cli-wallet)
 
 ******
