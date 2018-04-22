@@ -143,7 +143,7 @@ Several Calls you can try.
 
 ### gethelp  - "list_accounts"
 
-    gethelp "list_accounts"
+    unlocked >>> gethelp "list_accounts"
     
     Lists all accounts registered in the blockchain. This returns a list of all account names and their account ids, sorted by account name.
     Use the 'lowerbound' and limit parameters to page through the list. To retrieve all accounts, start by setting 'lowerbound' to the empty string '""', and then each iteration, pass the last account name returned as the 'lowerbound' for the next 'list_accounts()' call.
