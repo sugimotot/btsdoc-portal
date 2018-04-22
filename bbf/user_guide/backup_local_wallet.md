@@ -1,4 +1,4 @@
-## Backups and Restore
+## Backups and Restore your Wallet
 
 ### Contents:
 - [Create Local Wallet Backup](/bbf/user_guide/backup_local_wallet.md#create-local-wallet-backup)
