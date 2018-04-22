@@ -1,8 +1,8 @@
 ## Construct Any Transaction - Manually
 
 ### Contents:
-- [General Procedure](/developers/7_tutorials/07_construct_transaction.md#general-procedure)
-- [Example: Transfer](/developers/7_tutorials/07_construct_transaction.md#example-transfer)
+- [General Procedure](/developers/7_tutorials/trn_construct_transaction.md#general-procedure)
+- [Example: Transfer](/developers/7_tutorials/trn_construct_transaction.md#example-transfer)
 
 ***
 
