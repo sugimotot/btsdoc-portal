@@ -4,7 +4,7 @@
 - Two Factor Authentication Protocol
    - User Accounts
    - 2FA Providers
--Steps
+- Steps
    - Step 1 - User Registration
    - Step 2 - Create Graphene Account for secondfactor.org
    - Step 3 - Create a Dedicated Graphene Account for the alice/sfactor Combination
