@@ -35,6 +35,8 @@
 - Maintain a public seednode
 - Publish accurate, frequently updated (check 1-2 times per hour), price feeds for the Smart Coins & Market Pegged Assets
 
+***
+
 ## How to become a Block-Producing Witness
 
 ### 1. Run the Witness/Full Node on the network
