@@ -1,6 +1,6 @@
 ### Contents
 
-- [About](#about)
+- [Overview](#overview)
 - [Cli-Tools for Windows (option)](#cli-tools-for-windows-option)
 - [Create a Cli Wallet and Open RPC port](#create-a-cli-wallet-and-open-rpc-port)
    - [Case 1: Connecting a Cli-Wallet - use the public API node](#case-1-connecting-a-cli-wallet)
@@ -14,7 +14,7 @@
 ******
 
 
-### About:
+### Overview:
 
 The Cli_wallet creates a local _wallet.json_ file that contains the encrypted private keys. The key is required to access the funds and add new data to the blockchain. You will need to `unlock` the wallet before you start interacting with the blockchain. It requires a running witness node (API server) to interface with the blockchain.
 
