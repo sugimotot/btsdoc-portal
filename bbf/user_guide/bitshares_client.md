@@ -1,3 +1,5 @@
+## BitShares Accounts
+
 ### Contents:
 - [BitShares Client](/bbf/user_guide/bitshares_client.md#bitShares-client)
    - [Light Client](/bbf/user_guide/bitshares_client.md#light-client)
