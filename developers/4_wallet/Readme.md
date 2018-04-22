@@ -24,6 +24,7 @@
 
 ***
 
+- [Wallet 2 Factor Authentication Protocol](https://github.com/cedar-book/btsdoc-portal/blob/master/developers/4_wallet/wallet_2factor_auth_protocol.md#wallet-2-factor-authentication-protocol)
 - Protocol information for Merchant
    - [Wallet Login Protocol](/developers/4_wallet/merchant_login.md#merchant)
    - [Wallet Privacy Protocol](/developers/4_wallet/merchant_privacy.md#merchant)
