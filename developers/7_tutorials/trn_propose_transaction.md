@@ -1,9 +1,9 @@
 ## Proposing a Transaction
 
 ### Contents:
-- [Proposing a Transaction](/developers/7_tutorials/07_propose_transaction.md#proposing-a-transaction-1)
-- [Approving a Proposal](/developers/7_tutorials/07_propose_transaction.md#approving-a-proposal)
-- [Example: Setting Smartcoin parameter](/developers/7_tutorials/07_propose_transaction.md#example-setting-smartcoin-parameter)
+- [Proposing a Transaction](/developers/7_tutorials/trn_propose_transaction.md#proposing-a-transaction-1)
+- [Approving a Proposal](/developers/7_tutorials/trn_propose_transaction.md#approving-a-proposal)
+- [Example: Setting Smartcoin parameter](/developers/7_tutorials/trn_propose_transaction.md#example-setting-smartcoin-parameter)
 
 ***
 
