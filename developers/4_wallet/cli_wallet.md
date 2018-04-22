@@ -143,6 +143,8 @@ If you get the `set_password` prompt, it means your CLI has successfully conecte
 
 > To use the wallet, you must `unlock` the wallet.  
 
+***
+
 ## Gaining Access to Blockchain
 
 In Graphene, balances are contained in accounts. To import an account that exists in the Graphene genesis. (i.g.,\<name\> is an account name owning the key.  \<wifkey\> is a private key)
