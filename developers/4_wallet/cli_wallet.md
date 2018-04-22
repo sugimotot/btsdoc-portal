@@ -197,6 +197,10 @@ The wallet will return the actual signed transaction.
 **Obtain the private key**
 
 The `get_private_key` command allows us to obtain the **private key** corresponding to the block signing key.
+(*Get the WIF private key corresponding to a public key. The private key must already be in the wallet.* )
+
+    >>> get_private_key(<pubkey>) 
+   
 
     >>> get_private_key GPH6viEhYCQr8xKP3Vj8wfHh6WfZeJK7H9uhLPDYWLGCRSj5kHQZM
 
