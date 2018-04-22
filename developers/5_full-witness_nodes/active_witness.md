@@ -2,7 +2,7 @@
 
 ### Contents:
 
-- A [Block-Producing Witness](/developers/5_full-witness_nodes/active_witness.md#a-block-producing-witness)
+- [A Block-Producing Witness](/developers/5_full-witness_nodes/active_witness.md#a-block-producing-witness)
    - Requirements
    - Active Witness Duties
 - [How to become a Block-Producing Witness](/developers/5_full-witness_nodes/active_witness.md#how-to-become-a-block-producing-witness)
