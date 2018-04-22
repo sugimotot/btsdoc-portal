@@ -141,10 +141,7 @@ In order to create a wallet (on Public Testnet), you must specify the previously
 
 If you get the `set_password` prompt, it means your CLI has successfully conected to the testnet witness node.
 
-***
-
-> In order to transfer, the wallet must be `unlocked`. If the broadcast flag is `False`, the wallet will construct and sign, but **not** broadcast the transaction. This can be very useful for a cold storage setup or to verify transactions.
-
+> To use the wallet, you must be `unlock` the wallet.  
 
 ## Gaining Access to Blockchain
 
@@ -178,6 +175,9 @@ This command allows you to register an account using only a **public key**.
     >>> register_account alpha GPH4zSJHx7D84T1j6HQ7keXWdtabBBWJxvfJw72XmEyqmgdoo1njF GPH4zSJHx7D84T1j6HQ7keXWdtabBBWJxvfJw72XmEyqmgdoo1njF faucet faucet 0 true
 
 ### Transferring Funds using the Cli-wallet
+
+In `transfer`, if the broadcast flag is `False`, the wallet will construct and sign, but **not** broadcast the transaction. This can be very useful for a cold storage setup or to verify transactions.
+
 **transfer**
 
     unlocked >> transfer <from> <to> <amount> <asset> <memo> <broadcast>
