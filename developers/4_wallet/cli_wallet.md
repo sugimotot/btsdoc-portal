@@ -8,7 +8,7 @@
    - [Case 3: Connecting a Cli-Wallet - Public Testnet](#case-3-connecting-a-cli-wallet-in-public-testnet)
 - [Gaining a Access to Blockchain](#gaining-access-to-blockchain)
    - [import](#import)
-   - [registar](#register)
+   - [register](#register)
 - [Transfering Funds using the Cli-wallet](#transfering-funds-using-the-cli-wallet)
 
 ******
@@ -177,7 +177,7 @@ This command allows you to register an account using only a **public key**.
 
     >>> register_account alpha GPH4zSJHx7D84T1j6HQ7keXWdtabBBWJxvfJw72XmEyqmgdoo1njF GPH4zSJHx7D84T1j6HQ7keXWdtabBBWJxvfJw72XmEyqmgdoo1njF faucet faucet 0 true
 
-### Transfering Funds using the Cli-wallet
+### Transferring Funds using the Cli-wallet
 **transfer**
 
     unlocked >> transfer <from> <to> <amount> <asset> <memo> <broadcast>
