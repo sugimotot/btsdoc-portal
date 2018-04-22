@@ -8,7 +8,7 @@
 - [Login](/bbf/user_guide/create_account.md#login)
 - [Quick Review Wallet Options](/bbf/user_guide/wallet_options1.md#bitshares-wallet-options)
 
-### BitShares Accounts
+### [BitShares Accounts](/bbf/user_guide/bitshares_client.md#bitshares-accounts)
 - [BitShares Client](/bbf/user_guide/bitshares_client.md#bitShares-client)
    - [Light Client](/bbf/user_guide/bitshares_client.md#light-client)
    - [Web Client](/bbf/user_guide/bitshares_client.md#web-client)
@@ -26,7 +26,7 @@
 - Fees
 - Vote / Proxy
 
-### Backups and Restore your Wallet
+### [Backups and Restore your Wallet](/bbf/user_guide/backup_local_wallet.md#backups-and-restore-your-wallet)
 - [Create Local Wallet Backup](/bbf/user_guide/backup_local_wallet.md#create-local-wallet-backup)
    - [Backup Types](/bbf/user_guide/backup_local_wallet.md#backup-types)
    - [How to Create a backup (.bin) file](/bbf/user_guide/backup_local_wallet.md#how-to-create-a-backup-bin-file)
