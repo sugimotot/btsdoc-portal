@@ -222,9 +222,7 @@ In the response, next to `membership_expiration_date` you should see `1969-12-31
 
 We can now register an account by using nathan as registrar.ut first we need to get hold of the public key for the new account. We do it by using the `suggest_brain_key` command.
 
-**example 1** 
-
-Create an account by `create_account_with_brain_key`
+And the resposne should be something similar to this:
 
     >>> suggest_brain_key
     {
