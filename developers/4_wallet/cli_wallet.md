@@ -16,7 +16,7 @@
 
 The Cli_wallet creates a local _wallet.json_ file that contains the encrypted private keys. The key is required to access the funds and add new data to the blockchain. You will need to `unlock` the wallet before you start interacting with the blockchain. It requires a running witness node (API server) to interface with the blockchain.
 
-**Reminder**: To register an account, the registrar needs to be a lifetime member. You can upgrade the account to *Lifetime member (LTM) status.*
+**Reminder**: To register an account, the registrar needs to be a lifetime member. You can upgrade the account to *Lifetime member (LTM) status.* (e.g. `faucet` is the registar in an example below)
 
     >>> upgrade_account faucet true
 
