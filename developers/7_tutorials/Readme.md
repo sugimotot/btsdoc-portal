@@ -1,14 +1,12 @@
 ## 7. Tutorials
 
-* [Questions and Answers](/developers/7_tutorials/01_QA.md#questions) (Q&As)
-
 ***
 ### 01. General
-- [Q&A](/developers/7_tutorials/01_QA.md#general)
+- [Q&A](/developers/7_tutorials/QA.md#general)
 
 ### 02. Accounts 
 - How to process Account Registration
-- [Q&A](/developers/7_tutorials/01_QA.md#accounts)
+- [Q&A](/developers/7_tutorials/QA.md#accounts)
 
 ### 03. Assets
 - [How to Create a new UIA](/developers/7_tutorials/03_assets_uia.md#how-to-create-a-new-uia)
@@ -18,7 +16,7 @@
 - [How to Closing/Setting a Prediction Market](/developers/7_tutorials/03_assets_pm.md#how-to-closingsetting-a-prediction-market
 )
 - [Publishing a Feed - form](/developers/7_tutorials/03_publish_feed.md#publishing-a-feed)
-- [Q&A](/developers/7_tutorials/01_QA.md#assets-1)
+- [Q&A](/developers/7_tutorials/QA.md#assets-1)
 
 ### 04. BitShares Decentralised Exchange (DEX)
 - [How to prepare Distributed Access to the BitShares Decentralised Exchange (DEX)](/developers/7_tutorials/04_distributed_access_dex.md#distributed-access-to-the-bitshares-decentralised-exchange)
@@ -31,7 +29,7 @@
 - Q&A
 
 ### 06. Testnet
-- [Q&A](/developers/7_tutorials/01_QA.md#testnet-1)
+- [Q&A](/developers/7_tutorials/QA.md#testnet-1)
 
 
 ### 07. Transfer / Transactions
@@ -46,10 +44,10 @@
 - [Network and Wallet Configuration](/developers/4_cli_wallet/network_wallet.md#network-and-wallet-configuration)
    - [General](/developers/4_cli_wallet/network_wallet.md#network-setups)
    - [Secure](/developers/4_cli_wallet/network_wallet.md#secure-network-and-wallet-configuration)
-- [Q&A](/developers/7_tutorials/01_QA.md#wallet--cli-wallet-1)
+- [Q&A](/developers/7_tutorials/QA.md#wallet--cli-wallet-1)
 
 ### 09. Witness
-- [Q&A](/developers/7_tutorials/01_QA.md#witness)
+- [Q&A](/developers/7_tutorials/QA.md#witness)
 - 
 
 ### 10. Worker
@@ -71,3 +69,4 @@
    - 
 -
 
+***
