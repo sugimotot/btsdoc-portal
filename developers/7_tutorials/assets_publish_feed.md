@@ -1,6 +1,6 @@
 ### Contents:
 
-- [Publishing a Feed](/developers/7_tutorials/03_publish_feed.md#publishing-a-feed)
+- [Publishing a Feed](/developers/7_tutorials/assets_publish_feed.md#publishing-a-feed)
 
 ***
 
