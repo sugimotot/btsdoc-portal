@@ -141,7 +141,7 @@ In order to create a wallet (on Public Testnet), you must specify the previously
 
 If you get the `set_password` prompt, it means your CLI has successfully conected to the testnet witness node.
 
-> To use the wallet, you must be `unlock` the wallet.  
+> To use the wallet, you must `unlock` the wallet.  
 
 ## Gaining Access to Blockchain
 
