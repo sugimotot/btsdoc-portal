@@ -372,15 +372,17 @@ When an asset is creatd, the issuer can set any combination of flags/permissions
 
 #### Q. What are the Flags?
 
-- charge_market_fee: an issuer-specified percentage of all market trades in this asset is paid to the issuer
-- white_list: accounts must be white-listed in order to hold this asset
-- override_authority: issuer may transfer asset back to himself
-- transfer_restricted: require the issuer to be one party to every transfer
-- disable_force_settle: disable force settling
-- global_settle: (only for bitassets) allows bitasset issuer to force a global settling - this may be set in permissions, but should not be set as flag unless, for instance, a prediction market has to be resolved. If this flag has been enabled, no further shares can be borrowed!
-- disable_confidential: allow the asset to be used with confidential transactions
-- witness_fed_asset: allow the asset to be fed by witnesses
-- committee_fed_asset: allow the asset to be fed by the committee
+| flag | |
+|---|---|
+| charge_market_fee | an issuer-specified percentage of all market trades in this asset is paid to the issuer|
+| white_list | accounts must be white-listed in order to hold this asset |
+| override_authority | issuer may transfer asset back to himself |
+| transfer_restricted | require the issuer to be one party to every transfer |
+| disable_force_settle | disable force settling |
+| global_settle | (only for bitassets) allows bitasset issuer to force a global settling - this may be set in permissions, but should not be set as flag unless, for instance, a prediction market has to be resolved. If this flag has been enabled, no further shares can be borrowed! |
+| disable_confidential | allow the asset to be used with confidential transactions |
+| witness_fed_asset | allow the asset to be fed by witnesses |
+| committee_fed_asset | allow the asset to be fed by the committee |
 
 #### Q. Can I use the same flags/permissions as for UIAs?
 
