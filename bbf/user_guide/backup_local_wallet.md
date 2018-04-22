@@ -51,6 +51,10 @@ There are three types of backups.
 
 ***
 
+#### The Brain Key
+
+The brain key is used as source for all cryptographic keys generated in the wallet. If you have it secured, you will be able to regain access to your accounts and funds (unless the access keys have been changed)
+
 ### How to create a Brainkey (Advanced User Only)
 
 1. Open a Side menu and select [**Settings**]
@@ -85,7 +89,7 @@ There are three types of backups.
 | Restore from a backup file (.bin) | restore from a backup file and a password  |
 | Import a private key |   |
 | Import a BTS 0.9.3c key export file (.json) |  |
-| Restore using a local wallet brainkey | use a password and  |
+| Restore using a local wallet brainkey | use a password and a Brain key |
 | Restore favorites using a json file |  |
 
 
