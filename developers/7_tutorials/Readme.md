@@ -16,7 +16,7 @@
 - [How to Closing/Setting a Prediction Market](/developers/7_tutorials/assets_pm.md#how-to-closingsetting-a-prediction-market
 )
 - [Publishing a Feed - form](/developers/7_tutorials/assets_publish_feed.md#publishing-a-feed)
-- [Q&A](/developers/7_tutorials/QA.md#assets-1)
+- [Q&A](/developers/7_tutorials/QA.md#assets)
 
 ### 04. BitShares Decentralised Exchange (DEX)
 - [How to prepare Distributed Access to the BitShares Decentralised Exchange (DEX)](/developers/7_tutorials/dex_distributed_access.md#distributed-access-to-the-bitshares-decentralised-exchange)
@@ -29,7 +29,7 @@
 - Q&A
 
 ### 06. Testnet
-- [Q&A](/developers/7_tutorials/QA.md#testnet-1)
+- [Q&A](/developers/7_tutorials/QA.md#testnet)
 
 
 ### 07. Transfer / Transactions
@@ -44,7 +44,7 @@
 - [Network and Wallet Configuration](/developers/4_cli_wallet/network_wallet.md#network-and-wallet-configuration)
    - [General](/developers/4_cli_wallet/network_wallet.md#network-setups)
    - [Secure](/developers/4_cli_wallet/network_wallet.md#secure-network-and-wallet-configuration)
-- [Q&A](/developers/7_tutorials/QA.md#wallet--cli-wallet-1)
+- [Q&A](/developers/7_tutorials/QA.md#wallet--cli-wallet)
 
 ### 09. Witness
 - [Q&A](/developers/7_tutorials/QA.md#witness)
