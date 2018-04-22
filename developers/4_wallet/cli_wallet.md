@@ -16,7 +16,7 @@
 
 The Cli_wallet creates a local _wallet.json_ file that contains the encrypted private keys. The key is required to access the funds and add new data to the blockchain. You will need to `unlock` the wallet before you start interacting with the blockchain. It requires a running witness node (API server) to interface with the blockchain.
 
-**Reminder**: To register an account, the registrar needs to be a lifetime member. You can upgrade the account to *Lifetime member (LTM) status.* (e.g. `faucet` is the registar in an example below)
+**Reminder**: To register an account, the registrar needs to be a lifetime member. You can upgrade the account to *Lifetime member (LTM) status.* (e.g. `faucet` is the registrar in an example below)
 
     >>> upgrade_account faucet true
 
@@ -150,6 +150,8 @@ If you get the `set_password` prompt, it means your CLI has successfully conecte
 
 In Graphene, balances are contained in accounts. To import an account that exists in the Graphene genesis. (i.g.,\<name\> is an account name owning the key.  \<wifkey\> is a private key)
 
+### Import
+
 **import_key**
 
     >>> import_key <name> "<wifkey>"
@@ -160,11 +162,8 @@ Funds are stored in genesis balance objects. These funds can be claimed, with no
 
     >>> import_balance <name> ["*"] true
 
-### Manage Accounts
-
-**Obtain Lifetime member (LTM) status**
-
-Requires lifetime member (LTM) status to create an account. You can upgrade the account.
+### Register
+To register an account, the registrar needs to be a lifetime member. You can upgrade the account to *Lifetime member (LTM) status.* (e.g. `faucet` is the registrar in an example below)
 
     >>> upgrade_account faucet true
 
@@ -174,7 +173,7 @@ Requires lifetime member (LTM) status to create an account. You can upgrade the 
 
 This command allows you to register an account using only a **public key**. 
 
-**example**
+*Example*
 
     >>> register_account alpha GPH4zSJHx7D84T1j6HQ7keXWdtabBBWJxvfJw72XmEyqmgdoo1njF GPH4zSJHx7D84T1j6HQ7keXWdtabBBWJxvfJw72XmEyqmgdoo1njF faucet faucet 0 true
 
