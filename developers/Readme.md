@@ -27,7 +27,7 @@ _**above processes will go parallel_
      
 ### 3. [Accounts](/developers/3_Accounts/Readme.md#3-accounts)
 
-### 4. [CLI Wallet](/developers/4_wallet/Readme.md#4-wallet)
+### 4. [Wallet](/developers/4_wallet/Readme.md#4-wallet)
 
 ### 5. [Full Nodes / Witness Nodes](/developers/5_full-witness_nodes/Readme.md#5-full-node--witness-node)
 
