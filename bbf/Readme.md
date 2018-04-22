@@ -34,12 +34,10 @@ leverage the full power of the BitShares Blockchain.
   - [Permissions ](/bbf/user_guide/permissions.md#permissions)
   - Membership
   - Fees
-  - Vote / Proxy
-  
+  - Vote / Proxy 
 - Backups and Restore your Wallet
   - [Create Local Wallet Backup](/bbf/user_guide/backup_local_wallet.md#create-local-wallet-backup)
-  - [Restore / Import](/bbf/user_guide/backup_local_wallet.md#restore--import)
-
+  - [Restore / Import](/bbf/user_guide/backup_local_wallet.md#restore--import
 - Transactions
 - Deposit & Withdraw
 - Exchange / Explore
