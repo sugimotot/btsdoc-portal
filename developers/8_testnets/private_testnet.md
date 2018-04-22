@@ -16,7 +16,7 @@
 
 ## 1. Prerequisites 
 
-We assume that you have both `witness_node` and `cli_wallet` already compliled.
+We assume that you have both `witness_node` and `cli_wallet` already compliled (or downloaded from [the offical respository](https://github.com/bitshares/bitshares-2/releases/latest).
 
 ## 2. Folder structure 
 
@@ -36,15 +36,13 @@ The graphene code base has a default genesis block integrated that has all witne
 
 See below how to use this key, or go ahead to learn about how to define your own genesis file
 
-### Creation of the Genesis file
+### Customization of the Genesis file
 
-Create a new genesis json file named `my-genesis.json`:
+We create a new genesis json file named `my-genesis.json` by running this command:
 
     programs/witness_node/witness_node --create-genesis-json=my-genesis.json
 
 The `my-genesis.json` file will be created in the `[Testnet-Home]` folder. Once this task is done, the witness node will terminate on its own.
-
-### Customization of the Genesis file
 
 If you want to customize the network’s initial state, edit the newly created my-genesis.json file. This allows you to control things such as:
 
