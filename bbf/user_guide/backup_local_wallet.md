@@ -5,7 +5,10 @@
    - [Backup Types](/bbf/user_guide/backup_local_wallet.md#backup-types)
    - [How to create a backup (.bin) file](/bbf/user_guide/backup_local_wallet.md#how-to-create-a-backup-bin-file)
    - [How to create a Brainkey (Advanced User Only)](/bbf/user_guide/backup_local_wallet.md#how-to-create-a-brainkey-advanced-user-only)
-- 
+- Restore / Import
+   - Restore / Import Options
+   - How to Restore from a backup (.bin) file
+   - How to check *Active Local Wallet* name
 
 ***
 
@@ -29,12 +32,12 @@ There are three types of backups.
 
 ### How to Create a backup (.bin) file
 
-1. Open a Side menu and select [Settings]
-1. In [Settings], select [Backup]. 
+1. Open a Side menu and select [**Settings**]
+1. In [**Settings**], select [**Backup**]. 
 1. Make sure the backup type is *Create local wallet backup*
-1. Click [CREATE BACKUP NOW]
+1. Click [**CREATE BACKUP NOW**]
 1. Check your backup file name (e.g. bts_somrthing_20180420.bin)
-1. Click [DOWNLOAD]
+1. Click [**DOWNLOAD**]
 
 #### Store this backup in at least two secure locations only accessible by you
 
@@ -50,13 +53,13 @@ There are three types of backups.
 
 ### How to create a Brainkey (Advanced User Only)
 
-1. Open a Side menu and select [Settings]
-1. In [Settings], select [Backup]. 
+1. Open a Side menu and select [**Settings**]
+1. In [**ttings**]select [**Backup**]. 
 1. (#1) Make sure the backup type is *Create brainkey backup*
 1. (#2) Type in your password
-1. (#3) Click [SHOW BRAUBKEY]
-1. (#4) Write down *Brainkey* (i.g. very random long phrases)
-1. (#5) Click [I'VE WRITTEN IT DOWN] 
+1. (#3) Click [**OW BRAUBKEY**]
+1. (#4) Write down **Brainkey** (i.g. very random long phrases)
+1. (#5) Click [**VE WRITTEN IT DOWN**
 
 #### Write it down!! Anyone with access to your recovery key will have access to funds with in the local wallet.
 
@@ -88,19 +91,17 @@ There are three types of backups.
 
 ### How to Restore from a backup (.bin) file
 
-1. Open a Side menu and select [Settings]
-1. In [Settings], select [Restore/Import]. 
+1. Open a Side menu and select [**Settings**]
+1. In [**Settings**], select [**Restore/Import**]. 
 1. (#1) Make sure you selected *Restore from a backup file (.bin)*
-1. (#2) Click [Browse...] to find a backup file. 
+1. (#2) Click [**Browse...**] to find a backup file. 
 1. (#3) Type in a password
-1. (#4) Click [SUBMIT]
+1. (#4) Click [**SUBMIT**]
 1. (#5) Type in *New Local Wallet Name* if you want to change the backup file name.
-1. (#6) Click [ACCEPT]
+1. (#6) Click [*ACCEPT*]
 1. (#7) **Ready to Restore** - below "RESTORE(..... WALLET) is a button. Click it. 
 1. You will find "Successfully  restored (....)wallet.  Done!!
-1. (#8) Click [DASHBOARD]
-
-
+1. (#8) Click [*[DASHBOARD**]
 
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/restore1.png" width="670" title="Backup">
@@ -118,9 +119,18 @@ There are three types of backups.
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/restore6.png" width="670" title="Restore">
 </p>
+
+### How to check *Active Local Wallet* name
+
+- [**Settings**] - [**Local Wallet**] - Active Local Wallet
+
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/restore7.png" width="670" title="Restore">
 </p>
+
+***
+
+### How to Recover Account with Brain key
 
 
 
