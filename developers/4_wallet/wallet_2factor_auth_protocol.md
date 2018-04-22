@@ -27,7 +27,7 @@ For the purpose of this document `https://secondfactor.org` will be the example 
 
 ***
 
-###Step 1 - User Registration
+### Step 1 - User Registration
 The first thing a user must do is identify themselves with `secondfactor.org` by some means. This may be as simple as verifying an email address, registering a phone number, or ordering a keyfob.
 
 ### Step 2 - Create Graphene Account for secondfactor.org
