@@ -1,7 +1,7 @@
 ## BitShares Accounts
 
 ### Contents:
-- [BitShares Client](/bbf/user_guide/bitshares_client.md#bitShares-client)
+- [BitShares Client](/bbf/user_guide/bitshares_client.md#bitshares-client)
    - [Light Client](/bbf/user_guide/bitshares_client.md#light-client)
    - [Web Client](/bbf/user_guide/bitshares_client.md#web-client)
 - [Wallet & Login Mode](/bbf/user_guide/bitshares_client.md#wallet--login-mode)
