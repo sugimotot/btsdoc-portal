@@ -38,6 +38,8 @@
 | Return |  |
 | Parameters | |
 
+***
+
 ## Wallet Calls
 
 #### bool graphene::wallet::wallet_api::`is_new()` const
