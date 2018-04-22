@@ -147,7 +147,7 @@ The brain key is used as source for all cryptographic keys generated in the wall
 1. (#5) Type in **BRAINKEY**
 1. (#6) Click [CREATE NEW LOCAL WALLET]
 1. (#7) Click [DONE]
-1. (#8) Let's check *ACTIVE LOCAL WALLET* name
+1. (#8) Let's check *ACTIVE LOCAL WALLET* name (Go to [Settings] - [Local Wallet])
 
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/brainkey1.png" width="670" title="Backup">
