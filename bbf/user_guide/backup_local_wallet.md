@@ -55,13 +55,13 @@ There are three types of backups.
 
 The brain key is used as source for all cryptographic keys generated in the wallet. If you have it secured, you will be able to regain access to your accounts and funds (unless the access keys have been changed)
 
-### How to create a Brainkey (Advanced User Only)
+### How to Create a Brainkey (Advanced User Only)
 
 1. Open a Side menu and select [**Settings**]
 1. In [**Settings**], select [**Backup**]. 
 1. (#1) Make sure the backup type is *Create brainkey backup*
 1. (#2) Type in a password
-1. (#3) Click [**SHOW BRAUBKEY**]
+1. (#3) Click [**SHOW BRAINKEY**]
 1. (#4) Write down *Brainkey* (i.g. very random long phrases)
 1. (#5) Click [**I'VE WRITTEN IT DOWN**] 
 
@@ -136,10 +136,32 @@ The brain key is used as source for all cryptographic keys generated in the wall
 
 ### How to Recover Account with Brain key
 
+1. Open a Side menu and select [**Settings**]
+1. In [**Settings**], select [**Restore/Import**]. 
+1. (#1) Make sure you selected *Restore using a local wallet brainkey*
+1. (#2) Type in a password
+1. (#3) Type in a password (Confirm)
+1. (#4) Type in *Local Wallet Name* if needed. (e.g. "default-test-brainkey-restore")
+1. (#5) Type in **BRAINKEY**
+1. (#6) Click [CREATE NEW LOCAL WALLET]
+1. (#7) Click [DONE]
+1. (#8) Let's check *ACTIVE LOCAL WALLET* name
+
+<p align="center">
+  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/brainkey1.png" width="670" title="Backup">
+</p>
+<p align="center">
+  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/brainkey2.png" width="670" title="Restore">
+</p>
+<p align="center">
+  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/brainkey3.png" width="670" title="Restore">
+</p>
+<p align="center">
+  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/brainkey4.png" width="670" title="Restore">
+</p>
+<p align="center">
+  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/brainkey5.png" width="670" title="Restore">
+</p>
 
 
-
-
-
-
-
+***
