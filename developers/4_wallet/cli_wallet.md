@@ -182,13 +182,13 @@ This command allows you to register an account using only a **public key**.
 
     unlocked >> transfer <from> <to> <amount> <asset> <memo> <broadcast>
     
-*Example:*
+*(Example 1):*
  `faucet` wants to send 100000 `CORE` to `alpha` user.
 
     unlocked >> transfer faucet alpha 100000 CORE "here is the cash" true
 
-*Example:*
-Alice wants to send 10 USD to bob.
+*(Example 2):*
+`Alice` wants to send 10 `USD` to `bob`.
 
     unlocked >> transfer alice bob 10 USD "a gift" true
 
@@ -200,9 +200,7 @@ The `get_private_key` command allows us to obtain the **private key** correspond
 
     >>> get_private_key GPH6viEhYCQr8xKP3Vj8wfHh6WfZeJK7H9uhLPDYWLGCRSj5kHQZM
 
-
 ***
-Put together.
 
 **Open a new Wallet for `alpha` user**
 
