@@ -1,5 +1,15 @@
 ## Full Nodes (Witness Nodes)
 
+### Contents: 
+- Type of Witness nodes
+   - Non-Block producing
+   - Block producing
+- How to launch the full node
+- Configuration
+- Enabling Remote Procedure Calls (RPC)
+
+***
+
 ### Type of Witness nodes:
 
 * non-block producing witness nodes
