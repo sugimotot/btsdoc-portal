@@ -6,6 +6,7 @@
    - Non-Block producing
    - Block producing
 - How to launch the full node
+- Configuration
 - Enabling Remote Procedure Calls (RPC)
 
 ### 02. [Become an Active Witness](/developers/5_full-witness_nodes/active_witness.md#become-an-active-witness)
