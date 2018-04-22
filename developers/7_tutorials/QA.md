@@ -34,7 +34,7 @@
 - [Is the scripting language turing complete?](/developers/7_tutorials/QA.md#q-is-the-scripting-language-turing-complete)
 
 ***
-### [Account](/developers/7_tutorials/QA.md#accounts)
+### [Accounts](/developers/7_tutorials/QA.md#accounts)
 - [How can I create, register and upgrade an account to Lifetime Membership?](/developers/7_tutorials/QA.md#q-how-can-i-create-register-and-upgrade-an-account-to-lifetime-membership)
 
 ***
