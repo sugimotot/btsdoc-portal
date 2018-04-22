@@ -9,8 +9,7 @@
 - [Gaining a Access to Blockchain](#gaining-access-to-blockchain)
    - import
    - registar
-- Transfer
-
+- [Transfering Funds using the Cli-wallet](#transfering-funds-using-the-cli-wallet)
 
 ******
 
@@ -125,11 +124,7 @@ depending on the kind of RPC protocol.
 
 **This example will open the port 8092 for local queries only. It is not recommended to publicly expose your wallet!**
 
-
-
 ***
-
-
 
 ## Case 3: Connecting a Cli-Wallet in Public Testnet
 
@@ -146,8 +141,10 @@ In order to create a wallet (on Public Testnet), you must specify the previously
 
 If you get the `set_password` prompt, it means your CLI has successfully conected to the testnet witness node.
 
+***
 
------
+> In order to transfer, the wallet must be `unlocked`. If the broadcast flag is `False`, the wallet will construct and sign, but **not** broadcast the transaction. This can be very useful for a cold storage setup or to verify transactions.
+
 
 ## Gaining Access to Blockchain
 
@@ -170,9 +167,9 @@ To register an account, the registrar needs to be a lifetime member. You can upg
 
     >>> upgrade_account faucet true
 
-**Register Account**
+**register Account**
 
-    register_account <name> <owner-public_key> <active-public_key> <registrar_account> <referrer_account> <referrer_percent> <broadcast>
+    >>> register_account <name> <owner-public_key> <active-public_key> <registrar_account> <referrer_account> <referrer_percent> <broadcast>
 
 This command allows you to register an account using only a **public key**. 
 
@@ -180,17 +177,25 @@ This command allows you to register an account using only a **public key**.
 
     >>> register_account alpha GPH4zSJHx7D84T1j6HQ7keXWdtabBBWJxvfJw72XmEyqmgdoo1njF GPH4zSJHx7D84T1j6HQ7keXWdtabBBWJxvfJw72XmEyqmgdoo1njF faucet faucet 0 true
 
-
 ### Transfering Funds using the Cli-wallet
 **transfer**
 
     unlocked >> transfer <from> <to> <amount> <asset> <memo> <broadcast>
     
 *Example:*
-Test `transfer` to send `CORE` from `faucet` to `alpha` user.
+ `faucet` wants to send 100000 `CORE` to `alpha` user.
 
-    >>> transfer faucet alpha 100000 CORE "here is the cash" true
+    unlocked >> transfer faucet alpha 100000 CORE "here is the cash" true
 
+*Example*
+Alice wants to send 10 USD to bob.
+
+    unlocked >> transfer alice bob 10 USD "a gift" true
+
+The wallet will return the actual signed transaction.
+
+***
+Put together.
 
 **Open a new Wallet for `alpha` user**
 
