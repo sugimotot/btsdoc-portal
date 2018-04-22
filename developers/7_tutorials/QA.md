@@ -388,12 +388,14 @@ Yes!
 
 #### Q. What are market-pegged-asset-specific parameters?
 
-- feed_lifetime_sec: The lifetime of a feed. After this time (in seconds) a feed is no longer considered valid.
-- minimum_feeds: The number of feeds required for a market to become (and stay) active.
-- force_settlement_delay_sec: The delay between requesting a settlement and actual execution of settlement (in seconds)
-- force_settlement_offset_percent: A percentage offset from the price feed for settlement (100% = 10000)
-- maximum_force_settlement_volume: Maximum percentage of the supply that can be settled per day (100% = 10000)
-- short_backing_asset: The asset that has to be used to back this asset (when borrowing)
+| parameter| |
+|---|---|
+| feed_lifetime_sec | The lifetime of a feed. After this time (in seconds) a feed is no longer considered valid. |
+| minimum_feeds | The number of feeds required for a market to become (and stay) active. |
+| force_settlement_delay_sec | The delay between requesting a settlement and actual execution of settlement (in seconds) |
+| force_settlement_offset_percent | A percentage offset from the price feed for settlement (100% = 10000) |
+| maximum_force_settlement_volume | Maximum percentage of the supply that can be settled per day (100% = 10000) |
+| short_backing_asset | The asset that has to be used to back this asset (when borrowing) |
 
 ***
 ### Testnet
@@ -477,11 +479,14 @@ Yes, but
 The only way you can interact with the witness node is through the CLI client by using its API. You can also use the GUI (i.e. the light client). In the GUI, change Settings -> API connection, add ws://127.0.0.1:8090/ws (according to settings of your witness node) and select it.
 
 #### Q. What is the meaning of all those different text colors in the witness node console?
-- green - debug
-- white - info/default
-- yellow/brown - warning
-- red - error
-- blue - some kind of info, I don’t know
+
+| color | |
+|---|---|
+| green | debug |
+| white| info/default |
+| yellow/brown| warning |
+| red | error |
+| blue | some kind of info, I don’t know |
 
 Related source files are in libraries/fc/include/fc/log/ and libraries/fc/src/log/.
 
