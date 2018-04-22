@@ -15,6 +15,31 @@ Both represent nodes in the network that verify all transactions and blocks agai
 
 It takes an optional –data-dir parameter to define a working and data directory to store the configuration, blockchain and local databases (defaults to `witness_node_data_dir`). Those will be automatically created with default settings if they don’t exist locally set.
 
+### Configuration
+
+The configuration file `config.ini` in your data directory is commented and contains the following essential settings:
+
+| item |     |
+|------|--------|
+| p2p-endpoint | Endpoint for P2P node to listen on |
+| seed-node | P2P nodes to connect to on startup (may specify multiple times) |
+| checkpoint | Pairs of [BLOCK_NUM,BLOCK_ID] that should be enforced as checkpoints. |
+| rpc-endpoint | Endpoint for websocket RPC to listen on (e.g. 0.0.0.0:8090) |
+| rpc-tls-endpoint | Endpoint for TLS websocket RPC to listen on |
+| server-pem | The TLS certificate file for this server |
+| server-pem-password  |Password for this certificate  |
+| genesis-json | File to read Genesis State from |
+| api-access | JSON file specifying API permissions |
+| enable-stale-production | Enable block production, even if the chain is stale. (unless for private testnets should be false) |
+| required-participation | Percent of witnesses (0-99) that must be participating in order to produce blocks |
+| allow-consecutive | Allow block production, even if the last block was produced by the same witness. |
+| witness-id  | ID of witness controlled by this node (e.g. “1.6.5”, quotes are required, may specify multiple times) |
+| private-key | Tuple of [PublicKey, WIF private key] (may specify multiple times) |
+| track-account | Account ID to track history for (may specify multiple times) |
+| bucket-size | Track market history by grouping orders into buckets of equal size measured in seconds specified as a JSON array of numbers |
+| history-per-size | How far back in time to track history for each bucket size, measured in the number of buckets (default: 1000) |
+
+> Note: Folders and files are considered to be relative to the working directory (i.e. the directory from which the executables are launched from)
 
 
 ### Enabling Remote Procedure Calls (RPC)
