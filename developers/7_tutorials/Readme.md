@@ -9,23 +9,23 @@
 - [Q&A](/developers/7_tutorials/QA.md#accounts)
 
 ### 03. Assets
-- [How to Create a new UIA](/developers/7_tutorials/03_assets_uia.md#how-to-create-a-new-uia)
-- [How to Update/Change an existing UIA](/developers/7_tutorials/03_assets_uia.md#how-to-updatechange-an-existing-uia)
-- [How to Create a MPA](/developers/7_tutorials/03_assets_mpa.md#how-to-create-a-mpa)
-- [How to Create a Prediction Market](/developers/7_tutorials/03_assets_pm.md#how-to-create-a-prediction-market)
-- [How to Closing/Setting a Prediction Market](/developers/7_tutorials/03_assets_pm.md#how-to-closingsetting-a-prediction-market
+- [How to Create a new UIA](/developers/7_tutorials/assets_uia.md#how-to-create-a-new-uia)
+- [How to Update/Change an existing UIA](/developers/7_tutorials/assets_uia.md#how-to-updatechange-an-existing-uia)
+- [How to Create a MPA](/developers/7_tutorials/assets_mpa.md#how-to-create-a-mpa)
+- [How to Create a Prediction Market](/developers/7_tutorials/assets_pm.md#how-to-create-a-prediction-market)
+- [How to Closing/Setting a Prediction Market](/developers/7_tutorials/assets_pm.md#how-to-closingsetting-a-prediction-market
 )
-- [Publishing a Feed - form](/developers/7_tutorials/03_publish_feed.md#publishing-a-feed)
+- [Publishing a Feed - form](/developers/7_tutorials/publish_feed.md#publishing-a-feed)
 - [Q&A](/developers/7_tutorials/QA.md#assets-1)
 
 ### 04. BitShares Decentralised Exchange (DEX)
-- [How to prepare Distributed Access to the BitShares Decentralised Exchange (DEX)](/developers/7_tutorials/04_distributed_access_dex.md#distributed-access-to-the-bitshares-decentralised-exchange)
+- [How to prepare Distributed Access to the BitShares Decentralised Exchange (DEX)](/developers/7_tutorials/dex_distributed_access.md#distributed-access-to-the-bitshares-decentralised-exchange)
 
 ### 05. Committee
-- [How to Create a new Committee Member](/developers/7_tutorials/05_committee_howto.md#how-to-creating-a-new-committee-member)
-- [How to Propose Committee Actions](/developers/7_tutorials/05_committee_howto.md#how-to-propose-committee-actions)
-- [How to Approve/Disapprove a Committee Proposal](/developers/7_tutorials/05_committee_howto.md#how-to-approvedisapprove-a-committee-proposal)
-- [How Committee Proposes a Change in Fee](/developers/7_tutorials/05_committee_howto.md#how-committee-proposes-a-change-in-fee)
+- [How to Create a new Committee Member](/developers/7_tutorials/committee_howto.md#how-to-creating-a-new-committee-member)
+- [How to Propose Committee Actions](/developers/7_tutorials/committee_howto.md#how-to-propose-committee-actions)
+- [How to Approve/Disapprove a Committee Proposal](/developers/7_tutorials/committee_howto.md#how-to-approvedisapprove-a-committee-proposal)
+- [How Committee Proposes a Change in Fee](/developers/7_tutorials/committee_howto.md#how-committee-proposes-a-change-in-fee)
 - Q&A
 
 ### 06. Testnet
@@ -33,9 +33,9 @@
 
 
 ### 07. Transfer / Transactions
-- [Confidential Transfers](/developers/7_tutorials/07_confidential_transfer.md#confidential-trandfer)
-- [Manually Construct Any Transaction](/developers/7_tutorials/07_construct_transaction.md#construct-any-transaction---manually)
-- [Proposing a Transaction](/developers/7_tutorials/07_propose_transaction.md#proposing-a-transaction)
+- [Confidential Transfers](/developers/7_tutorials/trn_confidential_transfer.md#confidential-trandfer)
+- [Manually Construct Any Transaction](/developers/7_tutorials/trn_construct_transaction.md#construct-any-transaction---manually)
+- [Proposing a Transaction](/developers/7_tutorials/trn_propose_transaction.md#proposing-a-transaction)
 - Q&A
 
 
