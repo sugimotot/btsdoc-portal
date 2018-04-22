@@ -82,7 +82,7 @@ The brain key is used as source for all cryptographic keys generated in the wall
 
 ## Restore / Import
 
-> If you have created a backup file (.bin), follow the steps.
+> We assume you have created a backup file (.bin) and use a Local wallet.
 
 ### Restore / Import Options
 
