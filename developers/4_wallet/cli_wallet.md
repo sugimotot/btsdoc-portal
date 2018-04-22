@@ -200,6 +200,8 @@ In `transfer`, if the broadcast flag is `False`, the wallet will construct and s
 
 The wallet will return the actual signed transaction.
 
+***
+
 **Obtain the private key**
 
 The `get_private_key` command allows us to obtain the **private key** corresponding to the block signing key.
