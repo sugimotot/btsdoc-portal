@@ -3,12 +3,12 @@
 ### Contents:
 - [Create Local Wallet Backup](/bbf/user_guide/backup_local_wallet.md#create-local-wallet-backup)
    - [Backup Types](/bbf/user_guide/backup_local_wallet.md#backup-types)
-   - [How to create a backup (.bin) file](/bbf/user_guide/backup_local_wallet.md#how-to-create-a-backup-bin-file)
-   - [How to create a Brainkey (Advanced User Only)](/bbf/user_guide/backup_local_wallet.md#how-to-create-a-brainkey-advanced-user-only)
+   - [How to Create a backup (.bin) file](/bbf/user_guide/backup_local_wallet.md#how-to-create-a-backup-bin-file)
+   - [How to Create a Brainkey (Advanced User Only)](/bbf/user_guide/backup_local_wallet.md#how-to-create-a-brainkey-advanced-user-only)
 - [Restore / Import](/bbf/user_guide/backup_local_wallet.md#restore--import)
    - [Restore / Import Options](/bbf/user_guide/backup_local_wallet.md#restore--import-options)
    - [How to Restore from a backup (.bin) file](/bbf/user_guide/backup_local_wallet.md#how-to-restore-from-a-backup-bin-file)
-   - [How to check *Active Local Wallet* name](/bbf/user_guide/backup_local_wallet.md#how-to-check-active-local-wallet-name)
+   - [How to Check *Active Local Wallet* name](/bbf/user_guide/backup_local_wallet.md#how-to-check-active-local-wallet-name)
    - [How to Recover Account with Brain key](/bbf/user_guide/backup_local_wallet.md#how-to-recover-account-with-brain-key)
    
    
@@ -126,7 +126,7 @@ The brain key is used as source for all cryptographic keys generated in the wall
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/restore6.png" width="670" title="Restore">
 </p>
 
-### How to check *Active Local Wallet* name
+### How to Check *Active Local Wallet* name
 
 - [**Settings**] - [**Local Wallet**] - Active Local Wallet
 
