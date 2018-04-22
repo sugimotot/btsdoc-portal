@@ -46,6 +46,10 @@ It requires a running witness node (not necessarily locally) and connects to it.
 
 Your running witness/full node might be _BitShares Public Full Nodes_, or run by _businesses_ or _individuals_.
 
+### After opened the port
+
+You will be prompted: `locked >>>`. You need to unlock the wallet. After the `unlock`, you can issue any command available to the cli-wallet (Wallet APIs) or construct your own transaction manually. For the trading, the wallet needs to be unlocked sign trading orders. 
+
 ----
 
 ## Case 1: Connecting a Cli-Wallet
@@ -83,14 +87,14 @@ The wallet can be unlocked by providing the password.
 
 In order to allow RPC calls for wallet operations (spend, buy, sell, …) you can choose between pure RPC or RPC-HTTP requests.
 
-The cli-wallet **can open a RPC port** so that you can interface your application with it
-
-    ./programs/cli_wallet/cli_wallet -s wss://bitshares.openledger.info/ws -H 127.0.0.1:8092 -r 127.0.0.1:8093
-
 * websocket RPC via the `-r` parameter, and
 * HTTP RPC via the `-H` parameter:
 
-The command above will open the cli-wallet and, unless you already have a local wallet, will ask you to provide a password for your local wallet. Once a wallet has been created (default wallet file is `wallet.json`).
+In our example below, it shows that the cli-wallet opens two RPC ports. You can interface your application with it.
+
+    ./programs/cli_wallet/cli_wallet -s wss://bitshares.openledger.info/ws -H 127.0.0.1:8092 -r 127.0.0.1:8093
+
+The command above will open the cli-wallet and, unless you already have a local wallet, will ask you to provide a password for your local wallet. Once a wallet has been created (default wallet file is `wallet.json`), it will prompt with `locked >>>`.
 
 ***
 
@@ -101,7 +105,7 @@ The command above will open the cli-wallet and, unless you already have a local 
 
     /programs/cli_wallet/cli_wallet -s ws://127.0.0.1:8090
 
-Depending on the actual chain that you want to connect to your may need to specifiy –chain-id.
+Depending on the actual chain that you want to connect to your may need to specify –chain-id.
 
 ### Opening Remote Procedure Calls (RPC) Port
 
