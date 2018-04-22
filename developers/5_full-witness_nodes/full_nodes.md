@@ -10,7 +10,7 @@
 
 ***
 
-### Type of Witness nodes:
+## Type of Witness nodes:
 
 * non-block producing witness nodes
 * block producing witness nodes (more requirements and duties)
@@ -19,13 +19,13 @@ We here distringuish between full nodes (a.k.a. non-block producing witness node
 
 Both represent nodes in the network that verify all transactions and blocks against the current state of the overall network. Hence, we recommend all service providers to run and maintain their own full nodes for reliability and security reasons.
 
-### How to launch the full node
+## How to launch the full node
 
     ./programs/witness_node/witness_node
 
 It takes an optional –data-dir parameter to define a working and data directory to store the configuration, blockchain and local databases (defaults to `witness_node_data_dir`). Those will be automatically created with default settings if they don’t exist locally set.
 
-### Configuration
+## Configuration
 
 The configuration file `config.ini` in your data directory is commented and contains the following essential settings:
 
@@ -52,7 +52,7 @@ The configuration file `config.ini` in your data directory is commented and cont
 > Note: Folders and files are considered to be relative to the working directory (i.e. the directory from which the executables are launched from)
 
 
-### Enabling Remote Procedure Calls (RPC)
+## Enabling Remote Procedure Calls (RPC)
 
 In order to allow RPC calls for blockchain operations you need to modify the following entry in the configuration file::
 
