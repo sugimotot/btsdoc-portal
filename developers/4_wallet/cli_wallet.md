@@ -187,12 +187,19 @@ This command allows you to register an account using only a **public key**.
 
     unlocked >> transfer faucet alpha 100000 CORE "here is the cash" true
 
-*Example*
+*Example:*
 Alice wants to send 10 USD to bob.
 
     unlocked >> transfer alice bob 10 USD "a gift" true
 
 The wallet will return the actual signed transaction.
+
+**Obtain the private key**
+
+The `get_private_key` command allows us to obtain the **private key** corresponding to the block signing key.
+
+    >>> get_private_key GPH6viEhYCQr8xKP3Vj8wfHh6WfZeJK7H9uhLPDYWLGCRSj5kHQZM
+
 
 ***
 Put together.
@@ -204,13 +211,6 @@ Put together.
     >>> upgrade_account alpha true
 
     >>> create_witness alpha "http://www.alpha" true
-
-**Obtain the private key**
-
-The `get_private_key` command allows us to obtain the **private key** corresponding to the block signing key.
-
-    >>> get_private_key GPH6viEhYCQr8xKP3Vj8wfHh6WfZeJK7H9uhLPDYWLGCRSj5kHQZM
-
 
 ***
 
