@@ -2,10 +2,10 @@
 
 ### Contents:
 
-- A Block-Producing Witness
+- A [Block-Producing Witness](/developers/5_full-witness_nodes/active_witness.md#a-block-producing-witness)
    - Requirements
    - Active Witness Duties
-- How to become a Block-Producing Witness
+- [How to become a Block-Producing Witness](/developers/5_full-witness_nodes/active_witness.md#how-to-become-a-block-producing-witness)
    - 1.[Run the Witness/Full Node on the network](#1-run-the-witnessfull-node-on-the-network)
    - 2.[Launch a CLI wallet](#2-launch-a-wallet)
    - 3.[Gain Access to Blockchain](#3-gain-access-to-blockchain)
