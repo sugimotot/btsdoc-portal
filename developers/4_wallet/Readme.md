@@ -5,7 +5,7 @@
 - [Create a Cli Wallet and Open RPC port](/developers/4_wallet/cli_wallet.md#create-a-cli-wallet-and-open-rpc-port)
    - [Case 1: Connecting a Cli-Wallet - use the public API node](/developers/4_wallet/cli_wallet.md#case-1-connecting-a-cli-wallet)
    - [Case 2: Connecting a Cli-Wallet](/developers/4_wallet/cli_wallet.md#case-2-connecting-a-cli-wallet)
-   - [Case 3: Connecting a Cli-Wallet - Public Testnet](/developers/4_wallet/cli_wallet.md#case-3-connecting-a-cli-wallet)
+   - [Case 3: Connecting a Cli-Wallet - Public Testnet](/developers/4_wallet/cli_wallet.md#case-3-connecting-a-cli-wallet-in-public-testnet)
 - [Gaining a Access to Blockchain](/developers/4_wallet/cli_wallet.md#gaining-access-to-blockchain)
    - [import](/developers/4_wallet/cli_wallet.md#import)
    - [register](/developers/4_wallet/cli_wallet.md#register)
