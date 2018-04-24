@@ -13,7 +13,7 @@
 
 - [A Block-Producing Witness](/developers/5_full-witness_nodes/active_witness.md#a-block-producing-witness)
    - Requirements
-   - Hardware Advice
+   - Technical Specifications
    - Active Witness Duties
 - [How to become a Block-Producing Witness](/developers/5_full-witness_nodes/active_witness.md#how-to-become-a-block-producing-witness)
    - Run a local (non block producing) full node
