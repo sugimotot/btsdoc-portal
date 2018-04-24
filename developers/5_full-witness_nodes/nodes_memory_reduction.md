@@ -1,6 +1,6 @@
 ## Memory Reduction for Nodes
 ### Contents:
-- [Four New Options you can use to Reduce RAM](/developers/5_full-witness_nodes/nodes_memory_reduction.md#four-new-options-you-can-use-to-reduce-ram)
+- [Four New Options to Reduce RAM](/developers/5_full-witness_nodes/nodes_memory_reduction.md#four-new-options-to-reduce-ram)
    - [--plugins arg   ](/developers/5_full-witness_nodes/nodes_memory_reduction.md#--plugins)
    - [--track-account arg ](/developers/5_full-witness_nodes/nodes_memory_reduction.md#--track-account)
    - [--max-ops-per-account arg](/developers/5_full-witness_nodes/nodes_memory_reduction.md#--max-ops-per-account)
@@ -12,7 +12,7 @@
 
 The BitShares blockchain is big and Graphene technology stores all the data into RAM at chain replay. Currently(2017-09-04) a full node requires 40GB of RAM. Most of the time a full node with everything loaded is not needed and expensive due to the amount of memory the machine need to have available. RAM usage can be reduced significantly by using `witness_node` executable options.
 
-## Four New Options you can use to Reduce RAM
+## Four New Options to Reduce RAM
 
 ### programs/witness_node/witness_node --help
 
@@ -46,7 +46,7 @@ You can launch a node only with the witness plugin activated like the following 
 
 **Example**
 
-| param | value |
+| parameter  | value |
 |---|---|
 | --data-dir |  data/my-blockprod |
 | --rpc-endpoint | "127.0.0.1:8090" |
@@ -63,9 +63,9 @@ In order to track the history only for just one account you may start the node a
 
     programs/witness_node/witness_node --data-dir data/my-blockprod --rpc-endpoint "127.0.0.1:8090" --track-account "\"1.2.282\""
 
-**Example**
+**Example (single account)**
 
-| param | value |
+| parameter  | value |
 |---|---|
 | --data-dir |  data/my-blockprod |
 | --rpc-endpoint | "127.0.0.1:8090" |
@@ -75,9 +75,9 @@ To track multiple accounts:
 
     programs/witness_node/witness_node --data-dir data/my-blockprod --rpc-endpoint "127.0.0.1:8090" --track-account "\"1.2.282\"" "\"1.2.24484\"" "\"1.2.2058\""
 
-**Example**
+**Example (multiple account)**
 
-| param | value |
+| parameter  | value |
 |---|---|
 | --data-dir |  data/my-blockprod |
 | --rpc-endpoint | "127.0.0.1:8090" |
@@ -90,7 +90,7 @@ Add a number of operations the node will store for each account in the network.
 
 We found out that most of the blockchain size is actually history of millions of orders made by automated bot accounts in the system. The market making these accounts do, is very needed for the DEX liquidity, but is of little value for most nodes.
 
-This parameter allows to go deleting the oldest operation history from all accounts. Balances and everything will still be fine, please remember this is only deleting history.
+This parameter allows to go deleting the oldest operation history from all accounts. Balances and everything will still be fine, please remember this is *only deleting history*.
 
 By limiting the number of operations per account to 1000 the blockchain decrease in size is more than notorious and will allow you to run nodes in reduced memory machines, can run with 4-5 gigs by using combinations around this option.
 
@@ -100,7 +100,7 @@ Reduce the number of operations for each account that the node will save in the 
  
 **Example**
 
-| param | value |
+| parameter  | value |
 |---|---|
 | --data-dir |  data/my-blockprod |
 | --rpc-endpoint | "127.0.0.1:8090" |
@@ -110,13 +110,13 @@ Reduce the number of operations for each account that the node will save in the 
 
 Remove operation history objects.
 
-BitShares-core stores operations in 2 different objects, the 2.9.X and the 1.11.X. they are not exactly the same but if you are removing ops with --track-account or --max-ops-per-account it makes sense that you also add this option to reduce memory usage even more.
+BitShares-core stores operations in 2 different objects, the 2.9.X and the 1.11.X. they are not exactly the same but if you are removing ops with `--track-account` or `--max-ops-per-account` it makes sense that you also add this option to reduce memory usage even more.
 
     programs/witness_node/witness_node --data-dir data/my-blockprod --rpc-endpoint "127.0.0.1:8090" --max-ops-per-account 100 --partial-operations true
  
 **Example**
 
-| param | value |
+| parameter  | value |
 |---|---|
 | --data-dir |  data/my-blockprod |
 | --rpc-endpoint | "127.0.0.1:8090" |
@@ -135,7 +135,7 @@ I personally start my nodes with 1000 ops per account and partial operations:
     
 **Example**
 
-| param | value |
+| parameter  | value |
 |---|---|
 | --data-dir |  data/my-blockprod |
 | --rpc-endpoint | "127.0.0.1:8090" |
