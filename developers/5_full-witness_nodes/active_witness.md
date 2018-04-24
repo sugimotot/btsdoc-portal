@@ -7,16 +7,16 @@
    - Technical Specifications
    - Active Witness Duties
 - [How to become a Block-Producing Witness](/developers/5_full-witness_nodes/active_witness.md#how-to-become-a-block-producing-witness)
-   - 1. [Run the Witness/Full Node on the network](#1-run-the-witnessfull-node-on-the-network)
-   - 2. [Launch a CLI wallet](#2-launch-a-wallet)
-   - 3. [Gain Access to Blockchain](#3-gain-access-to-blockchain)
+   - 1.[Run the Witness/Full Node on the network](#1-run-the-witnessfull-node-on-the-network)
+   - 2.[Launch a CLI wallet](#2-launch-a-wallet)
+   - 3.[Gain Access to Blockchain](#3-gain-access-to-blockchain)
        - Import your account (and funds) into CLI wallet
        - Upgrade your account to a lifetime member
-   - 4. [Register a new Witness Object](#4-registering-a-new-witness-object)
-   - 5. [Configuration of the Witness Node](#5-configuration-of-the-witness-node)
-   - 6. [Verifying Block Production](#6-verifying-block-production)
-   - 7. [Backup Server](#7-backup-server)
-   - 8. [Price Feeds](#8-price-feeds)
+   - 4.[Register a new Witness Object](#4-registering-a-new-witness-object)
+   - 5.[Configuration of the Witness Node](#5-configuration-of-the-witness-node)
+   - 6.[Verifying Block Production](#6-verifying-block-production)
+   - 7.[Backup Server](#7-backup-server)
+   - 8.[Price Feeds](#8-price-feeds)
 
 ****
 
