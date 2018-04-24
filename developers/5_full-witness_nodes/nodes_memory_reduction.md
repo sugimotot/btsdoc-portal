@@ -1,11 +1,11 @@
 ## Memory Reduction for Nodes
 ### Contents:
-- [Four New Options you can use to Reduce RAM](/developers/5_full-witness_nodes#four-new-options-you-can-use-to-reduce-ram)
-   - [--plugins arg   ](/developers/5_full-witness_nodes#--plugins)
-   - [--track-account arg ](/developers/5_full-witness_nodes#--track-account)
-   - [--max-ops-per-account arg](/developers/5_full-witness_nodes#--max-ops-per-account)
-   - [--partial-operations arg](/developers/5_full-witness_nodes#--partial-operations)
-- [Combinations](/developers/5_full-witness_nodes#combinations)
+- [Four New Options you can use to Reduce RAM](/developers/5_full-witness_nodes/nodes_memory_reduction.md#four-new-options-you-can-use-to-reduce-ram)
+   - [--plugins arg   ](/developers/5_full-witness_nodes/nodes_memory_reduction.md#--plugins)
+   - [--track-account arg ](/developers/5_full-witness_nodes/nodes_memory_reduction.md#--track-account)
+   - [--max-ops-per-account arg](/developers/5_full-witness_nodes/nodes_memory_reduction.md#--max-ops-per-account)
+   - [--partial-operations arg](/developers/5_full-witness_nodes/nodes_memory_reduction.md#--partial-operations)
+- [Combinations](/developers/5_full-witness_nodes/nodes_memory_reduction.mds#combinations)
 
 
 ***
