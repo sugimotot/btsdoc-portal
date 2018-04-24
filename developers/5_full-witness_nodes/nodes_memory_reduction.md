@@ -30,7 +30,7 @@ The BitShares blockchain is big and Graphene technology stores all the data into
 
 ***
 
-### --plugins
+## --plugins
 
 Allows to run only the plugins you want.
 
@@ -50,10 +50,10 @@ You can launch a node only with the witness plugin activated like the following 
 |---|---|
 | --data-dir |  data/my-blockprod |
 | --rpc-endpoint | "127.0.0.1:8090" |
-| --plugins "witness" |  "witness" |
+| --plugins  |  "witness" |
 
 
-### --track-account
+## --track-account
 
 Allows to track only the history of selected accounts.
 
@@ -63,11 +63,28 @@ In order to track the history only for just one account you may start the node a
 
     programs/witness_node/witness_node --data-dir data/my-blockprod --rpc-endpoint "127.0.0.1:8090" --track-account "\"1.2.282\""
 
+**Example**
+
+| param | value |
+|---|---|
+| --data-dir |  data/my-blockprod |
+| --rpc-endpoint | "127.0.0.1:8090" |
+| ---track-account  |  "\"1.2.282\"" |
+
 To track multiple accounts:
 
     programs/witness_node/witness_node --data-dir data/my-blockprod --rpc-endpoint "127.0.0.1:8090" --track-account "\"1.2.282\"" "\"1.2.24484\"" "\"1.2.2058\""
 
-### --max-ops-per-account
+**Example**
+
+| param | value |
+|---|---|
+| --data-dir |  data/my-blockprod |
+| --rpc-endpoint | "127.0.0.1:8090" |
+| --track-account |  "\"1.2.282\"" "\"1.2.24484\"" "\"1.2.2058\"" |
+
+
+## --max-ops-per-account
 
 Add a number of operations the node will store for each account in the network.
 
@@ -81,7 +98,7 @@ Reduce the number of operations for each account that the node will save in the 
 
     programs/witness_node/witness_node --data-dir data/my-blockprod --rpc-endpoint "127.0.0.1:8090" --max-ops-per-account 100
     
-### --partial-operations
+## --partial-operations
 
 Remove operation history objects.
 
@@ -91,7 +108,7 @@ BitShares-core stores operations in 2 different objects, the 2.9.X and the 1.11.
 
 ***
 
-### Combinations
+## Combinations
 
 Combinations that make sense are all valid and can be used to suit your needs.
 
