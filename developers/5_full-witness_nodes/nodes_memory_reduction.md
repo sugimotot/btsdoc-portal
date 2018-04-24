@@ -69,7 +69,7 @@ In order to track the history only for just one account you may start the node a
 |---|---|
 | --data-dir |  data/my-blockprod |
 | --rpc-endpoint | "127.0.0.1:8090" |
-| ---track-account  |  "\"1.2.282\"" |
+| --track-account  |  "\"1.2.282\"" |
 
 To track multiple accounts:
 
