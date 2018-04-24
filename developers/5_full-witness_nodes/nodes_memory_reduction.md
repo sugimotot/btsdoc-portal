@@ -57,7 +57,7 @@ You can launch a node only with the witness plugin activated like the following 
 
 Allows to track only the history of selected accounts.
 
-Suppose you have an application wallet or something that is only interested in the history of 1 account or just a few accounts, no need to spend the memory in the huge amount of account history from the rest of the network. You will still be able to do transfers and everything as normal, it is just the account history that will not be available.
+Suppose you have an application wallet or something that is only interested in the history of one account or just a few accounts, no need to spend the memory in the huge amount of account history from the rest of the network. You will still be able to do transfers and everything as normal, it is just the account history that will not be available.
 
 In order to track the history only for just one account you may start the node as:
 
@@ -110,7 +110,7 @@ Reduce the number of operations for each account that the node will save in the 
 
 Remove operation history objects.
 
-BitShares-core stores operations in 2 different objects, the 2.9.X and the 1.11.X. they are not exactly the same but if you are removing ops with `--track-account` or `--max-ops-per-account` it makes sense that you also add this option to reduce memory usage even more.
+BitShares-core stores operations in two different objects, the 2.9.X and the 1.11.X. they are not exactly the same but if you are removing ops with `--track-account` or `--max-ops-per-account` it makes sense that you also add this option to reduce memory usage even more.
 
     programs/witness_node/witness_node --data-dir data/my-blockprod --rpc-endpoint "127.0.0.1:8090" --max-ops-per-account 100 --partial-operations true
  
