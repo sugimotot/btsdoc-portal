@@ -97,7 +97,15 @@ By limiting the number of operations per account to 1000 the blockchain decrease
 Reduce the number of operations for each account that the node will save in the blockchain to 100 by starting with:
 
     programs/witness_node/witness_node --data-dir data/my-blockprod --rpc-endpoint "127.0.0.1:8090" --max-ops-per-account 100
-    
+ 
+**Example**
+
+| param | value |
+|---|---|
+| --data-dir |  data/my-blockprod |
+| --rpc-endpoint | "127.0.0.1:8090" |
+| --max-ops-per-account  | 100 |
+
 ## --partial-operations
 
 Remove operation history objects.
@@ -105,6 +113,15 @@ Remove operation history objects.
 BitShares-core stores operations in 2 different objects, the 2.9.X and the 1.11.X. they are not exactly the same but if you are removing ops with --track-account or --max-ops-per-account it makes sense that you also add this option to reduce memory usage even more.
 
     programs/witness_node/witness_node --data-dir data/my-blockprod --rpc-endpoint "127.0.0.1:8090" --max-ops-per-account 100 --partial-operations true
+ 
+**Example**
+
+| param | value |
+|---|---|
+| --data-dir |  data/my-blockprod |
+| --rpc-endpoint | "127.0.0.1:8090" |
+| --max-ops-per-account  | 100 |
+| --partial-operations  | true |
 
 ***
 
@@ -115,6 +132,15 @@ Combinations that make sense are all valid and can be used to suit your needs.
 I personally start my nodes with 1000 ops per account and partial operations:
 
     programs/witness_node/witness_node --data-dir data/my-blockprod --rpc-endpoint "127.0.0.1:8090" --max-ops-per-account 1000 --partial-operations true
+    
+**Example**
+
+| param | value |
+|---|---|
+| --data-dir |  data/my-blockprod |
+| --rpc-endpoint | "127.0.0.1:8090" |
+| --max-ops-per-account  | 1000|
+| --partial-operations  | true |
 
 This will allow me to run the node with less than 5 gigs(4.820492G):
 
