@@ -24,9 +24,9 @@ The BitShares blockchain is big and Graphene technology stores all the data into
 
 |||
 |---|---|
-| --track-account arg | Account ID to track history for (may specify multiple times)|
-| --max-ops-per-account arg | Maximum number of operations per account will be kept in memory|
-| --partial-operations arg  | Keep only those operations in memory that are related to account history tracking|
+| --track-account arg | Account ID to track history for (may specify multiple times) |
+| --max-ops-per-account arg | Maximum number of operations per account will be kept in memory |
+| --partial-operations arg  | Keep only those operations in memory that are related to account history tracking |
 
 ***
 
@@ -43,6 +43,15 @@ By default, if the plugin parameter is not present in the command line startup t
 You can launch a node only with the witness plugin activated like the following if you are after just validating blocks:
 
     programs/witness_node/witness_node --data-dir data/my-blockprod --rpc-endpoint "127.0.0.1:8090" --plugins "witness"
+
+**Example**
+
+| param | value |
+|---|---|
+| --data-dir |  data/my-blockprod |
+| --rpc-endpoint | "127.0.0.1:8090" |
+| --plugins "witness" |  "witness" |
+
 
 ### --track-account
 
