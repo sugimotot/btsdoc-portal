@@ -75,7 +75,7 @@ To track multiple accounts:
 
     programs/witness_node/witness_node --data-dir data/my-blockprod --rpc-endpoint "127.0.0.1:8090" --track-account "\"1.2.282\"" "\"1.2.24484\"" "\"1.2.2058\""
 
-**Example (multiple account)**
+**Example (multiple accounts)**
 
 | parameter  | value |
 |---|---|
