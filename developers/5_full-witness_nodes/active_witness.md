@@ -4,6 +4,7 @@
 
 - [A Block-Producing Witness](/developers/5_full-witness_nodes/active_witness.md#a-block-producing-witness)
    - Requirements
+   - Technical Specifications
    - Active Witness Duties
 - [How to become a Block-Producing Witness](/developers/5_full-witness_nodes/active_witness.md#how-to-become-a-block-producing-witness)
    - 1.[Run the Witness/Full Node on the network](#1-run-the-witnessfull-node-on-the-network)
@@ -27,7 +28,9 @@
 - Executable binary
 - Lifetime Member (LTM) status
 
-**Hardware Advice:** Dedicated servers with minimum 16 GB (32 GB advised) Ram, SSD disks advised.
+### Technical Specifications
+- Dedicated servers with minimum 16 GB (32 GB advised) Ram and
+- SSD disks advised
 
 ### Active Witness Duties
 
