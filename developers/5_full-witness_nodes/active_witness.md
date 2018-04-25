@@ -163,10 +163,12 @@ We need to wait until the next maintenance interval until we can see votes caste
 
 Get the witness object using `get_witness` and take note of two things. 
 
-- `id`:  is displayed in get_global_properties when the witness is voted in, and we will need it on the witness_node command line to produce blocks
-- `signing_key` : the public sign key, we can look up the corresponding private key. (i.g. `provate-kay`)
+| parameter | |
+|---|---|
+| `id` |  is displayed in `get_global_properties` when the witness is voted in, and we will need it on the witness_node command line to produce blocks|
+| `signing_key`|  the public signing_key, we can look up the corresponding private key.  |
 
-Once we have both values, run `dump_private_keys` which lists the public-key private-key pairs to find the private key.
+Once we have both values, run `dump_private_keys` which lists the *public-key private-key pairs* to find the *private key*.
 
 > Warning: `dump_private_keys` will display your keys unencrypted on the terminal, don’t do this with someone looking over your shoulder.
 
@@ -180,7 +182,7 @@ Once we have both values, run `dump_private_keys` which lists the public-key pri
       [...]
     }
 
-The `id` and the `signing_key` are the two important parameters, here. Let’s get the private key for that signing key with:
+Let’s get the *private key* for that `signing_key` with:
 
 **dump_private_keys**
 
@@ -194,6 +196,7 @@ The `id` and the `signing_key` are the two important parameters, here. Let’s g
     ]
 
 Now we need to start the witness, so shut down the wallet (ctrl-d), and shut down the witness (ctrl-c). 
+
 
 Re-launch the witness, now mentioning the new witness 1.6.10 and its keypair:
 
