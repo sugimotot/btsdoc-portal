@@ -15,8 +15,8 @@
    - 4.[Register a new Witness Object](#4-registering-a-new-witness-object)
    - 5.[Configuration of the Witness Node](#5-configuration-of-the-witness-node)
    - 6.[Verifying Block Production](#6-verifying-block-production)
- - [Backup Server](#7-backup-server)
- - [Price Feeds](#8-price-feeds)
+ - [Backup Server](/developers/5_full-witness_nodes/active_witness.md#backup-server)
+ - [Price Feeds](/developers/5_full-witness_nodes/active_witness.md#price-feeds)
 
 ****
 
