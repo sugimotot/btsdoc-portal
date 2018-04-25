@@ -1,12 +1,12 @@
 ## Full Nodes (Witness Nodes)
 
 ### Contents: 
-- Type of Witness nodes
+- [Type of Witness nodes](/developers/5_full-witness_nodes/full_nodes.md#type-of-witness-nodes)
    - Non-Block producing
    - Block producing
-- How to launch the full node
-- Configuration
-- Enabling Remote Procedure Calls (RPC)
+- [How to launch the full node](/developers/5_full-witness_nodes/full_nodes.md#how-to-launch-the-full-node)
+- [Configuration](/developers/5_full-witness_nodes/full_nodes.md#configuration)
+- [Enabling Remote Procedure Calls (RPC)](/developers/5_full-witness_nodes/full_nodes.md#enabling-remote-procedure-calls-rpc)
 
 ***
 
