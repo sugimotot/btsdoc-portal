@@ -63,4 +63,7 @@ This will open the port 8090 for global queries only. Since the witness node onl
 ---
 
 
+(ref)
+
+- http://docs.bitshares.org/integration/apps/node.html
 
