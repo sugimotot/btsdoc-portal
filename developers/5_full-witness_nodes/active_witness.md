@@ -15,8 +15,8 @@
    - 4.[Register a new Witness Object](#4-registering-a-new-witness-object)
    - 5.[Configuration of the Witness Node](#5-configuration-of-the-witness-node)
    - 6.[Verifying Block Production](#6-verifying-block-production)
-   - 7.[Backup Server](#7-backup-server)
-   - 8.[Price Feeds](#8-price-feeds)
+ - [Backup Server](#7-backup-server)
+ - [Price Feeds](#8-price-feeds)
 
 ****
 
@@ -212,7 +212,9 @@ If you monitor the output of the witness_node and you have been voted in the top
     Witness 1.6.10 production slot has arrived; generating a block now...
     Generated block #367 with timestamp 2015-07-05T20:46:30 at time 2015-07-05T20:46:30
 
-### 7. Backup Server
+***
+
+## Backup Server
 To stay a reliable block producer it is recommend you have a ‘hot swappable’ backup server with same specs as the live server running an instance of witness_node. **IT IS IMPORTANT THAT THIS BACKUP SHOULD _NOT_ HAVE THE SAME SIGNING KEY PAIR in the config.ini as your main node!**
 
 **How it works:**
@@ -223,7 +225,9 @@ To stay a reliable block producer it is recommend you have a ‘hot swappable’
 4. As soon as your ‘live’ node is starting to fail producing blocks the ‘missing blocks’ parameter increases and you can issue a command to update_witness to your backup’s ‘Public Key’.
 5. Investigate the issue with your ‘live’ node and stay happy.
 
-### 8. Price Feeds
+***
+
+## Price Feeds
 Besides producing new blocks another very important task of the witness is to feed **ACCURATE** prices into the blockchain. Educational material on how this can be implemented is available in `scripts/pricefeed` at [github](https://github.com/xeroc/python-graphenelib/) together with the corresponding documentation.
 
 Only active witnesses are allowed to publish pricefeeds for the ‘official’ currency / smartcoin markets. For any other asset you need to be whitelisted by the creator of the market to be able to publish pricefeeds.
