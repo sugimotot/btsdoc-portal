@@ -7,9 +7,20 @@
 
 ***
 
+
 ### Wallet
 Users can (if they have a lifetime membership) register multiple accounts in parallel, all of them are stored in a single wallet. Hence, a wallet can carry many accounts. Furthermore, users can create multiple wallets to organize their accounts properly.
 
+### Accounts
+
+In BitShares, you can create own **unique account name**, so, you can remember easily. And you will use the account name to communicate (e.g. Send fund) with other BitShares account users (shareholders) like an email address. 
+ Each user has at least one account that can be used to interact with the blockchain. In the end, this can be seen as a single banking account with an individual balance, transaction history, etc. Since these accounts are registered on the blockchain and are open to the public, we recommend to pick a pseudonym to achieve some privacy. The advantage of using account names is that people can identify you by using a readable and memorable word instead of cryptographic addresses.
+
+### Keys
+
+Keys refer to the cryptography used to secure access to your account and funds. It is of importance to prevent others from gaining access to these. This is why you have to provide a passphrase that is used to store the keys in an encrypted way.
+
+***
 
 ## Light wallet or Web wallet?
 
@@ -30,10 +41,6 @@ Did you find out which type of wallet you want to have?
 ## Create an Account
 
 We assume you selected a wallet type and installed (Light wallet) and opened a "Welcome BitShares". 
-
-**Note:**
-
-In BitShares, you can create own **unique account name**, so, you can remember easily. And you will use the account name to communicate (e.g. Send fund) with other BitShares account users (shareholders) like an email address. 
 
 This is very important. Please create a strong password and **write down** or **save** it to a safe place!! Do not lose it. **ONLY you can open your wallet again. No one can help.**
 
