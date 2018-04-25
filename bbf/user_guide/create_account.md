@@ -7,6 +7,10 @@
 
 ***
 
+### Wallet
+Users can (if they have a lifetime membership) register multiple accounts in parallel, all of them are stored in a single wallet. Hence, a wallet can carry many accounts. Furthermore, users can create multiple wallets to organize their accounts properly.
+
+
 ## Light wallet or Web wallet?
 
 Before we create a wallet, let's check what type of wallet you wand to have as your BitShares wallet. Quick check the below chart. 
