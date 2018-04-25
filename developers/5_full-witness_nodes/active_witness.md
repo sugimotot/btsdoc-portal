@@ -164,7 +164,7 @@ We need to wait until the next maintenance interval until we can see votes caste
 Get the witness object using `get_witness` and take note of two things. 
 
 - `id`:  is displayed in get_global_properties when the witness is voted in, and we will need it on the witness_node command line to produce blocks
-- `signing_key` : the public sign key, we can look up the corresponding private key.
+- `signing_key` : the public sign key, we can look up the corresponding private key. (i.g. `provate-kay`)
 
 Once we have both values, run `dump_private_keys` which lists the public-key private-key pairs to find the private key.
 
