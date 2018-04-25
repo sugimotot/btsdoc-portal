@@ -154,7 +154,7 @@ Now, we should vote our witness in. Vote all of the shares your account `<accoun
     >>> vote_for_witness <accountname> <accountname> true true
     [a transaction in json format]
 
-> Note: If you want to experiment with things that require voting, be aware that votes are only tallied once per day at the maintenance interval. `get_dynamic_global_properties` tells us when that will be in `next_maintenance_time`. Once the next maintenance interval passes, run `get_global_properties` again and you should see that your new witness has been voted in.
+**Note:** If you want to experiment with things that require voting, be aware that votes are only tallied once per day at the maintenance interval. `get_dynamic_global_properties` tells us when that will be in `next_maintenance_time`. Once the next maintenance interval passes, run `get_global_properties` again and you should see that your new witness has been voted in.
 
 We need to wait until the next maintenance interval until we can see votes casted for our witness.
 
@@ -193,7 +193,9 @@ The `id` and the `signing_key` are the two important parameters, here. Let’s g
       ]
     ]
 
-Now we need to start the witness, so shut down the wallet (ctrl-d), and shut down the witness (ctrl-c). Re-launch the witness, now mentioning the new witness 1.6.10 and its keypair:
+Now we need to start the witness, so shut down the wallet (ctrl-d), and shut down the witness (ctrl-c). 
+
+Re-launch the witness, now mentioning the new witness 1.6.10 and its keypair:
 
     ./witness_node --rpc-endpoint=127.0.0.1:8090 \
                    --witness-id '"1.6.10"' \
