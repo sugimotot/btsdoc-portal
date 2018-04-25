@@ -22,8 +22,9 @@
    - Register a new Witness Object
    - Configuration of the Witness Node
    - Verifying Block Production
-   - Backup Server
-   - Price Feeds
+ - [Backup Server](/developers/5_full-witness_nodes/active_witness.md#backup-server)
+ - [Price Feeds](/developers/5_full-witness_nodes/active_witness.md#price-feeds)
+
 
 ### [Memory Reduction for Nodes](/developers/5_full-witness_nodes/nodes_memory_reduction.md#memory-reduction-for-nodes)
 - [Four New Options to Reduce RAM](/developers/5_full-witness_nodes/nodes_memory_reduction.md#four-new-options-to-reduce-ram)
