@@ -60,6 +60,11 @@ In order to allow RPC calls for blockchain operations you need to modify the fol
 
 This will open the port 8090 for global queries only. Since the witness node only maintains the blockchain and (unless you are an actively block producing witness) no private keys are involved, it is safe to expose your witness to the internet.
 
+### Restarting the Witness Node
+
+When restarting the witness node, it may be required to append the `--replay-blockchain` parameter to regenerate the local (in-memory) blockchain state.
+
+
 ---
 
 
