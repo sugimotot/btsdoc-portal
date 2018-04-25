@@ -12,6 +12,8 @@
 - Send (Transfer): This is for between BitShares account holders to send funds. On the BitShares Blockchain , people never need to deal with *addresses* or *public keys*. BitShares account holders can use their *account names* to communicate. 
 - Deposits: BitShares account holders can use one of our partners to move over existing funds into your BitShares account.
 
+***
+
 ## Send (Transfer)
 
 Currently, there are two forms to send funds. One is *Send* on the top menu. Another one is *Send (legacy)* on the side menu. Both work the same. The below images show you each item and function for both forms. 
