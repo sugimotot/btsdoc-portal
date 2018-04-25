@@ -53,6 +53,9 @@ Currently, there are two forms to send funds. One is *Send* on the top menu. Ano
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/send-transfer2.png" width="650" title="Transfer legacy">
 </p>
 
+***
+
+## Deposit
 
 
 
