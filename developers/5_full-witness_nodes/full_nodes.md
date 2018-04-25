@@ -7,6 +7,8 @@
 - [How to launch the full node](/developers/5_full-witness_nodes/full_nodes.md#how-to-launch-the-full-node)
 - [Configuration](/developers/5_full-witness_nodes/full_nodes.md#configuration)
 - [Enabling Remote Procedure Calls (RPC)](/developers/5_full-witness_nodes/full_nodes.md#enabling-remote-procedure-calls-rpc)
+- [Restarting the Witness Node](/developers/5_full-witness_nodes/full_nodes.md#restarting-the-witness-node)
+
 
 ***
 
