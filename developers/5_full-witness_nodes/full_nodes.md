@@ -14,10 +14,10 @@
 
 ### Type of Witness nodes:
 
-* non-block producing witness nodes
-* block producing witness nodes (more requirements and duties)
+* **Non-block producing** witness nodes
+* **Block producing** witness nodes (more requirements and duties)
 
-We here distringuish between full nodes (a.k.a. non-block producing witness nodes) and block producing witness nodes. Both are implemented by the same executable but the latter requires some additional parameters to be defined and the corresponding witness voted active by the shareholders.
+We distinguish between full nodes (a.k.a. non-block producing witness nodes) and block producing witness nodes. Both are implemented by the same executable but the latter requires some additional parameters to be defined and the corresponding witness voted active by the BTS Holders.
 
 Both represent nodes in the network that verify all transactions and blocks against the current state of the overall network. Hence, we recommend all service providers to run and maintain their own full nodes for reliability and security reasons.
 
