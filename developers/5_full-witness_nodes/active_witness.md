@@ -9,13 +9,13 @@
  - [Backup Server](/developers/5_full-witness_nodes/active_witness.md#backup-server)
  - [How to become a Block-Producing Witness](/developers/5_full-witness_nodes/active_witness.md#how-to-become-a-block-producing-witness)
    - 1.[Run the Witness/Full Node on the Network](/developers/5_full-witness_nodes/active_witness.md#1-run-the-witnessfull-node-on-the-network)
-   - 2.[Create a CLI Wallet](/developers/5_full-witness_nodes/active_witness.md#2-create-a-wallet)
-   - 3.Import your Account (and funds) into CLI Wallet
-   - 4.Upgrade your Account to a Lifetime Member
-   - 5.[Register a New Witness](/developers/5_full-witness_nodes/active_witness.md#4-registering-a-new-witness-object)
-   - 6.Upvote the Witnes
-   - 7.[Configuration of the Witness Node](/developers/5_full-witness_nodes/active_witness.md#5-configuration-of-the-witness-node)
-   - 8.[Verifying Block Production](/developers/5_full-witness_nodes/active_witness.md#6-verifying-block-production)
+   - 2.[Create a CLI Wallet](/developers/5_full-witness_nodes/active_witness.md#2-create-a-cli-wallet-for-the-network)
+   - 3.[Import your Account (and funds) into CLI Wallet](/developers/5_full-witness_nodes/active_witness.md#3-import-your-account-and-funds-into-cli-wallet)
+   - 4.[Upgrade your Account to a Lifetime Member](/developers/5_full-witness_nodes/active_witness.md#4-upgrade-your-account-to-a-lifetime-member)
+   - 5.[Register a New Witness](/developers/5_full-witness_nodes/active_witness.md#5-registering-a-new-witness)
+   - 6.[Upvote the Witnes](/developers/5_full-witness_nodes/active_witness.md#6-upvote-the-witness)
+   - 7.[Configuration of the Witness Node](/developers/5_full-witness_nodes/active_witness.md#7-configuration-of-the-witness-node)
+   - 8.[Verifying Block Production](/developers/5_full-witness_nodes/active_witness.md#8-verifying-block-production)
 - [Backup Server](/developers/5_full-witness_nodes/active_witness.md#backup-server)
 - [Price Feeds](/developers/5_full-witness_nodes/active_witness.md#price-feeds)
 
