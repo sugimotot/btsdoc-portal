@@ -36,13 +36,14 @@
    - [How to Restore from a backup (.bin) file](/bbf/user_guide/backup_local_wallet.md#how-to-restore-from-a-backup-bin-file)
    - [How to Check *Active Local Wallet* name](/bbf/user_guide/backup_local_wallet.md#how-to-check-active-local-wallet-name)
    - [How to Recover Account with Brain key](/bbf/user_guide/backup_local_wallet.md#how-to-recover-account-with-brain-key)
-  
+ 
 ### Deposit & Withdraw
+- [Bridges and Gateways](/bbf/user_guide/bridges_gateways.md#bridges-and-gateways)
 - [Fund your Account](/bbf/user_guide/fund_account.md#fund-your-account)
    - [Send (Transfer)](/bbf/user_guide/fund_account.md#send-transfer)  
    - [Deposit](/bbf/user_guide/fund_account.md#deposit)   
+
 - Direct Exchange Services
-- Bridge and Gateway Services
 
 ### Transactions
 - Proposed Transactions
