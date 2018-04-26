@@ -7,6 +7,7 @@
 
 ***
 
+In this section, we want to describe Terminologies  and guide you to create and register your BitShares Account. 
 
 ### Wallet
 Users can (if they have a lifetime membership) register multiple accounts in parallel, all of them are stored in a single wallet. Hence, a wallet can carry many accounts. Furthermore, users can create multiple wallets to organize their accounts properly.
