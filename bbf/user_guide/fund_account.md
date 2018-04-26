@@ -95,12 +95,12 @@ There are several Gateway services you can choose from. Each Gateway service has
 
 > The Deposit instructions are not the same all the time. Please follow each coin deposit instruction. 
 
-**You use ADDRESS and MEMO to deposit Funds**
+**You use ADDRESS and MEMO to deposit funds**
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-steem-legacy.png" width="650" title="password login">
 </p>
 
-**You use ADDRESS to deposit Funds**
+**You use ADDRESS to deposit funds**
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-eos-legacy.png" width="650" title="confirm">
 </p>
