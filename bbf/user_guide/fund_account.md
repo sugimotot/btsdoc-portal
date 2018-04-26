@@ -79,11 +79,11 @@ An OPEN.BTC is thus in theory equivalent to the BTC you get on Poloniex, which c
  
  Currently, there are two forms to deposit funds. One is *Deposit* and another one is *Deposit (Beta)*. Both locate on the side menu. 
  
-There are several Gateway services you can choose from. Each Gateway service has own instraction and available coins to deposit. When you selecte a Gateway, please follow the instruction.  We will show you several differences an d patterns to deposit funds.
+BitShares has partners to provide Transfer (i.g. Gateway/Bridge) services which you can choose from. Each Transfer service has own instraction and available coins to deposit. When you selecte a Transfer Service, please follow the instruction. We will show you several examples and patterns to deposit funds.
 
 ## Deposit - forms
 
-| | | |
+| | Item | Description |
 |---|---|---|
 | 1 | Transfer Service | a dropdown list - Select a transfer service |
 | 2 | Service Type| A service you use |
@@ -93,18 +93,31 @@ There are several Gateway services you can choose from. Each Gateway service has
 | 6 | Memo  | Your Memo information.  **Copy Memo** and use it |
 | 7 | BitShares Account Name | This would be your BitShares Account name |
 
-> The Deposit instructions are not the same all the time. Please follow each coin deposit instruction. 
+### Example: Deposit STEEM by using a Gateway service
 
 **You use ADDRESS and MEMO to deposit funds**
+Form: Deposit
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-steem-legacy.png" width="650" title="password login">
 </p>
+Form: Deposit(Beta)
+<p align="center">
+  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-steem-2.png" width="350" title="confirm">
+</p>
+
+### Example: Deposit EOS by using a Gateway service
 
 **You use ADDRESS to deposit funds**
+Form: Deposit
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-eos-legacy.png" width="650" title="confirm">
 </p>
+Form: Deposit(Beta)
+<p align="center">
+  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-eos-2.png" width="350" title="confirm">
+</p>
 
+***
 
  <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-asset.png" width="350" title="confirm">
@@ -114,13 +127,5 @@ There are several Gateway services you can choose from. Each Gateway service has
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-bts.png" width="350" title="confirm">
 </p>
 
-<p align="center">
-  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-steem-2.png" width="350" title="confirm">
-</p>
-
-<p align="center">
-  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-eos-2.png" width="350" title="confirm">
-</p>
-
  
- 
+***
