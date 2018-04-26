@@ -1,6 +1,6 @@
 ## Fund Your Account
  
- Contents: 
+### Contents: 
  - Send (Transfer)
  - Deposit
     - Bridge and gateway services
