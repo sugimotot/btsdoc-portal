@@ -104,6 +104,7 @@ You use `ADDRESS` and `MEMO` to deposit funds
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-steem-legacy.png" width="650" title="password login">
 </p>
+
 #### Form: Deposit(Beta)
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-steem-2.png" width="350" title="confirm">
@@ -117,6 +118,7 @@ You use `ADDRESS` to deposit funds
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-eos-legacy.png" width="650" title="confirm">
 </p>
+
 #### Form: Deposit(Beta)
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-eos-2.png" width="350" title="confirm">
