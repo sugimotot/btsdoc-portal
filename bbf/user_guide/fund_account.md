@@ -98,37 +98,32 @@ BitShares has partners to provide Transfer (i.g. Gateway/Bridge) services which 
 
 #### (Example) Deposit STEEM by using a Gateway service
 
-You use `ADDRESS` and `MEMO` to deposit funds
+You use `ADDRESS` and `MEMO` to deposit funds. The below images shows both forms for deposit funds.
 
-#### Form: Deposit
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-steem-legacy.png" width="650" title="password login">
 </p>
 
-#### Form: Deposit(Beta)
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-steem-2.png" width="350" title="confirm">
 </p>
 
 #### (Example) Deposit EOS by using a Gateway service
 
-You use `ADDRESS` to deposit funds
+You use `ADDRESS` to deposit funds. The below images shows both forms for deposit funds.
 
-#### Form: Deposit
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-eos-legacy.png" width="650" title="confirm">
 </p>
 
-#### Form: Deposit(Beta)
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-eos-2.png" width="350" title="confirm">
 </p>
 
 #### (Example) Deposit BTS
 
-You use BitShares Account Name as `ADDRESS` to deposit funds
+You use BitShares Account Name as `ADDRESS` to deposit funds. The below image shows a Deposit(Beta) form.
 
-#### Form: Deposit(Beta) 
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-bts.png" width="350" title="confirm">
 </p>
