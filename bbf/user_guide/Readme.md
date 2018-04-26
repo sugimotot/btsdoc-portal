@@ -39,8 +39,8 @@
    
 ### Transactions
 - [Fund your Account](/bbf/user_guide/fund_account.md#fund-your-account)
-   - Send
-   - Deposit
+   - [Send (Transfer)](/bbf/user_guide/fund_account.md#send-transfer)  
+   - [Deposit](/bbf/user_guide/fund_account.md#deposit)    
 - Proposed Transactions
 - Confidential Transactions
 
