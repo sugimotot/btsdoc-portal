@@ -81,9 +81,7 @@ An OPEN.BTC is thus in theory equivalent to the BTC you get on Poloniex, which c
  
 Currently, there are two forms to deposit funds. One is **Deposit** and another one is **Deposit (Beta)**. Both locate on the side menu. 
  
-BitShares has partners to provide Transfer (i.g. Gateway/Bridge) services which you can choose from. Each Transfer service has own instraction and available coins to handle. When you selecte a Transfer Service, please follow the instruction. 
-
-We will show you several examples and patterns to compare the deposit forms.
+BitShares has partners to provide Transfer (i.g. Gateway/Bridge) services which you can choose from. Each Transfer service has own instraction and available coins to handle. When you selecte a Transfer Service, please follow the instruction. In the next section, we will show you several examples and patterns to compare the deposit forms.
 
 ### Deposit Forms items and descriptions
 
