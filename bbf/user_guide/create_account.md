@@ -52,15 +52,15 @@ This is very important. Please create a strong password and **write down** or **
 
 Let's start!
 
-- 1.Click [CREATE ACCOUNT]
+- 1.Click [**CREATE ACCOUNT**]
 
 It opens a next form to input your BitShares account name and a password. 
 
-- 2.Type in [ACCOUNT NAME]
+- 2.Type in [**ACCOUNT NAME**]
 - 3.You can use a _GENERATED PASSWORD_ or create own strong password.
 - 4.Type or paste your password to confirm.
 - 5.Read three warnings and check the check boxes.
-- 6.Click [CREATE ACCOUNT]
+- 6.Click [**CREATE ACCOUNT**]
 
 
 <p align="center">
@@ -69,8 +69,8 @@ It opens a next form to input your BitShares account name and a password.
 
 Before you submit, check your password one last time. It's very important!!
  
-- 7.Click [SHOW ME MY PASSWORD] and double check if you have a correct password.
-- 8.Click [OK,TAKE ME TO THE DASHBOARD]
+- 7.Click **[SHOW ME MY PASSWORD**] and double check if you have a correct password.
+- 8.Click [**OK,TAKE ME TO THE DASHBOARD**]
 
 <p align="center">
   <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/bbf/img/create-account4.png" width="380" title="welcome_bitshares">
