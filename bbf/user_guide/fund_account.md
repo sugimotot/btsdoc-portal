@@ -25,7 +25,7 @@ Currently, there are two forms to send funds. One is *Send* on the top menu. Ano
 | 1 | Sender's BitShares Account name | This would be your BitShares Account Name (e.g. *bitshares-users*)  |
 | 2 | TO | Another BitShares Account name whom you want to send funds |
 | 3 | QUANTITY | This is a dropdown list and will show all assets you have in the wallet account. <br/> AVAILABLE: a selected asset available total amoounts |
-| 4 | MEMO/MESSAAGE | (option) |
+| 4 | MEMO/MESSAGE | (option) |
 | 5 | FEE| Transaction fee you pay |
 | 6 | SEND | (button) |
 | 7 | PASSWORD| If you have not logged in to the wallet, you need to login before send funds |
@@ -83,13 +83,24 @@ There are several Gateway services you can choose from. Each Gateway service has
 
 ## Deposit - forms
 
+| | | |
+|---|---|---|
+| 1 | Transfer Service | a dropdown list - Select a transfer service |
+| 2 | Service Type| A service you use |
+| 3 | Coin Name | a dropdown list - Select the coin name you want to deposit |
+| 4 | Deposit / Withdraw tabs| Select *Deposit* |
+| 5 | Address | Youd deposit address. **Copy Address** and use it  |
+| 6 | Memo  | Your Memo information.  **Copy Memo** and use it |
+| 7 | BitShares Account Name | This would be your BitShares Account name |
 
+> The Deposit instructions are not the same all the time. Please follow each coin deposit instruction. 
 
-
+**You use ADDRESS and MEMO to deposit Funds**
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-steem-legacy.png" width="650" title="password login">
 </p>
 
+**You use ADDRESS to deposit Funds**
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-eos-legacy.png" width="650" title="confirm">
 </p>
