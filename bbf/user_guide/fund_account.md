@@ -80,9 +80,9 @@ An OPEN.BTC is thus in theory equivalent to the BTC you get on Poloniex, which c
  
  Currently, there are two forms to deposit funds. One is *Deposit* and another one is *Deposit (Beta)*. Both locate on the side menu. 
  
-BitShares has partners to provide Transfer (i.g. Gateway/Bridge) services which you can choose from. Each Transfer service has own instraction and available coins to deposit. When you selecte a Transfer Service, please follow the instruction. We will show you several examples and patterns to deposit funds.
+BitShares has partners to provide Transfer (i.g. Gateway/Bridge) services which you can choose from. Each Transfer service has own instraction and available coins to deposit. When you selecte a Transfer Service, please follow the instruction. We will show you several examples and patterns to see the deposit forms.
 
-## Deposit Forms items and descriptions
+### Deposit Forms items and descriptions
 
 | | Item | Description |
 |---|---|---|
@@ -93,6 +93,8 @@ BitShares has partners to provide Transfer (i.g. Gateway/Bridge) services which 
 | 5 | Address | Your deposit address to transfer funds. |
 | 6 | Memo  | Your Memo information to transfer funds. (*Not all coins' transfers use `Memo`*) |
 | 7 | BitShares Account Name | This would be your BitShares Account name |
+
+> If you cannot select Asset on the Deposit(Beta) Form, try to login to your wallet. 
 
 ### Example: Deposit STEEM by using a Gateway service
 
