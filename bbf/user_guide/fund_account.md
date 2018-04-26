@@ -27,7 +27,7 @@ First, we want to list what information items on the Send forms. Next, you can c
 |---|---|---|
 | 1 | Sender's BitShares Account name | This would be your BitShares Account Name (e.g. *bitshares-users*)  |
 | 2 | TO | Another BitShares Account name whom you want to send funds |
-| 3 | QUANTITY | This is a dropdown list and will show all assets you have in the wallet account. <br/> AVAILABLE: a selected asset available total amoounts |
+| 3 | QUANTITY | - This is a dropdown list and will show all assets you have in the wallet account. <br/> - Type in a sending amount  <br/> - AVAILABLE: a selected asset available total amoounts |
 | 4 | MEMO/MESSAGE | (option) |
 | 5 | FEE| Transaction fee you pay |
 | 6 | SEND | (button) |
