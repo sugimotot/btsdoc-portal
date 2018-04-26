@@ -1,9 +1,10 @@
 ## Fund Your Account
  
  Contents: 
- - 
- - 
- - 
+ - Send (Transfer)
+ - Deposit
+    - Bridge and gateway services
+ 
  
  ***
  
@@ -34,7 +35,7 @@ Currently, there are two forms to send funds. One is *Send* on the top menu. Ano
 
 
 
-### Send (top menu)
+### Send
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/Send-1.png" width="600" title="Send Fund">
 </p>
