@@ -38,7 +38,7 @@
    - [How to Recover Account with Brain key](/bbf/user_guide/backup_local_wallet.md#how-to-recover-account-with-brain-key)
    
 ### Transactions
-- [Fund your Account](v/bbf/user_guide/fund_account.md#fund-your-account)
+- [Fund your Account](/bbf/user_guide/fund_account.md#fund-your-account)
    - Send
    - Deposit
 - Proposed Transactions
