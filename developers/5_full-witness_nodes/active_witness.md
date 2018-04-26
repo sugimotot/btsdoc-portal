@@ -179,10 +179,6 @@ Get the witness object using `get_witness` and take note of two things.
 | `id` |  is displayed in `get_global_properties` when the witness is voted in, and we will need it on the witness_node command line to produce blocks|
 | `signing_key`|  the public signing_key, we can look up the corresponding private key.  |
 
-Once we have both values, run `dump_private_keys` which lists the *public-key private-key pairs* to find the *private key*.
-
-> Warning: `dump_private_keys` will display your keys unencrypted on the terminal, don’t do this with someone looking over your shoulder.
-
 **get_witness** 
 
     >>> get_witness <accountname>
@@ -193,7 +189,9 @@ Once we have both values, run `dump_private_keys` which lists the *public-key pr
       [...]
     }
 
-Let’s get the *private key* for that `signing_key` with:
+Once we have both values, run `dump_private_keys` which lists the *public-key private-key pairs* to find the *private key*.
+
+> Warning: `dump_private_keys` will display your keys unencrypted on the terminal, don’t do this with someone looking over your shoulder.
 
 **dump_private_keys**
 
@@ -205,7 +203,6 @@ Let’s get the *private key* for that `signing_key` with:
     "5JGi7DM7J8fSTizZ4D9roNgd8dUc5pirUe9taxYCUUsnvQ4zCaQ"
       ]
     ]
-
 
 **Now we need to start the witness, so shut down the wallet (ctrl-d), and shut down the witness (ctrl-c).** 
 
