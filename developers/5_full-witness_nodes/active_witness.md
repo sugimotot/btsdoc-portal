@@ -6,17 +6,19 @@
    - Requirements
    - Technical Specifications
    - Active Witness Duties
-- [How to become a Block-Producing Witness](/developers/5_full-witness_nodes/active_witness.md#how-to-become-a-block-producing-witness)
-   - 1.[Run the Witness/Full Node on the network](/developers/5_full-witness_nodes/active_witness.md#1-run-the-witnessfull-node-on-the-network)
-   - 2.[Create a CLI wallet](/developers/5_full-witness_nodes/active_witness.md#2-create-a-wallet)
-   - 3.[Gain Access to Blockchain](/developers/5_full-witness_nodes/active_witness.md#3-gain-access-to-blockchain)
-       - Import your account (and funds) into CLI wallet
-       - Upgrade your account to a lifetime member
-   - 4.[Register a new Witness Object](/developers/5_full-witness_nodes/active_witness.md#4-registering-a-new-witness-object)
-   - 5.[Configuration of the Witness Node](/developers/5_full-witness_nodes/active_witness.md#5-configuration-of-the-witness-node)
-   - 6.[Verifying Block Production](/developers/5_full-witness_nodes/active_witness.md#6-verifying-block-production)
  - [Backup Server](/developers/5_full-witness_nodes/active_witness.md#backup-server)
- - [Price Feeds](/developers/5_full-witness_nodes/active_witness.md#price-feeds)
+ - [How to become a Block-Producing Witness](/developers/5_full-witness_nodes/active_witness.md#how-to-become-a-block-producing-witness)
+   - 1.[Run the Witness/Full Node on the Network](/developers/5_full-witness_nodes/active_witness.md#1-run-the-witnessfull-node-on-the-network)
+   - 2.[Create a CLI Wallet](/developers/5_full-witness_nodes/active_witness.md#2-create-a-wallet)
+   - 3.Import your Account (and funds) into CLI Wallet
+   - 4.Upgrade your Account to a Lifetime Member
+   - 5.[Register a New Witness](/developers/5_full-witness_nodes/active_witness.md#4-registering-a-new-witness-object)
+   - 6.Upvote the Witnes
+   - 7.[Configuration of the Witness Node](/developers/5_full-witness_nodes/active_witness.md#5-configuration-of-the-witness-node)
+   - 8.[Verifying Block Production](/developers/5_full-witness_nodes/active_witness.md#6-verifying-block-production)
+- [Backup Server](/developers/5_full-witness_nodes/active_witness.md#backup-server)
+- [Price Feeds](/developers/5_full-witness_nodes/active_witness.md#price-feeds)
+
 
 ****
 
@@ -54,14 +56,14 @@
 - Verifying Block Production
 
 
-### 1. Run the Witness/Full Node on the network
+### 1. Run the Witness/Full Node on the Network
 We first run the witness node *without block production* and connect it to the P2P network with the following command: 
 
     $ programs/witness_node/witness_node --rpc-endpoint 127.0.0.1:8090
 
 This command opens a RPC port 8090 for *localhost* so that we can later connect the CLI wallet with it. After the network was synced and periodically receives new blocks from other participants, we can go on to the next step.
 
-### 2. Create a CLI wallet for the network
+### 2. Create a CLI Wallet for the Network
 We now open up the cli_wallet. The following command connects to our plain Witness (Fill) node:
 
     $ programs/cli_wallet/cli_wallet -s ws://127.0.0.1:8090
@@ -84,7 +86,7 @@ After launched the wallet successfully, first thing to do is setting up a passwo
 
 Wallet creation is now done.
 
-### 3. Import your account (and funds) into CLI wallet
+### 3. Import your Account (and funds) into CLI Wallet
 
 To gain access to Blockchain, we import the account name (owner key) and the balance containing (active key) into the CLI wallet:
 
@@ -106,7 +108,7 @@ To gain access to Blockchain, we import the account name (owner key) and the bal
 
 Both keys can be exported from the web wallet.
 
-### 4. Upgrade your account to a lifetime member
+### 4. Upgrade your Account to a Lifetime Member
 
 **upgrade_account**
 
@@ -115,7 +117,7 @@ Since only lifetime members can become witnesses, you must first upgrade to a li
     >>> upgrade_account <accountname> true
     [a transaction in json format]
 
-### 5. Registering a new Witness Object
+### 5. Registering a New Witness
 To become a witness and be able to produce blocks, you first need to create a witness object that can be voted in.
 
 **create_witness**
@@ -163,7 +165,7 @@ Our witness is registered, but it can’t produce blocks because nobody has vote
       ...
 
 
-### 6. Upvote the witness with our funds
+### 6. Upvote the Witness 
 
 Now, we should vote our witness in. Vote all of the shares your account `<accountname>` in favor of your new witness.
 
