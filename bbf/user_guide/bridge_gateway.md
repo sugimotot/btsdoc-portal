@@ -1,4 +1,4 @@
-## Bridges and Gateways
+## Bridge and Gateway
 
 If you want to deposit or withdraw funds, either in fiat or from other blickchains, You may use a bridge or gateway service to do so. In the next section describes about *Bridge* and *Gateway* services.
 
