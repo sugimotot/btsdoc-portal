@@ -8,7 +8,7 @@
  
  ***
  
- ### Two Options to Fund your Account
+ ## Two Options to Fund your Account
  
 - **Send (Transfer)**: This is for between BitShares account holders to send funds. On the BitShares Blockchain , people never need to deal with *addresses* or *public keys*. BitShares account holders can use their *account names* to communicate. 
 - **Deposits**: BitShares account holders can use one of our partners to move over existing funds into your BitShares account.
@@ -17,7 +17,7 @@
 
 ## Send (Transfer)
 
-Currently, there are two forms to send funds. One is *Send* on the top menu. Another one is *Send (legacy)* on the side menu. Both work the same. First, let's check what information items on the Send forms. Next, you can check each item in the Send form images.
+Currently, there are two forms to send funds. One is **Send** on the top menu. Another one is **Send (legacy)** on the side menu. Both work the same. First, let's check what information items on the Send forms. Next, you can check each item in the Send form images.
 
 #### Send Forms items and descriptions
 
@@ -78,7 +78,7 @@ An OPEN.BTC is thus in theory equivalent to the BTC you get on Poloniex, which c
  
  ***
  
- Currently, there are two forms to deposit funds. One is *Deposit* and another one is *Deposit (Beta)*. Both locate on the side menu. 
+Currently, there are two forms to deposit funds. One is **Deposit** and another one is **Deposit (Beta)**. Both locate on the side menu. 
  
 BitShares has partners to provide Transfer (i.g. Gateway/Bridge) services which you can choose from. Each Transfer service has own instraction and available coins to deposit. When you selecte a Transfer Service, please follow the instruction. We will show you several examples and patterns to see the deposit forms.
 
