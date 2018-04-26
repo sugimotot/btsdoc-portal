@@ -7,14 +7,14 @@
    - Technical Specifications
    - Active Witness Duties
 - [How to become a Block-Producing Witness](/developers/5_full-witness_nodes/active_witness.md#how-to-become-a-block-producing-witness)
-   - 1.[Run the Witness/Full Node on the network](#1-run-the-witnessfull-node-on-the-network)
-   - 2.[Launch a CLI wallet](#2-launch-a-wallet)
-   - 3.[Gain Access to Blockchain](#3-gain-access-to-blockchain)
+   - 1.[Run the Witness/Full Node on the network](/developers/5_full-witness_nodes/active_witness.md#1-run-the-witnessfull-node-on-the-network)
+   - 2.[Create a CLI wallet](/developers/5_full-witness_nodes/active_witness.md#2-create-a-wallet)
+   - 3.[Gain Access to Blockchain](/developers/5_full-witness_nodes/active_witness.md#3-gain-access-to-blockchain)
        - Import your account (and funds) into CLI wallet
        - Upgrade your account to a lifetime member
-   - 4.[Register a new Witness Object](#4-registering-a-new-witness-object)
-   - 5.[Configuration of the Witness Node](#5-configuration-of-the-witness-node)
-   - 6.[Verifying Block Production](#6-verifying-block-production)
+   - 4.[Register a new Witness Object](/developers/5_full-witness_nodes/active_witness.md#4-registering-a-new-witness-object)
+   - 5.[Configuration of the Witness Node](/developers/5_full-witness_nodes/active_witness.md#5-configuration-of-the-witness-node)
+   - 6.[Verifying Block Production](/developers/5_full-witness_nodes/active_witness.md#6-verifying-block-production)
  - [Backup Server](/developers/5_full-witness_nodes/active_witness.md#backup-server)
  - [Price Feeds](/developers/5_full-witness_nodes/active_witness.md#price-feeds)
 
@@ -49,7 +49,7 @@ We first run the witness node without block production and connect it to the P2P
 
 This command opens a RPC port for local host so that we can later connect the CLI wallet with it. After the network was synced and periodically receives new blocks from other participants, we can go on to the next step.
 
-### 2. Launch a wallet
+### 2. Create a wallet
 We now open up the cli_wallet (i.g. create a wallet). The following command connects to our plain Witness (Fill) node:
 
     $ programs/cli_wallet/cli_wallet -s ws://127.0.0.1:8090
