@@ -18,7 +18,7 @@
 
 Currently, there are two forms to send funds. One is *Send* on the top menu. Another one is *Send (legacy)* on the side menu. Both work the same. First, let's check what information items on the Send forms. Next, you can check each item in the Send form images.
 
-#### Send Forms items and functionalities
+#### Send Forms items and descriptions
 
 | | Item | Description |
 |---|---|---|
@@ -81,7 +81,7 @@ An OPEN.BTC is thus in theory equivalent to the BTC you get on Poloniex, which c
  
 BitShares has partners to provide Transfer (i.g. Gateway/Bridge) services which you can choose from. Each Transfer service has own instraction and available coins to deposit. When you selecte a Transfer Service, please follow the instruction. We will show you several examples and patterns to deposit funds.
 
-## Deposit - forms
+## Deposit Forms items and descriptions
 
 | | Item | Description |
 |---|---|---|
@@ -89,13 +89,14 @@ BitShares has partners to provide Transfer (i.g. Gateway/Bridge) services which 
 | 2 | Service Type| A service you use |
 | 3 | Coin Name | a dropdown list - Select the coin name you want to deposit |
 | 4 | Deposit / Withdraw tabs| Select *Deposit* |
-| 5 | Address | Youd deposit address. **Copy Address** and use it  |
-| 6 | Memo  | Your Memo information.  **Copy Memo** and use it |
+| 5 | Address | Your deposit address to transfer funds. |
+| 6 | Memo  | Your Memo information to transfer funds. (*Not all coins' transfers use `Memo`*) |
 | 7 | BitShares Account Name | This would be your BitShares Account name |
 
 ### Example: Deposit STEEM by using a Gateway service
 
-**You use ADDRESS and MEMO to deposit funds**
+**You use `ADDRESS` and `MEMO` to deposit funds**
+
 Form: Deposit
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-steem-legacy.png" width="650" title="password login">
@@ -107,7 +108,8 @@ Form: Deposit(Beta)
 
 ### Example: Deposit EOS by using a Gateway service
 
-**You use ADDRESS to deposit funds**
+**You use `ADDRESS` to deposit funds**
+
 Form: Deposit
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-eos-legacy.png" width="650" title="confirm">
