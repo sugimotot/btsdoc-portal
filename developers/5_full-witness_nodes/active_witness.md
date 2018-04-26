@@ -42,6 +42,17 @@
 
 ## How to become a Block-Producing Witness
 
+#### Overview - Steps
+
+- Run a local (non block producing) full node
+- Create a CLI wallet for the network
+- Import your account (and funds) into CLI wallet
+- Upgrade an account to a lifetime member
+- Register a new witness
+- Upvote the witness with our funds
+- Sign blocks
+
+
 ### 1. Run the Witness/Full Node on the network
 We first run the witness node without block production and connect it to the P2P network with the following command: 
 
@@ -251,6 +262,12 @@ A couple of price feed scripts in various stages of development and for you to c
 - http://docs.bitshares.org/tutorials/witness-howto.html
 - http://docs.bitshares.org/tutorials/witness-create.html
 - http://docs.bitshares.org/integration/apps/node.html
+- http://docs.bitshares.org/bitshares/tutorials/full-node-usage.html
+- https://github.com/bitshares/bitshares-core/wiki/How-To-become-an-active-witness-in-BitShares-2.0
+
+??
+- https://github.com/bitshares/bitshares-core/wiki/How-to-setup-your-witness-for-test-net-(Ubuntu-14.04)
+- https://github.com/bitshares/bitshares-core/wiki/Howto-import-an-existing-delegate-as-witness-in-BitShares-2.0
 
 ***
 
