@@ -16,7 +16,7 @@
 
 ***
 
-# Send (Transfer)
+## Send (Transfer)
 
 Currently, there are two forms to send funds. One is **Send** on the top menu. Another one is **Send (legacy)** on the side menu. Both work the same. 
 
@@ -57,7 +57,7 @@ First, we want to list what information items on the Send forms. Next, you can c
 
 ***
 
-# Deposit
+## Deposit
 
 If you want to deposit or withdraw funds, either in fiat or from other blickchains, You may use a bridge or gateway service to do so. In the next section describes about *Bridge* and *Gateway* services.
 
