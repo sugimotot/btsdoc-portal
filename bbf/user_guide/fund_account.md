@@ -96,7 +96,7 @@ BitShares has partners to provide Transfer (i.g. Gateway/Bridge) services which 
 
 > If you cannot select an Asset on the Deposit(Beta) form, try to login to your wallet first. 
 
-### Example: Deposit STEEM by using a Gateway service
+#### Example: Deposit STEEM by using a Gateway service
 
 You use `ADDRESS` and `MEMO` to deposit funds
 
@@ -110,7 +110,7 @@ You use `ADDRESS` and `MEMO` to deposit funds
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-steem-2.png" width="350" title="confirm">
 </p>
 
-### Example: Deposit EOS by using a Gateway service
+#### Example: Deposit EOS by using a Gateway service
 
 You use `ADDRESS` to deposit funds
 
@@ -124,7 +124,7 @@ You use `ADDRESS` to deposit funds
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-eos-2.png" width="350" title="confirm">
 </p>
 
-### Example: Deposit BTS
+#### Example: Deposit BTS
 
 You use BitShares Account Name as `ADDRESS` to deposit funds
 
