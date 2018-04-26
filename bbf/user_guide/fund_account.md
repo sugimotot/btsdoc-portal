@@ -61,7 +61,7 @@ First, we want to list what information items on the Send forms. Next, you can c
 
 If you want to deposit or withdraw funds, either in fiat or from other blickchains, You may use a bridge or gateway service to do so. In the next section describes about *Bridge* and *Gateway* services.
 
-### Bridge and gateway services
+## Bridge and gateway services
 
 Both bridges and gateways allow you to deposit and withdraw coins, but there is a difference in the amount of trust you need to place in the service providers.
 
