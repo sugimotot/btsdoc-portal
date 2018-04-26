@@ -255,6 +255,7 @@ A couple of price feed scripts in various stages of development and for you to c
 
 *****
 
+(ref)
 
 - http://docs.bitshares.org/tutorials/witness-howto.html
 - http://docs.bitshares.org/tutorials/witness-create.html
