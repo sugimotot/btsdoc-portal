@@ -96,6 +96,8 @@ BitShares has partners to provide Transfer (i.g. Gateway/Bridge) services which 
 
 > If you cannot select an Asset on the Deposit(Beta) form, try to login to your wallet first. 
 
+***
+
 ### Example: Deposit STEEM by using a Gateway service
 
 **You use `ADDRESS` and `MEMO` to deposit funds**
@@ -124,10 +126,11 @@ Form: Deposit(Beta)
 
 ***
 
- <p align="center">
-  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-asset.png" width="350" title="confirm">
-</p>
+### Example: Deposit BTS
 
+**You use BitShares Account Name as `ADDRESS` to deposit funds**
+
+Form Deposit(Beta) 
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-bts.png" width="350" title="confirm">
 </p>
