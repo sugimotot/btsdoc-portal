@@ -35,7 +35,7 @@ Currently, there are two forms to send funds. One is **Send** on the top menu. A
 
 
 
-### Send
+### Form: Send
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/Send-1.png" width="600" title="Send Fund">
 </p>
@@ -48,7 +48,7 @@ Currently, there are two forms to send funds. One is **Send** on the top menu. A
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/Send-4.png" width="450" title="confirm">
 </p>
 
-###  Send (legacy) - Transfer details
+### Form: Send (legacy) - Transfer details
 
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/send-transfer2.png" width="650" title="Transfer legacy">
@@ -100,11 +100,11 @@ BitShares has partners to provide Transfer (i.g. Gateway/Bridge) services which 
 
 **You use `ADDRESS` and `MEMO` to deposit funds**
 
-Form: Deposit
+### Form: Deposit
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-steem-legacy.png" width="650" title="password login">
 </p>
-Form: Deposit(Beta)
+### Form: Deposit(Beta)
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-steem-2.png" width="350" title="confirm">
 </p>
@@ -113,11 +113,11 @@ Form: Deposit(Beta)
 
 **You use `ADDRESS` to deposit funds**
 
-Form: Deposit
+### Form: Deposit
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-eos-legacy.png" width="650" title="confirm">
 </p>
-Form: Deposit(Beta)
+### Form: Deposit(Beta)
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-eos-2.png" width="350" title="confirm">
 </p>
@@ -126,7 +126,7 @@ Form: Deposit(Beta)
 
 **You use BitShares Account Name as `ADDRESS` to deposit funds**
 
-Form Deposit(Beta) 
+### Form: Deposit(Beta) 
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-bts.png" width="350" title="confirm">
 </p>
