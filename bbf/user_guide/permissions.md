@@ -58,7 +58,7 @@ We can find each Public key in the Permissions page. We can also find each Priva
 </p>
 
 #### Memo – Private keys
-- Click a key image. (It seems a private key number does nor have a link.)
+- Click a key image. (It seems a private key number does not have a link.)
 - A Private key viewer form opens. You will find a Public Key and a [SHOW] button like below.
 - Click the [SHOW] button. You will find your Private key under the Public key.  
 
