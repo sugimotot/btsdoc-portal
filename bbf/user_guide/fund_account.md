@@ -16,11 +16,11 @@
 
 ## Send (Transfer)
 
-Currently, there are two forms to send funds. One is *Send* on the top menu. Another one is *Send (legacy)* on the side menu. Both work the same. First, we will show the Send form items and steps. Next, you can check each item in the Send form images.
+Currently, there are two forms to send funds. One is *Send* on the top menu. Another one is *Send (legacy)* on the side menu. Both work the same. First, let's check what information items on the Send forms. Next, you can check each item in the Send form images.
 
 #### Send Forms items and functionalities
 
-| | | |
+| | Item | Description |
 |---|---|---|
 | 1 | Sender's BitShares Account name | This would be your BitShares Account Name (e.g. *bitshares-users*)  |
 | 2 | TO | Another BitShares Account name whom you want to send funds |
@@ -47,7 +47,7 @@ Currently, there are two forms to send funds. One is *Send* on the top menu. Ano
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/Send-4.png" width="450" title="confirm">
 </p>
 
-### Transfer (legacy) 
+###  Send (legacy) - Transfer details
 
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/send-transfer2.png" width="650" title="Transfer legacy">
@@ -57,7 +57,7 @@ Currently, there are two forms to send funds. One is *Send* on the top menu. Ano
 
 ## Deposit
 
-If you want to deposit or withdraw funds, either in fiat or from other blickchains, You may use a bridge or gateway service to do so. 
+If you want to deposit or withdraw funds, either in fiat or from other blickchains, You may use a bridge or gateway service to do so. In the next section explains about *Bridge* and *Gateway* services.
 
 ### Bridge and gateway services
 
