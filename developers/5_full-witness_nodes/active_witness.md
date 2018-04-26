@@ -44,23 +44,24 @@
 
 #### Overview - Steps
 
-- Run a local (non block producing) full node
+- Run the Witness/Full Node on the network
 - Create a CLI wallet for the network
 - Import your account (and funds) into CLI wallet
 - Upgrade an account to a lifetime member
 - Register a new witness
 - Upvote the witness with our funds
-- Sign blocks
+- Configuration of the Witness Node
+- Verifying Block Production
 
 
 ### 1. Run the Witness/Full Node on the network
-We first run the witness node without block production and connect it to the P2P network with the following command: 
+We first run the witness node *without block production* and connect it to the P2P network with the following command: 
 
     $ programs/witness_node/witness_node --rpc-endpoint 127.0.0.1:8090
 
 This command opens a RPC port 8090 for *localhost* so that we can later connect the CLI wallet with it. After the network was synced and periodically receives new blocks from other participants, we can go on to the next step.
 
-### 2. Create a wallet
+### 2. Create a CLI wallet for the network
 We now open up the cli_wallet. The following command connects to our plain Witness (Fill) node:
 
     $ programs/cli_wallet/cli_wallet -s ws://127.0.0.1:8090
@@ -83,8 +84,9 @@ After launched the wallet successfully, first thing to do is setting up a passwo
 
 Wallet creation is now done.
 
-### 3. Gain Access to Blockchain
-We import the account name (owner key) and the balance containing (active key) into the CLI wallet:
+### 3. Import your account (and funds) into CLI wallet
+
+To gain access to Blockchain, we import the account name (owner key) and the balance containing (active key) into the CLI wallet:
 
 **import_key** (owner wifkey), **import_key** (active wifkey), **list_my_accounts** , **list_account_balances**
 
@@ -104,6 +106,8 @@ We import the account name (owner key) and the balance containing (active key) i
 
 Both keys can be exported from the web wallet.
 
+### 4. Upgrade your account to a lifetime member
+
 **upgrade_account**
 
 Since only lifetime members can become witnesses, you must first upgrade to a lifetime member. This step costs the lifetime-upgrade fee:
@@ -111,7 +115,7 @@ Since only lifetime members can become witnesses, you must first upgrade to a li
     >>> upgrade_account <accountname> true
     [a transaction in json format]
 
-### 4. Registering a new Witness Object
+### 5. Registering a new Witness Object
 To become a witness and be able to produce blocks, you first need to create a witness object that can be voted in.
 
 **create_witness**
@@ -158,6 +162,9 @@ Our witness is registered, but it can’t produce blocks because nobody has vote
       ],
       ...
 
+
+### 6. Upvote the witness with our funds
+
 Now, we should vote our witness in. Vote all of the shares your account `<accountname>` in favor of your new witness.
 
 **vote_for_witness**
@@ -169,8 +176,7 @@ Now, we should vote our witness in. Vote all of the shares your account `<accoun
 
 We need to wait until the next maintenance interval until we can see votes casted for our witness.
 
-
-### 5. Configuration of the Witness Node
+### 7. Configuration of the Witness Node
 
 Get the witness object using `get_witness` and take note of two things. 
 
@@ -219,7 +225,7 @@ Alternatively, you can also add this line into your `config.ini`:
 
 > Note: Make sure to use YOUR public/private keys instead of the once given above!
 
-### 6. Verifying Block Production
+### 8. Verifying Block Production
 If you monitor the output of the witness_node and you have been voted in the top list of block producing witnesses, you should see it generate blocks signed by your witness:
 
     Witness 1.6.10 production slot has arrived; generating a block now...
