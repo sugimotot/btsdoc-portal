@@ -41,7 +41,7 @@ Did you find out which type of wallet you want to have?
 
 ## Create an Account
 
-We assume you selected a wallet type and installed (Light wallet) and opened a "Welcome BitShares". 
+We assume you have selected a wallet type and installed (Light wallet) and opened a "Welcome BitShares". 
 
 This is very important. Please create a strong password and **write down** or **save** it to a safe place!! Do not lose it. **ONLY you can open your wallet again. No one can help.**
 
