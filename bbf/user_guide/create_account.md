@@ -124,7 +124,7 @@ You will find a **Locked Key** icon in the top right corner (if you have not log
 
 ### Cloud Wallet Login form
 
-If you followed the above steps to create your BitShares account, you would have a Cloud Wallet Login Mode as a default wallet. We will explain more details about "Cloud wallet login mode" and "Local wallet login mode" later. In this section, try your password to login to your BitShares wallet. 
+If you followed the above steps to create your BitShares account, you would have a Cloud Wallet Login Mode as a default setting. We will explain more details about "Cloud wallet login mode" and "Local wallet login mode" later. In this section, try your password to login to your BitShares wallet. 
 
 <p align="center">
   <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/bbf/img/cloud-login2.png" width="500" title="cloud-login">
