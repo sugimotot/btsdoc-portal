@@ -2,9 +2,10 @@
  
 ### Contents: 
  - Send (Transfer)
+    - Send Forms items and descriptions
  - Deposit
     - Bridge and gateway services
- 
+    -  Deposit Forms items and descriptions
  
  ***
  
