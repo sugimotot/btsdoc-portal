@@ -57,7 +57,7 @@ Currently, there are two forms to send funds. One is *Send* on the top menu. Ano
 
 ## Deposit
 
-If you want to deposit or withdraw funds, either in fiat or from other blickchains, You may use a bridge or gateway services to do do. 
+If you want to deposit or withdraw funds, either in fiat or from other blickchains, You may use a bridge or gateway service to do so. 
 
 ### Bridge and gateway services
 
@@ -77,7 +77,24 @@ An OPEN.BTC is thus in theory equivalent to the BTC you get on Poloniex, which c
  
  ***
  
+ Currently, there are two forms to deposit funds. One is *Deposit* and another one is *Deposit (Beta)*. Both locate on the side menu. 
  
+There are several Gateway services you can choose from. Each Gateway service has own instraction and available coins to deposit. When you selecte a Gateway, please follow the instruction.  We will show you several differences an d patterns to deposit funds.
+
+## Deposit - forms
+
+
+
+
+<p align="center">
+  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-steem-legacy.png" width="650" title="password login">
+</p>
+
+<p align="center">
+  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-eos-legacy.png" width="650" title="confirm">
+</p>
+
+
  
  
  
