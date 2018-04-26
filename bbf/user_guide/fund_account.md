@@ -98,7 +98,7 @@ BitShares has partners to provide Transfer (i.g. Gateway/Bridge) services which 
 
 #### (Example) Deposit STEEM by using a Gateway service
 
-You use `ADDRESS` and `MEMO` to deposit funds. The below images shows both forms for deposit funds.
+You use `ADDRESS` and `MEMO` to deposit funds. The below images show a Deposit and a Deposit(Beta) forms.
 
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-steem-legacy.png" width="650" title="password login">
@@ -110,7 +110,7 @@ You use `ADDRESS` and `MEMO` to deposit funds. The below images shows both forms
 
 #### (Example) Deposit EOS by using a Gateway service
 
-You use `ADDRESS` to deposit funds. The below images shows both forms for deposit funds.
+You use `ADDRESS` to deposit funds. The below images show a Deposit and a Deposit(Beta) forms.
 
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-eos-legacy.png" width="650" title="confirm">
