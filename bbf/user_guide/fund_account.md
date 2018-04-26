@@ -21,7 +21,7 @@ Currently, there are two forms to send funds. One is **Send** on the top menu. A
 
 First, we want to list what information items on the Send forms. Next, you can check each item in the Send form images.
 
-#### Send Forms items and descriptions
+### Send Forms items and descriptions
 
 | | Item | Description |
 |---|---|---|
@@ -31,7 +31,7 @@ First, we want to list what information items on the Send forms. Next, you can c
 | 4 | MEMO/MESSAGE | (option) |
 | 5 | FEE| Transaction fee you pay |
 | 6 | SEND | (button) |
-| 7 | PASSWORD| If you have not logged in to the wallet, you need to login before send funds |
+| 7 | PASSWORD| If you have not logged in to the wallet, you will be asked to login |
 | 8 | LOGIN | (button) |
 | 9 | CONFIRM | (button) last check before you send founds |
 
