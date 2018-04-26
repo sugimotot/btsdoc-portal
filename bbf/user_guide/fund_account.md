@@ -94,7 +94,7 @@ BitShares has partners to provide Transfer (i.g. Gateway/Bridge) services which 
 | 6 | Memo  | Your Memo information to transfer funds. (*Not all coins' transfers use `Memo`*) |
 | 7 | BitShares Account Name | This would be your BitShares Account name |
 
-> If you cannot select Asset on the Deposit(Beta) Form, try to login to your wallet. 
+> If you cannot select an Asset on the Deposit(Beta) form, try to login to your wallet first. 
 
 ### Example: Deposit STEEM by using a Gateway service
 
