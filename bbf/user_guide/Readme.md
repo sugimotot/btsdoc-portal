@@ -38,7 +38,7 @@
    - [How to Recover Account with Brain key](/bbf/user_guide/backup_local_wallet.md#how-to-recover-account-with-brain-key)
  
 ### Deposit & Withdraw
-- [Bridges and Gateways](/bbf/user_guide/bridges_gateways.md#bridges-and-gateways)
+- [Bridge and Gateway](/bbf/user_guide/bridge_gateway.md#bridge-and-gateway)
 - [Fund your Account](/bbf/user_guide/fund_account.md#fund-your-account)
    - [Send (Transfer)](/bbf/user_guide/fund_account.md#send-transfer)  
    - [Deposit](/bbf/user_guide/fund_account.md#deposit)   
