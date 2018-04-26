@@ -1,11 +1,11 @@
 ## Fund Your Account
  
 ### Contents: 
- - Send (Transfer)
-    - Send Forms items and descriptions
- - Deposit
-    - Bridge and gateway services
-    -  Deposit Forms items and descriptions
+ - [Send (Transfer)](/bbf/user_guide/fund_account.md#send-transfer)
+    - [Send Forms items and descriptions](/bbf/user_guide/fund_account.md#send-forms-items-and-descriptions)
+ - [Deposit](/bbf/user_guide/fund_account.md#deposit)
+    - [Bridge and gateway services](/bbf/user_guide/fund_account.md#bridge-and-gateway-services)
+    -  [Deposit Forms items and descriptions](/bbf/user_guide/fund_account.md#deposit-forms-items-and-descriptions)
  
  ***
  
