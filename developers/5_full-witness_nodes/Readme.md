@@ -17,7 +17,6 @@
    - Requirements
    - Technical Specifications
    - Active Witness Duties
- - [Backup Server](/developers/5_full-witness_nodes/active_witness.md#backup-server)
  - [How to become a Block-Producing Witness](/developers/5_full-witness_nodes/active_witness.md#how-to-become-a-block-producing-witness)
    - 1.[Run the Witness/Full Node on the Network](/developers/5_full-witness_nodes/active_witness.md#1-run-the-witnessfull-node-on-the-network)
    - 2.[Create a CLI Wallet](/developers/5_full-witness_nodes/active_witness.md#2-create-a-cli-wallet)
