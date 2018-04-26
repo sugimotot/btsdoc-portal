@@ -107,19 +107,19 @@ There are several Gateway services you can choose from. Each Gateway service has
 
 
  <p align="center">
-  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-asset.png" width="500" title="confirm">
+  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-asset.png" width="350" title="confirm">
 </p>
 
 <p align="center">
-  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-bts.png" width="500" title="confirm">
+  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-bts.png" width="350" title="confirm">
 </p>
 
 <p align="center">
-  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-steem-2.png" width="500" title="confirm">
+  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-steem-2.png" width="350" title="confirm">
 </p>
 
 <p align="center">
-  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-eos-2.png" width="500" title="confirm">
+  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/bbf/img/deposit-eos-2.png" width="350" title="confirm">
 </p>
 
  
