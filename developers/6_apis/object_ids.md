@@ -16,7 +16,7 @@ In contrast to most cryptocurrency wallets, the BitShares 2.0 has a different mo
 
 ## Objects
 
-**On the BitShares blockchains there are no addresses, but objects identified by a unique id, an type and a space.**
+On the BitShares blockchains there are **no addresses**, but objects identified by **a unique id, an type and a space.**
 
 ### BitShares Objects Format
 
@@ -63,7 +63,7 @@ In contrast to most cryptocurrency wallets, the BitShares 2.0 has a different mo
 | Object ID | translates to |
 |----------|----------------|
 | 1.2.0  | committee-account details |
-| 1.2.15   # protocol space / account / id: 15
+| 1.2.15  | # protocol space / account / id: 15
 | 1.3.0  | asset BTS, core asset details |
 | 1.3.1  | asset USD | 
 | 1.6.\<id\>  | 	block signer <id> |
