@@ -4,6 +4,7 @@
 - [Objects Format](/developers/6_apis/object_ids.md#bitshares-objects-format)
 - [List of Commonly used Objects](/developers/6_apis/object_ids.md#list-of-commonly-used-objects)
    - [Examples](/developers/6_apis/object_ids.md#examples)
+   - Examples - Accounts
 - [Defenitions](/developers/6_apis/object_ids.md#definitions)
    - [Protocol Space (1.x.x)](/developers/6_apis/object_ids.md#protocol-space-1xx)
       - enum graphene::chain::object_type
@@ -74,7 +75,17 @@ In contrast to most cryptocurrency wallets, the BitShares 2.0 has a different mo
 | 2.1.0 |  # implementation space / dynamic global properties |
 | 2.3.8 |  # implementation space / asset . id: 8 |
   
+#### Examples - Accounts
 
+| Object ID | Translates to |
+|----------|----------------|
+| 2.6.80 | # implementation space / account-balance / id: 80 |
+| 2.7.800  | # implementation space / account-statistics / id: 80 |
+| 2.10.80  |  # implementation space / account-transactions / id: 80 |
+| 2.8.80  | # implementation space / transactions / id: 80 | 
+| 2.9.80  | # implementation space / block-summary / id: 80 |
+
+   
 > A programmatic description of all fields can be found in the [sources](https://github.com/cryptonomex/graphene/blob/master/libraries/chain/include/graphene/chain/protocol/types.hpp).
 
 
