@@ -77,6 +77,8 @@ In contrast to most cryptocurrency wallets, the BitShares 2.0 has a different mo
   
 #### Examples - Accounts
 
+The BitShares blockchain users are requires to register each account with a unique username and a public key on the blockchain. The blockchain assigns an incremental user id and offers to resolve the name-to-id pair. 
+
 | Object ID | Translates to |
 |----------|----------------|
 | 2.6.80 | # implementation space / account-balance / id: 80 |
