@@ -47,7 +47,7 @@
 |  | Asset |  Issued Assets |
 |  | Signed Message |  You can create a Signed message |
 |  | Membership stats | Basic Member is a default membership. You can upgrade to Lifefime Membership here.   |
-|  | Vesting balances |   |
+|  | Vesting balances | Vesting balances contain any fees earned through the referral program or from worker pay, for example. They have a certain vesting period and are continually unlocked during that vesting period until all of the balances are available  |
 |  | Whitelist | You can set Whitelist and/or Blicklist. Also, you can view 'Whitelisted by' and 'Blacklisted by'.  |
 |  | Permissions | You can review the account's Active Permission, Owner Permission, and Memo Key informarion. <br/> - Active Permission: control over its funds and <br/> - Owner Permission: control over the account. <br/> **Advanced User Only::** If you want to manage your *Cloud Wallet* permissions, you can do so here.  |
 |  | Accounts | You can review Accounts, Contacts, and Recent activity information.  |
