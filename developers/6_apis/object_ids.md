@@ -12,11 +12,9 @@
 
 ***
 
-In contrast to most cryptocurrency wallets, the BitShares 2.0 has a different model to represent the blockchain, its *transactions* and *accounts*. 
+In contrast to most cryptocurrency wallets, the BitShares 2.0 has a different model to represent the blockchain, its transactions and accounts. On the BitShares blockchains there are **no addresses**, but objects identified by **a unique id, an type and a space.**
 
 ## Objects
-
-On the BitShares blockchains there are **no addresses**, but objects identified by **a unique id, an type and a space.**
 
 ### BitShares Objects Format
 
