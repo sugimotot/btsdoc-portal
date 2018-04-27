@@ -60,7 +60,7 @@ On the BitShares blockchains there are **no addresses**, but objects identified 
 
 #### Examples
 
-| Object ID | translates to |
+| Object ID | Translates to |
 |----------|----------------|
 | 1.2.0  | committee-account details |
 | 1.2.15  | # protocol space / account / id: 15
