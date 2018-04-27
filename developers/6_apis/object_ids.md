@@ -75,6 +75,7 @@ On the BitShares blockchains there are **no addresses**, but objects identified 
 | 2.1.0 |  # implementation space / dynamic global properties |
 | 2.3.8 |  # implementation space / asset . id: 8 |
 
+> A programmatic description of all fields can be found in the [sources](https://github.com/cryptonomex/graphene/blob/master/libraries/chain/include/graphene/chain/protocol/types.hpp).
    
 ***
 
