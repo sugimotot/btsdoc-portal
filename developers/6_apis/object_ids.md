@@ -12,9 +12,11 @@
 
 ***
 
-In contrast to most cryptocurrency wallets, the BitShares 2.0 has a different model to represent the blockchain, its transactions and accounts. 
+In contrast to most cryptocurrency wallets, the BitShares 2.0 has a different model to represent the blockchain, its *transactions* and *accounts*. 
 
 ## Objects
+
+**On the BitShares blockchains there are no addresses, but objects identified by a unique id, an type and a space.**
 
 ### BitShares Objects Format
 
@@ -40,6 +42,7 @@ In contrast to most cryptocurrency wallets, the BitShares 2.0 has a different mo
 |	1.13.x  | 	vesting balance object |
 |	1.14.x  | 	worker object |
 |	1.15.x |  	balance object |
+| 2.--- | |
 |	2.0.x |  	global_property_object |
 |	2.1.x  | 	dynamic_global_property_object |
 |	2.3.x  | 	asset_dynamic_data |
@@ -59,16 +62,20 @@ In contrast to most cryptocurrency wallets, the BitShares 2.0 has a different mo
 
 | Object ID | translates to |
 |----------|----------------|
-| 1.3.1  | 	asset USD |
-| 1.3.0  | 	asset BTS |
-| 1.2.\<id\>  | 	user with id <id> |
+| 1.2.0  | committee-account details |
+| 1.2.15   # protocol space / account / id: 15
+| 1.3.0  | asset BTS, core asset details |
+| 1.3.1  | asset USD | 
 | 1.6.\<id\>  | 	block signer <id> |
-| 1.11.\<id\>  | 	operation with id <id> |
+| 1.6.105 | # protocol space / witness / id: 105|   
+| 1.11.\<id\>  | 	operation with id <id> |   
+| 1.14.7 | # protocol space / worker / id: 7 |
 | 2.0.0  | global blockchain parameters |
 | 2.1.0  | current blockchain data |
-| 1.2.0  | committee-account details |
-| 1.3.0  | core asset details |
+| 2.1.0 |  # implementation space / dynamic global properties |
+| 2.3.8 |  # implementation space / asset . id: 8 |
 
+   
 ***
 
 ## Definitions
