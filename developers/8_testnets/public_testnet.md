@@ -20,9 +20,10 @@
 
 ## 1. Installation_Configuration of Witness 
 
-### 1.1 Fork CNX's code base
+### 1.1 Fork the BitShares-Core code base 
 
-    git clone https://github.com/bitshares/bitshares-core
+    git clone https://github.com/bitshares/bitshares-core.git bitshares-core-testnet
+    cd bitshares-core-testnet/
     git checkout testnet
 
 ### 1.2 Configuration
@@ -37,8 +38,11 @@ The blockchain parameters can be modified in the
 
 **Default Seed Node List**
 
-We can add a default list of seed nodes that the witness is supposed to
-try to connect to in [libraries/app/application.cpp](https://github.com/cryptonomex/graphene/blob/master/libraries/app/application.cpp) 
+We can add a default list of seed nodes that the witness is supposed to try to connect to in ][libraries/app/application.cpp](https://github.com/bitshares/bitshares-core/blob/master/libraries/app/application.cpp) and will add the IP/Address and port of the machine we are going to setup later already:
+
+    testnet.bitshares.eu:11010
+
+The full changeset can be seen in the corresponding [git commit](https://github.com/BitSharesEurope/graphene-testnet/commit/94f0a95be6f80cb5a7926ba6cc920dd795eb3a19)
 
 ### 1.3 Initial Compilation
 
