@@ -1,9 +1,18 @@
+## API Guide 
 
-APIs categories
-----------------
+### Contents:
+- 
+- 
+- 
+
+***
+
+
+### APIs Categories
 
 * **Blockchain API** -- It is used to query blockchain data (account, assets, trading history, etc.) Besides data stores in the blockchain itself (blocks, transactions, etc. ..), higher level objects (such as accounts, balances, etc. …) can be retrieved through the full node’s database.
-* **Wallet API** -- It has your private keys loaded and is required when interacting with the blockchain with new transactions.
+* **Wallet API** -- It interract with thr blockchain to operate 
+The wallet (cli-wallet) has your private keys and is required a running full node to connect to the blockchain.  when interacting with the blockchain with new transactions. The wallet does not offer P2P or blockchain capabilities directly.
 
 
 API Calls
