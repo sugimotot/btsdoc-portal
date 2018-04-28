@@ -83,8 +83,7 @@ chains (unless one of them has exactly the same genesis file you do).
 
 **Copy final Genesis**
 
-After edit, copy our gensis template file over to the graphene root
-directory:::
+We now copy our gensis template file over to the graphene root directory::
 
     $ cp genesis/my-genesis.json genesis.json
     $ vim genesis.json
