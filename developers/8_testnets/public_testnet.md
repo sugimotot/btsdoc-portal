@@ -58,7 +58,7 @@ generate a plain genesis file in the proper format.
 
 ### 2.1 Create a Genesis file
 
- Named ``my-genesis.json`` that contains the genesis block:
+We will create a genesis file named ``my-genesis.json`` that contains the genesis block:
 
     mkdir -p genesis
     programs/witness_node/witness_node --create-genesis-json genesis/my-genesis.json
