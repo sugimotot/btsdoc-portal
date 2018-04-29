@@ -6,7 +6,7 @@
 |---|---|---|
 | #881 | Document differences among boost versions  | [here](/developers/1_installation/boost_versions.md#boost-version) |
 | #808 | es_objects plugin fixes |  |
-| #802 | API logging |  |
+| #802 | API logging | [here](/developers/6_apis/api_support.md#api-logging) |
 | #792 | apidoc |  |
 | #780 | API documentation  |  |
 | #741 | Generate doxygen docs for FC |  |
