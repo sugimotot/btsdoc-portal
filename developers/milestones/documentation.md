@@ -4,22 +4,26 @@
 
 | # | | | 
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| #881 | Document differences among boost versions  | here |
+| #808 | es_objects plugin fixes |  |
+| #802 | API logging |  |
+| #792 | apidoc |  |
+| #780 | API documentation  |  |
+| #741 | Generate doxygen docs for FC |  |
+| #738 | Documentation about building/running in WSL |  |
+| #731 | Document how proposals work |  |
+| #708 | Documentation about public testnet |  |
+| #704 | update websocket subscriptions wiki page |  |
+| #681 | Detect error on `_bulk api` on elasticsearch plugin |  |
+| #650 | proposal framework for api nodes documentation |  |
+| #624 | Write documents for named API specifiers and how to access via HTTP  |  |
+| #550 | Tweaks for API Nodes |  |
+| #534 | Update windows build doc for elastic_search plugin |  |
+| #518 | Clean up bitasset_data during maintenance |  |
+| #460 | Prediction markets can suffer a black swan |  |
+| #207 | `[FC]` Writing to a tcp_socket which has EOF'd may hang forever |  |
+| #171 | Documentation of new market API documentation |  |
+| #165 | Document the difference between impacted accounts and relevant accounts |  |
 |  |  |  |
 
 ### Closed
