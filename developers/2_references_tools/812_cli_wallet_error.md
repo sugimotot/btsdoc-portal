@@ -2,9 +2,11 @@
 
 - #812, #313
 
+***
 
-#### issue:
-Hi, I got the same exact error as in issue 1, issue 2, i started 
+#### Issue:
+
+I got the same exact error as in issue 1, issue 2, i started 
 the witness node using the command `./programs/witness_node/witness_node` and 
 configured the `witness_node_data_dir/config.ini - rpc-endpoint = server-ip:8090` also 
 changed the main.cpp under `programs/cli_wallet` to `server-ip` and 
@@ -28,9 +30,12 @@ Also tried `./cli_wallet -s ws://server-ip` with the unmodified cli_wallet binar
         {"uri":"ws://server-ip"}
         th_a  websocket.cpp:678 connect
 
-#### responses
+***
+
+#### Responses
 
 -1-
+
 from your own log:
 323862ms th_a main.cpp:188 main ] wdata.ws_server: ws://server-ip
 so it seems you are using:
@@ -39,11 +44,13 @@ i guess you need to use:
 ./cli_wallet -s ws://104.200.28.117:8090 assuming your node is running at port 8090.
 
 -2-
+
 - witness_node should be started with --rpc-endpoint parameter, otherwise you'll be unable to connect to it.
 - you're connecting to ws://server-ip, which seems just an example and won't work as is. Try cli_wallet without any parameter.
 
 
 -3-
+
 Port is missing, should be ./cli_wallet -s ws://server-ip:809
 
 ***
