@@ -4,7 +4,7 @@
 
 | # | | | 
 |---|---|---|
-| #881 | Document differences among boost versions  | here |
+| #881 | Document differences among boost versions  | [here](/developers/1_installation/boost_versions.md#boost-version) |
 | #808 | es_objects plugin fixes |  |
 | #802 | API logging |  |
 | #792 | apidoc |  |
