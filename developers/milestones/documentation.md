@@ -30,7 +30,7 @@
 
 | # | | | 
 |---|---|---|
-| #812 | cli_wallet_error |  |
+| #812 | cli_wallet_error | [here](/developers/2_references_tools/812_cli_wallet_error.md#cli_wallet_error)  |
 | #700 | Minor improvements to the "Private testnet howto" documentation  |  |
 | #651 | add description to FC repo  |  |
 | #637 | build failed |  |
