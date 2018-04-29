@@ -5,6 +5,7 @@
 
 They seem like similar ideas, why do we have both of them? What is different about them? Can we delete one of them?
 
+***
 
 #### Responses
 
