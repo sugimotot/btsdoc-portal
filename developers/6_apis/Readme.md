@@ -1,4 +1,4 @@
-## 6. APIs
+## APIs
 
 ***
 
@@ -6,7 +6,7 @@
 
 ***
 
-### 01. Overview
+### Overview
 - [APIs two categories](/developers/6_apis/apis-about.md#apis-categories)
    - Blockchain API
    - Wallet API
@@ -14,11 +14,15 @@
 - Blockchain Specifications
 - [Object and IDs](/developers/6_apis/object_ids.md#object-and-ids)
    
-### 02. Calls   
+### Calls   
 - Remote Procedure Calls
 - [Websocket Calls & Notifications](https://github.com/cedar-book/btsdoc-portal/blob/master/developers/6_apis/websocket_calls_notifications.md#contents)
 
-### 03. Wallet APIs
+### Support
+
+- API Logging 
+
+### Wallet APIs
 - General Calls
 - Wallet Calls
 - Account Calls
@@ -29,14 +33,14 @@
 - Blockchain Inspection
 - Transaction Builder
       
-### 04. Blockchain APIs   
+### Blockchain APIs   
 - Database API
 - Account History API
 - Crypto API
 - Network Broadcast API
 - Network Nodes API   
       
-### 05.Namespaces (**idea needed)
+### Namespaces (**idea needed)
 - Graphene::App
 - Graphene::Chain
 - Graphene::Wallet
