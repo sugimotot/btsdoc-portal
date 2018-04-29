@@ -13,3 +13,6 @@
 - [Monitoring Account Deposits: Python](/developers/2_references_tools/monitoring_python.md#monitoring-account-deposits---python)
 - [Monitoring Balance History: NodeJS](/developers/2_references_tools/monitoring_nodejs.md#monitoring-the-balance-history---nodejs)
 
+### Closed Issues
+
+- 
