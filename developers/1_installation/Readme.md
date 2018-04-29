@@ -10,4 +10,4 @@
 
 ### Known issues
 
-- Boost versions
+- [Boost versions](/developers/1_installation/boost_versions.md#boost-version)
