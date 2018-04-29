@@ -40,7 +40,7 @@ from your own log: `323862ms th_a main.cpp:188 main ] wdata.ws_server: ws://serv
 
 so it seems you are using: `./cli_wallet -s ws://server-ip`
 
-i guess you need to use: `./cli_wallet -s ws://104.200.28.117:8090` assuming your node is running at port 8090.
+you need to use: `./cli_wallet -s ws://104.200.28.117:8090` assuming your node is running at port 8090.
 
 -2-
 
