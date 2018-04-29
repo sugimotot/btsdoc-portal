@@ -3,6 +3,8 @@
 
 ### Build and Run BitShares-Core in WSL
 
+If you use Windows 10 OS, you would have an option to install Ubuntu and then, BitShares-Core to Windows 10 OS.
+
 1. Install WSL 
    - Follow this instruction: https://docs.microsoft.com/en-us/windows/wsl/install-win10
 2. Download Ubuntu app from Microsoft Store for Windows 10 ind install it
@@ -10,4 +12,6 @@
 
 
 ***
+
+- Documentation about building/running in WSL #738
 
