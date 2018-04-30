@@ -93,3 +93,7 @@ We add a fee payed in BTS, sign and broadcast the transaction (if valid):
     
 ***
 
+(ref)
+
+- http://docs.bitshares.org/bitshares/tutorials/construct-transaction.html
+
