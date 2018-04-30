@@ -11,7 +11,7 @@
 | #780 | API documentation  |  |
 | #741 | Generate doxygen docs for FC |  |
 | #738 | Documentation about building/running in WSL | [here](/developers/1_installation/wsl.md#windows-subsystem-for-linux-wsl) |
-| #731 | Document how proposals work |  |
+| #731 | Document how proposals work |[here](/developers/7_tutorials/trn_construct_transaction.md#construct-any-transaction---manually)  |
 | #708 | Documentation about public testnet |  |
 | #704 | update websocket subscriptions wiki page |  |
 | #681 | Detect error on `_bulk api` on elasticsearch plugin |  |
