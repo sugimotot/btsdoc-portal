@@ -1,4 +1,4 @@
-### cli_wallet_error 
+## cli_wallet_error 
 
 - #812, #313
 
