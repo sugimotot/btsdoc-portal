@@ -1,4 +1,4 @@
-## Accounts
+# Accounts
 
 - [Account](/developers/3_accounts/account_registration.md#contents)
    - Permissions
