@@ -1,4 +1,4 @@
-## 5. Full Node / Witness Node
+## Full Node / Witness Node
 
 
 ### [Full Nodes (Witness Nodes)](/developers/5_full-witness_nodes/full_nodes.md#full-nodes-witness-nodes)
