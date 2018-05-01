@@ -18,9 +18,9 @@
 - Remote Procedure Calls
 - [Websocket Calls & Notifications](/developers/apis/websocket_calls_notifications.md#websocket-calls-notifications)
 
-### [Support](/developers/apis/api_support.md#api-support)
+### Support
 
-- API Logging 
+- [API Logging](/developers/apis/api_support.md#api-logging)
 
 ### Wallet APIs
 - General Calls
