@@ -1,4 +1,4 @@
-## 8. Testnets
+## Testnets
 
 ### 01. [Public Testnet Details](/developers/8_testnets/public_testnet_details.md#the-open-public-testnet-information)
 
