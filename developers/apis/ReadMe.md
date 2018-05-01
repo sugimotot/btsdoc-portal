@@ -12,7 +12,7 @@
    - Wallet API
 - [API Access Restrictions](/developers/apis/api_restrictions.md#api-access-restrictions)
 - Blockchain Specifications
-- [Object and IDs](/developers/apis/object_ids.md#object-and-ids)
+- [Object and IDs](/developers/apis/object_ids.md#objects-and-ids)
    
 ### Calls   
 - Remote Procedure Calls
