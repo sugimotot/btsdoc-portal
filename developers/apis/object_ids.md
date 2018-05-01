@@ -1,14 +1,14 @@
 ## Objects and IDs
 
 ### Contents:
-- [Objects Format](/developers/6_apis/object_ids.md#bitshares-objects-format)
-- [List of Commonly used Objects](/developers/6_apis/object_ids.md#list-of-commonly-used-objects)
-   - [Examples](/developers/6_apis/object_ids.md#examples)
-   - [Examples - Accounts](/developers/6_apis/object_ids.md#examples---accounts)
-- [Defenitions](/developers/6_apis/object_ids.md#definitions)
-   - [Protocol Space (1.x.x)](/developers/6_apis/object_ids.md#protocol-space-1xx)
+- [Objects Format](/developers/apis/object_ids.md#bitshares-objects-format)
+- [List of Commonly used Objects](/developers/apis/object_ids.md#list-of-commonly-used-objects)
+   - [Examples](/developers/apis/object_ids.md#examples)
+   - [Examples - Accounts](/developers/apis/object_ids.md#examples---accounts)
+- [Defenitions](/developers/apis/object_ids.md#definitions)
+   - [Protocol Space (1.x.x)](/developers/apis/object_ids.md#protocol-space-1xx)
       - enum graphene::chain::object_type
-   - [Implementattion Space (2.x.x)](/developers/6_apis/object_ids.md#implementattion-space-2xx)
+   - [Implementattion Space (2.x.x)](/developers/apis/object_ids.md#implementattion-space-2xx)
       - enum graphene::chain::object_type
 
 ***
