@@ -7,16 +7,16 @@
 ***
 
 ### Overview
-- [APIs two categories](/developers/6_apis/apis-about.md#apis-categories)
+- [APIs two categories](/developers/apis/apis-about.md#apis-categories)
    - Blockchain API
    - Wallet API
-- [API Access Restrictions](/developers/6_apis/api_restrictions.md#api-access-restrictions)
+- [API Access Restrictions](/developers/apis/api_restrictions.md#api-access-restrictions)
 - Blockchain Specifications
-- [Object and IDs](/developers/6_apis/object_ids.md#object-and-ids)
+- [Object and IDs](/developers/apis/object_ids.md#object-and-ids)
    
 ### Calls   
 - Remote Procedure Calls
-- [Websocket Calls & Notifications](https://github.com/cedar-book/btsdoc-portal/blob/master/developers/6_apis/websocket_calls_notifications.md#contents)
+- [Websocket Calls & Notifications](/developers/apis/websocket_calls_notifications.md#contents)
 
 ### Support
 
