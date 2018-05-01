@@ -1,4 +1,4 @@
-## 2. References & Tools
+# References & Tools
 
 ### References
 - [References](/developers/2_references_tools/references.md#references)
