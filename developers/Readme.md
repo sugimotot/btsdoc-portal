@@ -31,7 +31,7 @@ _**above processes will go parallel_
 
 ### 5. [Full Nodes / Witness Nodes](/developers/full-witness_nodes/Readme.md#5-full-node--witness-node)
 
-### 6. [APIs](/developers/apis/Readme.md#6-apis)
+### 6. [APIs](/developers/apis#apis)
    
 ### 7. [Tutorials](/developers/7_tutorials/Readme.md#7-tutorials)
 - [Questions and Answers](/developers/7_tutorials/QA.md#questions)
