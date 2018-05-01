@@ -8,7 +8,7 @@
    - Create a brain Key and derive a private/public key pair
    - Create an Account
    - Register an Account
-- [Q&A](/developers/7_tutorials/01_QA.md#accounts)
+- [Q&A](/developers/7_tutorials/QA.md#accounts)
 
 
 ***
