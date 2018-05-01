@@ -1,3 +1,5 @@
+## Websocket Calls Notifications
+
 ### Contents:
 * [Websocket Calls / Format](#call-format)
 * [API Access Procedure](#requesting-api-access) - Available APIs
