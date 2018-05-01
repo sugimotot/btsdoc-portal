@@ -1,6 +1,6 @@
 # Accounts
 
-- [Account](/developers/accounts/account_registration.md#contents)
+- [Account](/developers/accounts/accounts.md#contents)
    - Permissions
    - Memberships
    - Authorities
