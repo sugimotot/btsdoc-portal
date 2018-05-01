@@ -18,7 +18,7 @@
 - Remote Procedure Calls
 - [Websocket Calls & Notifications](/developers/apis/websocket_calls_notifications.md#websocket-calls-notifications)
 
-### Support
+### [Support](/developers/apis/api_support.md#api-support)
 
 - API Logging 
 
