@@ -1,4 +1,4 @@
-## 1. Environment & Installation
+# Environment & Installation
 
 ### Installation 
 
