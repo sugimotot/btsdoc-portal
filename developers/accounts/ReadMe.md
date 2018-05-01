@@ -1,6 +1,6 @@
 # Accounts
 
-- [Account](/developers/accounts#accounts)
+- [Account](/developers/accounts/accounts.md#accounts)
    - Permissions
    - Memberships
    - Authorities
