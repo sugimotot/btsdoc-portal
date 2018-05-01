@@ -1,4 +1,4 @@
-## 9. Use Cases & Examples
+# Use Cases & Examples
 
 - Exchanges
 - Merchants
