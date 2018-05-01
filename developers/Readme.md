@@ -36,7 +36,7 @@ _**above processes will go parallel_
 ### 7. [Tutorials](/developers/7_tutorials/Readme.md#7-tutorials)
 - [Questions and Answers](/developers/7_tutorials/QA.md#questions)
 
-### 8. [Testnets](/developers/testnets/Readme.md#testnets)
+### 8. [Testnets](/developers/testnets#testnets)
 
 ### 9. [Use Cases / Examples](/developers/use_cases#use-cases--examples)
 
