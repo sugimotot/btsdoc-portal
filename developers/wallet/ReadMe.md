@@ -1,4 +1,4 @@
-## Wallet
+# Wallet
 
 - [OverView](/developers/4_wallet/cli_wallet.md#contents)
 - [Cli-Tools for Windows (option)](/developers/4_wallet/cli_wallet.md#cli-tools-for-windows-option)
