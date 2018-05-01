@@ -1,11 +1,11 @@
 ## Memory Reduction for Nodes
 ### Contents:
-- [Four New Options to Reduce RAM](/developers/5_full-witness_nodes/nodes_memory_reduction.md#four-new-options-to-reduce-ram)
-   - [--plugins arg   ](/developers/5_full-witness_nodes/nodes_memory_reduction.md#--plugins)
-   - [--track-account arg ](/developers/5_full-witness_nodes/nodes_memory_reduction.md#--track-account)
-   - [--max-ops-per-account arg](/developers/5_full-witness_nodes/nodes_memory_reduction.md#--max-ops-per-account)
-   - [--partial-operations arg](/developers/5_full-witness_nodes/nodes_memory_reduction.md#--partial-operations)
-- [Combinations](/developers/5_full-witness_nodes/nodes_memory_reduction.md#combinations)
+- [Four New Options to Reduce RAM](/developers/full-witness_nodes/nodes_memory_reduction.md#four-new-options-to-reduce-ram)
+   - [--plugins arg   ](/developers/full-witness_nodes/nodes_memory_reduction.md#--plugins)
+   - [--track-account arg ](/developers/full-witness_nodes/nodes_memory_reduction.md#--track-account)
+   - [--max-ops-per-account arg](/developers/full-witness_nodes/nodes_memory_reduction.md#--max-ops-per-account)
+   - [--partial-operations arg](/developers/full-witness_nodes/nodes_memory_reduction.md#--partial-operations)
+- [Combinations](/developers/full-witness_nodes/nodes_memory_reduction.md#combinations)
 
 
 ***
@@ -18,15 +18,15 @@ The BitShares blockchain is big and Graphene technology stores all the data into
 
 |||
 |---|---|
-|  [--plugins arg   ](/developers/5_full-witness_nodes/nodes_memory_reduction.md#--plugins) |  Space-separated list of plugins to activate |
+|  [--plugins arg   ](/developers/full-witness_nodes/nodes_memory_reduction.md#--plugins) |  Space-separated list of plugins to activate |
 
 ### Options for plugin accout_history
 
 |||
 |---|---|
-|  [--track-account arg ](/developers/5_full-witness_nodes/nodes_memory_reduction.md#--track-account) | Account ID to track history for (may specify multiple times) |
-| [--max-ops-per-account arg](/developers/5_full-witness_nodes/nodes_memory_reduction.md#--max-ops-per-account) | Maximum number of operations per account will be kept in memory |
-| [--partial-operations arg](/developers/5_full-witness_nodes/nodes_memory_reduction.md#--partial-operations)  | Keep only those operations in memory that are related to account history tracking |
+|  [--track-account arg ](/developers/full-witness_nodes/nodes_memory_reduction.md#--track-account) | Account ID to track history for (may specify multiple times) |
+| [--max-ops-per-account arg](/developers/full-witness_nodes/nodes_memory_reduction.md#--max-ops-per-account) | Maximum number of operations per account will be kept in memory |
+| [--partial-operations arg](/developers/full-witness_nodes/nodes_memory_reduction.md#--partial-operations)  | Keep only those operations in memory that are related to account history tracking |
 
 ***
 
