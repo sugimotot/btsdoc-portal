@@ -5,9 +5,15 @@
 |---|----| -----|
 | A |  |  -- |
 | B |  |  -- |
+|  | BISP | --- |
 |  |BitShares Blockchain | BitShares  |
 |  |BTS Holder |shareholder / stakeholders |
+| F |  |-- |
+|  | Faucet| --- |
 | G |  |-- |
+|  | Governance| --- |
+| H |  |-- |
+|  | Hardfork | --- |
 |  | Governance| --- |
 | N |  | |
 |  |Native Core Token BTS | BTS|
