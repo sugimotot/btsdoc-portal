@@ -39,7 +39,7 @@ leverage the full power of the BitShares Blockchain.
 
 ### [BTS Holder Guide](/bbf/bts_holder_guide#bts-holder-guide)
 
-### Governance
+### [Governance](/bbf/governance#blockchain-governance)
 
 
 ### [Resources](/bbf/resources#resources)
