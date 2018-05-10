@@ -1,7 +1,7 @@
 ## BitShares Blockchain
 
 ### BitShares Reference Wallet
-- BitShares.Exchange <https://bitshares.exchange>
+- BitShare UI wallet <https://wallet.bitshares.org>
 
 ### BitShares Blockchain Foundation
 
@@ -10,6 +10,10 @@
 - [Bitshares Foundation : Accounting](http://www.bitshares.foundation/accounting)
 - [Bitshares Foundation : Public Mailing Lists](http://lists.bitshares.foundation/listinfo)
 - [Bitshares Foundation : Spokesperso](http://www.bitshares.foundation/spokesperson)
+- [Blockchain Projects](https://www.blockchainprojectsbv.com/)
+- [Blockchain Academy](https://blockchainacademy.nl/)
+- https://companyledger.info
+
 
 ### Bitshares Block Exploer
 
