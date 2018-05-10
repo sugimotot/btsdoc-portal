@@ -5,6 +5,7 @@
 |---|----| -----|
 | A |  |  -- |
 | B |  |  -- |
+|  | bitAsset | --- |
 |  | BISP | --- |
 |  |BitShares Blockchain | BitShares  |
 |  |BTS Holder |shareholder / stakeholders |
