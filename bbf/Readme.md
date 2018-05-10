@@ -37,7 +37,7 @@ leverage the full power of the BitShares Blockchain.
 - Exchange / Explore
 - Wallet Functions & Settings (details)
 
-### BTS Holder Guide
+### [BTS Holder Guide](/bbf/bts_holder_guide#bts-holder-guide)
 
 ### Governance
 
