@@ -8,24 +8,24 @@
 - Fee Backed Asset
 - Prediction Market
 
-### Blockchain Governance
-
 ### Vesting Balances
 - Strategies
 - Guide
+
+### Referal Program
+
+## Blockchain Governance
 
 ### Voting
 - Proxy
 - Voting for...
 
-### Referal Program
-
-
 ### Community Members
 - Shareholders
 - Committee
-- Witness
+- Witnesses
 - Worker / Budget items
+
 
 ### Decentralized Exchange (DEX)
 - Trading
