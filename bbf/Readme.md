@@ -39,6 +39,9 @@ leverage the full power of the BitShares Blockchain.
 
 ### BTS Holder Guide
 
+### Governance
+
+
 ### [Resources](/bbf/resources#resources)
 
 ### Testnet
