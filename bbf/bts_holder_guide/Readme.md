@@ -14,7 +14,6 @@
 
 ### Referal Program
 
-## Blockchain Governance
 
 ### Voting
 - Proxy
@@ -25,6 +24,8 @@
 - Committee
 - Witnesses
 - Worker / Budget items
+
+
 
 
 ### Decentralized Exchange (DEX)
