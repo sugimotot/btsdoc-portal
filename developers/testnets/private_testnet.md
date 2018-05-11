@@ -91,7 +91,7 @@ The `data/my-blockprod` directory does not exist, it will be created by the witn
 The below message means the initialization is complete. It will complete nearly instantaneously with the tiny example genesis, unless you added a ton of balances. Use `ctrl-c` to close the witness node. 
 
     3501235ms th_a main.cpp:165 main] Started witness node on a chain with 0 blocks.
-    3501235ms th_a main.cpp:166 main] Chain ID is 8b7bd36a146a03d0e5d0a971e286098f41230b209d96f92465cd62bd64294824
+    3501235ms th_a main.cpp:166 main] Chain ID is cf307110d029cb882d126bf0488dc4864772f68d9888d86b458d16e6c36aa74b
 
 As a result, you should get two items:
 
