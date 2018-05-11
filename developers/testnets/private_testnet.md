@@ -46,7 +46,31 @@ The graphene code base has a default genesis block integrated that has all witne
 
     5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3
 
-## 5. Creating Data Directory
+## 5. Embedding genesis (optional)
+
+Once you have `genesis.json`, you may set a cmake variable like so:
+
+    cmake -DGRAPHENE_EGENESIS_JSON="$(pwd)/genesis/my-genesis.json"
+
+and then rebuild. Note, sometimes I've had to clean the build and CMake cache variables in order for `GRAPHENE_EGENESIS_JSON` to take effect:
+
+    make clean
+    find . -name "CMakeCache.txt" | xargs rm -f
+    find . -name "CMakeFiles" | xargs rm -Rf
+    cmake -DGRAPHENE_EGENESIS_JSON="$(pwd)/genesis/my-genesis.json" .
+
+Deleting caches will reset all `cmake` variables, so if you have used instructions like build-ubuntu which tells you to set other `cmake` variables, you will have to add those variables to the `cmake` line above.
+
+Embedding the genesis copies the entire content of genesis.json into the witness_node binary, and additionally copies the chain ID into the cli_wallet binary. Embedded genesis allows the following simplifications to the subsequent instructions:
+
+- You do not need to specify the `genesis.json` file on the witness node command line, or in the witness node configuration file.
+- You do not need to specify the chain ID on the `cli_wallet` command line when starting a new wallet.
+
+Embedded genesis is a feature designed to make life easier for consumers of pre-compiled binaries, in exchange for slight, optional complication of the process for producing binaries.
+
+
+
+## 6. Creating Data Directory
 
 We create a new data directory for our witness.
 
@@ -71,7 +95,7 @@ As a result, you should get two items:
 - The chain ID is now known - it’s displayed in the message above (i.g., Chain ID).
 
 
-## 6. Setting up Witness Configuration
+## 7. Setting up Witness Configuration
 
 Open the `[Testnet-Home]/data/my-blockprod/config.ini` file and set the following settings, uncommenting them if necessary.
 
@@ -99,7 +123,7 @@ Open the `[Testnet-Home]/data/my-blockprod/config.ini` file and set the followin
 
 The above list authorizes the `witness_node` to produce blocks on behalf of the listed `witness-id`s and specifies the private key needed to sign those blocks. Normally each witness would be on a different node, but for the purpose of this **private testnet**, we will start out with all witnesses signing blocks on a single node. 
 
-## 7. Starting Block Production
+## 8. Starting Block Production
 
 Now run witness_node again:
 
@@ -112,7 +136,7 @@ Now run witness_node again:
 
 Subsequent runs which connect to an existing witness node over the p2p network, or which get blockchain state from an existing data directory, need not have the `--enable-stale-production` flag.
 
-## 8. Obtaining the Chain ID
+## 9. Obtaining the Chain ID
 
 The chain ID (e.g. blockchain id) is a hash of the genesis state. All transaction signatures are only valid for a single chain ID. So editing the genesis file will change your chain ID, and make you unable to sync with all existing chains (unless one of them has exactly the same genesis file you do).
 
@@ -126,7 +150,7 @@ The chain ID is printed at witness node startup. It can also be obtained by usin
 
 This curl command will return a short JSON object including the `chain_id`.
 
-## 9. Creating a new Wallet
+## 10. Creating a new Wallet
 
 We are now ready to connect a new wallet to your Private testnet witness node. You must specify a chain ID and server. Keep your witness node running and in another _Command Prompt_ window run this command (a blank username and password will suffice):
 
@@ -140,7 +164,7 @@ Fist you need to create a new password for your wallet. This password is used to
 
     >>> set_password supersecret
 
-## 10. Gaining Access to the Genesis Stake
+## 11. Gaining Access to the Genesis Stake
 
 In Graphene, balances are contained in accounts. To import an account that exists in the Graphene genesis into your wallet, all you need to know its name and its private key. We will now import into the wallet an account called `nathan` (a general purpose test account) by using the `import_key` command: 
 
@@ -158,7 +182,7 @@ As a result, we have one account (named `nathan`) imported into the wallet and t
     get_account nathan
     list_account_balances nathan
 
-## 11. Creating Another Account
+## 12. Creating Another Account
 
 We will now create another account (named `alpha`) so that we can transfer funds back and forth between `nathan` and `alpha`.
 
@@ -209,7 +233,7 @@ The `get_private_key` command allows us to obtain the public key corresponding t
     get_private_key BTS78CuY47Vds2nfw2t88ckjTaggPkw16tLhcmg4ReVx1WPr1zRL5
 
 
-## 12. Creating Committee Members
+## 13. Creating Committee Members
 
     create_account_with_brain_key com0 com0 nathan nathan true
     create_account_with_brain_key com1 com1 nathan nathan true
