@@ -88,12 +88,10 @@ The data/my-blockprod directory does not exist, it will be created by the witnes
 
 > Note: `seed-nodes = []` creates a list of empty seed nodes to avoid connecting to default hardcoded seeds.  
     
-The below message means the initialization is complete. Use `ctrl-c` to close the witness node. 
+The below message means the initialization is complete. It will complete nearly instantaneously with the tiny example genesis, unless you added a ton of balances. Use `ctrl-c` to close the witness node. 
 
     3501235ms th_a main.cpp:165 main] Started witness node on a chain with 0 blocks.
     3501235ms th_a main.cpp:166 main] Chain ID is 8b7bd36a146a03d0e5d0a971e286098f41230b209d96f92465cd62bd64294824
-
-> Note: Initialization will complete nearly instantaneously with the tiny example genesis, unless you added a ton of balances.
 
 As a result, you should get two items:
 
