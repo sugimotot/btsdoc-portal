@@ -278,7 +278,7 @@ The `get_private_key` command allows us to obtain the public key corresponding t
 *****
 
 (ref)
-- https://github.com/bitshares/bitshares-core/wiki/private-testnet#embedding-genesis-optional
+- https://github.com/bitshares/bitshares-core/wiki/private-testnet
 - http://docs.bitshares.org/testnet/private-testnet.html
 
 
