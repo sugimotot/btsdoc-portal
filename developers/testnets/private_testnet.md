@@ -142,7 +142,7 @@ Subsequent runs which connect to an existing witness node over the p2p network, 
 
 ## 9. Obtaining the Chain ID
 
-(*see #6.when we created a data directory, we also obtained chainID.*)
+(*see #6.when we created a data directory, we also obtained a chain ID.*)
 
 The chain ID (e.g. blockchain id) is a hash of the genesis state. All transaction signatures are only valid for a single chain ID. So editing the genesis file will change your chain ID, and make you unable to sync with all existing chains (unless one of them has exactly the same genesis file you do).
 
@@ -276,3 +276,10 @@ The `get_private_key` command allows us to obtain the public key corresponding t
 
 
 *****
+
+(ref)
+- https://github.com/bitshares/bitshares-core/wiki/private-testnet#embedding-genesis-optional
+- http://docs.bitshares.org/testnet/private-testnet.html
+
+
+
