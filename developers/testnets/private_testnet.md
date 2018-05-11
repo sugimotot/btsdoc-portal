@@ -5,7 +5,7 @@
 ### Contents
 
 1. [Prerequisites](#1-prerequisites)
-2. [Folder Structure](#2-folder-structure)
+2. [Creating a Testnet folder](/testnets/private_testnet.md#2-creating-a-testnet-folder)
 3. [The Genesis Files](#3-the-genesis-file)
 4. [Get the Blockchain ID](#4-get-the-blockchain-id)
 5. [Witness Configuration](#5-witness-configuration)
