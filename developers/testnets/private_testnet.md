@@ -80,7 +80,7 @@ Embedded genesis is a feature designed to make life easier for consumers of pre-
 
 We create a new data directory for our witness.
 
-    witness_node --data-dir data/my-blockprod --genesis-json genesis/my-genesis.json --seed-nodes "[]"
+    witness_node --data-dir data/my-blockprod --genesis-json genesis/my-genesis.json --seed-nodes "[]"   # or
 
     witness_node --data-dir=data/my-blockprod --genesis-json=genesis/my-genesis.json --seed-nodes "[]"
 
