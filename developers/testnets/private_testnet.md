@@ -18,17 +18,17 @@
 
 We assume that you have both `witness_node` and `cli_wallet` already compliled (or downloaded from [the offical respository](https://github.com/bitshares/bitshares-2/releases/latest).
 
-## 2. Create a Testnet folder
+## 2. Creating a Testnet folder
 
 Create a new folder (e.g., `[Testnet-Home]`) in any location you like and copy `witness_node` and `cli_wallet` there. The `[Testnet-Home]` folder will contain all files and folders related to the Testnet.
 
 Open a _Command Prompt_ window and switch the current directory to `[Testnet-Home]`.
 
-## 3. Create Genesis File for a Private Testnet
+## 3. Creating a Genesis File for a Private Testnet
 
 The genesis.json is the initial state of the network. We create a new genesis json file named `my-genesis.json` for a Private Testnet.
 
-    programs/witness_node/witness_node --create-genesis-json=my-genesis.json
+    witness_node --create-genesis-json=my-genesis.json
 
 The `my-genesis.json` file will be created in the `[Testnet-Home]` folder. Once this task is done, the witness node will terminate on its own. 
 
@@ -41,35 +41,34 @@ If you want to customize the network's initial state, edit `my-genesis.json`. Th
 - The initial values of chain parameters
 - The account / signing keys of the `init` witnesses (or in fact any account at all).
 
-## 5. Creating Data Directory
-
-We create a new data directory for our witness.
-
-    programs/witness_node/witness_node --data-dir data/my-blockprod --genesis-json genesis/my-genesis.json --seed-nodes "[]"
-
-The data/my-blockprod directory does not exist, it will be created by the witness node.
-
-> Note: `seed-nodes = []` creates a list of empty seed nodes to avoid connecting to default hardcoded seeds.  
-    
-The below message means the initialization is complete. Use `ctrl-c` to close the witness node. (*Note: Initialization will complete nearly instantaneously with the tiny example genesis, unless you added a ton of balances.*)
-
-    3501235ms th_a main.cpp:165 main] Started witness node on a chain with 0 blocks.
-    3501235ms th_a main.cpp:166 main] Chain ID is 8b7bd36a146a03d0e5d0a971e286098f41230b209d96f92465cd62bd64294824
-
-As a result, you should get two items:
-
-- A directory named `data/my-blockprod` has been created (initialized) with a file named `config.ini` located in it.
-- Your chain ID is now known - it’s displayed in the message above (i.g., Chain ID).
-
-> Note: Your Chain ID will be different than the one used in the above example. Copy this id somewhere as you will be needing it later on.
-
-
 ### Default Genesis
 The graphene code base has a default genesis block integrated that has all witnesses, committee members and funds and a single account called `nathan` available from a single private key:
 
     5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3
 
-See below how to use this key, or go ahead to learn about how to define your own genesis file
+## 5. Creating Data Directory
+
+We create a new data directory for our witness.
+
+    witness_node --data-dir data/my-blockprod --genesis-json genesis/my-genesis.json --seed-nodes "[]"
+
+    witness_node --data-dir=data/my-blockprod --genesis-json=genesis/my-genesis.json --seed-nodes "[]"
+
+The data/my-blockprod directory does not exist, it will be created by the witness node.
+
+> Note: `seed-nodes = []` creates a list of empty seed nodes to avoid connecting to default hardcoded seeds.  
+    
+The below message means the initialization is complete. Use `ctrl-c` to close the witness node. 
+
+    3501235ms th_a main.cpp:165 main] Started witness node on a chain with 0 blocks.
+    3501235ms th_a main.cpp:166 main] Chain ID is 8b7bd36a146a03d0e5d0a971e286098f41230b209d96f92465cd62bd64294824
+
+> Note: Initialization will complete nearly instantaneously with the tiny example genesis, unless you added a ton of balances.
+
+As a result, you should get two items:
+
+- A directory named `data/my-blockprod` has been created (initialized) with a file named `config.ini` located in it.
+- The chain ID is now known - it’s displayed in the message above (i.g., Chain ID).
 
 
 ## 6. Setting up Witness Configuration
@@ -100,21 +99,19 @@ Open the `[Testnet-Home]/data/my-blockprod/config.ini` file and set the followin
 
 The above list authorizes the `witness_node` to produce blocks on behalf of the listed `witness-id`s and specifies the private key needed to sign those blocks. Normally each witness would be on a different node, but for the purpose of this **private testnet**, we will start out with all witnesses signing blocks on a single node. 
 
-## 7. Start Block Production
+## 7. Starting Block Production
 
 Now run witness_node again:
 
-    programs/witness_node/witness_node --data-dir data/my-blockprod --enable-stale-production --seed-nodes "[]"
+    witness_node --data-dir data/my-blockprod --enable-stale-production --seed-nodes "[]"
 
-Note that we need not specify `genesis.json` on the command line, since we now specify it in the config file. The `--enable-stale-production` flag tells the `witness_node` to produce on a chain with zero blocks or very old blocks. We specify the `--enable-stale-production` parameter on the command line as we will not normally need it (although it can also be specified in the config file). The empty `--seed-nodes` is added to avoid connecting to the default seed nodes hardcoded for production.
+> Note: We do not need to specify `genesis.json` on the command line, since we now specify it in the config file. The `--enable-stale-production` flag tells the `witness_node` to produce on a chain with zero blocks or very old blocks. We specify the `--enable-stale-production` parameter on the command line as we will not normally need it (although it can also be specified in the config file). The empty `--seed-nodes` is added to avoid connecting to the default seed nodes hardcoded for production.
 
 Subsequent runs which connect to an existing witness node over the p2p network, or which get blockchain state from an existing data directory, need not have the `--enable-stale-production` flag.
 
+## 8. Obtaining the Chain ID
 
-
-## 8. Obtain the Chain ID
-
-The chain ID (e.g. blockchain id) is a hash of the genesis state. All transaction signatures are only valid for a single chain id. So editing the genesis file will change your chain ID, and make you unable to sync with all existing chains (unless one of them has exactly the same genesis file you do).
+The chain ID (e.g. blockchain id) is a hash of the genesis state. All transaction signatures are only valid for a single chain ID. So editing the genesis file will change your chain ID, and make you unable to sync with all existing chains (unless one of them has exactly the same genesis file you do).
 
 For testing purposes, the `--dbg-init-key` option will allow you to quickly create a new chain against any genesis file, by replacing the witnesses' block production keys.
 
@@ -126,28 +123,21 @@ The chain ID is printed at witness node startup. It can also be obtained by usin
 
 This curl command will return a short JSON object including the `chain_id`.
 
-
-
 ## 9. Creating a new Wallet
 
 We are now ready to connect a new wallet to your Private testnet witness node. You must specify a chain ID and server. Keep your witness node running and in another _Command Prompt_ window run this command (a blank username and password will suffice):
 
-    programs/cli_wallet/cli_wallet --wallet-file my-wallet.json --chain-id cf307110d029cb882d126bf0488dc4864772f68d9888d86b458d16e6c36aa74b --server-rpc-endpoint ws://127.0.0.1:11011 -u '' -p ''
+    cli_wallet --wallet-file my-wallet.json --chain-id cf307110d029cb882d126bf0488dc4864772f68d9888d86b458d16e6c36aa74b --server-rpc-endpoint ws://127.0.0.1:11011 -u '' -p ''
 
-> Note: Make sure to replace the above blockchain id `cf307110d0...36aa74b` with **your own chain ID**. The chain id passed to the CLI-wallet needs to match the id generated and used by the witness node.
+> Note: Make sure to replace the above blockchain id `cf307110d0...36aa74b` with **your own chain ID** reported by your witness_node. The chain-id passed to the CLI-wallet needs to match the id generated and used by the witness node.
 
-
-> Note, since the genesis timestamp will likely be different, your chain ID will be different! Instead of cf3071110... you should use the chain ID reported by your witness_node. 
-
-If you get the `set_password` prompt, it means your CLI-wallet has successfully connected to the testnet witness node.
-
-**Set a new password**
+If you get the `set_password` prompt, it means your wallet has successfully connected to the testnet witness node.
 
 Fist you need to create a new password for your wallet. This password is used to encrypt all the private keys in the wallet. For this example, we will use the password `supersecret` .
 
     >>> set_password supersecret
 
-## 10. Gain access to the genesis stake
+## 10. Gaining Access to the Genesis Stake
 
 In Graphene, balances are contained in accounts. To import an account that exists in the Graphene genesis into your wallet, all you need to know its name and its private key. We will now import into the wallet an account called `nathan` (a general purpose test account) by using the `import_key` command: 
 
@@ -160,25 +150,22 @@ Now we have the private key imported into the wallet but still no funds assoccia
 
     import_balance nathan ["5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3"] true
 
-As a result, we have one account (named `nathan`) imported into the wallet and this account is well funded with BTS as we have claimed the funds stored in the genesis file. You can view this account by using this command:
+As a result, we have one account (named `nathan`) imported into the wallet and this account is well funded with BTS as we have claimed the funds stored in the genesis file. You can view this account information and the balance by using the below commands:
 
-    >>> get_account nathan
+    get_account nathan
+    list_account_balances nathan
 
-and its balance by using this command:
-
-    >>> list_account_balances nathan
-
-## 11. Create another account
+## 11. Creating Another Account
 
 We will now create another account (named `alpha`) so that we can transfer funds back and forth between `nathan` and `alpha`.
 
-Creating a new account is always done by using an existing account - we need it because someone (i.e. the registrar) has to fund the registration fee. Also, there is the requirement for the registrar account to have a lifetime member (LTM) status. Therefore we need to upgrade the account `nathan` to LTM, before we can proceed with creating other accounts. To upgrade to LTM, use the `upgrade_account` command:
+Creating a new account is always done by using an existing account - we need it because someone (i.e. the registrar) has to fund the registration fee. Also, there is the requirement for the registrar account to have a lifetime member (LTM) status. Therefore we need to upgrade the account `nathan` to LTM, before we can proceed with creating other accounts. 
 
-    >>> upgrade_account nathan true
+    upgrade_account nathan true
 
 > Note: Due to a known [caching issue](https://github.com/cryptonomex/graphene/issues/530), you need to _restart_ the CLI-wallet at this stage as otherwise it will not be aware of `nathan` having been upgraded. Stop the CLI-wallet by pressing `ctrl-c` and start it again by using exactly the same command as before, i.e.
 
-    programs/cli_wallet/cli_wallet --wallet-file=my-wallet.json --chain-id=8b7bd36a146a03d0e5d0a971e286098f41230b209d96f92465cd62bd64294824 --server-rpc-endpoint=ws://127.0.0.1:8090
+    cli_wallet --wallet-file=my-wallet.json --chain-id=8b7bd36a146a03d0e5d0a971e286098f41230b209d96f92465cd62bd64294824 --server-rpc-endpoint=ws://127.0.0.1:8090
 
 **Verify that `nathan` has now a LTM status**
 
@@ -190,7 +177,7 @@ We can now register an account by using `nathan` as registrar. But first we need
 
 And the resposne should be something similar to this:
 
-    >>> suggest_brain_key
+    suggest_brain_key
     {
     "brain_priv_key": "MYAL SOEVER UNSHARP PHYSIC JOURNEY SHEUGH BEDLAM WLOKA FOOLERY GUAYABA DENTILE RADIATE TIEPIN ARMS FOGYISH COQUET",
     "wif_priv_key": "5JDh3XmHK8CDaQSxQZHh5PUV3zwzG68uVcrTfmg9yQ9idNisYnE",
@@ -203,15 +190,10 @@ We can now register an account. The `register_account` command allows you to reg
    
 ### Transfer funds between accounts
 
-As a final step, we will transfer some money from nathan to alpha. For that we use the `transfer` command:
-   
     transfer nathan alpha 100000 CORE "here is the cash" true
+    list_account_balances alpha
 
 The text `here is some cash` is an arbitrary memo you can attatch to a transfer. If you don’t need it, just use `"" `instead.
-
-And now you can verify that `alpha` has indeed received the money:
-
-    >>> list_account_balances alpha
     
 We can now open a new wallet for alpha user:
 
