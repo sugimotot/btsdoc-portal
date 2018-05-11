@@ -142,7 +142,7 @@ Subsequent runs which connect to an existing witness node over the p2p network, 
 
 ## 9. Obtaining the Chain ID
 
-(*see #6. When we created a data directory, we also obtained chainID.)
+(*see #6.when we created a data directory, we also obtained chainID.*)
 
 The chain ID (e.g. blockchain id) is a hash of the genesis state. All transaction signatures are only valid for a single chain ID. So editing the genesis file will change your chain ID, and make you unable to sync with all existing chains (unless one of them has exactly the same genesis file you do).
 
@@ -195,14 +195,7 @@ We will now create another account (named `alpha`) so that we can transfer funds
 Creating a new account is always done by using an existing account - we need it because someone (i.e. the registrar) has to fund the registration fee. Also, there is the requirement for the registrar account to have a lifetime member (LTM) status. Therefore we need to upgrade the account `nathan` to LTM, before we can proceed with creating other accounts. 
 
     upgrade_account nathan true
-
-> Note: Due to a known [caching issue](https://github.com/cryptonomex/graphene/issues/530), you need to _restart_ the CLI-wallet at this stage as otherwise it will not be aware of `nathan` having been upgraded. Stop the CLI-wallet by pressing `ctrl-c` and start it again by using exactly the same command as before, i.e.
-
-    cli_wallet --wallet-file=my-wallet.json --chain-id=8b7bd36a146a03d0e5d0a971e286098f41230b209d96f92465cd62bd64294824 --server-rpc-endpoint=ws://127.0.0.1:8090
-
-**Verify that `nathan` has now a LTM status**
-
-    >>> get_account nathan
+    get_account nathan
 
 In the response, next to `membership_expiration_date` you should see `1969-12-31T23:59:59`. If you get `1970-01-01T00:00:00` something is wrong and `nathan` has not been successfully upgraded.
 
