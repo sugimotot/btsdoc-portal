@@ -22,7 +22,7 @@
 
 ## 1. Prerequisites 
 
-We assume that you have both `witness_node` and `cli_wallet` already compliled (or downloaded from [the offical respository](https://github.com/bitshares/bitshares-2/releases/latest).
+We assume that you have both `witness_node` and `cli_wallet` already compiled (or downloaded from [the offical respository](https://github.com/bitshares/bitshares-2/releases/latest).
 
 ## 2. Creating a Testnet Folder
 
