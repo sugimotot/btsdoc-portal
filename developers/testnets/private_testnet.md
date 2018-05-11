@@ -47,7 +47,7 @@ If you want to customize the network's initial state, edit `my-genesis.json`. Th
 - The initial values of chain parameters
 - The account / signing keys of the `init` witnesses (or in fact any account at all).
 
-### Default Genesis
+#### Default Genesis
 The graphene code base has a default genesis block integrated that has all witnesses, committee members and funds and a single account called `nathan` available from a single private key:
 
     5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3
