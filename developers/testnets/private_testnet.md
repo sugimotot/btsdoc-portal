@@ -6,11 +6,17 @@
 
 1. [Prerequisites](#1-prerequisites)
 2. [Creating a Testnet folder](/developers/testnets/private_testnet.md#2-creating-a-testnet-folder)
-3. [The Genesis Files](#3-the-genesis-file)
-4. [Get the Blockchain ID](#4-get-the-blockchain-id)
-5. [Witness Configuration](#5-witness-configuration)
-6. [Start Block Production](#6-start-block-production)
-7. [Connecting a CLI wallet](#7-connecting-a-cli-wallet)
+3. [Creating a Genesis File for a Private Testnet](/developers/testnets/private_testnet.md#3-creating-a-genesis-file-for-a-private-testnet)
+4. [Customization of the Genesis File](/developers/testnets/private_testnet.md#4-customization-of-the-genesis-file)
+5. [Embedding Genesis (optional)](/developers/testnets/private_testnet.md#5-embedding-genesis-optional)
+6. [Creating a Data Directory](/developers/testnets/private_testnet.md#6-creating-a-data-directory)
+7. [Setting up Witness Configuration](/developers/testnets/private_testnet.md#7-setting-up-witness-configuration)
+8. [Starting Block Production](/developers/testnets/private_testnet.md#8-starting-block-production)
+9. [Obtaining the Chain ID](/developers/testnets/private_testnet.md#9-obtaining-the-chain-id)
+10. [Creating a new Wallet](/developers/testnets/private_testnet.md#10-creating-a-new-wallet)
+11. [Gaining Access to the Genesis Stake](/developers/testnets/private_testnet.md#11-gaining-access-to-the-genesis-stake)
+12. [Creating Another Account](/developers/testnets/private_testnet.md#12-creating-another-account)
+13. [Creating Committee Members](/developers/testnets/private_testnet.md#13-creating-committee-members)
 
 ****
 
@@ -18,7 +24,7 @@
 
 We assume that you have both `witness_node` and `cli_wallet` already compliled (or downloaded from [the offical respository](https://github.com/bitshares/bitshares-2/releases/latest).
 
-## 2. Creating a Testnet folder
+## 2. Creating a Testnet Folder
 
 Create a new folder (e.g., `[Testnet-Home]`) in any location you like and copy `witness_node` and `cli_wallet` there. The `[Testnet-Home]` folder will contain all files and folders related to the Testnet.
 
@@ -32,7 +38,7 @@ The genesis.json is the initial state of the network. We create a new genesis js
 
 The `my-genesis.json` file will be created in the `[Testnet-Home]` folder. Once this task is done, the witness node will terminate on its own. 
 
-## 4. Customization of the Genesis file
+## 4. Customization of the Genesis File
 
 If you want to customize the network's initial state, edit `my-genesis.json`. This allows you to control things such as:
 
@@ -46,7 +52,7 @@ The graphene code base has a default genesis block integrated that has all witne
 
     5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3
 
-## 5. Embedding genesis (optional)
+## 5. Embedding Genesis (optional)
 
 Once you have `genesis.json`, you may set a cmake variable like so:
 
@@ -70,7 +76,7 @@ Embedded genesis is a feature designed to make life easier for consumers of pre-
 
 
 
-## 6. Creating Data Directory
+## 6. Creating a Data Directory
 
 We create a new data directory for our witness.
 
