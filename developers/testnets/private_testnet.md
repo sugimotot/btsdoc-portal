@@ -84,9 +84,9 @@ We create a new data directory for our witness.
     
     witness_node --data-dir=data/my-blockprod --genesis-json=genesis/my-genesis.json --seed-nodes "[]"
 
-> Known issue: Missing = sign between input parameter and value. --> This is due to a bug of a boost 1.60. If you compile with boost 1.58, the = sign can be omitted.
-
 The `data/my-blockprod` directory does not exist, it will be created by the witness node.
+
+> Known issue: Missing `=` sign between input parameter and value. --> This is due to a bug of a boost 1.60. If you compile with boost 1.58, the `=` sign can be omitted.
 
 > Note: `seed-nodes = []` creates a list of empty seed nodes to avoid connecting to default hardcoded seeds.  
     
