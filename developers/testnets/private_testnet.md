@@ -278,6 +278,7 @@ The `get_private_key` command allows us to obtain the public key corresponding t
 (ref)
 - https://github.com/bitshares/bitshares-core/wiki/private-testnet
 - http://docs.bitshares.org/testnet/private-testnet.html
-
+- https://github.com/bitshares/docs.bitshares.org/pull/52
+- https://github.com/bitshares/bitshares-core/issues/700
 
 
