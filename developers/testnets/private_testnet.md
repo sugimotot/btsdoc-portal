@@ -81,8 +81,10 @@ Embedded genesis is a feature designed to make life easier for consumers of pre-
 We create a new data directory for our witness.
 
     witness_node --data-dir data/my-blockprod --genesis-json genesis/my-genesis.json --seed-nodes "[]"   # or
-
+    
     witness_node --data-dir=data/my-blockprod --genesis-json=genesis/my-genesis.json --seed-nodes "[]"
+
+> Known issue: Missing = sign between input parameter and value. --> This is due to a bug of a boost 1.60. If you compile with boost 1.58, the = sign can be omitted.
 
 The `data/my-blockprod` directory does not exist, it will be created by the witness node.
 
@@ -104,10 +106,6 @@ As a result, you should get two items:
 Open the `[Testnet-Home]/data/my-blockprod/config.ini` file and set the following settings, uncommenting them if necessary.
 
     rpc-endpoint = 127.0.0.1:8090
-    
-    p2p-endpoint = 127.0.0.1:11010
-    rpc-endpoint = 127.0.0.1:11011
-    
     genesis-json = my-genesis.json
     enable-stale-production = true
 
