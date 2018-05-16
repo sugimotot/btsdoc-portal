@@ -23,6 +23,7 @@ For our purposes, the general concept behind gitflow has been extended to allow 
 1. We have two different types of releases, mainnet and testnet, with a master-like branch for each one.
 2. We have to distinguish consensus-breaking changes (aka hardforks) from non-consensus-breaking changes.
 
+***
 
 ## Development / Release / Bugfix Workflows
 
@@ -81,6 +82,7 @@ For a release,
 
 **Note 5:** Do not mark releases as "pre release" unless there is a real new version coming immediately after. Never upgrade "pre release" to "release" as new emails to subscribers will not be sent when doing so.
 
+***
 
 ## How To Create an Emergency Fix
 
