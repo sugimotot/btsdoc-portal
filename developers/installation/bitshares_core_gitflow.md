@@ -12,7 +12,7 @@
 
 The purpose of this document is to describe and define how changes flow into our code and through the various stages of development until it finally goes into production.
 
-The general idea is based on git-flow.
+The general idea is based on [git-flow](https://datasift.github.io/gitflow/IntroducingGitFlow.html).
 
 For our purposes, the general concept behind gitflow has been extended to allow for these additional needs:
 
