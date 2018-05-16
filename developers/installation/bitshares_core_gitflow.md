@@ -1,6 +1,6 @@
-## BitShares Core - GitFlow
+# BitShares Core - GitFlow
 
-### Development / Release / Bugfix Workflows
+## Development / Release / Bugfix Workflows
 
 The purpose of this document is to describe and define how changes flow into our code and through the various stages of development until it finally goes into production.
 
@@ -20,14 +20,14 @@ For our purposes, the general concept behind gitflow has been extended to allow 
 
 ***
 
-### Goals To Achieve:
+## Goals To Achieve:
 
 1. Maintain two independent release versions, testnet and mainnet.
 2. Decouple development from releases, i. e. maintain the ability to create emergency bugfixes for current release without bringing incomplete new features into production.
 3. Separate consensus-related changes from non-consensus-related changes.
 4. Keep development branches compatible with mainnet.
 
-### Basic Rules:
+## Basic Rules:
 
 1. Development always happens in private feature-branches. The only exception is a change that must be distinguished in the destination branch (typical example: hardfork date in testnet).
 2. Features are merged after they are reasonably complete, i. e. they come with unit tests that provide reasonable coverage and do not report any errors.
@@ -41,7 +41,7 @@ For our purposes, the general concept behind gitflow has been extended to allow 
 
 ***
 
-### How To Create a Release
+## How To Create a Release
 
 For a release,
 
