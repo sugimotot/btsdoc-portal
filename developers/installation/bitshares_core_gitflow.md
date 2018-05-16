@@ -1,5 +1,13 @@
 # BitShares Core - GitFlow
 
+### Contents:
+
+- Goals To Achieve:
+- Basic Rules:
+- How To Create a Release
+- How To Create an Emergency Fix
+
+
 ## Development / Release / Bugfix Workflows
 
 The purpose of this document is to describe and define how changes flow into our code and through the various stages of development until it finally goes into production.
