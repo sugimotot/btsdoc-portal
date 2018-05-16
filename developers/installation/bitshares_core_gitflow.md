@@ -23,7 +23,7 @@ For our purposes, the general concept behind gitflow has been extended to allow 
 ***
 
 <p align="center">
-  <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/developers/images/BitSharesCore-GitFlow-Base2018.png" width="800" title="wallet-type">
+  <img src="https://github.com/cedar-book/btsdoc-portal/blob/master/developers/images/BitSharesCore-GitFlow-Base.png" width="800" title="wallet-type">
 </p>
 
 ***
