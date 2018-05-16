@@ -31,7 +31,7 @@ For our purposes, the general concept behind gitflow has been extended to allow 
 
 1. Development always happens in private feature-branches. The only exception is a change that must be distinguished in the destination branch (typical example: hardfork date in testnet).
 2. Features are merged after they are reasonably complete, i. e. they come with unit tests that provide reasonable coverage and do not report any errors.
-    1."Completed" features that are not consensus-related are merged into "develop".
+    1. "Completed" features that are not consensus-related are merged into "develop".
     2. "Completed" features that are consensus-related are merged into the "hardfork" branch, with a hardfork date in the far future.
     3. All merges into "develop" or "hardfork" are performed via github PR's and require review and approval from core developers (if the PR is created by a core dev at least one other core dev must review and approve).
     4. To maintain a clean history and make reviewing and merging easier, feature branches must be rebased onto current "develop" (or "hardfork") before creating a PR.
