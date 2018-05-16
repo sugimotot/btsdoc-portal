@@ -1,14 +1,18 @@
 # BitShares Core - GitFlow
 
+
 ### Contents:
 
-- Goals To Achieve:
-- Basic Rules:
+- Purpose
+- Goals To Achieve
+- Basic Rules
 - How To Create a Release
 - How To Create an Emergency Fix
 
+***
 
-## Development / Release / Bugfix Workflows
+
+## Purpose
 
 The purpose of this document is to describe and define how changes flow into our code and through the various stages of development until it finally goes into production.
 
@@ -20,7 +24,7 @@ For our purposes, the general concept behind gitflow has been extended to allow 
 2. We have to distinguish consensus-breaking changes (aka hardforks) from non-consensus-breaking changes.
 
 
-***
+## Development / Release / Bugfix Workflows
 
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/developers/imgs/BBF-Core-GitFlowv3.png" width="800" title="wallet-type">
@@ -28,14 +32,14 @@ For our purposes, the general concept behind gitflow has been extended to allow 
 
 ***
 
-## Goals To Achieve:
+## Goals To Achieve
 
 1. Maintain two independent release versions, testnet and mainnet.
 2. Decouple development from releases, i. e. maintain the ability to create emergency bugfixes for current release without bringing incomplete new features into production.
 3. Separate consensus-related changes from non-consensus-related changes.
 4. Keep development branches compatible with mainnet.
 
-## Basic Rules:
+## Basic Rules
 
 1. Development always happens in private feature-branches. The only exception is a change that must be distinguished in the destination branch (typical example: hardfork date in testnet).
 2. Features are merged after they are reasonably complete, i. e. they come with unit tests that provide reasonable coverage and do not report any errors.
@@ -95,5 +99,10 @@ Presumably the developer who creates the fix will work on his private master bra
 
 
 ***
+
+(ref)
+
+- https://github.com/bitshares/bitshares-core/wiki/Git-Flow
+
 
 
