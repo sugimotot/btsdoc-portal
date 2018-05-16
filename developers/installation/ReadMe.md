@@ -1,6 +1,6 @@
 # Environment & Installation
 
-### Installation 
+## Installation 
 
 - [Ubuntu Linux](/developers/installation/build_ubuntu.md#building-on-ubuntu)
 - [OS X](/developers/installation/build_osx.md#building-on-os-x)
@@ -12,11 +12,13 @@
 - Use Windows Subsystem for Linux
   - [Here](/developers/installation/wsl.md#windows-subsystem-for-linux-wsl) is the instruction how to prepare Ubuntu to Windows 10 OS.
 
-
-
 ### Known issues
 
 - [Boost versions](/developers/installation/boost_versions.md#boost-version)
+
+***
+
+## GitFlow - Code Management
 
 
 ***
