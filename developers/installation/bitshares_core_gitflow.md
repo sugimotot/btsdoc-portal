@@ -70,6 +70,22 @@ For a release,
 **Note 5:** Do not mark releases as "pre release" unless there is a real new version coming immediately after. Never upgrade "pre release" to "release" as new emails to subscribers will not be sent when doing so.
 
 
+## How To Create an Emergency Fix
+
+An emergency fix may become necessary when a serious problem in mainnet is discovered. The goal here is to fix the problem as soon as possible, while keeping the risk for creating additional problems as low as possible.
+
+First of all, the problem must be analyzed and debugged. This happens, naturally, directly on the release version.
+
+Presumably the developer who creates the fix will work on his private master branch. That is OK. But for publishing the fix, the following steps should be taken:
+
+1. The fix is applied to the version of the "release" branch that was merged into "master" when creating the broken release version.
+2. The "release" branch is merged into "master", and a version tag is created on "master".
+3. Witnesses update to the new version, and production continues.
+4. A unit test is created on "develop" that reproduces the problem.
+5. The "release" branch is merged into "develop", and it is verified that the fix resolves the problem, by running the unit test.
+6. The "release" branch is merged into "hardfork" and "testnet".
+
+
 ***
 
 
