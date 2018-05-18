@@ -18,9 +18,9 @@ The wallet (cli-wallet)  has your private keys loaded and is required when inter
 In contrast to many existing ecosystems, there is no centralized service that lets you access private API calls after successful authentication. Instead, your run your wallet (and optionally a full node) **locally** and are with **your own API service provider**. This obviously has the advantage that you don’t need to give access to your funds to any third party but has the slight disadvantage that you need to run a local `wallet application`, that however does not download the whole blockchain for verification. If you run a sensitive business, we recommend to also run a local full node to download and verify the blockchain and interface your wallet with your local full node.
 
 
+***
 
-API Calls
-----------
+#### API Calls
 
 * All API calls are formatted in JSON and return JSON only. 
 * The set of available calls depends on whether you connected to a full node (witness_node) or the wallet (CLI-wallet). Both support RPC-JSON.   
@@ -31,29 +31,21 @@ API Calls
      - HTTP RPC via the `-H` parameter.
 
 
-
-
-Call methods
----------------
+#### Call methods
 
 * Remote Procedure Calls -- In Graphene, RPC calls are **state-less** and accessible via regular JSON formated RPC-HTTP-calls.
 * Websocket Calls -- In Graphene, Websocket calls are **stateful** and accessible via regular JSON formated websocket connection. 
 
 
-API Access Restrictions
-------------------------
+#### API Access Restrictions
 
 Access to some APIs may be **restricted** and requires login with username and passphrase. 
-### Network and Wallet Configuration
+
+#### Network and Wallet Configuration
 * General Network and Wallet Configuration
 * Secure Network and Wallet Configuration
 
-
-
-
- 
-
-## Blockchain APIs
+#### Blockchain APIs
 
 * Database API
 * Account History API
@@ -61,18 +53,16 @@ Access to some APIs may be **restricted** and requires login with username and p
 * Network Broadcast API
 * Network Nodes API
 
-
-
-
-Wallet API Calls
---------------------
+#### Wallet API Calls
 
 In order to interact the wallet, you need to run the CLI Wallet. The CLI Wallet has the private keys and signing capabilities.  It *requires* a running full node (*witness node*)  (not necessarily locally) and connects to it. 
 
-
-
-Blockchain Objects and their Identifiers
-----------------------------------------
+#### Blockchain Objects and their Identifiers
 
 In the protocol space, there are raw objects such as, accounts, assets, committee members as well as orders, proposals and balances. The implementation space is used to gain access to higher abstraction layers for instance content of the current database state (these include, current global blockchain properties, dynamic asset data, transaction histories as well as account statistics and budget records).
+
+***
+(ref) 
+- http://docs.bitshares.org/api/index.html
+
 
