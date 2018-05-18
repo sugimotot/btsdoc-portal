@@ -10,7 +10,7 @@
 - [APIs two categories](/developers/apis/apis-about.md#apis-categories)
    - Blockchain API
    - Wallet API
-- [API Access & Restrictions](/developers/apis/api_restrictions.md#api-access-restrictions)
+- [API Access & Restrictions](/developers/apis/api_restrictions.md#api-access-and-restrictions)
 - Blockchain Specifications
 - [Object and IDs](/developers/apis/object_ids.md#objects-and-ids)
 - [Q&A](/developers/7_tutorials/QA.md#apis)
