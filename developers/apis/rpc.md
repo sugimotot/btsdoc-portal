@@ -3,8 +3,7 @@
 #### Contents:
 
 - [Call Format: RPC](/developers/apis/rpc.md#call-format-rpc)
-- Remarks
-- 
+- [Remarks](/developers/apis/rpc.md#remarks)
 
 ***
 
