@@ -162,6 +162,14 @@ We have the following subscriptions available:
 * ``get_objects(vector<object_id_type> &ids)``:
     Returns the objects corresponding to the provided IDs. If any of the provided IDs does not map to an object, a null variant is returned in its position.
 
+
+| | |
+|---|---|
+|  | `set_subscribe_callback( int identifier, bool clear_filter )`|
+| Return | To simplify development a global subscription callback can be registered. |
+| Parameters | -- |
+
+
 ***
 
 ## Example - Get a global scubscription callback and id
