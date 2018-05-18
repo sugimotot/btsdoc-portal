@@ -168,7 +168,7 @@ We have the following subscriptions available:
 
 - `set_subscribe_callback`
 
-Let's first get a global scubscription callback to disctinguish our notifications from regular RPC calls:::
+First, get a global scubscription callback to disctinguish our notifications from regular RPC calls:
 
     > {"id":4,"method":"call","params":[DATABASE_API_ID,"set_subscribe_callback",[SUBSCRIPTION_ID, true]]}
 
@@ -176,9 +176,9 @@ This call above will register ``SUBSCRIPTION_ID`` as id for notifications.
 
 Now, whenever you get an object from the witness (e.g. via ``get_objects``) you will automatically subscribe to any future changes of that object.
 
-After calling ``set_subscribe_callback`` the witness will start to send notices every time the object changes:::
+After calling ``set_subscribe_callback`` the witness will start to send notices every time the object changes:
 
-     {
+    > {
         "method": "notice"
         "params": [
             SUBSCRIPTION_ID, 
@@ -197,12 +197,16 @@ Here is an example of a full session::
 
     > {"method": "call", "params": [1, "login", ["", ""]], "id": 2}
     < {"id":2,"result":true}
+    
     > {"method": "call", "params": [1, "database", []], "id": 3}
     < {"id":3,"result":2}
+    
     > {"method": "call", "params": [1, "history", []], "id": 4}
     < {"id":4,"result":3}
+    
     > {"method": "call", "params": [2, "set_subscribe_callback", [5, false]], "id": 6}
     < {"id":6,"result":null}
+    
     > {"method": "call", "params": [2, "get_objects", [["2.1.0"]]], "id": 7}
     (plenty of data coming in from this point on)
 
