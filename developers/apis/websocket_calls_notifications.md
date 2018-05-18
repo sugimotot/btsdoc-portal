@@ -161,7 +161,7 @@ We have the following subscriptions available:
 
 | | |
 |---|---|
-|  `set_subscribe_callback( int identifier, bool clear_filter )`| To simplify development a global subscription callback can be registered.|
+|  `**set_subscribe_callback**( int identifier, bool clear_filter )`| To simplify development a global subscription callback can be registered.|
 | `set_pending_transaction_callback(int identifier)` | Notifications for incoming *unconfirmed* transactions. |
 | `set_block_applied_callback(blockid)` | Gives a notification whenever the block ``blockid`` is applied to the blockchain. |
 | `subscribe_to_market(int identifier, asset_id a, asset_id b))` | Subscribes to market changes in market ``a:b`` and sends notifications with id ``identifier``.|
