@@ -37,6 +37,8 @@ The parameters ``params`` have the following structure:
 In the example above, we query the ``database`` API which carries the
 identifier ``0`` in our example (see more details below).
 
+***
+
 #### Example Call with `wscat`
 
 The following will show the usage of websocket connections. We make use of the
@@ -77,7 +79,8 @@ a detailed description:
       },
     }
 
-  
+***
+
 ## Requesting API access
  
 The Graphene full node offers a wide range of APIs that can be accessed via
@@ -129,6 +132,8 @@ called ``DATABASE_API_ID``!
 Now we can call any methods available to the ``database`` API via:::
 
     > {"id":1, "method":"call", "params":[DATABASE_API_ID,"get_accounts",[["1.2.0"]]]}
+
+***
 
 ## Database Notifications
 
@@ -199,4 +204,9 @@ Here is an example of a full session::
     (plenty of data coming in from this point on)
 
 ***
+
+(ref)
+
+- http://docs.bitshares.org/api/websocket.html
+
 
