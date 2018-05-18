@@ -11,6 +11,9 @@
    - Blockchain API
    - Wallet API
 - [API Access & Restrictions](/developers/apis/api_restrictions.md#api-access-and-restrictions)
+   - [Using the API](/developers/apis/api_restrictions.md#using-the-api)
+   - [Accessing Restricted API's ](/developers/apis/api_restrictions.md#accessing-restricted-apis)
+   - [Login In](/developers/apis/api_restrictions.md#login-in)
 - Blockchain Specifications
 - [Object and IDs](/developers/apis/object_ids.md#objects-and-ids)
 - [Q&A](/developers/7_tutorials/QA.md#apis)
