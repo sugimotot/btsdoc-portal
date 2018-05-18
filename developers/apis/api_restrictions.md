@@ -93,7 +93,7 @@ Since the `network_node` API requires login, it is only accessible over the webs
 
 The `login_api` class implements the bottom layer of the RPC API. All other APIs must be requested from this API. 
 
-#### *class* `graphene::app::login_api`
+#### [*class* `graphene::app::login_api`](https://bitshares.org/doxygen/classgraphene_1_1app_1_1login__api.html)
 
 | -- | |
 |------------------------|-----------------------------------------------------------------|
