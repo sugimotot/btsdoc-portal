@@ -1,6 +1,7 @@
 ## API Access Restrictions
 
 ### Contents:
+- Using the API
 - Examples
 - Authorization Scheme
    - Example 
@@ -8,6 +9,8 @@
    - *class* graphene::app::login_api
    
 ***
+
+### Using the API
 
 We provide several different API's. Each API has its own ID. When running `witness_node`, initially two API's are available.
 
