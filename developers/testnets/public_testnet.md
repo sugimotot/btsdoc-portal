@@ -179,8 +179,8 @@ Deleting caches will reset all ``cmake`` variables, you might be asked to set ot
 
 Embedding the genesis copies the entire content of genesis block into the ``witness_node`` binary, and additionally copies the chain ID into the ``cli_wallet`` binary.  Embedded genesis allows the following simplifications to the subsequent instructions:
 
-* You need **not** specify the genesis file on the witness node command line, or in the witness node configuration file.
-* You need **not** specify the chain ID on the ``cli_wallet`` command line when starting a new wallet.
+* You do **not** need to specify the genesis file on the witness node command line, or in the witness node configuration file.
+* You do **not** need to specify the chain ID on the ``cli_wallet`` command line when starting a new wallet.
 
 
 ## 4. Connecting a CLI wallet
