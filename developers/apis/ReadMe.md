@@ -23,7 +23,7 @@
 
 - [API Logging](/developers/apis/api_support.md#api-logging)
 
-### Wallet APIs
+### [Wallet APIs](https://bitshares.org/doxygen/classgraphene_1_1wallet_1_1wallet__api.html)
 - General Calls
 - Wallet Calls
 - Account Calls
@@ -34,12 +34,12 @@
 - Blockchain Inspection
 - Transaction Builder
       
-### Blockchain APIs   
-- Database API
-- Account History API
-- Crypto API
-- Network Broadcast API
-- Network Nodes API   
+### [Blockchain APIs](https://bitshares.org/doxygen/namespacegraphene_1_1app.html)
+- [Database API](https://bitshares.org/doxygen/classgraphene_1_1app_1_1database__api.html)
+- [Account History API](https://bitshares.org/doxygen/classgraphene_1_1app_1_1history__api.html)
+- [Crypto API](https://bitshares.org/doxygen/classgraphene_1_1app_1_1crypto__api.html)
+- [Network Broadcast API](https://bitshares.org/doxygen/classgraphene_1_1app_1_1network__node__api.html)
+- [Network Nodes API   ](https://bitshares.org/doxygen/classgraphene_1_1app_1_1network__broadcast__api.html)
       
 ### Namespaces (**idea needed)
 - Graphene::App
