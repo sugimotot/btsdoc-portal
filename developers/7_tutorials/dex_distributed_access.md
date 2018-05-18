@@ -328,6 +328,7 @@ You can also check how secure your new web server is compared to your bank. Add 
     https://www.ssllabs.com/ssltest/analyze.html?d=altcap.io
 
 Now change altcap.io to your local bank’s domain name in the link and post the results below. 
+
 **Thank you `svk <https://steemit.com/@svk>`__ for your advice and guidance.**
 
 
