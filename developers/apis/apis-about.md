@@ -8,7 +8,7 @@
 ***
 
 
-### APIs Categories
+## APIs Categories
 
 * **Blockchain API** -- It is used to query blockchain data (account, assets, trading history, etc). Besides data stores in the blockchain itself (blocks, transactions, etc. ..), higher level objects (such as accounts, balances, etc. …) can be retrieved through the full node’s database.
 * **Wallet API** -- It interract with the blockchain to operate. 
