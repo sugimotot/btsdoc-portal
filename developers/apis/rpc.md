@@ -22,7 +22,7 @@ The `get_accounts` call is available in the Full Node’s `database` API and tak
 
 #### Example Call with curl
 
-Such as call can be submitted via curl:
+Such as call can be submitted via `curl`:
 
     curl --data '{"jsonrpc": "2.0", "method": "get_accounts", "params": [["1.2.0", "1.2.1"]], "id": 1}' http://127.0.0.1:8090/rpc
 
