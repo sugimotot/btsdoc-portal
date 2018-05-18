@@ -20,6 +20,7 @@
 
 ### API
  - [How to enable RPC Logging](/developers/apis/api_support.md#api-support)
+ - [Q&A](/developers/7_tutorials/QA.md#apis)
 
 ### BitShares Decentralised Exchange (DEX)
 - [How to prepare Distributed Access to the BitShares Decentralised Exchange (DEX)](/developers/7_tutorials/dex_distributed_access.md#distributed-access-to-the-bitshares-decentralised-exchange)
