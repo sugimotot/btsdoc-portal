@@ -21,7 +21,7 @@ In contrast to many existing ecosystems, there is no centralized service that le
 ***
 
 
-*Side note**
+*Side note*
 
 #### API Calls
 
