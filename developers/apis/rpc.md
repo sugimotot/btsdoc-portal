@@ -1,11 +1,16 @@
 ## Remote Procedure Calls
 
 Contents:
-- 
-- 
+- Call Format: RPC
+- Remarks
 - 
 
 ***
+
+## Prerequisits
+
+In this page example, we assumes that you have a full node running and listening to port
+``8090``, locally.
 
 ### Call Format: RPC
 
@@ -55,9 +60,9 @@ In case of an error, the resulting answer will carry an error attribute and a de
 
 ## Remarks
 
-Wallet specific commands, such as `transfer` and market orders, are only available if connecting to `cli_wallet` because only the wallet has the private keys and signing capabilities and some calls will only execute if the wallet is unlocked.
+> Wallet specific commands, such as `transfer` and market orders, are only available if connecting to `cli_wallet` because only the wallet has the private keys and signing capabilities and some calls will only execute if the wallet is unlocked.
 
-The full node offers a set of API(s), of which only the `database` calls are avaiable via RPC. Calls that are restricted by default (i.e. `network_node_api`) or have been restricted by configuration are not accessible via RPC because a statefull protocol (websocket) is required for login.
+> The full node offers a set of API(s), of which only the `database` calls are avaiable via RPC. Calls that are restricted by default (i.e. `network_node_api`) or have been restricted by configuration are not accessible via RPC because a statefull protocol (websocket) is required for login.
 
 
 
