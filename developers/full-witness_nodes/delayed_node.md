@@ -13,6 +13,8 @@ For our example and for 10 blocks delaye (i.e. 30 seconds for 3 second block int
                                          --rpc-endpoint="192.168.0.101:8090" \
                                          --seed-nodes "[]"
 
+***
+
 ### Network Setup
 
 For high security Network setup, we provide a `delayed` full node which accepts the parameter trusted-node for an RPC endpoint of a trusted validating node. The trusted-node is a regular full node directly connected to the P2P network that works as a proxy. The delayed node will delay blocks until they are irreversible. Depending on the block interval and the number of witnesses, this may lead to a few minutes of delay.
