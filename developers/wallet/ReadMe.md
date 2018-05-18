@@ -10,7 +10,13 @@
    - [import](/developers/wallet/cli_wallet.md#import)
    - [register](/developers/wallet/cli_wallet.md#register)
 - [Transferring  Funds using the Cli-wallet](/developers/wallet/cli_wallet.md#transferring-funds-using-the-cli-wallet)
-- [Network and Wallet Configuration](/developers/wallet/wallet_network.md#network-and-wallet-configuration)
+   
+### [Network and Wallet Configuration](/developers/wallet/wallet_network.md#network-and-wallet-configuration)
+   - [Components](/developers/wallet/wallet_network.md##components)
+      - P2P Network
+      - Trusted Full Node
+      - Wallet
+      - Wallet API
    - [General](/developers/wallet/wallet_network.md#general-network-and-wallet-configuration)
       - Trusted Full Node:
       - Wallet
