@@ -15,7 +15,7 @@ In this page example, we assumes that you have a full node running and listening
           ports and make sure you do not try to call methods at the wallet that
           are only available to the blockchain API.
 
-## Websocket - Call Format
+## Call Format - Websocket
 
 In Graphene, Websocket calls are stateful and accessible via regular JSON formated
 websocket connection. The correct structure of the JSON call is
