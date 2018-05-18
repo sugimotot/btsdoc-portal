@@ -2,15 +2,15 @@
 
 ### Contents:
 - Using the API
-- Examples
-- Authorization Scheme
+  - Examples
+- Accessing restricted API's 
    - Example 
 - Login In
    - *class* graphene::app::login_api
    
 ***
 
-### Using the API
+## Using the API
 
 We provide several different API's. Each API has its own ID. When running `witness_node`, initially two API's are available.
 
@@ -43,7 +43,7 @@ Since restricted APIs require login, they are **only** accessible over the webso
 
 ***
 
-## Authorization Scheme
+## Accessing restricted API's 
 
 You can restrict API’s to particular users by specifying an `api-access` file in `config.ini` or by using the `--api-access /full/path/to/api-access.json` startup node command. 
 
