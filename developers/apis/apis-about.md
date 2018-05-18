@@ -1,6 +1,6 @@
 ## API Guide 
 
-### Contents:
+#### Contents:
 - APIs Categories
   - Blockchain API
   - Wallet API
