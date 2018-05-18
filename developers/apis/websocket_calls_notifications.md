@@ -4,11 +4,11 @@
 * [Websocket Calls / Format](#call-format)
 * [API Access Procedure](#requesting-api-access) - Available APIs
 * [Database Notifications](#database-notifications) - Available Subscriptions
-* Example - Get a global scubscription callback and id
+* [Example](/developers/apis/websocket_calls_notifications.md#example---get-a-global-scubscription-callback-and-id) - Get a global scubscription callback and id
 
 ## Prerequisits
 
-We assumes that you have a full node running and listening to port
+In this page example, we assumes that you have a full node running and listening to port
 ``8090``, locally.
 
 >If you also want to run a wallet, please pick reasonable different
@@ -164,7 +164,7 @@ We have the following subscriptions available:
 
 ***
 
-### Example - Get a global scubscription callback and id
+## Example - Get a global scubscription callback and id
 
 - `set_subscribe_callback`
 
@@ -191,9 +191,7 @@ After calling ``set_subscribe_callback`` the witness will start to send notices 
         ], 
     }
 
-### Example Session
-
-Here is an example of a full session::
+**Example - Full Session**
 
     > {"method": "call", "params": [1, "login", ["", ""]], "id": 2}
     < {"id":2,"result":true}
