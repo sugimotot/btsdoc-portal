@@ -15,7 +15,7 @@
 - [Object and IDs](/developers/apis/object_ids.md#objects-and-ids)
    
 ### Calls   
-- Remote Procedure Calls
+- [Remote Procedure Calls](/developers/apis/rpc.md#remote-procedure-calls)
 - [Websocket Calls & Notifications](/developers/apis/websocket_calls_notifications.md#websocket-calls-notifications)
 
 ### Support
