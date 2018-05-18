@@ -81,7 +81,7 @@ a detailed description:
 
 ***
 
-## Requesting API access
+## Requesting API Access
  
 The Graphene full node offers a wide range of APIs that can be accessed via
 websockets. The procedure works as follows:
