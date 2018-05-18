@@ -1,4 +1,4 @@
-## Secure Network and Wallet Configuration
+## Network and Wallet Configuration
 
 ### Contents
 
