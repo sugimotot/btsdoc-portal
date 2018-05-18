@@ -1,4 +1,4 @@
-## API Access Restrictions
+## API Access and Restrictions
 
 #### Contents:
 
