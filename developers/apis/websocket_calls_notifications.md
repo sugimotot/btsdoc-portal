@@ -6,6 +6,8 @@
 * [Database Notifications](#database-notifications) - Available Subscriptions
 * [Example](/developers/apis/websocket_calls_notifications.md#example---get-a-global-scubscription-callback-and-id) - Get a global scubscription callback and id
 
+*** 
+
 ## Prerequisits
 
 In this page example, we assumes that you have a full node running and listening to port
