@@ -77,7 +77,6 @@ You can restrict API’s to particular users by specifying an `api-access` file 
 - A simple Python script, `saltpass.py` is avaliable to obtain hash and salt values from a password. 
 - A single asterisk `*` may be specified as username or password hash to accept any value.
 
-#### Example: 
 With the above configuration, how to call `add_node` from the `network_node` API
 
     {"id":1, "method":"call", "params":[1,"login",["bytemaster", "supersecret"]]}
