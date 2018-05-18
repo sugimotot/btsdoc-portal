@@ -165,9 +165,9 @@ We have the following subscriptions available:
 
 | | |
 |---|---|
-|  | `set_subscribe_callback( int identifier, bool clear_filter )`|
+|  `set_subscribe_callback( int identifier, bool clear_filter )`| |
 | Return | To simplify development a global subscription callback can be registered. |
-| Parameters | -- |
+
 
 
 ***
