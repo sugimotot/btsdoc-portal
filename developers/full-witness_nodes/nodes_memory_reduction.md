@@ -42,7 +42,9 @@ By default, if the plugin parameter is not present in the command line startup t
 
 You can launch a node only with the witness plugin activated like the following if you are after just validating blocks:
 
-    programs/witness_node/witness_node --data-dir data/my-blockprod --rpc-endpoint "127.0.0.1:8090" --plugins "witness"
+    programs/witness_node/witness_node --data-dir data/my-blockprod 
+                                       --rpc-endpoint "127.0.0.1:8090" 
+                                       --plugins "witness"
 
 **Example**
 
@@ -61,7 +63,9 @@ Suppose you have an application wallet or something that is only interested in t
 
 In order to track the history only for just one account you may start the node as:
 
-    programs/witness_node/witness_node --data-dir data/my-blockprod --rpc-endpoint "127.0.0.1:8090" --track-account "\"1.2.282\""
+    programs/witness_node/witness_node --data-dir data/my-blockprod 
+                                       --rpc-endpoint "127.0.0.1:8090" 
+                                       --track-account "\"1.2.282\""
 
 **Example (single account)**
 
@@ -73,7 +77,9 @@ In order to track the history only for just one account you may start the node a
 
 To track multiple accounts:
 
-    programs/witness_node/witness_node --data-dir data/my-blockprod --rpc-endpoint "127.0.0.1:8090" --track-account "\"1.2.282\"" "\"1.2.24484\"" "\"1.2.2058\""
+    programs/witness_node/witness_node --data-dir data/my-blockprod 
+                                       --rpc-endpoint "127.0.0.1:8090" 
+                                       --track-account "\"1.2.282\"" "\"1.2.24484\"" "\"1.2.2058\""
 
 **Example (multiple accounts)**
 
@@ -96,7 +102,9 @@ By limiting the number of operations per account to 1000 the blockchain decrease
 
 Reduce the number of operations for each account that the node will save in the blockchain to 100 by starting with:
 
-    programs/witness_node/witness_node --data-dir data/my-blockprod --rpc-endpoint "127.0.0.1:8090" --max-ops-per-account 100
+    programs/witness_node/witness_node --data-dir data/my-blockprod 
+                                       --rpc-endpoint "127.0.0.1:8090" 
+                                       --max-ops-per-account 100
  
 **Example**
 
@@ -112,7 +120,10 @@ Remove operation history objects.
 
 BitShares-core stores operations in two different objects, the 2.9.X and the 1.11.X. they are not exactly the same but if you are removing ops with `--track-account` or `--max-ops-per-account` it makes sense that you also add this option to reduce memory usage even more.
 
-    programs/witness_node/witness_node --data-dir data/my-blockprod --rpc-endpoint "127.0.0.1:8090" --max-ops-per-account 100 --partial-operations true
+    programs/witness_node/witness_node --data-dir data/my-blockprod 
+                                       --rpc-endpoint "127.0.0.1:8090" 
+                                       --max-ops-per-account 100 
+                                       --partial-operations true
  
 **Example**
 
@@ -131,7 +142,10 @@ Combinations that make sense are all valid and can be used to suit your needs.
 
 I personally start my nodes with 1000 ops per account and partial operations:
 
-    programs/witness_node/witness_node --data-dir data/my-blockprod --rpc-endpoint "127.0.0.1:8090" --max-ops-per-account 1000 --partial-operations true
+    programs/witness_node/witness_node --data-dir data/my-blockprod 
+                                       --rpc-endpoint "127.0.0.1:8090" 
+                                       --max-ops-per-account 1000 
+                                       --partial-operations true
     
 **Example**
 
