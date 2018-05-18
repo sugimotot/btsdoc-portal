@@ -3,7 +3,7 @@
 ### Contents:
 - Using the API
   - Examples
-- Accessing restricted API's 
+- Accessing Restricted API's 
    - Example 
 - Login In
    - *class* graphene::app::login_api
@@ -43,7 +43,7 @@ Since restricted APIs require login, they are **only** accessible over the webso
 
 ***
 
-## Accessing restricted API's 
+## Accessing Restricted API's 
 
 You can restrict API’s to particular users by specifying an `api-access` file in `config.ini` or by using the `--api-access /full/path/to/api-access.json` startup node command. 
 
