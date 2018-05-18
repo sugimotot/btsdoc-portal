@@ -142,8 +142,7 @@ in the database change or a particular event (such as filled orders) occur.
 
 We have the following subscriptions available:
 
-     Every notification initiated by the full node will carry a particular
-     ``id`` as defined by the user with the ``identifier`` parameter.
+> Every notification initiated by the full node will carry a particular ``id`` as defined by the user with the ``identifier`` parameter.
 
 | | |
 |---|---|
