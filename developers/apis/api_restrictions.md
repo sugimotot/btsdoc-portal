@@ -1,11 +1,11 @@
 ## API Access Restrictions
 
-### Contents:
-- Using the API
+#### Contents:
+- [Using the API](/developers/apis/api_restrictions.md#using-the-api)
   - Examples
-- Accessing Restricted API's 
+- [Accessing Restricted API's ](/developers/apis/api_restrictions.md#accessing-restricted-apis)
    - Example 
-- Login In
+- [Login In](/developers/apis/api_restrictions.md#login-in)
    - *class* graphene::app::login_api
    
 ***
