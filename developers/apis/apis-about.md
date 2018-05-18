@@ -2,8 +2,8 @@
 
 ### Contents:
 - APIs Categories
-- 
-- 
+  - Blockchain API
+  - Wallet API
 
 ***
 
@@ -19,6 +19,9 @@ In contrast to many existing ecosystems, there is no centralized service that le
 
 
 ***
+
+
+*Side note**
 
 #### API Calls
 
