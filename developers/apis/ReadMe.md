@@ -41,7 +41,7 @@
 - [Network Broadcast API](https://bitshares.org/doxygen/classgraphene_1_1app_1_1network__node__api.html)
 - [Network Nodes API   ](https://bitshares.org/doxygen/classgraphene_1_1app_1_1network__broadcast__api.html)
       
-### Namespaces (**idea needed)
-- Graphene::App
-- Graphene::Chain
-- Graphene::Wallet
+### [Namespaces](https://bitshares.org/doxygen/namespacegraphene.html)  - doxygen 
+- [Graphene::App](https://bitshares.org/doxygen/namespacegraphene_1_1app.html)
+- [Graphene::Chain](https://bitshares.org/doxygen/namespacegraphene_1_1chain.html)
+- [Graphene::Wallet](https://bitshares.org/doxygen/namespacegraphene_1_1wallet.html)
