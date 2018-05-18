@@ -19,7 +19,7 @@ We provide several different API's. Each API has its own ID. When running `witne
 
 > Note: To access the restricted API-1 we are required to use the websocket connection with callbacks to access API-1
 
-***
+
 #### Examples
 
 #### using wscat package from npm for websockets:
@@ -123,4 +123,4 @@ The `login_api` class implements the bottom layer of the RPC API. All other APIs
 
 - https://github.com/bitshares/bitshares-core/wiki/API
 - http://docs.bitshares.org/api/access.html
-
+- https://bitshares.org/doxygen/index.html
