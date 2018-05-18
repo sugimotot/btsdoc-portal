@@ -2,7 +2,7 @@
 
 ### Contents:
 * [Websocket Calls / Format](#call-format)
-* [API Access Procedure](#requesting-api-access) - Available APIs
+* [API Access Procedure](#requesting-api-access) - Requesting Available APIs ASccess
 * [Database Notifications](#database-notifications) - Available Subscriptions
 * [Example](/developers/apis/websocket_calls_notifications.md#example---get-a-global-scubscription-callback-and-id) - Get a global scubscription callback and id
 
@@ -81,7 +81,7 @@ a detailed description:
 
 ***
 
-## Requesting API Access
+## API Access Procedure
  
 The Graphene full node offers a wide range of APIs that can be accessed via
 websockets. The procedure works as follows:
