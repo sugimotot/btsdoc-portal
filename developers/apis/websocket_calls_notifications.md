@@ -4,7 +4,7 @@
 * [Websocket Calls / Format](#call-format)
 * [API Access Procedure](#requesting-api-access) - Available APIs
 * [Database Notifications](#database-notifications) - Available Subscriptions
-
+* Example - Get a global scubscription callback and id
 
 ## Prerequisits
 
@@ -162,20 +162,23 @@ We have the following subscriptions available:
 * ``get_objects(vector<object_id_type> &ids)``:
     Returns the objects corresponding to the provided IDs. If any of the provided IDs does not map to an object, a null variant is returned in its position.
 
-Let's first get a global scubscription callback to disctinguish our
-notifications from regular RPC calls:::
+***
+
+### Example - Get a global scubscription callback and id
+
+- `set_subscribe_callback`
+
+Let's first get a global scubscription callback to disctinguish our notifications from regular RPC calls:::
 
     > {"id":4,"method":"call","params":[DATABASE_API_ID,"set_subscribe_callback",[SUBSCRIPTION_ID, true]]}
 
 This call above will register ``SUBSCRIPTION_ID`` as id for notifications.
 
-Now, whenever you get an object from the witness (e.g. via ``get_objects``) you
-will automatically subscribe to any future changes of that object.
+Now, whenever you get an object from the witness (e.g. via ``get_objects``) you will automatically subscribe to any future changes of that object.
 
-After calling ``set_subscribe_callback`` the witness will start to send notices
-every time the object changes:::
+After calling ``set_subscribe_callback`` the witness will start to send notices every time the object changes:::
 
-    < {
+     {
         "method": "notice"
         "params": [
             SUBSCRIPTION_ID, 
