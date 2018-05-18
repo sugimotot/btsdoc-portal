@@ -34,11 +34,11 @@
 - [Is the scripting language turing complete?](/developers/7_tutorials/QA.md#q-is-the-scripting-language-turing-complete)
 
 ***
-### [Accounts](/developers/7_tutorials/QA.md#accounts)
+### [Accounts](/developers/7_tutorials/QA.md#accounts-1)
 - [How can I create, register and upgrade an account to Lifetime Membership?](/developers/7_tutorials/QA.md#q-how-can-i-create-register-and-upgrade-an-account-to-lifetime-membership)
 
 ***
-### APIs
+### [APIs](#apis-1)
 - [How do I get the network_add_nodes command to work? Why is it so complicated?](#q-how-do-i-get-the-network_add_nodes-command-to-work-why-is-it-so-complicated)
 - [Is there a way to access methods which require login over HTTP?](#q-is-there-a-way-to-access-methods-which-require-login-over-http)
 - [Is there a way to allow external program to drive cli_wallet via websocket, JSONRPC, or HTTP?](#q-is-there-a-way-to-allow-external-program-to-drive-cli_wallet-via-websocket-jsonrpc-or-http)
