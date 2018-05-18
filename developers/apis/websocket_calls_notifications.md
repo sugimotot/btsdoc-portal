@@ -168,7 +168,7 @@ We have the following subscriptions available:
 
 - `set_subscribe_callback`
 
-First, get a global scubscription callback to disctinguish our notifications from regular RPC calls:
+First, let's get a global scubscription callback to disctinguish our notifications from regular RPC calls:
 
     > {"id":4,"method":"call","params":[DATABASE_API_ID,"set_subscribe_callback",[SUBSCRIPTION_ID, true]]}
 
