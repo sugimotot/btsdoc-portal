@@ -21,7 +21,7 @@
 - [Remote Procedure Calls](/developers/apis/rpc.md#remote-procedure-calls)
 - [Websocket Calls & Notifications](/developers/apis/websocket_calls_notifications.md#websocket-calls-notifications)
 
-### Support
+### Other Information
 
 - [API Logging](/developers/apis/api_support.md#api-logging)
 
