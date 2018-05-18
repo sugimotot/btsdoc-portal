@@ -1,7 +1,7 @@
 ## API Guide 
 
 ### Contents:
-- 
+- APIs Categories
 - 
 - 
 
@@ -10,9 +10,13 @@
 
 ### APIs Categories
 
-* **Blockchain API** -- It is used to query blockchain data (account, assets, trading history, etc.) Besides data stores in the blockchain itself (blocks, transactions, etc. ..), higher level objects (such as accounts, balances, etc. …) can be retrieved through the full node’s database.
-* **Wallet API** -- It interract with thr blockchain to operate 
-The wallet (cli-wallet) has your private keys and is required a running full node to connect to the blockchain.  when interacting with the blockchain with new transactions. The wallet does not offer P2P or blockchain capabilities directly.
+* **Blockchain API** -- It is used to query blockchain data (account, assets, trading history, etc). Besides data stores in the blockchain itself (blocks, transactions, etc. ..), higher level objects (such as accounts, balances, etc. …) can be retrieved through the full node’s database.
+* **Wallet API** -- It interract with the blockchain to operate. 
+The wallet (cli-wallet)  has your private keys loaded and is required when interacting with the blockchain with new transactions. The wallet does not offer P2P or blockchain capabilities directly.
+
+
+In contrast to many existing ecosystems, there is no centralized service that lets you access private API calls after successful authentication. Instead, your run your wallet (and optionally a full node) **locally** and are with **your own API service provider**. This obviously has the advantage that you don’t need to give access to your funds to any third party but has the slight disadvantage that you need to run a local `wallet application`, that however does not download the whole blockchain for verification. If you run a sensitive business, we recommend to also run a local full node to download and verify the blockchain and interface your wallet with your local full node.
+
 
 
 API Calls
@@ -25,6 +29,9 @@ API Calls
 * The CLI- wallet can open a RPC port so that you can interface your application with it. You have the choices of 
      - websocket RPC via the `-r `parameter, and 
      - HTTP RPC via the `-H` parameter.
+
+
+
 
 Call methods
 ---------------
