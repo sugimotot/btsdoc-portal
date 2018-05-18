@@ -28,7 +28,7 @@ Such as call can be submitted via `curl`:
 
 #### Successful Calls
 
-The API will return a properly JSON formated response carrying the same id as the request to distinguish subsequent calls.
+The API will return a properly JSON formated response carrying the same `id` as the request to distinguish subsequent calls.
 
     {
      "id":1,
