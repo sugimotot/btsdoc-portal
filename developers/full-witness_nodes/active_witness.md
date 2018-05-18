@@ -183,8 +183,8 @@ Get the witness object using `get_witness` and take note of two things.
 
 | parameter | |
 |---|---|
-| `id` |  is displayed in `get_global_properties` when the witness is voted in, and we will need it on the witness_node command line to produce blocks|
-| `signing_key`|  the public signing_key, we can look up the corresponding private key.  |
+| `id` | (i.e. witness-id)  is displayed in `get_global_properties` when the witness is voted in, and we will need it on the witness_node command line to produce blocks|
+| `signing_key`| (i.e. private-key) the public signing_key, we can look up the corresponding private key.  |
 
 **get_witness** 
 
