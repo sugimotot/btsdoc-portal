@@ -150,23 +150,24 @@ We have the following subscriptions available:
 * ``set_pending_transaction_callback(int identifier)``:
      Notifications for incoming *unconfirmed* transactions.
 * ``set_block_applied_callback(blockid)``:
-     Gives a notification whenever the block ``blockid`` is applied to the
-     blockchain.
+     Gives a notification whenever the block ``blockid`` is applied to the blockchain.
 * ``subscribe_to_market(int identifier, asset_id a, asset_id b))``:
-    Subscribes to market changes in market ``a:b`` and sends notifications with
-    id ``identifier``.
+    Subscribes to market changes in market ``a:b`` and sends notifications with id ``identifier``.
 * ``get_full_accounts(array account_ids, bool subscribe)``:
-    Returns the full account object for the accounts in array ``account_ids``
-    and subscribes to changed to that account if ``subscribe`` is set to
-    ``True``.
+    Returns the full account object for the accounts in array ``account_ids`` and subscribes to changed to that account if ``subscribe`` is set to ``True``.
 * ``get_objects(vector<object_id_type> &ids)``:
     Returns the objects corresponding to the provided IDs. If any of the provided IDs does not map to an object, a null variant is returned in its position.
 
 
 | | |
 |---|---|
-|  `set_subscribe_callback( int identifier, bool clear_filter )`| |
-| Return | To simplify development a global subscription callback can be registered. |
+|  `set_subscribe_callback( int identifier, bool clear_filter )`| To simplify development a global subscription callback can be registered.|
+| `set_pending_transaction_callback(int identifier)` | Notifications for incoming *unconfirmed* transactions. |
+| `set_block_applied_callback(blockid)` | Gives a notification whenever the block ``blockid`` is applied to the blockchain. |
+| `subscribe_to_market(int identifier, asset_id a, asset_id b))` | Subscribes to market changes in market ``a:b`` and sends notifications with id ``identifier``.|
+| `get_full_accounts(array account_ids, bool subscribe)` | Returns the full account object for the accounts in array ``account_ids`` and subscribes to changed to that account if ``subscribe`` is set to ``True``. |
+| `get_objects(vector<object_id_type> &ids)` | Returns the objects corresponding to the provided IDs. If any of the provided IDs does not map to an object, a null variant is returned in its position. |
+
 
 
 
