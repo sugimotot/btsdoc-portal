@@ -9,9 +9,9 @@ For our example and for 10 blocks delaye (i.e. 30 seconds for 3 second block int
 
 
     ./programs/witness_node/witness_node --trusted-node="192.168.0.100:8090" \
-                                         ~~--delay-block-count=10 \~~
                                          --rpc-endpoint="192.168.0.101:8090" \
                                          --seed-nodes "[]"
+
 
 
 
