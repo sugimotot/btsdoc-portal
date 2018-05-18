@@ -1,6 +1,7 @@
 ## API Access Restrictions
 
 #### Contents:
+
 - [Using the API](/developers/apis/api_restrictions.md#using-the-api)
   - Examples
 - [Accessing Restricted API's ](/developers/apis/api_restrictions.md#accessing-restricted-apis)
