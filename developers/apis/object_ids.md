@@ -15,8 +15,6 @@
 
 In contrast to most cryptocurrency wallets, the BitShares 2.0 has a different model to represent the blockchain, its transactions and accounts. On the BitShares blockchains there are **no addresses**, but objects identified by **a unique id, an type and a space.**
 
-## Objects
-
 ### BitShares Objects Format
 
     space.type.id
@@ -152,7 +150,6 @@ Sentry value which contains the number of different object types.
 
 (ref) 
 
-- http://docs.bitshares.org/development/blockchain/objects.html
 - http://docs.bitshares.org/development/blockchain/objects.html
 
 
