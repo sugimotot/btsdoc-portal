@@ -37,8 +37,6 @@ The parameters ``params`` have the following structure:
 In the example above, we query the ``database`` API which carries the
 identifier ``0`` in our example (see more details below).
 
-***
-
 #### Example Call with `wscat`
 
 The following will show the usage of websocket connections. We make use of the
