@@ -1,8 +1,16 @@
 ## Wallet API Calls
 
 ### Contents:
-- 
-- 
+
+- General Calls
+- Wallet Calls
+- Account Calls
+- Trading Calls
+- Asset Calls
+- Governance
+- Privacy Mode
+- Blockchain Inspection
+- Transaction Builder
 
 
 ***
