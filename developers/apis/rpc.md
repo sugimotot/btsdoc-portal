@@ -1,7 +1,8 @@
 ## Remote Procedure Calls
 
-Contents:
-- Call Format: RPC
+#### Contents:
+
+- [Call Format: RPC](/developers/apis/rpc.md#call-format-rpc)
 - Remarks
 - 
 
