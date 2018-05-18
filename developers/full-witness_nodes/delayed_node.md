@@ -8,8 +8,16 @@ The delayed full node will need the IP address and port of the p2p-endpoint from
 For our example and for 10 blocks delaye (i.e. 30 seconds for 3 second block intervals), we need:
 
 
-    ./programs/delayed_node/delayed_node --trusted-node="192.168.0.100:8090" \
-                                         --delay-block-count=10 \
+    ./programs/witness_node/witness_node --trusted-node="192.168.0.100:8090" \
+                                         ~~--delay-block-count=10 \~~
+                                         --rpc-endpoint="192.168.0.101:8090" \
+                                         --seed-nodes "[]"
+
+
+
+
+    ~~./programs/delayed_node/delayed_node --trusted-node="192.168.0.100:8090" \~~
+                                         ~~--delay-block-count=10 \~~
                                          --rpc-endpoint="192.168.0.101:8090" \
                                          --seed-nodes "[]"
 
@@ -49,12 +57,12 @@ The delayed full node will need the IP address and port of the p2p-endpoint from
 
 For our example and for 10 blocks delaye (i.e. 30 seconds for 3 second block intervals), we need:
 
-    /programs/delayed_node/delayed_node --trusted-node="192.168.0.100:8090" \
-                                     --rpc-endpoint="192.168.0.101:8090"
-                                     -d delayed_node \
-                                     -s "0.0.0.0:0" \
-                                     --p2p-endpoint="0.0.0.0:0" \
-                                     --seed-nodes "[]"
+    /programs/witness_node/witness_node --trusted-node="192.168.0.100:8090" \
+                                        --rpc-endpoint="192.168.0.101:8090"
+                                        -d delayed_node \
+                                        -s "0.0.0.0:0" \
+                                        --p2p-endpoint="0.0.0.0:0" \
+                                        --seed-nodes "[]"
 
 We could now connect via RPC:
 
