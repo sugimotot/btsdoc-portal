@@ -7,7 +7,7 @@ Contents:
 
 ***
 
-### Call Format
+### Call Format: RPC
 
 In Graphene, RPC calls are state-less and accessible via regular JSON formated RPC-HTTP-calls. The correct structure of the JSON call is
 
@@ -20,7 +20,7 @@ In Graphene, RPC calls are state-less and accessible via regular JSON formated R
 
 The `get_accounts` call is available in the Full Node’s `database` API and takes only one argument which is an array of account ids (e.g. ["1.2.0", "1.2.1"]).
 
-#### Example Call with curl
+#### Example Call with `curl`
 
 Such as call can be submitted via `curl`:
 
@@ -53,7 +53,7 @@ In case of an error, the resulting answer will carry an error attribute and a de
     }
 
 
-### Remarks
+## Remarks
 
 Wallet specific commands, such as `transfer` and market orders, are only available if connecting to `cli_wallet` because only the wallet has the private keys and signing capabilities and some calls will only execute if the wallet is unlocked.
 
