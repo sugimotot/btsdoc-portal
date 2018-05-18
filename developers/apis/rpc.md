@@ -12,7 +12,7 @@
 In this page example, we assumes that you have a full node running and listening to port
 ``8090``, locally.
 
-### Call Format: RPC
+## Call Format: RPC
 
 In Graphene, RPC calls are state-less and accessible via regular JSON formated RPC-HTTP-calls. The correct structure of the JSON call is
 
