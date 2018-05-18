@@ -1,7 +1,7 @@
 ## Websocket Calls Notifications
 
 ### Contents:
-* [Websocket Calls / Format](#call-format)
+* [Websocket - Call Format](#call-format)
 * [API Access Procedure](/developers/apis/websocket_calls_notifications.md#api-access-procedure) - Requesting Available APIs ASccess
 * [Database Notifications](#database-notifications) - Available Subscriptions
 * [Example](/developers/apis/websocket_calls_notifications.md#example---get-a-global-scubscription-callback-and-id) - Get a global scubscription callback and id
@@ -15,7 +15,7 @@ In this page example, we assumes that you have a full node running and listening
           ports and make sure you do not try to call methods at the wallet that
           are only available to the blockchain API.
 
-## Call Format
+## Websocket - Call Format
 
 In Graphene, Websocket calls are stateful and accessible via regular JSON formated
 websocket connection. The correct structure of the JSON call is
