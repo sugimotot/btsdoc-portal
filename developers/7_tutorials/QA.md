@@ -39,12 +39,12 @@
 
 ***
 ### APIs
-- How do I get the network_add_nodes command to work? Why is it so complicated?
-- Is there a way to generate help with parameter names and method descriptions?
-- Is there a way to allow external program to drive cli_wallet via websocket, JSONRPC, or HTTP?
-- Is there a way to access methods which require login over HTTP?
-- The answer to the previous question was really confusing. Can you make it clearer?
-- What is the meaning of a.b.c numbers?
+- [How do I get the network_add_nodes command to work? Why is it so complicated?](#q-how-do-i-get-the-network_add_nodes-command-to-work-why-is-it-so-complicated)
+- [Is there a way to access methods which require login over HTTP?](#q-is-there-a-way-to-access-methods-which-require-login-over-http)
+- [Is there a way to allow external program to drive cli_wallet via websocket, JSONRPC, or HTTP?](#q-is-there-a-way-to-allow-external-program-to-drive-cli_wallet-via-websocket-jsonrpc-or-http)
+- [Is there a way to generate help with parameter names and method descriptions?](#q-is-there-a-way-to-generate-help-with-parameter-names-and-method-descriptions)
+- [What is the meaning of a.b.c numbers?](#q-what-is-the-meaning-of-abc-numbers)
+- [The answer to the previous question was really confusing. Can you make it clearer?](#q-the-answer-to-the-previous-question-was-really-confusing-can-you-make-it-clearer)
 
 
 ***
