@@ -2,7 +2,7 @@
 
 ### Contents:
 * [Websocket Calls / Format](#call-format)
-* [API Access Procedure](#requesting-api-access) - Requesting Available APIs ASccess
+* [API Access Procedure](/developers/apis/websocket_calls_notifications.md#api-access-procedure) - Requesting Available APIs ASccess
 * [Database Notifications](#database-notifications) - Available Subscriptions
 * [Example](/developers/apis/websocket_calls_notifications.md#example---get-a-global-scubscription-callback-and-id) - Get a global scubscription callback and id
 
