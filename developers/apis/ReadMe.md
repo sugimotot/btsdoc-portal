@@ -23,6 +23,9 @@
 
 - [API Logging](/developers/apis/api_support.md#api-logging)
 
+***
+## doxygen Documentation
+
 ### [Wallet APIs](https://bitshares.org/doxygen/classgraphene_1_1wallet_1_1wallet__api.html)
 - General Calls
 - Wallet Calls
@@ -41,7 +44,7 @@
 - [Network Broadcast API](https://bitshares.org/doxygen/classgraphene_1_1app_1_1network__node__api.html)
 - [Network Nodes API   ](https://bitshares.org/doxygen/classgraphene_1_1app_1_1network__broadcast__api.html)
       
-### [Namespaces](https://bitshares.org/doxygen/namespacegraphene.html)  - doxygen 
+### [Namespaces](https://bitshares.org/doxygen/namespacegraphene.html) 
 - [Graphene::App](https://bitshares.org/doxygen/namespacegraphene_1_1app.html)
 - [Graphene::Chain](https://bitshares.org/doxygen/namespacegraphene_1_1chain.html)
 - [Graphene::Wallet](https://bitshares.org/doxygen/namespacegraphene_1_1wallet.html)
