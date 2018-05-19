@@ -4,6 +4,8 @@
 
 The document explains motivations, technical challenges and sample use of a new plug-in created for bitshares to store account history data into an elasticsearch database.
 
+***
+
 #### Contents:
 - Motivation
 - The Database Selection
