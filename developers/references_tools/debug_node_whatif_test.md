@@ -5,7 +5,7 @@
 
 The debug_node is a tool to allow developers to run many interesting sorts of "what-if" tests using state from a production blockchain. Like "what happens if I produce enough blocks for the next hardfork time to arrive?" or "what would happen if this account (which I don't have a private key for) did this transaction?"
 
-### Setup
+## Setup
 
 Be sure you've built the right build targets:
 
@@ -51,7 +51,7 @@ Then set up `data/debug_datadir/api-access.json` to allow access to the debug AP
        ]
     }
 
-See here for more detail on the `api-access.json` format.
+See [here](https://github.com/cryptonomex/graphene#accessing-restricted-apis) for more detail on the `api-access.json` format.
 
 Once that is set up, run `debug_node` against your newly prepared datadir:
 
@@ -61,7 +61,7 @@ Run `cli_wallet` to connect to the `debug_node` port, using the username and pas
 
     programs/cli_wallet/cli_wallet -s 127.0.0.1:8090 -w debug.wallet -u bytemaster -p supersecret
 
-###Example usage
+## Example usage
 
 Load some blocks from the datadir:
 
