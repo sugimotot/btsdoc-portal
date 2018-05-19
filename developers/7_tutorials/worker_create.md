@@ -1,11 +1,11 @@
 ## How to Create a Worker
 
 #### Contents:
-- Create a Worker - command syntax
-- How to see Proposals on the Chain
-- How to Vote for a Worker
-- How Workers Get Paid
-- Technical Details
+- [Create a Worker - command syntax](/developers/7_tutorials/worker_create.md#create-a-worker---command-syntax)
+- [How to see Proposals on the Chain](/developers/7_tutorials/worker_create.md#how-to-see-proposals-on-the-chain)
+- [How to Vote for a Worker](/developers/7_tutorials/worker_create.md#how-to-vote-for-a-worker)
+- [How Workers Get Paid](/developers/7_tutorials/worker_create.md#how-workers-get-paid)
+- [Technical Details](/developers/7_tutorials/worker_create.md#technical-details)
 
 ***
 
