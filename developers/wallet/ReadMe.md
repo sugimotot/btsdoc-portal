@@ -23,10 +23,10 @@
       - Trusted Full Node
       - Wallet
       - Wallet API
-   - [General](/developers/wallet/wallet_network.md#general-network-and-wallet-configuration)
+   - [General Network and Wallet Configuration](/developers/wallet/wallet_network.md#general-network-and-wallet-configuration)
       - Trusted Full Node
       - Wallet
-   - [Secure](/developers/wallet/wallet_network.md#secure-network-and-wallet-configuration)
+   - [Secure Network and Wallet Configuration](/developers/wallet/wallet_network.md#secure-network-and-wallet-configuration)
       - Trusted Full Node
       - Delayed Full Node
       - Wallet
