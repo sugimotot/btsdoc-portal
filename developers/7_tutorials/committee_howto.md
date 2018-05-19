@@ -11,7 +11,8 @@
 ## How to Creating a New Committee Member
 
     >>> create_committee_member account "url" true
-
+    
+***
 
 ## How to Propose Committee Actions
 
@@ -44,13 +45,15 @@ Then check its bitasset object to get the currently active options:
       ...
     }
 
-Then do `update_bitasset` to update the options. Note we copy-paste other fields from above; there is no way to selectively update only one field.
+Then do `update_bitasset` to update the options. 
+
+**Note:** we copy-paste other fields from above; there is no way to selectively update only one field.
 
     >>> update_bitasset "CNY" {"feed_lifetime_sec" : 86400, "minimum_feeds" : 7, "force_settlement_delay_sec" : 86400, "force_settlement_offset_percent" : 0, "maximum_force_settlement_volume" : 200, "short_backing_asset" : "1.3.0", "extensions" : []} false
 
 If this was a privatized BitAsset (i.e. a user-issued asset with feed), you could simply set the `broadcast` parameter of the above command to `true` and be done.
 
-However this is a committee-issued asset, so we have to use a proposed transaction to update it. To create the proposed transaction, we use the transaction builder API. Create a transaction builder transaction with `begin_builder_transaction` command:
+However this is a *committee-issued asset*, so we have to use a proposed transaction to update it. To create the proposed transaction, we use the transaction builder API. Create a transaction builder transaction with `begin_builder_transaction` command:
 
     >>> begin_builder_transaction
 
@@ -76,6 +79,8 @@ Then set fees, sign and broadcast the transaction:
 - Remember to transfer enough to cover the fee to committee account and set review period to at least `committee_proposal_review_period`
 - Much of this could be automated by a better wallet command.
 
+***
+
 ## How to Approve/Disapprove a Committee Proposal
 
 #### Approve Proposal
@@ -93,6 +98,8 @@ A previous approval can also be removed if the proposal is not yet expired, exec
     >>> approve_proposal <fee-paying-account> <proposal-id> {"active_approvals_to_remove" : ["<MY-COMMITTEE-MEMBER>"]} true
 
 Note that we now use `active_approvals_to_remove` instead of `active_approvals_to_add`.
+
+***
 
 ## How Committee Proposes a Change in Fee
 
