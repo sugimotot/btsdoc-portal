@@ -9,7 +9,7 @@ The most used tool is `wscat`, this is a great tool but it is not scriptable. I 
 
 I was after scripting `wscat` since a while until @gdfbacchus asked in telegram for the same thing.
 
-## Ptython - websocket-client
+### Ptython - websocket-client
 
 Ptython is the choice as it is probably the most used language in the bitshares community.
 
