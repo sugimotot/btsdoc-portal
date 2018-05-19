@@ -55,7 +55,7 @@
 
 ### Worker
 
-- How to Create a Worker
+- [How to Create a Worker](/developers/7_tutorials/worker_create.md#how-to-create-a-worker)
 - How to see proposals on the chain
 - How to Vote for a Worker
 - How Workers Get Paid
