@@ -20,7 +20,7 @@ The general idea is based on [git-flow](https://datasift.github.io/gitflow/Intro
 For our purposes, the general concept behind gitflow has been extended to allow for these additional needs:
 
 1. We have two different types of releases, mainnet and testnet, with a master-like branch for each one.
-2. We have to distinguish consensus-breaking changes (aka hardforks) from non-consensus-breaking changes.
+2. We have to distinguish Consensus Impacting Changes (aka hardforks) from Non-Consensus Impacting Changes.
 
 ***
 
