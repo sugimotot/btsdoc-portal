@@ -64,12 +64,13 @@ The variable ``pay_vesting_period_days`` is the integer number of days you set f
 
 To **actually** generate a worker proposal, replace the last `false` by `true`.
 
+***
 
 ## How to see Proposals on the Chain
 
 #### By using the UI 
 
-You can check the Worker Proposals by BitShares UI form. Go to *Voting* page. There are three tabs: "Witnesses", "Committee", and "Workers". In the "Worker" tab, you will find all Worker Proposals. 
+You can check the Worker Proposals by BitShares UI form. Go to *Voting* page. There are three tabs: "Witnesses", "Committee", and "Workers". In the "Worker" tab, you will find all Worker Proposals list. 
 
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/developers/imgs/ui-voting-worker.png" width="660" title="Voting Worker">
@@ -102,9 +103,21 @@ You also can inspect all the objects 1.4.*::
       }
     ]
 
-### How to Vote for a Worker
+***
 
-Currently the GUI doesn’t have an interface, but you an vote using the CLI::
+## How to Vote for a Worker
+
+#### By using the UI 
+
+Voting is important. You have the UI form for voting. It's very easy to use. Go to *Voting* page. There are three tabs: "Witnesses", "Committee", and "Workers". In the "Worker" tab, check a Togglr Vote check box and *SAVE*. You might be asked to login. Confirm the transaction. 
+
+<p align="center">
+  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/developers/imgs/ui-voting-worker2.png" width="660" title="Voting Worker">
+</p>
+
+
+#### By using the command
+You can vote using the CLI::
 
     >>> update_worker_votes your-account {"vote_for":["proposal-id"]} true
 
@@ -117,7 +130,9 @@ you can also vote against or abstain (remove your vote for or against):
     >>> update_worker_votes your-account {"vote_against":["proposal-id"]} true
     >>> update_worker_votes your-account {"vote_abstain":["proposal-id"]} true
 
-### How Workers Get Paid
+***
+
+## How Workers Get Paid
 
 Every hour the worker budget is processed and workers are paid in full order of the number of votes for minus the number of votes against. The last worker to get paid will be paid with whatever is left, so may receive partial payment. The daily budget can be estimated by inspecting the most recent budget object 2.13.* for example::
 
@@ -147,7 +162,9 @@ So the daily budget is:
 
 There is currently a maximum daily worker pay of 500k BTS, and this can be found using the `get_global_properties` command in the cli_wallet
 
-### Technical Details
+***
+
+## Technical Details
 
 Every second,
 
