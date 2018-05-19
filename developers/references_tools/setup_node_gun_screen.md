@@ -44,7 +44,10 @@ So, log in to your vps and then:
 
 You are now in a new terminal, navigate to your witness, start the witness by something like:
 
-    programs/witness_node/witness_node --data-dir data/my-blockprod --genesis-json genesis/my-genesis.json --enable-stale-production -w \""1.6.0"\" \""1.6.1"\" \""1.6.2"\" \""1.6.3"\" \""1.6.4"\" --rpc-endpoint "localhost:8090"
+    programs/witness_node/witness_node --data-dir data/my-blockprod 
+                                       --genesis-json genesis/my-genesis.json 
+                                       --enable-stale-production -w \""1.6.0"\" \""1.6.1"\" \""1.6.2"\" \""1.6.3"\" \""1.6.4"\" 
+                                       --rpc-endpoint "localhost:8090"
 
 Node will start syncing or whatever, you then use the key combinations explained above(ctrl-a and then d) and you get back to the original terminal.
 
