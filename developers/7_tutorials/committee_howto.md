@@ -127,5 +127,12 @@ Now we need to convince the other committee members to approve. We can do so on 
 
 where `1.10.1` is the id of the proposal in question.
 
+***
+
+(ref)
+- http://docs.bitshares.org/tutorials/committee-propose-action.html?highlight=committee
+- https://github.com/bitshares/bitshares-core/wiki/Howto-propose-committee-actions
+
+
 
 
