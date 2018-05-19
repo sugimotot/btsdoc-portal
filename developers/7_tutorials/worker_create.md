@@ -9,7 +9,7 @@
 
 ***
 
-## Create a Worker
+### Create a Worker
 
 #### By using the UI
 
@@ -66,7 +66,7 @@ To **actually** generate a worker proposal, replace the last `false` by `true`.
 
 ***
 
-## How to see Proposals on the Chain
+### How to see Proposals on the Chain
 
 #### By using the UI 
 
@@ -105,7 +105,7 @@ You also can inspect all the objects 1.4.*::
 
 ***
 
-## How to Vote for a Worker
+### How to Vote for a Worker
 
 #### By using the UI 
 
@@ -132,7 +132,7 @@ you can also vote against or abstain (remove your vote for or against):
 
 ***
 
-## How Workers Get Paid
+### How Workers Get Paid
 
 Every hour the worker budget is processed and workers are paid in full order of the number of votes for minus the number of votes against. The last worker to get paid will be paid with whatever is left, so may receive partial payment. The daily budget can be estimated by inspecting the most recent budget object 2.13.* for example::
 
@@ -164,7 +164,7 @@ There is currently a maximum daily worker pay of 500k BTS, and this can be found
 
 ***
 
-## Technical Details
+### Technical Details
 
 Every second,
 
