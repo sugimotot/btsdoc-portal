@@ -60,7 +60,7 @@
 - How to Vote for a Worker
 - How Workers Get Paid
 - Technical Details
-- Claim Worker Pay
+- [Claim Worker Pay](/developers/7_tutorials/worker_pay_claim.md#claim-worker-pay)
 - Q&A
 
 
