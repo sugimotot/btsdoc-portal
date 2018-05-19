@@ -56,10 +56,13 @@
 ### Worker
 
 - [How to Create a Worker](/developers/7_tutorials/worker_create.md#how-to-create-a-worker)
-- How to see proposals on the chain
-- How to Vote for a Worker
-- How Workers Get Paid
-- Technical Details
+- [How to Create a Worker](/developers/7_tutorials/worker_create.md#create-a-worker)
+- [How to see Proposals on the Chain](/developers/7_tutorials/worker_create.md#how-to-see-proposals-on-the-chain)
+- [How to Vote for a Worker](/developers/7_tutorials/worker_create.md#how-to-vote-for-a-worker)
+- [How Workers Get Paid](/developers/7_tutorials/worker_create.md#how-workers-get-paid)
+- [Technical Details](/developers/7_tutorials/worker_create.md#technical-details)
+
+
 - [Claim Worker Pay](/developers/7_tutorials/worker_pay_claim.md#claim-worker-pay)
 - Q&A
 
