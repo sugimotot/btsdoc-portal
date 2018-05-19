@@ -1,7 +1,7 @@
 # Wallet
 
 
-### Connecting a Wallet 
+### [Connecting a Wallet](/developers/wallet/cli_wallet.md#connecting-a-wallet)
 
 - [OverView](/developers/wallet/cli_wallet.md#contents)
 - [Cli-Tools for Windows (option)](/developers/wallet/cli_wallet.md#cli-tools-for-windows-option)
