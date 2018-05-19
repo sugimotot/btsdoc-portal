@@ -1,6 +1,6 @@
 ## Websockets Scripting Support 
 
-**Community Support Tool**
+**Ptython - websocket-client**
 
 The Bitshares developer community use different ways to interact with the Core API mainly by the use of the Websocket.
 
