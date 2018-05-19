@@ -28,7 +28,7 @@ Workers are currently created with the cli_wallet with the following command syn
 
 **Example**
 
-An owner_account is creating a one day worker starting Oct 28 and will get paid 1 BTS/day (vesting in 1 day, 1 BTS = 100,000 ‘satoshi’) to make an android app. The first command won’t broadcast, this will just check::
+An `owner_account` is creating a one day worker starting Oct 28 and will get paid 1 BTS/day (vesting in 1 day, 1 BTS = 100,000 ‘satoshi’) to make an android app. The first command won’t broadcast, this will just check::
 
     >>> create_worker "worker-name" "2015-10-28T00:00:00" "2015-10-29T00:00:00" 100000 "Description" "http://URL" {"type" : "vesting", "pay_vesting_period_days" : 1} false
 
