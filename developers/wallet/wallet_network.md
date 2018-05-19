@@ -1,6 +1,6 @@
 ## Network and Wallet Configuration
 
-### Contents
+#### Contents
 
 - [Components](#components)
    - P2P Network
@@ -105,7 +105,7 @@ The delayed full node will need the IP address and port of the p2p-endpoint from
 
 For our example and for 10 blocks delaye (i.e. 30 seconds for 3 second block intervals), we need:
 
-    /programs/delayed_node/delayed_node --trusted-node="192.168.0.100:8090" \
+    /programs/witness_node/witness_node --trusted-node="192.168.0.100:8090" \
                                      --rpc-endpoint="192.168.0.101:8090"
                                      -d delayed_node \
                                      -s "0.0.0.0:0" \
@@ -127,7 +127,7 @@ For obvious reasons, the trusted full node is should be running before attemptin
 The wallet initiates outgoing transfers and has to connect to your trusted node because the _delayed_ node has no P2P connections. We furthermore open up a **RPC-JSON-HTTP** port to be able to interface with API requests. The wallet can be connected to the trusted node and listens for RPC requests on port `8092` with:
 
     /programs/cli_wallet/cli_wallet --server-rpc-endpoint="ws://192.168.0.100:8090" \
-                                 --rpc-http-endpoint="192.168.0.102:8092"
+                                    --rpc-http-endpoint="192.168.0.102:8092"
 
 > Note: For security reasons, the wallet should only listen to localhost or the local network and should **NEVER** be exposed to the internet.
 
