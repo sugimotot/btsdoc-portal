@@ -9,7 +9,23 @@
 
 ***
 
-### Create a Worker - command syntax
+## Create a Worker
+
+### by using the UI
+
+You can create a Worker Proposal by using BitShares UI form. Go to *Voting* page. There are three tabs: "Witnesses", "Committee", and "Workers". In the "Worker" tab, you will find *CREATE A NEW WORKER* button. 
+
+<p align="center">
+  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/developers/imgs/ui-worker-create3.png" width="600" title="Voting Worker">
+</p>
+
+**a qorker proposal form**
+<p align="center">
+  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/developers/imgs/ui-worker-create.png" width="550" title="Voting Worker">
+</p>
+
+
+### by using the command 
 
 Workers are currently created with the cli_wallet with the following command syntax::
 
@@ -51,7 +67,18 @@ To **actually** generate a worker proposal, replace the last `false` by `true`.
 
 ### How to see Proposals on the Chain
 
-Since there is no support in the UI yet, go to http://cryptofresh.com/ and look at the worker proposal chart. You also can inspect all the objects 1.4.*::
+#### by using the UI 
+
+You can check the Worker Proposals by BitShares UI form. Go to *Voting* page. There are three tabs: "Witnesses", "Committee", and "Workers". In the "Worker" tab, you will find all Worker Proposals. 
+
+<p align="center">
+  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/developers/imgs/ui-voting-worker.png" width="660" title="Voting Worker">
+</p>
+
+
+#### by using the command
+
+You also can inspect all the objects 1.4.*::
 
     >>> get_object 1.14.4
     get_object 1.14.4
