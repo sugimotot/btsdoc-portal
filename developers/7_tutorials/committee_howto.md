@@ -1,4 +1,3 @@
-
 ## Committee - How to
 
 ### Contents:
