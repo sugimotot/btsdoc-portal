@@ -7,7 +7,7 @@
    - Github other repositories
    - BirShares GitHub Code | Issues
 - [Articles](/developers/references_tools/tech_articles.md#articles)
-- Propose & ideas
+- [Propose & ideas](/developers/references_tools/bsip_funding.md#bitshares-improvement-proposal)
 
 ### Tools   
 - [ElasticSearch Plugin](/developers/references_tools/elastic_search_plugin.md#elasticsearch-plugin)
