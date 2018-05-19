@@ -15,6 +15,7 @@ This opens up a node that we can connect to via the included wallet
 The avobe line will 
 - open port `8091` for HTTP-RPC requests and 
 - has the capabilities to handle accounts 
+
 while the witness_node can only answer queries to the blockchain.
 
 
