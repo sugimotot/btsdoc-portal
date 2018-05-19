@@ -109,7 +109,7 @@ You also can inspect all the objects 1.4.*::
 
 #### By using the UI 
 
-Voting is important. You have the UI form for voting. It's very easy to use. Go to *Voting* page. There are three tabs: "Witnesses", "Committee", and "Workers". In the "Worker" tab, check a Togglr Vote check box and *SAVE*. You might be asked to login. Confirm the transaction. 
+Voting is important. You have the UI form for voting. It's very easy to use. Go to *Voting* page. There are three tabs: "Witnesses", "Committee", and "Workers". In the "Worker" tab, check a Toggle Vote check box and *SAVE*. You might be asked to login. Confirm the transaction. 
 
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/developers/imgs/ui-voting-worker-2.png" width="660" title="Voting Worker">
@@ -160,7 +160,7 @@ So the daily budget is:
 
     worker_budget*24 = 1340913100 * 24 = 32181914400 (or 321,8191.44 BTS)
 
-There is currently a maximum daily worker pay of 500k BTS, and this can be found using the `get_global_properties` command in the cli_wallet
+There is currently a maximum daily worker pay of 500k BTS, and this can be found using the `get_global_properties` command in the cli_wallet.
 
 ***
 
