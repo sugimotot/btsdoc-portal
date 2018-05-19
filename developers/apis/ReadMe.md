@@ -24,6 +24,8 @@
 ### Other Information
 
 - [API Logging](/developers/apis/api_support.md#api-logging)
+- [Websockets Scripting Support](/developers/apis/websocket_scripting_support.md#websockets-scripting-support)
+  - Ptython - websocket-client
 
 ***
 ## doxygen Documentation
