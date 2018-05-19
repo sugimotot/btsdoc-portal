@@ -5,7 +5,7 @@
 - [Q&A](/developers/7_tutorials/QA.md#general)
 
 ### Accounts 
-- How to process Account Registration
+- [How to process Account Registration](/developers/accounts/account_registration.md#account-registration)
 - [Q&A](/developers/7_tutorials/QA.md#accounts)
 
 ### Assets
