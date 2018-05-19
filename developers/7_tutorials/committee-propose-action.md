@@ -50,7 +50,7 @@ This returns a numeric handle used to refer to the transaction being built. In t
     "extensions": []}, "extensions": []}]
     >>> propose_builder_transaction2 $HANDLE init0 "2015-12-04T14:55:00" 3600 false
 
-The `propose_builder_transaction` command is broken and deprecated. You need to recompile with this patch in order to use the new `propose_builder_transaction2` command which allows you to set the proposing account.
+The `propose_builder_transaction` command is broken and deprecated. You need to recompile with [this patch](https://github.com/cryptonomex/graphene/commit/7a5c5c476d9762cbba1d745447191523ca5cd601) in order to use the new `propose_builder_transaction2` command which allows you to set the proposing account.
 
 Then set fees, sign and broadcast the transaction:
 
