@@ -63,7 +63,7 @@ will send you to the terminal with the running node.
 
 More cool stuff can be done with screen but these are the basics for using it with bitshares nodes.
 
-If you have several screens going on, the screen -r will not work for you, but follow the command suggestions and you will know how to gain control of each terminal again:
+If you have several screens going on, the `screen -r` will not work for you, but follow the command suggestions and you will know how to gain control of each terminal again:
 
     root@alfredo:~/bitshares-munich/recurring/bitshares-core# screen -r
     There are several suitable screens on:
@@ -72,13 +72,13 @@ If you have several screens going on, the screen -r will not work for you, but f
     Type "screen [-d] -r [pid.]tty.host" to resume one of them.
     root@alfredo:~/bitshares-munich/recurring/bitshares-core# 
 
-In this case i will do:
+In this case I will do:
 
     screen -r 11873.pts-2.alfredo
 
 to get access to one of the terminals.
 
-To end a screen session just gain control over it and type exit.
+To end a screen session just gain control over it and type `exit`.
 
 One last useful command i use when the connection drops while you are inside a screen session. When you came back, the screen command will tell you that the terminal is attached but you have no control over it.
 
