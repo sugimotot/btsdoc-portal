@@ -7,28 +7,28 @@ The document explains motivations, technical challenges and sample use of a new 
 ***
 
 #### Contents:
-- Motivation
-- The Database Selection
-- Technical
-  - Replay and _bulk
+- [Motivation](/developers/references_tools/elastic_search_plugin.md#motivation)
+- [The Database Selection](/developers/references_tools/elastic_search_plugin.md#the-database-selection)
+- [Technical](/developers/references_tools/elastic_search_plugin.md#technical)
+  - Replay and `_bulk`
   - Accessing data inside operations 
-- Installation  
+- [Installation](/developers/references_tools/elastic_search_plugin.md#installation)
   - Install java
   - Install ES
   - Install curl
-- Running
+- [Running](/developers/references_tools/elastic_search_plugin.md#running)
   - Arguments
   - Starting Node
   - Checking if it is working
-- Indexes
-- Pre-Define Settings
-- Usage
+- [Indexes](/developers/references_tools/elastic_search_plugin.md#indexes)
+- [Pre-Define Settings](/developers/references_tools/elastic_search_plugin.md#pre-define-settings)
+- [Usage](/developers/references_tools/elastic_search_plugin.md#usage)
   - Get operations by account, time and operation type
   - Filter based on block number or block range
   - Get operations by transaction hash
-- Going Forward
-- Note on Duplicates
-- Wrapper
+- [Going Forward](/developers/references_tools/elastic_search_plugin.md#going-forward)
+- [Note on Duplicates](/developers/references_tools/elastic_search_plugin.md#note-on-duplicates)
+- [Wrapper](/developers/references_tools/elastic_search_plugin.md#wrapper)
 
 ***
 
