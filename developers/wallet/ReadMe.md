@@ -12,7 +12,7 @@
 - [Transferring  Funds using the Cli-wallet](/developers/wallet/cli_wallet.md#transferring-funds-using-the-cli-wallet)
   
 ### [Wallet Full Nodes & Witness Nodes](/developers/wallet/wallet_full_nodes_witness_nodes.md#wallet-full-nodes--witness-nodes)
-- Example - connect a witness node and open up a wallet node
+- Example - connect to the network and open up a node
   
 ### [Network and Wallet Configuration](/developers/wallet/wallet_network.md#network-and-wallet-configuration)
    - [Components](/developers/wallet/wallet_network.md##components)
