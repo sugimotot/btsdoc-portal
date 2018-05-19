@@ -1,5 +1,8 @@
 # Wallet
 
+
+### Connecting a Wallet 
+
 - [OverView](/developers/wallet/cli_wallet.md#contents)
 - [Cli-Tools for Windows (option)](/developers/wallet/cli_wallet.md#cli-tools-for-windows-option)
 - [Create a Cli Wallet and Open RPC port](/developers/wallet/cli_wallet.md#create-a-cli-wallet-and-open-rpc-port)
