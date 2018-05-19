@@ -112,7 +112,7 @@ You also can inspect all the objects 1.4.*::
 Voting is important. You have the UI form for voting. It's very easy to use. Go to *Voting* page. There are three tabs: "Witnesses", "Committee", and "Workers". In the "Worker" tab, check a Togglr Vote check box and *SAVE*. You might be asked to login. Confirm the transaction. 
 
 <p align="center">
-  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/developers/imgs/ui-voting-worker2.png" width="660" title="Voting Worker">
+  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/developers/imgs/ui-voting-worker-2.png" width="660" title="Voting Worker">
 </p>
 
 
