@@ -3,16 +3,17 @@
 ### 01. [Public Testnet Details](/developers/testnets/public_testnet_details.md#the-open-public-testnet-information)
 
 ### 02. [Public Testnet Witness(Full) Nodes (block producing witness nodes) ](/developers/testnets/public_testnet.md#how-to-deploy-your-own-public-network)
-1. Installation/Configuration of Witness
-2. Genesis Configuration
-3. Initializing Blockchain
-4. Connecting a CLI Wallet
-5. Establishing a Committee
-6. Web wallet 
-7. Setup the Faucet      
-8. Setup NGing WebServer 
-9. Instillation of Python Library
-10. Create MPAs/UIAs
+1. [Installation/Configuration of Witness](/developers/testnets/public_testnet.md#1-installation_configuration-of-witness)
+2. [Genesis Configuration](/developers/testnets/public_testnet.md#2-genesis-configuration)
+3. [Initializing Blockchain](/developers/testnets/public_testnet.md#3-initializing-blockchain)
+4. [Connecting a CLI Wallet](/developers/testnets/public_testnet.md#4-connecting-a-cli-wallet)
+5. [Establish a Committee](/developers/testnets/public_testnet.md#5-establish-a-committee)
+6. [Web Wallet](/developers/testnets/public_testnet.md#6-web-wallet)
+7. [Set up the Faucet](/developers/testnets/public_testnet.md#7-set-up-the-faucet)
+8. [Set up Nignx Webserver](/developers/testnets/public_testnet.md#8-nignx-webserver)
+9. [Instillation of Python Library](/developers/testnets/public_testnet.md#9-instillation-of-python-library)
+10. [Create MPAs/UIAs](/developers/testnets/public_testnet.md#10-create-mpasuias)
+
 
 ### 03. [Private Testnet](/developers/testnets/private_testnet.md#how-to-setup-private-testnet)
 1. [Prerequisites](#1-prerequisites)
