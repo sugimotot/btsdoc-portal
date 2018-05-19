@@ -9,7 +9,7 @@
 
 ***
 
-### Create a Worker
+### How to create a Worker
 
 #### By using the UI
 
