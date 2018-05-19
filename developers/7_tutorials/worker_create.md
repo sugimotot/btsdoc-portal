@@ -11,7 +11,7 @@
 
 ## Create a Worker
 
-### by using the UI
+### By using the UI
 
 You can create a Worker Proposal by using BitShares UI form. Go to *Voting* page. There are three tabs: "Witnesses", "Committee", and "Workers". In the "Worker" tab, you will find *CREATE A NEW WORKER* button. 
 
@@ -19,13 +19,13 @@ You can create a Worker Proposal by using BitShares UI form. Go to *Voting* page
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/developers/imgs/ui-worker-create3.png" width="600" title="Voting Worker">
 </p>
 
-**a qorker proposal form**
+**a worker proposal form**
 <p align="center">
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/developers/imgs/ui-worker-create.png" width="550" title="Voting Worker">
 </p>
 
 
-### by using the command 
+### By using the command 
 
 Workers are currently created with the cli_wallet with the following command syntax::
 
@@ -67,7 +67,7 @@ To **actually** generate a worker proposal, replace the last `false` by `true`.
 
 ### How to see Proposals on the Chain
 
-#### by using the UI 
+#### By using the UI 
 
 You can check the Worker Proposals by BitShares UI form. Go to *Voting* page. There are three tabs: "Witnesses", "Committee", and "Workers". In the "Worker" tab, you will find all Worker Proposals. 
 
@@ -76,7 +76,7 @@ You can check the Worker Proposals by BitShares UI form. Go to *Voting* page. Th
 </p>
 
 
-#### by using the command
+#### By using the command
 
 You also can inspect all the objects 1.4.*::
 
