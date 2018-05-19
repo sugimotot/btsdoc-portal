@@ -1,10 +1,11 @@
 ## Wallet Full Nodes & Witness Nodes
 
-*This page shows example command lines to connect to the network and open up a node.*
+*This page shows example command lines a client to connect to the network and open up a node.*
 
-A client can connect to a witness (we run in monitor mode) or a public trusted witness.  For exchanges, it is recommended to run a full node, though. 
 
-In this example, we connect to the network via a seed node:
+***
+
+First, we need a client to connect to a witness (we run in monitor mode) or a public trusted witness. For exchanges, it is recommended to run a full node, though. In this example, we connect to the network via a seed node:
 
       programs/witness_node/witness_node -s 104.200.28.117:61705 --rpc-endpoint 127.0.0.1:8090  # FIXME?
 
