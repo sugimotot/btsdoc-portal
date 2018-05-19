@@ -11,7 +11,7 @@
 
 ## Create a Worker
 
-### By using the UI
+#### By using the UI
 
 You can create a Worker Proposal by using BitShares UI form. Go to *Voting* page. There are three tabs: "Witnesses", "Committee", and "Workers". In the "Worker" tab, you will find *CREATE A NEW WORKER* button. 
 
@@ -25,7 +25,7 @@ You can create a Worker Proposal by using BitShares UI form. Go to *Voting* page
 </p>
 
 
-### By using the command 
+#### By using the command 
 
 Workers are currently created with the cli_wallet with the following command syntax::
 
@@ -65,7 +65,7 @@ The variable ``pay_vesting_period_days`` is the integer number of days you set f
 To **actually** generate a worker proposal, replace the last `false` by `true`.
 
 
-### How to see Proposals on the Chain
+## How to see Proposals on the Chain
 
 #### By using the UI 
 
