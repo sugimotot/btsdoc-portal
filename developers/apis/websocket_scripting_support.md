@@ -1,4 +1,4 @@
-# Websockets Scripting Support 
+## Websockets Scripting Support 
 
 
 The Bitshares developer community use different ways to interact with the Core API mainly by the use of the Websocket.
