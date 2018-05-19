@@ -133,7 +133,7 @@ install java 8:
 
 Get version 6 file at: https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.2.0.zip
 
-> Note: Plugin works with currently last stable version of elastic(6.2.0)
+**Note:** Plugin works with currently last stable version of elastic(6.2.0)
 
 Please do this as a non root user as ES will not run as root.
 
@@ -150,7 +150,7 @@ and run:
     cd elasticsearch-6.2.0.zip/
     ./bin/elasticsearch
 
-You can put this as a service, the binary haves a --daemonize option, can run inside screen or any other option that suits you in order to keep the database running.
+You can put this as a service, the binary haves a `--daemonize` option, can run inside screen or any other option that suits you in order to keep the database running.
 
 Please note ES does not run a the root user, if you are a root user you need to first make a normal user account by:
 
@@ -197,9 +197,14 @@ The ES plugin have the following parameters passed by command line:
 
 ES plugin is not active by default, we need to start it with the plugins parameter. An example of starting a node with ES plugin may be:
 
-    programs/witness_node/witness_node --data-dir data/my-blockprod --rpc-endpoint "127.0.0.1:8090" --plugins "witness elasticsearch market_history" --elasticsearch-bulk-replay 10000 --elasticsearch-logs true --elasticsearch-visitor true
+    programs/witness_node/witness_node --data-dir data/my-blockprod 
+                                       --rpc-endpoint "127.0.0.1:8090" 
+                                       --plugins "witness elasticsearch market_history" 
+                                       --elasticsearch-bulk-replay 10000 
+                                       --elasticsearch-logs true 
+                                       --elasticsearch-visitor true
 
-> Note: elasticsearch plugin and account_history plugin can not run the 2 at the same time.
+**Note:** elasticsearch plugin and account_history plugin can not run the 2 at the same time.
 
 ### Checking if it is working
 
@@ -350,7 +355,7 @@ This is one of the issues that has been requested constantly. It can be easily q
     }
     '
 
-> Note: Response is removed from the samples to save space in the document. If you are here you may want to see the response in your own place.
+**Note:** Response is removed from the samples to save space in the document. If you are here you may want to see the response in your own place.
 
 ### Filter based on block number or block range
 
