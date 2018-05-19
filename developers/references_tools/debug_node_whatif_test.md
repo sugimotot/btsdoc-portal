@@ -1,4 +1,4 @@
-## debug_node - what-if test 
+## debug_node : what-if test tool
 
 
 ### Introduction
@@ -73,7 +73,7 @@ Generate (fake) blocks with our own private key:
 
     dbg_generate_blocks 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3 1000
 
-Update angel account to be controlled by our own private key and generate a (fake) transfer:
+Update `angel` account to be controlled by our own private key and generate a (fake) transfer:
 
     dbg_update_object {"_action":"update", "id":"1.2.1090", "active":{"weight_threshold":1,"key_auths":[["BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",1]]}}
     import_key angel 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3
@@ -81,7 +81,7 @@ Update angel account to be controlled by our own private key and generate a (fak
 
 ## How it works
 
-The commands work by creating diff(s) from the main chain that are applied to the local chain at specified block height(s). It lets you easily check out "what-if" scenarios in a fantasy debug toy world forked from the real chain, e.g. "if we take all of the blocks until today, then generate a bunch more until a hardfork time in the future arrives, does the chain stay up? Can I do transactions X, Y, and Z in the wallet after the hardfork?" Anyone connecting to this node sees the same fantasy world, so you can e.g. make changes with the cli_wallet and see them exist in other cli_wallet instances (or GUI wallets or API scripts).
+The commands work by creating diff(s) from the main chain that are applied to the local chain at specified block height(s). It lets you easily check out "what-if" scenarios in a fantasy debug toy world forked from the real chain, e.g. "if we take all of the blocks until today, then generate a bunch more until a hardfork time in the future arrives, does the chain stay up? Can I do transactions X, Y, and Z in the wallet after the hardfork?" Anyone connecting to this node sees the same fantasy world, so you can e.g. make changes with the `cli_wallet` and see them exist in other `cli_wallet` instances (or GUI wallets or API scripts).
 
 ## Limitations
 
