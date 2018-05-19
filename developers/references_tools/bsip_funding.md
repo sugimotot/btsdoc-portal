@@ -1,3 +1,5 @@
+# Businesses, Developers and Business Developers
+
 ## BitShares Improvement Proposal
 
 BSIP stands for BitShares Improvement Proposal but can also seen as an improvement protocol. A BSIP is a design document providing information to the BitShares community, or describing a new feature for BitShares or its processes or environment. The BSIP should provide a concise technical specification of the feature or the idea and a rationale for it. It may not only describe technical improvements but also document best-practises and recommendations.
