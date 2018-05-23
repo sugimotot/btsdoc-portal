@@ -2,7 +2,7 @@
 
 ***
 ### General
-- [Q&A](/developers/7_tutorials/QA.md#general)
+- [Q&A](/developers/7_tutorials/QA.md#contents)
 
 ### Accounts 
 - [How to process Account Registration](/developers/accounts/account_registration.md#account-registration)
