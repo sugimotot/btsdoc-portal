@@ -1,4 +1,4 @@
-## Manage a running node in the background
+## Manage a running node in the background by using GNU screen
 
 This section will explain how tou manage your nodes by using gun screen and run the bode in the background.
 
