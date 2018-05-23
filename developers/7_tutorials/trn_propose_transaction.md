@@ -78,7 +78,9 @@ the signed version of the transaction
 
 ### Example: Setting Smartcoin Parameter
 
-A simple `asset_update` takes the following form:
+**A simple `asset_update` form**
+
+The operation id for the `asset_update_bitasset_operation` is thus 12 (third line).
 
     get_prototype_operation asset_update_bitasset_operation
     [
@@ -102,7 +104,7 @@ A simple `asset_update` takes the following form:
       }
     ]
 
-The operation id for the `asset_update_bitasset_operation` is thus 12 (third line) and the core elements (removing fee) of this operation take the form:
+**form - core elements (removing fee) of this operation**
 
     {
        "issuer": "1.2.0",
@@ -119,34 +121,37 @@ The operation id for the `asset_update_bitasset_operation` is thus 12 (third lin
        "extensions": []
     }
 
-We add an operation to a transaction as follows (line breaks inserted for readability):
 
-    >>> begin_builder_transaction
-    0
-    >>> add_operation_to_builder_transaction
-            0
-            [12, {
-                  "asset_to_update": "1.3.113",
-                  "issuer": "1.2.0",
-                  "extensions": [],
-                  "new_options": {
-                    "feed_lifetime_sec": 86400,
-                    "force_settlement_delay_sec": 86400,
-                    "short_backing_asset": "1.3.0",
-                    "maximum_force_settlement_volume": 200,
-                    "force_settlement_offset_percent": 0,
-                    "minimum_feeds": 7,
-                    "extensions": []
-                  },
-                }]
+**Proposing a Transaction**
+
+1. Add an operation to a transaction as follows (line breaks inserted for readability):
+
+        >>> begin_builder_transaction
+        0
+        >>> add_operation_to_builder_transaction
+                0
+                [12, {
+                      "asset_to_update": "1.3.113",
+                      "issuer": "1.2.0",
+                      "extensions": [],
+                      "new_options": {
+                        "feed_lifetime_sec": 86400,
+                        "force_settlement_delay_sec": 86400,
+                        "short_backing_asset": "1.3.0",
+                        "maximum_force_settlement_volume": 200,
+                        "force_settlement_offset_percent": 0,
+                        "minimum_feeds": 7,
+                        "extensions": []
+                      },
+                    }]
 
 The corresponding asset id can be obtained with `get_asset`.
 
-Now let’s make it a proposal for the committee members to sign:
+2. Make it a proposal for the committee members to sign:
 
     >>> propose_builder_transaction2 0 init0 "2015-12-10T14:55:00" 3600 false
 
-We add a fee payed in BTS, sign and broadcast the transaction (if valid):
+3. Add a fee payed in BTS, sign and broadcast the transaction (if valid):
 
     >>> set_fees_on_builder_transaction 0 BTS
     >>> sign_builder_transaction 0 true
