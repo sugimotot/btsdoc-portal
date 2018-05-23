@@ -1,13 +1,14 @@
 # References & Tools
 
+
 ### References
 - [References](/developers/references_tools/references.md#references)
-   - Releases
-   - Python Library
-   - Github other repositories
-   - BirShares GitHub Code | Issues
+   - [Releases](/developers/references_tools/references.md#releases)
+   - [Python Library](/developers/references_tools/references.md#python-library)
+   - [Informative GitHub Repositories](/developers/references_tools/references.md#informative-repositories)
+   - [BirShares GitHub Code | Issues](/developers/references_tools/references.md#github-code--issues)
 - [Articles](/developers/references_tools/tech_articles.md#articles)
-- [Propose & ideas](/developers/references_tools/bsip_funding.md#businesses-developers-and-business-developers)
+-  [Propose & ideas](/developers/references_tools/bsip_funding.md#businesses-developers-and-business-developers)
 
 ### Tools   
 - [ElasticSearch Plugin](/developers/references_tools/elastic_search_plugin.md#elasticsearch-plugin)
@@ -16,6 +17,4 @@
 - [Monitoring Account Deposits: Python](/developers/references_tools/monitoring_python.md#monitoring-account-deposits---python)
 - [Monitoring Balance History: NodeJS](/developers/references_tools/monitoring_nodejs.md#monitoring-the-balance-history---nodejs)
 
-### Closed Issues
 
-- 
