@@ -38,8 +38,6 @@ _**above processes will go parallel_
       - ElasticSearch Plugin
       - debug_node : what-if test tool
       - Manage a running node in the background by using GNU screen
-      - Monitoring Account Deposits: Python
-      - Monitoring Balance History: NodeJS
    
 ### 3. [Accounts](/developers/accounts#accounts)
    - Account
