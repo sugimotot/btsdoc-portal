@@ -64,7 +64,6 @@ _**above processes will go parallel_
    - Become an Active Witness
       - A Block-Producing Witness
       - How to become a Block-Producing Witness
-      - Backup Server
       - Price Feeds
    - Memory Reduction for Nodes
       - Four New Options to Reduce RAM
