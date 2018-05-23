@@ -90,7 +90,7 @@ This means that each party has the same weight of 1 while 3 parties need to sign
 In other words: Alice, Bobe, Charlie and Dennis, each have 33% weight while 100% must be reached.
 
 <p align="center">
-  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/developers/imgs/weight-threshold1.png" width="300" title="Multi">
+  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/developers/imgs/weight-threshold1.png" width="350" title="Multi">
 </p>
 
 All four participants have a weight of 33% but the threshold is set to 51%. Hence only two out of the four need to agree to validate the transaction.
@@ -110,7 +110,7 @@ With the threshold and weights, we now have more flexibility over our funds, or 
 | **Threshold:**  | 51%  |
 
 <p align="center">
-  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/developers/imgs/weight-threshold2.png" width="300" title="Flexible">
+  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/developers/imgs/weight-threshold2.png" width="350" title="Flexible">
 </p>
 
 
@@ -127,7 +127,7 @@ Let’s take a look at a simple multi-hierarchical corporate account setup. We a
 | **Threshold:**  | 51%  |
 
 <p align="center">
-  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/developers/imgs/weight-threshold3.png" width="300" title="Multi-Hierarchical">
+  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/developers/imgs/weight-threshold3.png" width="350" title="Multi-Hierarchical">
 </p>
     
 
@@ -143,7 +143,7 @@ whereas CEO.COMPANY and CFO.COMPANY have their own authorities. For instance, th
 | **Threshold:**  | 51%  |
 
 <p align="center">
-  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/developers/imgs/weight-threshold4.png" width="600" title="Multi-Hierarchical">
+  <img src="https://github.com/bitshares/how.bitshares.works/blob/master/developers/imgs/weight-threshold4.png" width="750" title="Multi-Hierarchical">
 </p>
     
 This scheme allows:
