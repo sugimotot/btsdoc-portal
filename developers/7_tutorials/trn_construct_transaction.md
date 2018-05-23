@@ -26,7 +26,7 @@ The begin_builder_transaction call returns a number we call `$HANDLE` It allows 
 
 The opId and the JSON structure of the operation can be obtained with:
 
-    [get_prototype_operation](https://bitshares.org/doxygen/classgraphene_1_1wallet_1_1wallet__api.html#af52e5370f7895cb69d5f38427a11dbaf) <operation-type>
+    get_prototype_operation <operation-type>
 
 - Available Operation Types: [typedef fc::static_variant<.... >](https://bitshares.org/doxygen/group__operations.html#ga0d0e4b3acdc5551c9e1f0ac0d11fce40)
 
