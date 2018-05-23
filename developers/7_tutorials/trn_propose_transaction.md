@@ -32,9 +32,9 @@ A proposed transaction is encapsulated within another operation type. We can ach
 
 #### Definition
 
-signed_transaction `graphene::wallet::wallet_api::propose_builder_transaction`(transaction_handle_type handle, time_point_sec expiration = time_point::now()+fc::minutes(1), uint32_t review_period_seconds = 0, bool broadcast = true)
+**signed_transaction `graphene::wallet::wallet_api::propose_builder_transaction`** (transaction_handle_type handle, time_point_sec expiration = time_point::now()+fc::minutes(1), uint32_t review_period_seconds = 0, bool broadcast = true)
 
-signed_transaction `graphene::wallet::wallet_api::propose_builder_transaction2`(transaction_handle_type handle, string account_name_or_id, time_point_sec expiration = time_point::now()+fc::minutes(1), uint32_t review_period_seconds = 0, bool broadcast = true)
+**signed_transaction `graphene::wallet::wallet_api::propose_builder_transaction2`** (transaction_handle_type handle, string account_name_or_id, time_point_sec expiration = time_point::now()+fc::minutes(1), uint32_t review_period_seconds = 0, bool broadcast = true)
 
 ***
 
@@ -67,10 +67,12 @@ the signed version of the transaction
 
 **Parameters**
 
-- fee_paying_account: The account paying the fee for the op.
-- proposal_id: The proposal to modify.
-- delta: Members contain approvals to create or remove. In JSON you can leave empty members undefined.
-- broadcast: true if you wish to broadcast the transaction
+|   |   |
+|---|---|
+| fee_paying_account | The account paying the fee for the op.  |
+| proposal_id  | The proposal to modify.  |
+| delta  | Members contain approvals to create or remove. In JSON you can leave empty members undefined.  |
+| broadcast  |  true if you wish to broadcast the transaction.  |
 
 ***
 
