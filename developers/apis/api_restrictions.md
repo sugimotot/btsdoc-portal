@@ -6,6 +6,8 @@
   - Examples
 - [Accessing Restricted API's ](/developers/apis/api_restrictions.md#accessing-restricted-apis)
    - Example 
+- Accessing the Named API via HTTP
+   - Example 
 - [Login In](/developers/apis/api_restrictions.md#login-in)
    - *class* graphene::app::login_api
    
@@ -89,9 +91,9 @@ Since the `network_node` API requires login, it is only accessible over the webs
 
 ***
 
-## Accessing Named API via HTTP
+## Accessing the Named API via HTTP
 
-You can use the name of the APIs when calling,
+When you access the API via HTTP, use the name of the APIs like below,
 
     curl --data '{"jsonrpc": "2.0", "params": ["history", "get_account_history", ["1.2.31489", "1.11.0", 10, "1.11.0"]], "method": "call", "id": 10}' http://testgraphene:8090/rpc
 
