@@ -12,7 +12,7 @@ The proposal system allows for arbitrarily complex or recursively nested authori
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/developers/imgs/trn-proposed1.png" width="600" title="Proposed Transaction">
 </p>
 
-Note that each account in the figure can carry a **different weight**. 
+Note that each account in the figure can carry a **different weight**. [Read more information about Permissions/weights/Threshold.](/developers/accounts/accounts.md#permissions)
 
 
 ***
