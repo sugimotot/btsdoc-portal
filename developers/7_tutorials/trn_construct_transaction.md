@@ -22,11 +22,13 @@ The corresponding API calls in the CLI Wallet are:
     >>> set_fees_on_builder_transaction $HANDLE BTS
     >>> sign_builder_transaction $HANDLE true
 
-The begin_builder_transaction call returns a number we call $HANDLE` It allows to construct several transactions in parallel and identify them individually!
+The begin_builder_transaction call returns a number we call `$HANDLE` It allows to construct several transactions in parallel and identify them individually!
 
 The opId and the JSON structure of the operation can be obtained with:
 
     [get_prototype_operation](https://bitshares.org/doxygen/classgraphene_1_1wallet_1_1wallet__api.html#af52e5370f7895cb69d5f38427a11dbaf) <operation-type>
+
+- Available Operation Types: [typedef fc::static_variant<.... >](https://bitshares.org/doxygen/group__operations.html#ga0d0e4b3acdc5551c9e1f0ac0d11fce40)
 
 In practise, each operation has to pay a fee, and hence, each operation has to carry a `fee` member. When crafting a transaction, you now have the choice between either defining each fee for your operations individually, or you use `set_fees_on_builder_transaction` that sets the fee for each operation automatically to the chosen asset.
 
