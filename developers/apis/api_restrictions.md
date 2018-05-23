@@ -108,11 +108,8 @@ When you use WS, use like below to prevent unnecessary round trips (login, query
 
 #### Needs the following FC library PRs to work
 
-Add access to HTTP request headers in websocket_connection
-bitshares/bitshares-fc#1
-
-Replace the call to get_api_by_name
-bitshares/bitshares-fc#2
+- Add access to HTTP request headers in websocket_connection: [bitshares/bitshares-fc#1](https://github.com/bitshares/bitshares-fc/pull/1)
+- Replace the call to get_api_by_name: [bitshares/bitshares-fc#2](https://github.com/bitshares/bitshares-fc/pull/2)
 
 It also preserve:
 
