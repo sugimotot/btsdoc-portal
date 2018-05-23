@@ -77,8 +77,8 @@ _**above processes will go parallel_
    -  BitShares APIs
       - APIs two categories
       - API Access & Restrictions
-      - Running a BitShares API Node
       - Object and IDs
+      - Running a BitShares API Node
    - Calls
       - Remote Procedure Calls
       - Websocket Calls & Notifications
