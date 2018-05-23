@@ -36,7 +36,9 @@ In practise, each operation has to pay a fee, and hence, each operation has to c
 
 ### Example: Transfer
 
-A simple _transfer_ takes the following form:
+**A simple _transfer_ takes the following form**
+
+The operation id for the `transfer_operation` is thus `0` (third line) 
 
     get_prototype_operation transfer_operation
     [
@@ -55,7 +57,7 @@ A simple _transfer_ takes the following form:
       }
     ]
 
-The operation id for the `transfer_operation` is thus `0` (third line) and the core elements (removing fee) of this operation take the form:
+**form - core elements (removing fee) of this operation**
 
     {
       "from": "1.2.0",
@@ -66,28 +68,30 @@ The operation id for the `transfer_operation` is thus `0` (third line) and the c
       }
     }
 
-We add an operation to a transaction as follows (line breaks inserted for readability):
+**Transaction**
 
-    >>> begin_builder_transaction
-    0
-    >>> add_operation_to_builder_transaction
-         0
-        [0,{
-               "from": "1.2.0",
-               "to": "1.2.0",
-               "amount": {
-                 "amount": 0,
-                 "asset_id": "1.3.0"
-               }
-           }]
+1. Add an operation to a transaction as follows (line breaks inserted for readability):
+
+        >>> begin_builder_transaction
+        0
+        >>> add_operation_to_builder_transaction
+             0
+            [0,{
+                   "from": "1.2.0",
+                   "to": "1.2.0",
+                   "amount": {
+                     "amount": 0,
+                     "asset_id": "1.3.0"
+                   }
+               }]
 
 The corresponding `id` can be obtained with `get_account`, and `get_asset`.
 
-We add a fee payed in BTS, sign and broadcast the transaction (if valid):
+2. Add a fee payed in BTS, sign and broadcast the transaction (if valid):
 
-    >>> set_fees_on_builder_transaction 0 BTS
-    >>> sign_builder_transaction 0 true
-    
+        >>> set_fees_on_builder_transaction 0 BTS
+        >>> sign_builder_transaction 0 true
+
     
 ***
 
