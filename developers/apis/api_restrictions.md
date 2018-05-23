@@ -6,7 +6,7 @@
   - Examples
 - [Accessing Restricted API's ](/developers/apis/api_restrictions.md#accessing-restricted-apis)
    - Example 
-- Accessing the Named API via HTTP
+- [Accessing the Named API via HTTP](/developers/apis/api_restrictions.md#accessing-the-named-api-via-http)
    - Example 
 - [Login In](/developers/apis/api_restrictions.md#login-in)
    - *class* graphene::app::login_api
