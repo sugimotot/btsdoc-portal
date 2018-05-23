@@ -76,7 +76,7 @@ the signed version of the transaction
 
 ***
 
-### Example: Setting Smartcoin parameter
+### Example: Setting Smartcoin Parameter
 
 A simple `asset_update` takes the following form:
 
