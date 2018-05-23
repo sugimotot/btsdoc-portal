@@ -12,6 +12,7 @@ The proposal system allows for arbitrarily complex or recursively nested authori
   <img src="https://github.com/bitshares/how.bitshares.works/blob/master/developers/imgs/trn-proposed.png" width="800" title="BitShares Core GitFlow">
 </p>
 
+> Note that each account in the figure can carry a **different weight**. 
 
 
 ***
