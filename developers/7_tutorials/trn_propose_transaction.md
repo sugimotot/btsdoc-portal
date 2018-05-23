@@ -57,7 +57,7 @@ Available approval options are:
 
 #### Definition
 
-signed_transaction `graphene::wallet::wallet_api::approve_proposal`(const string &fee_paying_account, const string &proposal_id, const approval_delta &delta, bool broadcast)
+**signed_transaction `graphene::wallet::wallet_api::approve_proposal`** (const string &fee_paying_account, const string &proposal_id, const approval_delta &delta, bool broadcast)
 
 Approve or disapprove a proposal.
 
