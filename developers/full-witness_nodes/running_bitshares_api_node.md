@@ -3,6 +3,9 @@
 #### Contents:
 - Introduction
 - Running a Basic API Node
+- Running a Production API Node
+    - GNU screen
+- Performance Tip
 
 ****
 
@@ -53,6 +56,28 @@ Look in the terminal for messages like:
 
 If you see this, the blockchain is synchronizing ok. Complete the sync is a long process that depends a lot in your hardware. While you see the blocks coming in the witness node terminal you are in good track.
 
+***
+
+## Running a Production API Node
+
+### GNU screen
+
+This is the easier way, start a screen terminal and run your node on it. See: [Manage a running Node in the background by using GNU screen](/developers/references_tools/manage_node_gun_screen.md#manage-a-running-node-in-the-background-by-using-gnu-screen)
+
+This works but it is not the most recommended, in a reboot the node admin will need to run everything again.
+
+
+*** 
+
+## Performance Tip
+
+Improve performance for API nodes (do it before starting a node):
+
+    sudo sysctl -w net.core.somaxconn=65535
+
 
 ***
 
+(ref)
+- https://github.com/oxarbitrage/worker-proposals/blob/master/bitshares_api_node.md
+- https://github.com/bitshares/bitshares-core/wiki/Manage-your-nodes-by-using-gnu-screen
