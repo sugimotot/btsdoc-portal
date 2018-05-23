@@ -38,7 +38,7 @@
 
 ### Transfer / Transactions
 - [Confidential Transfers](/developers/7_tutorials/trn_confidential_transfer.md#confidential-trandfer)
-- [Manually Construct Any Transaction](/developers/7_tutorials/trn_construct_transaction.md#construct-any-transaction---manually)
+- [Construct Any Transaction - Manually](/developers/7_tutorials/trn_construct_transaction.md#construct-any-transaction---manually)
 - [Proposing a Transaction](/developers/7_tutorials/trn_propose_transaction.md#proposing-a-transaction)
 - Q&A
 
