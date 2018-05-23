@@ -15,8 +15,8 @@
    - [Accessing Restricted API's ](/developers/apis/api_restrictions.md#accessing-restricted-apis)
    - [Accessing the Named API via HTTP](/developers/apis/api_restrictions.md#accessing-the-named-api-via-http)
    - [Login In](/developers/apis/api_restrictions.md#login-in)
+- [Object and IDs](/developers/apis/object_ids.md#objects-and-ids)   
 - [Running a BitShares API Node](/developers/apis/running-api-node.md#running-a-bitshares-api-node)
-- [Object and IDs](/developers/apis/object_ids.md#objects-and-ids)
 - [Q&A](/developers/7_tutorials/QA.md#apis)
    
 ### Calls   
