@@ -2,12 +2,15 @@
 
 ### Contents
 
-- Account
+- [Account](/developers/accounts/accounts.md#account)
    - Memberships
-- Fees 
-- Permissions
-- Authorities
+- [Fees](/developers/accounts/accounts.md#fees)
+- [Permissions](/developers/accounts/accounts.md#permissions)
+- [Authorities](/developers/accounts/accounts.md#authorities)
 - Examples
+   - [(Flat) Multi-Signature](/developers/accounts/accounts.md#flat-multi-signature)
+   - [(Flat) Flexible Multi-Signature](/developers/accounts/accounts.md#flat-flexible-multi-signature)
+   - [Multi-Hierarchical Flexible Multi-Signature](/developers/accounts/accounts.md#multi-hierarchical-flexible-multi-signature)
 
 ******
 
