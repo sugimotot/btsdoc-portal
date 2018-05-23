@@ -13,7 +13,7 @@ Proposed transactions can be used everywhere multiple parties have to agree for 
 
 If is recommended that the reader first reads through the following tutorial:
 
-- [Manually Construct Any Transaction](/developers/7_tutorials/trn_construct_transaction.md#construct-any-transaction---manually)
+- [Construct Any Transaction - Manually](/developers/7_tutorials/trn_construct_transaction.md#construct-any-transaction---manually)
 
 ***
 
