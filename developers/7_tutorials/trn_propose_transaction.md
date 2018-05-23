@@ -3,7 +3,7 @@
 ### Contents:
 - [Proposing a Transaction](/developers/7_tutorials/trn_propose_transaction.md#proposing-a-transaction-1)
 - [Approving a Proposal](/developers/7_tutorials/trn_propose_transaction.md#approving-a-proposal)
-- [Example: Setting Smartcoin parameter](/developers/7_tutorials/trn_propose_transaction.md#example-setting-smartcoin-parameter)
+- [Example: Setting Smartcoin Parameter](/developers/7_tutorials/trn_propose_transaction.md#example-setting-smartcoin-parameter)
 
 ***
 
@@ -149,12 +149,12 @@ The corresponding asset id can be obtained with `get_asset`.
 
 2. Make it a proposal for the committee members to sign:
 
-    >>> propose_builder_transaction2 0 init0 "2015-12-10T14:55:00" 3600 false
+        >>> propose_builder_transaction2 0 init0 "2015-12-10T14:55:00" 3600 false
 
 3. Add a fee payed in BTS, sign and broadcast the transaction (if valid):
 
-    >>> set_fees_on_builder_transaction 0 BTS
-    >>> sign_builder_transaction 0 true
+        >>> set_fees_on_builder_transaction 0 BTS
+        >>> sign_builder_transaction 0 true
     
 ***
 
