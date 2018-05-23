@@ -1,4 +1,4 @@
-## Runninga BitShares API Node
+## Running BitShares API Node
 
 #### Contents:
 - Introduction
