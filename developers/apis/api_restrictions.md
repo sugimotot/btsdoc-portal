@@ -89,6 +89,38 @@ Since the `network_node` API requires login, it is only accessible over the webs
 
 ***
 
+## Accessing Named API via HTTP
+
+You can use the name of the APIs when calling,
+
+    curl --data '{"jsonrpc": "2.0", "params": ["history", "get_account_history", ["1.2.31489", "1.11.0", 10, "1.11.0"]], "method": "call", "id": 10}' http://testgraphene:8090/rpc
+
+If the API is restricted, specify the credentials using standard HTTP Headers,
+
+    curl -u bytemaster:supersecret --data '{"jsonrpc": "2.0", "params": ["history", "get_account_history", ["1.2.31489", "1.11.0", 10, "1.11.0"]], "method": "call", "id": 10}' http://testgraphene:8090/rpc
+
+When you use WS, use like below to prevent unnecessary round trips (login, query API number, call function)
+
+    wscat -c ws://bytemaster:supersecret@testgraphene:8090
+
+
+#### Needs the following FC library PRs to work
+
+Add access to HTTP request headers in websocket_connection
+bitshares/bitshares-fc#1
+
+Replace the call to get_api_by_name
+bitshares/bitshares-fc#2
+
+It also preserve:
+
+- Same default api access permissions
+- Possibility to use numbers to specify the API
+- Default API numbers (database = 0, login = 1)
+- Old ws mechanics => connect / login / query api number / call
+
+***
+
 ## Login In
 
 The `login_api` class implements the bottom layer of the RPC API. All other APIs must be requested from this API. 
@@ -124,3 +156,7 @@ The `login_api` class implements the bottom layer of the RPC API. All other APIs
 - https://github.com/bitshares/bitshares-core/wiki/API
 - http://docs.bitshares.org/api/access.html
 - https://bitshares.org/doxygen/index.html
+- https://github.com/bitshares/bitshares-core/issues/624
+- https://github.com/bitshares/bitshares-core/pull/223
+
+
