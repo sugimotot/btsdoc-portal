@@ -6,7 +6,6 @@
 - [Running a Production API Node](/developers/apis/running-api-node.md#running-a-production-api-node)
     - GNU screen
     - Docker
-- [Performance Tip](/developers/apis/running-api-node.md#performance-tip)
 
 ****
 
@@ -105,14 +104,6 @@ then
 
     docker-compose up
 
-
-*** 
-
-## Performance Tip
-
-Improve performance for API nodes (do it before starting a node):
-
-    sudo sysctl -w net.core.somaxconn=65535
 
 
 ***
