@@ -1,11 +1,11 @@
 ## Running a BitShares API Node
 
 #### Contents:
-- Introduction
-- Running a Basic API Node
-- Running a Production API Node
+- [Introduction](/developers/apis/running-api-node.md#introduction)
+- [Running a Basic API Node](/developers/apis/running-api-node.md#running-a-basic-api-node)
+- [Running a Production API Node](/developers/apis/running-api-node.md#running-a-production-api-node)
     - GNU screen
-- Performance Tip
+- [Performance Tip](/developers/apis/running-api-node.md#performance-tip)
 
 ****
 
