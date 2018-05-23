@@ -66,6 +66,44 @@ This is the easier way, start a screen terminal and run your node on it. See: [M
 
 This works but it is not the most recommended, in a reboot the node admin will need to run everything again.
 
+### Docker
+
+#### docker-compose.yaml:
+
+    version: '3'
+    services:
+
+     fullnode:
+      # Image to run
+      image: fb3d7a273ce4
+      # Optional environmental variables
+      # environment:
+      ports:
+       - "0.0.0.0:8090:8090"
+      volumes:
+      - "bitshares-fullnode:/var/lib/bitshares"
+
+     delayed_node:
+      # Image to run
+      image: fb3d7a273ce4
+      # Optional environmental variables
+      environment:
+       - 'BITSHARESD_PLUGINS=delayed_node witness'
+       - 'BITSHARESD_TRUSTED_NODE=ws://fullnode:8090'
+      ports:
+       - "0.0.0.0:8091:8090"
+      volumes:
+      - "bitshares-fullnode:/var/lib/bitshares"
+        #  links: 
+        #- fullnode
+
+    volumes:
+     bitshares-fullnode:
+
+then
+
+    docker-compose up
+
 
 *** 
 
