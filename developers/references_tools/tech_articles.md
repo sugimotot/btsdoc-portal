@@ -1,7 +1,5 @@
 ## Articles
 
-Post Format: **\- \[ title + (mm/yyyy)\]\( link \) by author name**
-
 ***How to...**
 - [Howto: An Introduction to Python-BitShares (01/2018)](https://steemit.com/python/@full-steem-ahead/howto-an-introduction-to-python-bitshares) : by @full-steem-ahead
 - [Howto: Using Nginx to Load Balance Servers Part 2 (08/2017)](https://steemit.com/witness-category/@full-steem-ahead/howto-using-nginx-to-load-balance-servers-part-2) : by @full-steem-ahead
@@ -17,4 +15,10 @@ Post Format: **\- \[ title + (mm/yyyy)\]\( link \) by author name**
 - https://steemit.com/eos/@eosio/introducing-eos-io-application-stack : Introducing EOS.IO Application Stack by eos
 - https://serverfault.com/questions/377617/how-to-interpret-output-from-linux-top-command : How to interpret output from Linux ‘top’ command?
 - https://steemit.com/@bitspark : bitspark - The world’s first cash in cash out money transfer service leveraging Bitcoin and Blockchain Technology. Quicker, cheaper, everywhere.
+
+
+***
+
+Post Format: **\- \[ title + (mm/yyyy)\]\( link \) by author name**
+
 
