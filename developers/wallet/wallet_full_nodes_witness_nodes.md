@@ -82,7 +82,7 @@ which will
 `./cli_wallet -s ws://server-ip` was used. Port is missing.  
 If your node is running at port 8090, try this `./cli_wallet -s ws://server-ip:8090` (e.g. `./cli_wallet -s ws://127.0.0.1:8090`).
 
-
+witness_node should be started with --rpc-endpoint parameter, otherwise you'll be unable to connect to it.
 
 ***
 
