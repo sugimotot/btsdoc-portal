@@ -53,7 +53,7 @@ which will
             {"uri":"ws://localhost:8090"}
             th_a  websocket.cpp:678 connect
 
-**Check point:**  Check if node running in localhost at port 8090.
+**Point:**  Check if node running in localhost at port 8090.
 
 ### Output - User Case (2)
 
@@ -77,10 +77,10 @@ which will
                 th_a  websocket.cpp:678 connect
 
 
-**Check point:** 
+**Point:** 
 
-A log above shows, `323862ms th_a main.cpp:188 main ] wdata.ws_server: ws://server-ip`. From the line, `./cli_wallet -s ws://server-ip` was used.  
-If your node is running at port 8090, try this `./cli_wallet -s ws://127.0.0.1:8090`.
+`./cli_wallet -s ws://server-ip` was used. Port is missing.  
+If your node is running at port 8090, try this `./cli_wallet -s ws://server-ip:8090` (e.g. `./cli_wallet -s ws://127.0.0.1:8090`).
 
 
 
