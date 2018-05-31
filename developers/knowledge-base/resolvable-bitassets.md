@@ -12,11 +12,11 @@ One improvement to resolvable BitAssets which comes to mind is to provide a decl
 
 This creates a declare-wait-sample-resolve cycle consisting of the declaration window (60-45 days before resolution), a waiting period (45-30 days before resolution), a sampling window (30-0 days before resolution), and resolution. The waiting period is necessary to deal with the fact that the price feed will be slow to respond to new information in the market, thus some lag period provides a "handicap" of sorts to "hobble" the traders who would normally be able to move faster than the system and outmaneuver it. Note that since the USDA is transferrable and tradeable during the waiting period and sampling period, USDA holders will likely be able to find counterparties in the market willing to convert their USDA to BTS right away (at a small spread of course). So all of the long side's wealth is always liquid.
 
-## Equitable shorting
+## Equitable Shorting
 
 Another modification which I have been thinking about for a very long time is equitable shorting, which does away with the traditional shorting mechanics. Equitable shorting divides the short side into short shares which are fully tradeable and fungible. Unlike BitShares-style shorting, all short positions have equal debt-to-collateral ratios in equitable shorting, and short positions are naturally divisible (to the satoshi), transferrable, tradeable, and fungible. Equitable shorting offers substantial bookkeeping advantages, and the mechanics are much easier to explain than shorting. Furthermore, depending on the details of the mechanics, it may be possible to design equitable shorting in a manner that separates (at least to some extent) market activities (involving counterparties making deals with each other) from supply activities (involving creation or redemption of long/short shares).
 
-## Balanced supply operations
+## Balanced Supply Operations
 
 At any time, identical "balanced" fractions of the long and short float can be created or redeemed, indeed without any reference whatsoever to any "book value" of the long-vs-short split. So for example, if 10 long shares backed by 100 BTS are outstanding, and 20 short shares backed by 200 BTS are also outstanding, then creating a basket of 1 long share and 2 short shares will increase the float by 10% and thus require BTS equal to 10% of the existing collateral to create the backing. Thus the collateral for the new basket is 30 BTS. After the basket is created, there will be 11 long shares backed by 110 BTS, and 22 short shares backed by 220 BTS.
 
@@ -24,7 +24,7 @@ Let's re-run that example with the same total collateral but a very different pr
 
 This shows that regardless of what is the "correct" price, balanced creation (or redemption) doesn't change anyone's equation and is therefore "economically safe" to allow a single actor to perform, since it doesn't have effects of increasing risk or transferring wealth on any third party.
 
-## Unbalanced supply operations
+## Unbalanced Supply Operations
 
 There must be a way for new investors to re-capitalize a losing short side, and a way for old investors to take profits from a winning short side. In other words, while it does provide liquidity in both directions, balanced creation/redemption preserves the debt-to-collateral ratio of the float, and thus will be unable to correct any deviation from the ideal 300% backing. However, unbalanced supply operations need a notion of book value. If 20 short shares are backed by 200 BTS, then creating a short share (without creating any corresponding long share) should cost 10 BTS (which will go into the backing). If those 20 shares are backed by 100 BTS instead, then creating a short share (again, without any corresponding long share) should cost 5 BTS!
 
@@ -32,7 +32,7 @@ Unbalanced supply operations on the short side are necessary, but suffer from th
 
 When collateralization is greater than 300%, instead of admitting new unbalanced shorts, the DWSR cycle should instead pay the excess collateral to the shorts. This is a combination of taking profit and liberation of excess capital (the short side can also become overcollateralized in the case where the long side is shrinking through redemptions).
 
-## Creating new longs
+## Creating New Longs
 
 Conditions where less than 300% collateral exists and existing longs are illiquid may be eased if market makers are allowed to create new longs. Thus, we can initiate a simple rule: New shorts must be issued with new longs such that the new longs are collateralized 300%. If the existing collateralization is less than 300%, this results in a mix of balanced creation and unbalanced short creation. If the existing collateralization is more than 300%, then this results in a mix of balanced creation and unbalanced long creation. In either case, the new short causes the overall market collateralization moves toward 300%.
 
@@ -42,7 +42,7 @@ A margin call is requiring the short to buy out the long (i.e. debt) at a premiu
 
 In BitShares, margin call happens on a position-by-position basis, and the excess collateral liberated by the margin call is cashed out. With equitable shorts, it is possible to let this liberated collateral remain to shore up the collateralization of the remaining long shares.
 
-## Reducing long DWSR cycles
+## Reducing Long DWSR Cycles
 
 Upon consideration of the DWSR cycle for shorts, there is little reason the long DWSR cycle cannot be reduced to the same time interval. A reduced DWSR cycle for longs has the benefit of improving the symmetry between long and short (elegance and perceptions of fairness (i.e. the system doesn't unduly favor shorts or longs)). It allows market makers the ability to trade with greater velocity, improving their returns, and some of this benefit will be passed on to the markets they serve in the form of better liquidity and lower spreads.
 
