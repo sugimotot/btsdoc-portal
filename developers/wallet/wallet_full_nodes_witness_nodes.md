@@ -80,7 +80,7 @@ which will
 **Check point:** 
 
 A log above shows, `323862ms th_a main.cpp:188 main ] wdata.ws_server: ws://server-ip`. From the line, `./cli_wallet -s ws://server-ip` was used.  
-If your node is running at port 8090, try this `./cli_wallet -s ws://104.200.28.117:8090`.
+If your node is running at port 8090, try this `./cli_wallet -s ws://127.0.0.1:8090`.
 
 
 
