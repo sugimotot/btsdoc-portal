@@ -1,4 +1,4 @@
-## Chain-locked Transactions
+## Chain-Locked Transactions
 
 
 Add a chain ID to the signature. This ensures that a transaction without TaPoS cannot migrate between Graphene-based chains, and reduces the ability for the transaction to migrate to a different protocol (e.g. if your Graphene key is also a Bitcoin key, then a Graphene transaction which is parseable as a Bitcoin transaction might be able to migrate to the Bitcoin chain).
