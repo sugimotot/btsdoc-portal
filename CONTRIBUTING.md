@@ -9,7 +9,7 @@ Your contribution might be...
 - new documentation topic
 
 <p align="center">
-  <img src="/source/imgs/trn-proposed1.png" width="600" title="Proposed Transaction">
+  <img src="/developers/imgs/how-to-contribute.png" width="600" title="Contribution Flow">
 </p>
 
 ***
