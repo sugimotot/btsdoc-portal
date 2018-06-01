@@ -1,4 +1,4 @@
-## How to Request and Contribute for BitShares Documentation project
+## How to Request and Contribute for BitShares Documentation Project
 
 
 <p align="center">
