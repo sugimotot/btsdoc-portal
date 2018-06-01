@@ -8,4 +8,8 @@ Your contribution might be...
 - use case
 - new documentation topic
 
+<p align="center">
+  <img src="/source/imgs/trn-proposed1.png" width="600" title="Proposed Transaction">
+</p>
 
+***
